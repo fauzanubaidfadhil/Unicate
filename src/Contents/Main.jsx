@@ -61,9 +61,10 @@ const Main = () => {
           />
         </div>
       </div>
+
+      {/* Our Mission */}
       <div className="positioncontent2">
         <img className="img-konten2" src={image5} alt="image5" />
-        {/* Our Mission */}
         <h1 className="textourmission">Our Mission</h1>
         <p className="paragraphkonten2">
           Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
@@ -85,10 +86,11 @@ const Main = () => {
           <img className="logoinfinite" src={infinite} alt="infinite" />
         </div>
         {/* <img src={segitiga} alt="segitiga" /> */}
-        {/* Our Mission */}
       </div>
+      {/* Our Mission */}
+
+      {/* Our Services */}
       <div className="positioncontent3">
-        {/* Our Services */}
         <div className="positionourservice">
           <h1 className="textourservice">Our Services</h1>
           <h1 className="textwhypeople">Why People Chooise Our Services</h1>
@@ -119,9 +121,9 @@ const Main = () => {
             </p>
           </div>
           {/* card */}
-          {/* Our Services */}
         </div>
       </div>
+      {/* Our Services */}
 
       {/* Berita */}
       <div className="positioncontent4">
@@ -143,21 +145,20 @@ const Main = () => {
         <div className="posisiartikel2">
           <div
             style={{
-              borderStyle: "solid",
               height: "218px",
               width: "273px",
               borderRadius: "30px",
               overflow: "hidden",
             }}
           >
-            <img src={image13} alt="image13" />
+            <img className="imgartikel2 transisi" src={image13} alt="image13" />
           </div>
-          <p>
+          <p className="textberi posisiteksartikel">
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
             Resmikan Sekolah Virtual
           </p>
         </div>
-        {/* <div>
+        <div className="posisiartikel3">
           <div>
             <img src={image14} alt="image14" />
           </div>
@@ -165,8 +166,8 @@ const Main = () => {
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
             Resmikan Sekolah Virtual
           </p>
-        </div> */}
-        {/* <div>
+        </div>
+        <div className="posisiartikel4">
           <div>
             <img src={image15} alt="image15" />
           </div>
@@ -174,7 +175,7 @@ const Main = () => {
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
             Resmikan Sekolah Virtual
           </p>
-        </div> */}
+        </div>
         {/* <div>
           <div>
             <img src={image16} alt="image16" />

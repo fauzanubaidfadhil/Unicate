@@ -365,9 +365,48 @@
 .posisiartikel2 {
     width: 273px;
     height: 414.4px;
-    border-style: solid;
     position: absolute;
     margin-left: 3%;
+    margin-top: 93px;
+}
+
+.imgartikel2 {
+    height: 218px;
+    width: 273px;
+}
+
+.posisiteksartikel {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textberi {
+    width: 254px;
+    height: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.posisiartikel3 {
+    width: 273px;
+    height: 414.4px;
+    position: absolute;
+    border-style: solid;
+    margin-left: 27%;
+    margin-top: 93px;
+}
+
+.posisiartikel4 {
+    width: 273px;
+    height: 414.4px;
+    position: absolute;
+    border-style: solid;
+    margin-left: 52%;
     margin-top: 93px;
 }
 
