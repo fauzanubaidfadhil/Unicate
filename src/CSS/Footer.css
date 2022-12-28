@@ -1,0 +1,199 @@
+.position-halo {
+    border-radius: solid;
+    background-color: #2B4754;
+    color: white;
+    width: 1262px;
+    height: 397px;
+    left: 0px;
+}
+
+.image-18 {
+    position: absolute;
+    width: 200px;
+    height: 64.17px;
+    left: 5%;
+    top: 12%;
+}
+
+.text-20 {
+    position: absolute;
+    width: 245px;
+    height: 90px;
+    left: 5%;
+    top: 27%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.position-list-ourservice {
+    width: 138px;
+    height: 172px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    position: absolute;
+    top: 7%;
+    left: 35%;
+}
+
+.position-list-organization {
+    width: 163px;
+    height: 180px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    top: 7%;
+    left: 52.5%;
+}
+
+.position-list-contactperson {
+    position: absolute;
+    width: 336px;
+    height: 185px;
+    left: 70%;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.size-image {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-location {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+.icon-call {
+    position: absolute;
+   left: 0px;
+   top: 115px;
+}
+
+.text-21 {
+    position: absolute;
+   left: 30px;
+   top: 70px;
+}
+
+.text-22 {
+    position: absolute;
+   left: 30px;
+   top: 105px;
+}
+
+.icon-email {
+    position: absolute;
+    left: 0px;
+    top: 151px;
+}
+
+.text-23 {
+    position: absolute;
+    left: 30px;
+    top: 140px;
+}
+
+.button-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    gap: 10px;
+
+    width: 161px;
+    height: 43px;
+
+    background: #FFFFFF;
+    border-color: transparent;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 0px;
+    top: 190px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: #009EFF;
+}
+
+.button-2:hover {
+    background-color: #009EFF;
+    color: #FFFFFF;
+    transition: .1s ease-in-out;
+    transition-delay: .1s;
+}
+
+.image-19 {
+    position: relative;
+    width: 32.17px;
+    height: 77.46px;
+    left: 50%;
+    top: 116%;
+}
+
+.position-line-footer {
+    border-top: solid;
+    position: absolute;
+    border-color: white;
+    width: 1144px;
+    left: 5%;
+    top: 85%;
+}
+
+.image-20 {
+    position: absolute;
+    width: 63px;
+    height: 83px;
+    left:-6%;
+    top:-25px;
+}
+
+.size-icon-sosmed-footer {
+    width: 20px;
+    height: 20px;
+}
+
+.position-icon-sosmed-footer {
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 93%;
+    top: 30%;   
+}
+
+.font-size-footer {
+    font-size: 12px;
+}
+
+.dot {
+    position: absolute;
+    left: 90%;
+    top: 117%;
+    background-color: transparent;
+    border-color: transparent;
+}

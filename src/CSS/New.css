@@ -1,0 +1,381 @@
+.positioncontent1 {
+    height: 550px;
+}
+
+.style-img-titik {
+    width: 128.78px;
+    height: 92px;
+    margin-left: 4.2%;  
+}
+
+
+.img-konten1 {
+    width: 773px;
+    height: 550px;
+    position: absolute;
+    right: 0;
+}
+
+.textmajukan {
+    margin-top: 46px;
+    width: 432px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149.5%;
+    margin-left: 3%;
+}
+
+.textgerakan {
+    width: 315px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+    margin-left: 3%;
+}
+
+.buttonbergabung {
+    margin-top: 14px;
+    margin-left: 3%;
+    width: 240px;
+    height: 40px;
+    background: #0091EA;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: white;
+    border-color: transparent;
+}
+
+.position-textlabel {
+    position: relative;
+    margin-top: 95px;
+    border-style: solid;
+    border-color: transparent;
+    width: 750px;
+    height: 53px;
+    background-color: #0091EA;
+}
+
+.textlabel {
+    text-align: right;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 149.5%;
+    color: white;
+}
+
+.positionlabel {
+    width: 46px;
+    height: 211px;
+    position: absolute;
+    z-index: 1;
+    right: 0;  
+    margin-top: 225px; 
+    background-color: #0091EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 25px;
+}
+
+.positioncontent2 {
+    height: 728px;
+}
+
+.img-konten2 {
+    width: 527px;
+    height: 561.23px;
+    position: absolute;
+    left: 5%;
+}
+
+.textourmission {
+    margin-left: 53%;
+    margin-top: 99px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 149.5%;
+    border-bottom: solid;
+    width: 158px;
+}
+
+.paragraphkonten2{
+    width: 502px;
+    height: 216px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+    margin-left: 53%;
+    text-align: justify;
+}
+
+.textcorporate {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    text-align: right;
+    margin-right: 23%;
+    margin-top: 44px;
+}
+
+.posisiiconcorporate {
+    width: 622px;
+    height: 256.1px;
+    margin-left: 50%;
+}
+
+.logotonoto {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    margin-left:10px;
+    margin-top: 1%;
+}
+
+.logosampoerna {
+    width: 151px;
+    height: 35px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 4.5%;
+}
+
+.logoinspirasi {
+    width: 236px;
+    height: 146.1px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 0%;
+}
+
+.logoinfinite {
+    width: 242.5px;
+    height: 90px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 11%;
+}
+
+.positioncontent3 {
+    height: 625px;
+}
+
+.positionourservice {
+    height: 405px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: #0076BF;
+}
+
+.textourservice {
+    color: white;
+    margin-left: 190px;
+    border-bottom: solid;
+    width: 125px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.5%;
+}
+
+.textwhypeople {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 149.5%;
+    width: 459px;
+    height: 108px;
+    margin-left: 190px;
+    color: white;
+}
+
+.textkonten3 {
+    width: 553px;
+    height: 48px;
+    margin-left: 649px;
+    margin-top: -135px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: white;
+}
+
+.card {
+    width: 329px;
+    height: 368.48px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 12px;
+    border-color: transparent;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card1 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.imgcard {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 329px;
+    height: 218.48px;
+    transition: .3s;
+}
+
+.imgcard:hover {
+    scale: 1.2;
+}
+
+.card2 {
+   position: absolute;
+   margin-top: 5%;
+   margin-left: 38%;
+}
+
+.card3 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 70%; 
+}
+
+.textcard {
+    text-align: center;
+}
+
+.textcardjudul {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.kontencard {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+}
+
+.positioncontent4 {
+    border-style: solid;
+    height: 971.4px;
+}
+
+.textberita {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 149.5%;
+    border-bottom: solid;
+    width: 183px;
+    margin-left: 5%;
+}
+
+.textlihat {
+    text-align: right;
+    margin-top: -4%;
+    margin-right: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.posisiimgartikel1 {
+    border-style: solid;
+    width: 473.75px;
+    height: 375px;
+    margin-left: 3%;
+    margin-top: 26px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+    border-color: transparent;
+}
+
+.imgartikel1 {
+    width: 473.75px;
+    height: 375px;
+}
+
+.textjatim {
+    width: 61px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.5%;
+    color: #EA5900;
+    margin-left: 549px;
+    margin-top: 106px;
+}
+
+.textmelalui {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+    width: 555px;
+    height: 96px;
+    margin-left: 549px;
+    margin-top: 8px;
+}
+
+.textpemkab {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+    width: 425px;
+    height: 72px;
+    margin-left: 549px;
+    margin-top: 8px;
+}
+
+
+.posisiartikel2 {
+    width: 273px;
+    height: 414.4px;
+    border-style: solid;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 93px;
+}
+
+/* transisi */
+.transisi {
+    transition: .3s;
+}
+
+.transisi:hover {
+    scale: 1.2;
+}

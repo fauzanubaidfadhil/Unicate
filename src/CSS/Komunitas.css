@@ -1,0 +1,33 @@
+.font-100-80-90-komunitas {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.text-5-komunitas {
+    position: absolute;
+    bottom: 13%;
+}
+
+.text-6-komunitas {
+    position: absolute;
+    bottom: 18.8%;
+    left: 55%;
+}
+
+.text-7-komunitas {
+    position: absolute;
+    bottom: 13%;
+    left: 55%;
+}
+
+.text-8-komunitas {
+    position: absolute;
+    bottom: 0.8%;
+}
+
+.text-9-komunitas {
+    position: absolute;
+    bottom: -4%;
+}

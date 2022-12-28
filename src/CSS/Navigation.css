@@ -1,0 +1,134 @@
+.navbar {
+    height: 70px;
+    border-bottom: 1px solid;
+    border-color: transparent;
+    box-shadow: 0 7px 8px 0 rgba(0,0,0,0.05);
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 160px;
+    height: 56.05px;
+    left: 40px;
+    top: 10px;
+}
+
+.position-menu-navbar {
+    display: flex;
+    height: 50px;
+    position: absolute;
+    left: 30%;
+    top: -5px;
+}
+
+.styling-menu-navbar {
+    list-style-type: none;
+    padding: 0px;
+    margin: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+}
+
+.button-masuk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 10px;
+
+    width: 89px;
+    height: 40px;
+
+    background: #009EFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    left: 80%;
+    top: 20px;
+    }
+
+.button-daftar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 10px;
+    
+    width: 88px;
+    height: 39px;
+    
+    background: white;
+    border: 1px solid #009EFF;
+    border-radius: 16px;
+    
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    position: absolute;
+    left: 88.5%;
+    top: 20px;
+}
+
+.position-icon-notif {
+    justify-content: right;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.img-profil {
+    margin-left: 25px;
+    margin-top: 7px;
+    width: 35px;
+    height: 35px;
+}
+
+/* Animasi left right*/
+.animasi-left-right {
+    display: inline-block;
+  }
+
+.animasi-left-right:after {
+    content: '';
+    display: block;
+    height: .1525rem;
+    width: 0;
+    background: black ;
+    transition: width .3s ease, background-color .3s ease;
+    color: #009EFF;
+}
+
+.animasi-left-right:hover:after {
+    width: 100%;
+    background: black;
+    color: #009EFF;
+  }
+
+  /* dropdown responsive */
+
+

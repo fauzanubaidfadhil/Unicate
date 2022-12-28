@@ -1,0 +1,105 @@
+@media (max-width: 960px) {
+    .button-masuk {
+        
+        width: 69px;
+        height: 30px;
+    
+        position: absolute;
+        left: 88.3%;
+        top: 5px;
+        }
+
+        .button-daftar {
+            
+            width: 68px;
+            height: 29px;
+            
+        
+            position: absolute;
+            left: 88.5%;
+            top: 37px;
+        }
+}
+
+@media (max-width: 860px) {
+    .position-menu-navbar {
+        position: absolute;
+        left: 25%;
+    }
+}
+
+@media (max-width: 790px) {
+    .position-menu-navbar {
+        position: absolute;
+        left: 20%;
+    }
+
+    .logo {
+        position: absolute;
+        width: 140px;
+        height: 46.05px;
+        left: 40px;
+        top: 15px;
+    }
+}
+
+@media (max-width: 720px) {
+    .position-menu-navbar {
+        position: absolute;
+        left: 20%;
+    }
+
+    .styling-menu-navbar {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 660px) {
+    .logo {
+        position: absolute;
+        width: 120px;
+        height: 36.05px;
+        left: 30px;
+        top: 18px;
+    }
+
+    .styling-menu-navbar {
+        font-size: 13px; 
+    }
+
+    .position-menu-navbar {
+        position: absolute;
+        left: 18%;
+    }
+}
+
+@media (max-width:610px ) {
+    .button-masuk {
+        
+        width: 59px;
+        height: 25px;
+
+        font-size: 12px;
+    
+        position: absolute;
+        left: 88.3%;
+        top: 8px;
+        }
+
+        .button-daftar {
+            
+            width: 58px;
+            height: 23px;
+            
+            font-size: 12px;
+        
+            position: absolute;
+            left: 88.5%;
+            top: 35px;
+        }
+
+        .styling-menu-navbar {
+            font-size: 12px; 
+        }
+}
+
