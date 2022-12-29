@@ -26,7 +26,8 @@ import Footer from "../Components/Footer";
 import React from "react";
 import "../CSS/Carousel.css";
 import "../CSS/Main.css";
-import "../StyleResponsive/ResMain.css";
+import "../CSS/Responsive/DekstopMain.css";
+import "../CSS/Responsive/MobileMain.css";
 
 const Main = () => {
   return (
@@ -48,7 +49,6 @@ const Main = () => {
         <button className="buttonbergabung" onClick="">
           Bergabung Sekarang
         </button>
-
         <div className="position-textlabel">
           <h2 className="textlabel">
             2020/2021 Ada Sekitar 83,7 Ribu Anak Putus Sekolah di Seluruh
@@ -66,6 +66,7 @@ const Main = () => {
           />
         </div>
       </div>
+
       {/* Our Mission */}
       <div className="positioncontent2">
         <img className="img-konten2" src={image5} alt="image5" />
@@ -167,7 +168,7 @@ const Main = () => {
           </p>
         </div>
         <div className="posisiartikel3">
-          <div
+          <div 
             style={{
               height: "218px",
               width: "273px",
@@ -183,7 +184,7 @@ const Main = () => {
           </p>
         </div>
         <div className="posisiartikel4">
-          <div
+          <div 
             style={{
               height: "218px",
               width: "273px",
@@ -199,7 +200,7 @@ const Main = () => {
           </p>
         </div>
         <div className="posisiartikel5">
-          <div
+          <div 
             style={{
               height: "218px",
               width: "273px",
@@ -211,11 +212,12 @@ const Main = () => {
           </div>
           <p className="textberi posisiteksartikel">
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-            karenaResmikan Sekolah Virtual
+            karena Resmikan Sekolah Virtual
           </p>
         </div>
       </div>
       {/* Berita */}
+
       <div className="positioncontent5">
         <h2 className="textbagaimana">Bagaimana pendapat mereka</h2>
         <img className="imgpetaindonesia" src={image17} alt="image17" />

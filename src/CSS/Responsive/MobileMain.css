@@ -1,0 +1,199 @@
+/* Iphone SE */
+@media screen and (max-width:376px) {
+    /* konten 1 */
+    .img-konten1 {
+        width: 843px;
+        position: absolute;
+        right: 0;
+        margin-right: -300%;
+    }
+    .positionlabel {
+        margin-right: -300%;
+    }
+    .textmajukan {
+        margin-top: 35px;
+        width: 652px;
+        height: 120px;
+        font-size: 60px;
+        margin-top: 5px;
+    }
+
+    .textgerakan {
+        width: 615px;
+        height: 30px;
+        font-size: 35px;
+       
+    }
+    .buttonbergabung {
+        margin-top: 5px;
+        width: 280px;
+        height: 60px;
+        border-radius: 12px;
+        font-size: 22px;
+        
+    }
+    .position-textlabel {
+        width: 950px;
+    }
+    .textlabel {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    /* konten 1 */
+
+    /* konten 2 */
+    .positioncontent2 {
+        border-style: solid;
+        border-color: transparent;
+        width: 1500px;
+    }
+    .img-konten2 {
+        width: 507px;
+        height: 541.23px;
+        margin-top: 17%;
+    }
+    .textourmission {
+        margin-left: 43%;
+        margin-top: 39px;
+        font-size: 60px;
+        width: 328px;
+    }
+    .paragraphkonten2{
+        width: 852px;
+        height: 216px;
+        font-size: 24px;
+        margin-left: 43%;
+    }
+    .textcorporate {
+        font-size: 22px;
+        line-height: 149.5%;
+        text-align: right;
+        margin-right: 23%;
+        margin-top: 110px;
+    }
+    .posisiiconcorporate {
+        width: 1022px;
+        height: 126.1px;
+        margin-left: 30%;
+        margin-top: 0%;
+       
+    }
+    .logoinspirasi {
+        width: 236px;
+        height: 146.1px;
+        position: absolute;
+        margin-left: 790px;
+        margin-top: -3%;
+    }
+    .logoinfinite {
+        width: 242.5px;
+        height: 90px;
+        position: absolute;
+        margin-left: 140%;
+        margin-top: 6%;
+    }
+    .logosampoerna {
+        width: 201px;
+        height: 65px;
+        position: absolute;
+        margin-left: 80%;
+        margin-top: 9%;
+    }
+    .logotonoto {
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        margin-left:135px;
+        margin-top: 3%;
+    }
+    /* konten 2 */
+
+    /* konten 3 */
+    .positioncontent3 {
+        width: 1500px;  
+    }
+    .card1 {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 50%;
+    }
+    .card2 {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 155%;
+     }
+     .card3 {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 260%; 
+    }
+    .textkonten3 {
+        width: 653px;
+        height: 48px;
+        margin-left: 699px;
+        margin-top: -135px;
+        font-size: 30px;
+    }
+    .textwhypeople {
+        font-size: 40px;
+    }
+    .textourservice {
+        width: 225px;
+        font-size: 32px;
+    }
+    /* konten 3 */
+
+    /* konten 4 */
+    .positioncontent4 {
+        border-style: solid;
+        background-color: blue;
+        width: 1500px;  
+    }
+    .posisiartikel5 {
+        width: 273px;
+        height: 414.4px;
+        position: absolute;
+        margin-left: 295%;
+        margin-top: 93px;
+    }
+    .posisiartikel4 {
+        width: 273px;
+        height: 414.4px;
+        position: absolute;
+        margin-left: 208%;
+        margin-top: 93px;
+    }
+    .posisiartikel3 {
+        width: 273px;
+        height: 414.4px;
+        position: absolute;
+        margin-left: 118%;
+        margin-top: 93px;
+    }
+    .posisiartikel2 {
+        width: 273px;
+        height: 414.4px;
+        position: absolute;
+        margin-left: 26%;
+        margin-top: 93px;
+    }
+    .textberi {
+        width: 294px;
+        font-size: 26px;
+    }
+    .textmelalui {
+        font-size: 42px;
+        width: 655px;
+        margin-left: 739px;
+    }
+    .textpemkab {
+        font-size: 30px;
+        width: 725px;
+        margin-left: 739px;
+    }
+    .textjatim {
+        font-size: 30px;
+        margin-left: 739px;
+    }
+    /* konten 4 */
+}
