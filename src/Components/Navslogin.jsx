@@ -4,6 +4,8 @@ import Headroom from "react-headroom";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
+import { Link } from "react-router-dom";
+import { KOMBER } from "../router";
 
 function Navslogin() {
   return (
@@ -19,9 +21,9 @@ function Navslogin() {
           </Navbar>
           <ul className="position-menu-navbar">
             <li className="styling-menu-navbar animasi-left-right">Beranda</li>
-            <li className="styling-menu-navbar animasi-left-right">
+            <Link to={KOMBER}> <li className="styling-menu-navbar animasi-left-right">
               Komunitas
-            </li>
+            </li></Link>
             <li className="styling-menu-navbar animasi-left-right">Artikel</li>
             <li className="styling-menu-navbar animasi-left-right">Aksi</li>
             <li className="styling-menu-navbar animasi-left-right">

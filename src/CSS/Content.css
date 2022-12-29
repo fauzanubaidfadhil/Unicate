@@ -1,0 +1,210 @@
+.image1 {
+    position: absolute;
+    width: 1348px;
+    height: 490px;
+    top: 70px;
+    background: linear-gradient(90.29deg, rgba(0, 92, 149, 0.7) 35.25%, rgba(0, 92, 149, 0) 98.21%);
+}
+
+.image3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 40px;
+    top: 800px;
+   
+}
+
+.image4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    top: 800px;
+
+}
+
+.image5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 120px;
+    top: 800px;
+}
+
+
+
+.position-logo-indonesia-mengajar {
+    border-style: solid;
+    border-radius: 30px;
+    background-color: white;
+    border-color: transparent;
+    position: absolute;
+    width: 500px;
+    height: 203px;
+    left: 430px;
+    top: 200px;
+}
+
+.detail {
+    position: absolute;
+    flex-direction: row;
+    top: 585px;
+    justify-content: flex-start;
+    display: flex;
+    gap: 1300px;
+    left: 40px;
+
+}
+
+.button {
+    position: absolute;
+    left: 1205px;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    border-color: transparent;
+    background: #009EFF;
+    color: white;
+    margin-top: 24px;
+}
+
+
+.komunitas {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 149.5%;
+    width: 1308px;
+    height: 60px;
+    top: 70px;
+
+}
+
+.lihat-selengkapnya {
+    position: absolute;
+    width: 1308px;
+    height: 60px;
+    top: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.member {
+    position: absolute;
+    width: 124px;
+    height: 30px;
+    left: 150px;
+    top: 210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+textarea {
+    position: absolute;
+    resize: none;
+    width: 1250px;
+    height: 317px;
+    margin-top: 60%;
+    margin-left: 3%;
+    border-radius: 12px;
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: 'poppins';
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 3%;
+}
+
+.komentar {
+    position: absolute;
+    background: #0076BF;
+    border-radius: 20px;
+}
+
+.status {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 95%;
+    padding: 20px;
+    gap: 16px;
+    width: 90%;
+    height: 208px;
+    background: #0076BF;
+    border-radius: 20px;
+}
+
+.nama {
+    margin-top: -70px;
+    margin-left: 140px;
+    width: 101px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.teks {
+ 
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+    color: #FFFFFF;
+}
+
+.image6 {
+    width: 50px;
+    height: 50px;
+}
+
+.like {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 2%;
+    gap: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+    color: #FFFFFF;
+}
+
+.share {
+    display: flex;
+    margin-left: 25%;
+    margin-top: -4%;
+    gap: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+    color: #FFFFFF;
+}
