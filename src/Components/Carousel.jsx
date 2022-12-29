@@ -11,7 +11,7 @@ import { Pagination } from "swiper";
 const Slide = () => {
   return (
     <>
-      <div className="position-carousel">
+     
         <Swiper
           spaceBetween={30}
           pagination={{
@@ -54,7 +54,7 @@ const Slide = () => {
             <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
           </SwiperSlide>
         </Swiper>
-      </div>
+    
     </>
   );
 };
