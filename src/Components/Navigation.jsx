@@ -2,7 +2,7 @@ import { Container, Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
-import { BERANDA, KOMUNITAS, HOME } from "../router";
+import { BERANDA, HOME } from "../router";
 import "../CSS/Navigation.css";
 // import "../CSS/Responsive.css";
 import "../CSS/ResNav.css";
@@ -24,11 +24,11 @@ const Navigation = () => {
           <Link to={HOME}>
             <li className="styling-menu-navbar animasi-left-right">Beranda</li>
           </Link>
-          <Link to={KOMUNITAS}>
+          {/* <Link to={KOMUNITAS}> */}
             <li className="styling-menu-navbar animasi-left-right">
               Komunitas
             </li>
-          </Link>
+          {/* </Link> */}
           <li className="styling-menu-navbar animasi-left-right">Artikel</li>
           <li className="styling-menu-navbar animasi-left-right">Aksi</li>
           <li className="styling-menu-navbar animasi-left-right">

@@ -73,12 +73,12 @@
 }
 
 .positionlabel {
-    width: 46px;
-    height: 211px;
+    width: 35px;
+    height: 201px;
     position: absolute;
     z-index: 1;
     right: 0;  
-    margin-top: 225px; 
+    margin-top: 235px; 
     background-color: #0091EA;
     display: flex;
     flex-direction: column;
@@ -99,6 +99,12 @@
     left: 5%;
 }
 
+.segitiga {
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+}
+
 .textourmission {
     margin-left: 53%;
     margin-top: 99px;
@@ -108,6 +114,7 @@
     line-height: 149.5%;
     border-bottom: solid;
     width: 158px;
+    font-family: 'poppins';
 }
 
 .paragraphkonten2{
@@ -281,7 +288,6 @@
 }
 
 .positioncontent4 {
-    border-style: solid;
     height: 971.4px;
 }
 
@@ -366,7 +372,7 @@
     width: 273px;
     height: 414.4px;
     position: absolute;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 93px;
 }
 
@@ -396,8 +402,7 @@
     width: 273px;
     height: 414.4px;
     position: absolute;
-    border-style: solid;
-    margin-left: 27%;
+    margin-left: 26%;
     margin-top: 93px;
 }
 
@@ -405,8 +410,15 @@
     width: 273px;
     height: 414.4px;
     position: absolute;
-    border-style: solid;
-    margin-left: 52%;
+    margin-left: 51%;
+    margin-top: 93px;
+}
+
+.posisiartikel5 {
+    width: 273px;
+    height: 414.4px;
+    position: absolute;
+    margin-left: 75%;
     margin-top: 93px;
 }
 
@@ -418,3 +430,36 @@
 .transisi:hover {
     scale: 1.2;
 }
+/* transisi */
+
+.segitigakotak {
+    position: absolute;
+    width: 129px;
+    height: 95px;
+    right: 0;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+
+.positioncontent5 {
+    height: 528px;
+}
+
+.textbagaimana {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 149.5%;
+    width: 570px;
+    height: 54px;
+    margin-left: 87px;
+    margin-top: 96px;
+}
+
+.imgpetaindonesia {
+    width: 585px;
+    height: 301.7px;
+    position: absolute;
+}
+

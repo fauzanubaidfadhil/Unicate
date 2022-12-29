@@ -4,8 +4,8 @@
     position: absolute;
     width: 676px;
     height: 393px;
-    left: 46%;
-    top: 473%;
+    right: 0;
+    margin-top: -5%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }

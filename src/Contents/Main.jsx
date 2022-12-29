@@ -14,16 +14,17 @@ import image13 from "../Assets/image-article-2.png";
 import image14 from "../Assets/image-article-3.png";
 import image15 from "../Assets/image-article-4.png";
 import image16 from "../Assets/image-article-5.png";
-// import image17 from "../Assets/peta-indonesia.jpg";
-// import segitiga from "../Assets/segitiga.png";
+import image17 from "../Assets/peta-indonesia.jpg";
+import segitiga from "../Assets/segitiga.png";
 import segitigakotak from "../Assets/segitigakota.png";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-// import label from "../Assets/label_konten1.png";
-// import Footer from "../Components/Footer";
-import "../CSS/ResMain.css";
-import "../CSS/New.css";
+import Footer from "../Components/Footer";
+import "../CSS/Carousel.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import "../CSS/Main.css";
 import React from "react";
 
 const Main = () => {
@@ -32,10 +33,13 @@ const Main = () => {
       <div className="positioncontent1">
         <img className="style-img-titik" src={titik} alt="titiktitik" />
         <div className="positionlabel">
-          <BsWhatsapp style={{ marginLeft: "8px" }} size={30} />
-          <BsInstagram style={{ marginLeft: "8px" }} size={30} />
-          <FaTiktok style={{ marginLeft: "8px" }} size={30} />
-          <FiTwitter style={{ marginLeft: "8px" }} size={30} />
+          <BsWhatsapp style={{ marginLeft: "4px", color: "white" }} size={30} />
+          <BsInstagram
+            style={{ marginLeft: "4px", color: "white" }}
+            size={30}
+          />
+          <FaTiktok style={{ marginLeft: "4px", color: "white" }} size={30} />
+          <FiTwitter style={{ marginLeft: "4px", color: "white" }} size={30} />
         </div>
         <img className="img-konten1" src={image1} alt="image1" />
         <h1 className="textmajukan">Majukan Pendidikan Anak-Anak Indonesia</h1>
@@ -61,10 +65,10 @@ const Main = () => {
           />
         </div>
       </div>
-
       {/* Our Mission */}
       <div className="positioncontent2">
         <img className="img-konten2" src={image5} alt="image5" />
+        <img className="segitiga" src={segitiga} alt="segitiga" />
         <h1 className="textourmission">Our Mission</h1>
         <p className="paragraphkonten2">
           Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
@@ -85,7 +89,6 @@ const Main = () => {
           <img className="logoinspirasi" src={image8} alt="image8" />
           <img className="logoinfinite" src={infinite} alt="infinite" />
         </div>
-        {/* <img src={segitiga} alt="segitiga" /> */}
       </div>
       {/* Our Mission */}
 
@@ -129,6 +132,11 @@ const Main = () => {
       <div className="positioncontent4">
         <h1 className="textberita">Berita Terbaru</h1>
         <p className="textlihat">Lihat selengkapnya</p>
+        <img
+          className="segitigakotak"
+          src={segitigakotak}
+          alt="segitigakotak"
+        />
         <div className="posisiimgartikel1">
           <img className="imgartikel1 transisi" src={image12} alt="image12" />
         </div>
@@ -141,7 +149,6 @@ const Main = () => {
           Pemkab Gresik menggagas sebuah program yang dapat membantu anak putus
           sekolah untuk bisa menyelesaikan pendidikannya.
         </p>
-        {/* <img src={segitigakotak} alt="segitigakotak" /> */}
         <div className="posisiartikel2">
           <div
             style={{
@@ -159,41 +166,103 @@ const Main = () => {
           </p>
         </div>
         <div className="posisiartikel3">
-          <div>
-            <img src={image14} alt="image14" />
+          <div
+            style={{
+              height: "218px",
+              width: "273px",
+              borderRadius: "30px",
+              overflow: "hidden",
+            }}
+          >
+            <img className="imgartikel2 transisi" src={image14} alt="image14" />
           </div>
-          <p>
+          <p className="textberi posisiteksartikel">
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
             Resmikan Sekolah Virtual
           </p>
         </div>
         <div className="posisiartikel4">
-          <div>
-            <img src={image15} alt="image15" />
+          <div
+            style={{
+              height: "218px",
+              width: "273px",
+              borderRadius: "30px",
+              overflow: "hidden",
+            }}
+          >
+            <img className="imgartikel2 transisi" src={image15} alt="image15" />
           </div>
-          <p>
+          <p className="textberi posisiteksartikel">
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
             Resmikan Sekolah Virtual
           </p>
         </div>
-        {/* <div>
-          <div>
-            <img src={image16} alt="image16" />
+        <div className="posisiartikel5">
+          <div
+            style={{
+              height: "218px",
+              width: "273px",
+              borderRadius: "30px",
+              overflow: "hidden",
+            }}
+          >
+            <img className="imgartikel2 transisi" src={image16} alt="image16" />
           </div>
-          <p>
+          <p className="textberi posisiteksartikel">
             Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
             karenaResmikan Sekolah Virtual
           </p>
-        </div> */}
+        </div>
       </div>
       {/* Berita */}
+      <div className="positioncontent5">
+        <h2 className="textbagaimana">Bagaimana pendapat mereka</h2>
+        <img className="imgpetaindonesia" src={image17} alt="image17" />
+        <div className="position-carousel">
+          <Swiper
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+          >
+            <SwiperSlide>
+              <p className="position-text-1-slider-1 ">
+                “Website ini sangat memudahkan saya dalam membantu pendidikan
+                anak Indonesia, terlebih anak jalanan di luar sana”
+              </p>
+              <h2 className="position-text-2-slider-1">Andre Michael</h2>
+              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </SwiperSlide>
 
-      {/* <h2 className="text-19">Bagaimana pendapat mereka</h2>
-        <img className="image-peta-indonesia" src={image17} alt="image17" />
+            <SwiperSlide>
+              <p className="position-text-1-slider-1">
+                “Website ini sangat memudahkan saya dalam membantu pendidikan
+                anak Indonesia, terlebih anak jalanan di luar sana”
+              </p>
+              <h2 className="position-text-2-slider-1">Andre Michael</h2>
+              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <p className="position-text-1-slider-1">
+                “Website ini sangat memudahkan saya dalam membantu pendidikan
+                anak Indonesia, terlebih anak jalanan di luar sana”
+              </p>
+              <h2 className="position-text-2-slider-1">Andre Michael</h2>
+              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <p className="position-text-1-slider-1">
+                “Website ini sangat memudahkan saya dalam membantu pendidikan
+                anak Indonesia, terlebih anak jalanan di luar sana”
+              </p>
+              <h2 className="position-text-2-slider-1">Andre Michael</h2>
+              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
-      <div style={{position: "absolute", top:"540%"}}> */}
-      {/* <Footer /> */}
-      {/* </div> */}
+      <Footer />
     </>
   );
 };
