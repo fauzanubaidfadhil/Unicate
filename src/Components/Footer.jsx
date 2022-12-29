@@ -80,7 +80,7 @@ const Footer = () => {
             position:"absolute",
             left:"0",
             marginTop:"8%",
-            marginLeft: "7%",
+            marginLeft: "12%",
           }}
         >
           <p className="textcopyright">Copyright @ 2022 unicate. All Right Reserved</p>
