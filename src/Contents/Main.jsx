@@ -20,12 +20,13 @@ import segitigakotak from "../Assets/segitigakota.png";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-import Footer from "../Components/Footer";
-import "../CSS/Carousel.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import "../CSS/Main.css";
+import Footer from "../Components/Footer";
 import React from "react";
+import "../CSS/Carousel.css";
+import "../CSS/Main.css";
+import "../StyleResponsive/ResMain.css";
 
 const Main = () => {
   return (
