@@ -1,0 +1,136 @@
+.about-banner {
+  background-image: url("../assets/bgAbout.png");
+  background-size: cover;
+  height: 720px;
+}
+
+.title-about {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.subtitle-about {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  width: 787px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.our-team {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.7);
+  width: fit-content;
+  padding: 10px;
+  margin: 150px 0 100px 0;
+}
+
+.title-team p {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.title-team h3 {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.card-team1 {
+  width: 346px;
+  height: 253px;
+  background: #DFAD53;
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.card-team2 {
+  width: 346px;
+  height: 110px;
+  background: #DFAD53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 21px 0 26px 0;
+}
+
+.card-team3 {
+  width: 346px;
+  height: 265px;
+  background: #DFAD53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.card-team4 {
+  width: 346px;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team5 {
+  width: 346px;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team6 {
+  width: 346px;
+  height: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team7 {
+  width: 346px;
+  height: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-top: 24px;
+}
