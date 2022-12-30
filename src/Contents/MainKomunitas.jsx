@@ -46,8 +46,6 @@ const MainKomunitas = () => {
         <div
           style={{
             height: "687.03px",
-            borderStyle: "solid",
-            borderColor: "transparent",
           }}
         >
           <img className="imgkomunitas2" src={img2} alt="img_komunitas2" />
