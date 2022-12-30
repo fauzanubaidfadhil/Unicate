@@ -1,15 +1,15 @@
 import img1 from "../Assets/img_komunitas1.png";
 import img2 from "../Assets/img_komunitas2.png";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/scrollbar";
 import img3 from "../Assets/profil_komunitas.png";
-
+import img4 from "../Assets/volunteers_need.png";
+import "swiper/css";
+import "../CSS/Komunitas.css";
+import "swiper/css/scrollbar";
+import "swiper/css/free-mode";
 import "../CSS/CarouselKomunitas.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
-// import img3 from "../Assets/profil_komunitas.png";
-import "../CSS/Komunitas.css";
+import Footer from "../Components/Footer";
 
 const MainKomunitas = () => {
   return (
@@ -71,6 +71,9 @@ const MainKomunitas = () => {
 
         {/* konten 3 komunitas */}
         <div className="posisikonten3">
+          <img className="imgvolunteersneed" src={img4} alt="volunteers_need" />
+          <p className="textmari">Mari Bantu Anak-anak Indonesia</p>
+          <button className="buttondonasisekarang" type="button" >Donasi Sekarang</button>
           <Swiper
             direction={"vertical"}
             slidesPerView={"auto"}
@@ -347,14 +350,109 @@ const MainKomunitas = () => {
           </Swiper>
           {/* komunitas 6 */}
           <div className="posisikomunitasterbaru">
-            <h3 style={{ width: "194px", height: "30px", marginLeft:"20px", marginTop:"20px", 
-            fontFamily: "Poppins", fontStyle: "normal", fontWeight: "500", fontSize: "20px", lineHeight: "149.5%" }}>
-              Komunitas Terbaru
-            </h3>
+            <div className="spacekomunitasterbaru">
+              <h3
+                style={{
+                  width: "194px",
+                  height: "30px",
+                  marginLeft: "20px",
+                  marginTop: "20px",
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  fontSize: "20px",
+                  lineHeight: "149.5%",
+                }}
+              >
+                Komunitas Terbaru
+              </h3>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+            </div>
+            <p className="textlihatsemuanya">Lihat Semuanya</p>
           </div>
         </div>
         {/* kontent 3 komunitas */}
       </section>
+      <Footer/>
     </>
   );
 };
