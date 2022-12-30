@@ -9,10 +9,10 @@ import '../CSS/Donasi.css';
 function MainDonasi() {
   return (
     <>
-    <div style={{borderStyle:"solid", height:"1800px",borderColor:"black"}}>
+    <div style={{borderStyle:"solid", height:"1800px"}}>
       <div>
         <img className='image66' src={image66} alt="image66" /></div>
-       <div style={{borderStyle:"solid", position:"relative", marginTop:"200px", width:"422px", height:"620px", marginLeft:"910px", backgroundColor:"White", borderRadius:"20px", borderColor:"black"}}>
+       <div style={{borderStyle:"solid", position:"relative", marginTop:"200px", width:"422px", height:"620px", marginLeft:"870px", backgroundColor:"White", borderRadius:"20px", borderColor:"black"}}>
         <h1 className='text1'>Donasi</h1>
         <h4 className='text2'>Nominal</h4>
         <button type="button" className='bordernominal'>5.000</button>
@@ -39,7 +39,7 @@ function MainDonasi() {
       
       
         
-        <div style={{position:"absolute",borderStyle:"solid", width:"790px", height:"650px",borderColor:"black", marginTop:"-300px", marginLeft:"0px"}}>  
+        <div style={{position:"absolute", width:"865px", height:"650px",borderColor:"black", marginTop:"-300px", marginLeft:"0px"}}>  
         <h1 className='textupdate'>UPDATE PER NOVEMBER 2022</h1>
         <h1 className='laporan'>LAPORAN</h1>
         <h1 className='textlaporan1'>PEMASUKAN DAN PENGELUARAN
@@ -60,7 +60,7 @@ function MainDonasi() {
         <p className='textlaporan5'>TERIMKASIH ORANG BAIK</p>
         <img className='image68' src={image68} alt="image68" />
         </div>
-       <div style={{position:"absolute", borderStyle:"solid",width:"1250px",height:"600px",marginTop:"370px",marginLeft:"-30px"}}>
+       <div style={{position:"absolute",width:"1250px",height:"600px",marginTop:"370px",marginLeft:"-30px"}}>
        <p className='textdonasi'>Donasi</p>
        <p className='textdonasi1'>Kami membuka kesempatan kepada seluruh orang untuk ikut mengulurkan tangan memberi donasi untuk mendukung setiap kegiatan para komunitas dan volunteer yang bergabung dalam website kami dalam memajukan pendidikan anak-anak Indonesia</p>
        <p className='textdonasi2'>Transparan, Cepat dan Mudah.</p>
