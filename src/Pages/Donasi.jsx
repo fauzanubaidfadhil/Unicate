@@ -1,5 +1,5 @@
 import React from 'react';
-import Footerdonasi from '../Components/Footerdonasi';
+import MainDonasi from '../Contents/MainDonasi';
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 
@@ -7,7 +7,7 @@ function Donasi() {
   return (
     <div>
        <Navigation />
-        <Footerdonasi />
+        <MainDonasi />
         <Footer />
     </div>
   )

@@ -4,7 +4,7 @@ import image3 from "../Assets/gambarmember.png";
 import image4 from "../Assets/gambarmember2.png";
 import image5 from "../Assets/gambarmember3.png";
 import image6 from "../Assets/fotokomentar.png";
-import "../CSS/Content.css";
+import "../CSS/Komber.css";
 import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
