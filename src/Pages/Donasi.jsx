@@ -1,14 +1,14 @@
-// import Navigation from '../Component/Navigation';
-import React from 'react'
-import Footerdonasi from '../Component/Footerdonasi'
-// import Footer from '../Component/Footer';
+import React from 'react';
+import Footerdonasi from '../Components/Footerdonasi';
+import Navigation from "../Components/Navigation";
+import Footer from "../Components/Footer";
 
 function Donasi() {
   return (
     <div>
-        {/* <Navigation/> */}
+       <Navigation />
         <Footerdonasi />
-        {/* <Footer /> */}
+        <Footer />
     </div>
   )
 }

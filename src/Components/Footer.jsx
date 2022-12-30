@@ -7,6 +7,8 @@ import { HiLocationMarker } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import "../CSS/Footer.css";
+import { Link } from "react-router-dom";
+import { DONASI } from "../router";
 import React from "react";
 
 const Footer = () => {
@@ -53,13 +55,15 @@ const Footer = () => {
           <li>
             <FiMail /> help.unicate@gmail.com{" "}
           </li>
-          <button
+          <Link to={DONASI}>
+             <button
             className="buttondonasifooter"
             type="button"
             onclick="alert('Hello world!')"
           >
             Donasi
           </button>
+          </Link>
           <button className="buttontop" type="button" onClick={handleClick}>
             <img
               style={{
