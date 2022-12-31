@@ -33,8 +33,7 @@
     position: absolute;
     width: 649px;
     height: 553.03px;
-    margin-top: 32px;
-    margin-left: 56px;
+    left: 56px;
 }
 
 .textsupport {
@@ -44,7 +43,7 @@
     font-size: 14px;
     line-height: 149.5%;
     text-align: center;
-    margin-left: 18%;
+    margin-left: 28%;
     margin-top: 9%;
 }
 
@@ -56,7 +55,7 @@
     line-height: 149.5%;
     width: 253px;
     height: 48px;
-    margin-left: 55%;
+    margin-left: 60.5%;
     margin-top: 0%;
 }
 
@@ -69,13 +68,14 @@
     color: black;
     width: 425px;
     height: 126px;
-    margin-left: 55%;
+    margin-left: 60.5%;
     margin-top: 0%;
     text-align: justify;
 }
 
 .text100 {
-    margin-left: 55%; 
+    margin-left: 60.5%; 
+    margin-top: 1%;
 }
 
 .textvolunteer {
@@ -90,12 +90,12 @@
 }
 
 .text80 {
-    margin-left: 75%; 
+    margin-left: 80%; 
     margin-top: -6.5%;
 }
 
 .textanak {
-    margin-left: 75%; 
+    margin-left: 80%; 
     width: 143px;
     height: 21px;
 
@@ -107,11 +107,11 @@
 }
 
 .text90 {
-    margin-left: 55%; 
+    margin-left: 60.5%; 
 }
 
 .textkomunitas {
-    margin-left: 55%; 
+    margin-left: 60.5%; 
     width: 143px;
     height: 21px;
 

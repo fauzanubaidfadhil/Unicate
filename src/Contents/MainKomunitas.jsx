@@ -8,8 +8,10 @@ import "swiper/css/scrollbar";
 import "swiper/css/free-mode";
 import "../CSS/CarouselKomunitas.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "../CSS/Responsive/DekstopMainKomunitas.css";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
+
 
 const MainKomunitas = () => {
   return (
@@ -63,7 +65,7 @@ const MainKomunitas = () => {
           <h1 className="text80 style100-80-90">80k+</h1>
           <p className="textanak">Anak-anak terbantu</p>
           <h1 className="text90 style100-80-90">90</h1>
-          <p className="textkomunitas">Komunitas</p>
+          <p className="textkomunitas ">Komunitas</p>
         </div>
         {/* kontent 2 komunitas */}
 
