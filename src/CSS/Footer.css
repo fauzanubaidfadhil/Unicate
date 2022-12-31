@@ -2,93 +2,105 @@
     border-radius: solid;
     background-color: #2B4754;
     color: white;
-    height: 397px;
+    height: 332px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+   
 }
 
 .posisiunicate {
     width: 200px;
     height: 64.17px;
-    margin-top: 47px;
-    margin-left: 82px;
 }
-
-.textmenghadirkan {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;    
-    width: 245px;
-    height: 90px;
-    margin-top: 10px;
-    margin-left: 82px;
+.top-main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 60px;
+    max-width: 100%;
+    
 }
-
-.posisiourservice {
+.top-logo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 10px;
-    width: 128px;
-    height: 142px;
-    position: absolute;
-    left: 30%;
-    margin-top: -14.5%;
-    margin-left: 15%;
+    width: 30%;
 }
-
-.textour {
+.textmenghadirkan {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 149.5%;
-    width: 128px;
-    height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;    
+    width: 100%;
+    height: auto;
 }
 
-.posisiorganization {
-    position: absolute;
-    margin-top: -14.5%;
-    margin-left: 59%;
+.menu{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     padding: 0px;
-    gap: 12px;
+    gap: 10px;
+    max-width: 50%;
+    height: auto;
 }
 
-.textorganization {
-    width: 133px;
-    height: 30px;
+.textmenu {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 149.5%;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+li{
+    font-size: 14px;
 }
 
 .posisineedhelp {
-    position: absolute;
-    margin-top: -14.5%;
-    margin-left: 75%; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
+    width: 25%;
+    height: auto;
+    font-size: 18px;
 }
 
 .textneed {
-    width: 296px;
-    height: 30px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 149.5%;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.detailhelp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    font-size: 14px;
 }
 
 .buttondonasifooter {
@@ -98,7 +110,7 @@
     align-items: center;
     padding: 0px 25px;
     gap: 10px;
-
+    text-decoration: none;
     width: 161px;
     height: 43px;
 
@@ -119,30 +131,26 @@
     color: #FFFFFF;
     transition: .1s ease-in-out;
     transition-delay: .1s;
+    text-decoration: none;
 }
 
 .buttontop {
-    position: absolute;
     right: 0;
-    margin-top: 70%;
     background-color: transparent;
     border-color: transparent;
+    margin-top: 10%;
+    margin-left: 2%;
 }
 
 .textcopyright {
-    width: 361px;
-    height: 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 149.5%;
+    font-size: 12px;
 }
 
 .posisiiconsosmedfooter {
-    position: absolute;
     right: 0px;
-    bottom: -30px;
     display: flex;
     gap: 8px
 }
@@ -150,9 +158,90 @@
 .lingkaranfooter {
     box-sizing: border-box;
     position: absolute;
-    margin-top: 74px;
+    margin-top: 238px;
 }
 
+.bottom-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    margin-right: 30px;
+    width: 100%;
+}
+.menubottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:  768px){
+    .lingkaranfooter{
+        bottom: 0px;
+    }
+    .position-halo{
+        height: auto;
+    }
+    .textmenu{
+        width: 200px;
+    }
+    .top-main{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        }
+}
+
+@media (max-width: 900px){
+    .top-main{
+        gap: 40px;
+    }
+}
+
+
+@media(max-width: 425px){
+    .menu, .textneed{
+        font-size: 14px;
+    }
+    .textmenghadirkan{
+        font-size: 10px;
+        width: 100%;
+    }
+    li, .detailhelp{
+        font-size: 12px;
+    }
+    .textcopyright{
+        font-size: 8px;
+       }
+    .buttontop{
+        margin-left: -20px;
+    }
+    .detailhelp, .detailhelp{
+        width: 200px;
+    }
+    .posisineedhelp{
+        width: 200px;
+    }
+    .menubottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        width: 200px;
+    }
+    .maincontent{
+        display: flex;
+        gap: 20px;
+    }
+}
 
 /* .image-18 {
     position: absolute;
