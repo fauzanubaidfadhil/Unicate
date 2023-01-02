@@ -2,10 +2,11 @@ import image1 from "../Assets/fotosd1.png";
 import image2 from "../Assets/logoinmengajar.png";
 import image3 from "../Assets/gambarmember.png";
 import image6 from "../Assets/fotokomentar.png";
-import "../CSS/Komber.css";
 import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
+import "../CSS/Komber.css";
+import "../CSS/Responsive/DekstopMainKomber.css";
 import Footer from "../Components/Footer";
 
 const MainKomber = () => {
@@ -52,10 +53,35 @@ const MainKomber = () => {
       </div>
       <div className="posisikonten4">
         <div className="status">
-          <img src={image6} alt="fotokomentar" />
-          <h1 className="nama"> Ngab Dim</h1>
-          <p className="teks">
-            {" "}
+          <img className="imgkomentar" src={image6} alt="fotokomentar" />
+          <h1 className="textnamamember"> Ngab Dim</h1>
+          <p className="textkomentar">
+            Barang siapa yang suka membantu surga adalah tempatnya
+          </p>
+          <p className="like">
+            <AiOutlineLike size={30} /> Ga ada yang suka
+          </p>
+          <p className="share">
+            <HiOutlineShare size={30} /> Bagikan
+          </p>
+        </div>
+        <div className="status">
+          <img className="imgkomentar" src={image6} alt="fotokomentar" />
+          <h1 className="textnamamember"> Ngab Dim</h1>
+          <p className="textkomentar">
+            Barang siapa yang suka membantu surga adalah tempatnya
+          </p>
+          <p className="like">
+            <AiOutlineLike size={30} /> Ga ada yang suka
+          </p>
+          <p className="share">
+            <HiOutlineShare size={30} /> Bagikan
+          </p>
+        </div>
+        <div className="status">
+          <img className="imgkomentar" src={image6} alt="fotokomentar" />
+          <h1 className="textnamamember"> Ngab Dim</h1>
+          <p className="textkomentar">
             Barang siapa yang suka membantu surga adalah tempatnya
           </p>
           <p className="like">

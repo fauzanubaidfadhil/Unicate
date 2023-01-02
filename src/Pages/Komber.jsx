@@ -1,13 +1,15 @@
 import MainKomber from "../Contents/MainKomber";
 import Navslogin from "../Components/Navslogin";
-
+import HOC from "../Components/HOC";
 
 const Komber = () => {
     return (
-        <div>
-            <Navslogin />
-            <MainKomber />
-        </div>
+       <>
+       <HOC headerTitle="Komunitas Bersama">
+        <Navslogin />
+        <MainKomber />
+       </HOC>
+       </>
     );
 }
 

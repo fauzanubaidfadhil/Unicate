@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { BERANDA, KOMUNITAS, HOME } from "../router";
 import "../CSS/Navigation.css";
 // import "../CSS/Responsive.css";
-import "../CSS/ResNav.css";
 import React from "react";
 
 const Navigation = () => {

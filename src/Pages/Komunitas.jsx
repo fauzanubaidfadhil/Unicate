@@ -4,7 +4,7 @@ import MainKomunitas from "../Contents/MainKomunitas";
 
 function Komunitas() {
   return (
-    <HOC headreTitle="Komunitas">
+    <HOC headerTitle="Komunitas">
       <Navigation />
       <MainKomunitas />
     </HOC>

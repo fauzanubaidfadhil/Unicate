@@ -6,6 +6,7 @@ import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
 import { Link } from "react-router-dom";
 import { KOMBER, BERANDA } from "../router";
+import "../CSS/Responsive/DekstopNav.css";
 
 function Navslogin() {
   return (

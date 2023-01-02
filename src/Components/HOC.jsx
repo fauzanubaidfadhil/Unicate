@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
 
-const HOC = ({ children, headreTitle = "Unicate" }) => {
+const HOC = ({ children, headerTitle = "Unicate" }) => {
   return (
     <>
       <Helmet>
-        <title>{headreTitle}</title>
+        <title>{headerTitle}</title>
       </Helmet>
       {children}
     </>
