@@ -16,22 +16,36 @@ const MainKomber = () => {
       </div>
       <div className="posisikonten2">
         <h1 className="textdeskripsi"> Deskripsi</h1>
-        <button type="button" className="buttongabung"> Gabung</button>
+        <button type="button" className="buttongabung">
+          {" "}
+          Gabung
+        </button>
         <p className="textkomunitasini">
           Komunitas ini berdiri dengan kekuatan alam yang sangat mendasar dari
           kekuatan uchiha dari negeri konoha yang mendalami peran menjadi...
         </p>
         <p className="textlihatselengkapnya"> Lihat Selengkapnya</p>
-        <img style={{marginLeft:"56px", position:"absolute"}} src={image3} alt="gambarmember" />
-        <img style={{marginLeft:"96px", position:"absolute"}} src={image3} alt="gambarmember2" />
-        <img style={{marginLeft:"136px", position:"absolute"}} src={image3} alt="gambarmember3" />
+        <img
+          style={{ marginLeft: "56px", position: "absolute" }}
+          src={image3}
+          alt="gambarmember"
+        />
+        <img
+          style={{ marginLeft: "96px", position: "absolute" }}
+          src={image3}
+          alt="gambarmember2"
+        />
+        <img
+          style={{ marginLeft: "136px", position: "absolute" }}
+          src={image3}
+          alt="gambarmember3"
+        />
         <p className="text100member"> 100 member</p>
-      </div>  
+      </div>
       <div className="posisikonten3">
-        <textarea style={{width:"1328px", height:"317px", resize:"none", borderRadius:"12px", marginLeft:"30px",fontSize:"20px", fontFamily:"Poppins" }} 
-        placeholder="Tulis pendapat kamu disini" />
+        <textarea placeholder="Tulis pendapat kamu disini" />
         <button className="buttoninputfoto" type="button">
-          <MdOutlineLinkedCamera size={30}/>
+          <MdOutlineLinkedCamera size={30} />
           Foto/Video
         </button>
       </div>

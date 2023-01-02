@@ -85,7 +85,16 @@
 
 .posisikonten3 {
     height: 385px;
-    background-color: blue;
+}
+
+textarea {
+    width: 1328px;
+     height:317px; 
+     resize:none; 
+     border-radius:12px; 
+     margin-left:30px;
+     font-size:20px; 
+     font-family:'Poppins';
 }
 
 textarea::-webkit-input-placeholder {
@@ -96,7 +105,17 @@ textarea::-webkit-input-placeholder {
 }
 
 .buttoninputfoto {
-    
+    margin-left: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+
+    width: 131px;
+    height: 48px;
+    border-color: transparent;
 }
 
 /* .image3 {
