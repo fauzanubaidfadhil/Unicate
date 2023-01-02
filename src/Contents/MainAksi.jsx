@@ -39,8 +39,6 @@ const MainAksi =() => {
                         <div className="vol">1300+ Volunteers</div>
                     </div>
                   </div>
-                  
-
                 </div>
                   <div>
                     <img className="smile" src={smile} alt="smile" />

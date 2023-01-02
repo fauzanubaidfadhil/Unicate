@@ -1,6 +1,7 @@
 @media screen and (min-width: 1200px) and (max-width:1300px) {
     .navbar {
-        width: 1364px;
+        width: 1360px;
+        border-style: solid;
     }
     .styling-menu-navbar {
         font-size: 15px;

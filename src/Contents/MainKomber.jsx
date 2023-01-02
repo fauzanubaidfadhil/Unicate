@@ -6,7 +6,7 @@ import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
-// import "../CSS/Responsive/DekstopMainKomber.css";
+import "../CSS/Responsive/DekstopMainKomber.css";
 import Footer from "../Components/Footer";
 
 const MainKomber = () => {

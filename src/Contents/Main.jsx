@@ -26,8 +26,8 @@ import Footer from "../Components/Footer";
 import React from "react";
 import "../CSS/Carousel.css";
 import "../CSS/Main.css";
-import "../CSS/Responsive/DekstopMain.css";
 import "../CSS/Responsive/MobileMain.css";
+import "../CSS/Responsive/DekstopMain.css";
 
 const Main = () => {
   return (
@@ -58,7 +58,7 @@ const Main = () => {
             style={{
               position: "absolute",
               bottom: "0",
-              width: "178px",
+              width: "160px",
               left: "50px",
             }}
             src={image4}
