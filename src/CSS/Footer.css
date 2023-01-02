@@ -58,9 +58,9 @@
     align-items: flex-start;
     padding: 0px;
     gap: 10px;
-    max-width: 50%;
+    max-width:25%;
     height: auto;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     width: 862px;
 }
 

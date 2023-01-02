@@ -8,7 +8,7 @@ import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import "../CSS/Footer.css";
 import React from "react";
-import {ABOUTUS, HOME, DONASI} from '../router'
+import {ABOUTUS, HOME, DONASI, PRIVACYPOLICY, TERMS_AND_CONDITION} from '../router'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -43,9 +43,13 @@ const Footer = () => {
               <h1 className="textmenu">Organization</h1>
               <li>Contact Us</li>
               <Link className="link" to={ABOUTUS}><li>About Us</li></Link>
-              <li>Terms & Conditions</li>
+              <Link className="link" to={TERMS_AND_CONDITION}>
+                <li>Terms & Conditions</li>
+              </Link>
               <li>FAQ</li>
-              <li>Privacy Policy</li>
+              <Link className="link" to={PRIVACYPOLICY}>
+                <li>Privacy Policy</li>
+              </Link>
             </div>
             <div className="posisineedhelp">
                 <h2 className="textneed">Need Help? Contact Person</h2>

@@ -5,7 +5,7 @@ import { MdOutlineNotificationsActive } from "react-icons/md";
 import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
 import { Link } from "react-router-dom";
-import { KOMBER, BERANDA } from "../router";
+import { KOMBER, BERANDA, AKSI_NAVLOGIN } from "../router";
 import "../CSS/Responsive/DekstopNav.css";
 
 function Navslogin() {
@@ -33,7 +33,9 @@ function Navslogin() {
               </li>
             </Link>
             <li className="styling-menu-navbar animasi-left-right">Artikel</li>
+            <Link to={AKSI_NAVLOGIN}>
             <li className="styling-menu-navbar animasi-left-right">Aksi</li>
+            </Link>
             <li className="styling-menu-navbar animasi-left-right">
               Tentang Kami
             </li>

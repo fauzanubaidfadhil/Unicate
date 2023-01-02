@@ -1,27 +1,29 @@
 @media screen and (min-width:1200px) and (max-width:1300px) {
     .posisikonten1 {
-        width: 1364px;
+        /* width: 1364px;
+        border-style: solid; */
     }
     .image1 {
-        width: 1364px;
+        /* width: 1364px; */
+        width: 100%;
     }
     .logomengajar {
         left: 35%;
     }
     .posisikonten2 {
-        width: 1364px;
+        /* width: 1364px; */
     }
     .buttongabung {
         margin-right: -100px;
     }
     .posisikonten3 {
-        width: 1364px;
+        /* width: 1364px; */
     }
     textarea {
          margin-left:15px;
     }
     .posisikonten4 {
-        width: 1364px;
+        /* width: 1364px; */
     }
     .status {
         margin-left:15px;

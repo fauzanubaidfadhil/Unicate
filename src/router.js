@@ -4,5 +4,9 @@ const KOMUNITAS = "/Komunitas";
 const KOMBER = "/Komber";
 const ABOUTUS = "/Aboutus";
 const DONASI = "/Donasi";
+const AKSI= "/Aksi";
+const AKSI_NAVLOGIN= "/Aksi_NavLogin"
+const PRIVACYPOLICY="/PrivacyPolicy"
+const TERMS_AND_CONDITION="/Terms_And_Condition"
 
-export { HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI };
+export { HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI, AKSI, PRIVACYPOLICY, TERMS_AND_CONDITION, AKSI_NAVLOGIN };
