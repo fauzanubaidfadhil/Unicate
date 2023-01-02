@@ -1,6 +1,5 @@
 import MainKomber from "../Contents/MainKomber";
 import Navslogin from "../Components/Navslogin";
-import Footer from "../Components/Footer";
 
 
 const Komber = () => {
@@ -8,7 +7,6 @@ const Komber = () => {
         <div>
             <Navslogin />
             <MainKomber />
-            <Footer />
         </div>
     );
 }

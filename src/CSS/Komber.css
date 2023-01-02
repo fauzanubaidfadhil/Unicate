@@ -1,12 +1,105 @@
-.image1 {
-    position: absolute;
-    width: 1348px;
-    height: 490px;
-    top: 70px;
-    background: linear-gradient(90.29deg, rgba(0, 92, 149, 0.7) 35.25%, rgba(0, 92, 149, 0) 98.21%);
+.posisikonten1 {
+    height: 437px;
 }
 
-.image3 {
+.image1 {
+    position: absolute;
+    width: 100%;
+    height: 437px;
+    top: 70px;
+}
+
+.logomengajar {
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 203px;
+    border-radius: 30px;
+    left: 33%;
+    margin-top: 6%;
+}
+
+.posisikonten2 {
+    height: 286px;
+}
+
+.textdeskripsi {
+    margin-left: 56px;
+    width: 146px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+}
+
+.buttongabung {
+    position: absolute;
+    right:0;
+    margin-right: 58px;
+    margin-top: -65px;
+    background: #009EFF;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 149.5%;
+    color: white;
+    border-color: transparent;
+}
+
+.textkomunitasini {
+    margin-left: 56px;
+    width: 1208px;
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 149.5%;
+}
+
+.textlihatselengkapnya {
+    margin-left: 56px;
+    width: 148px;
+    height: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+}
+
+.text100member {
+    margin-left: 206px; 
+    margin-top: 30px;
+}
+
+.posisikonten3 {
+    height: 385px;
+    background-color: blue;
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: 'poppins';
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.buttoninputfoto {
+    
+}
+
+/* .image3 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -46,16 +139,7 @@
     top: 200px;
 }
 
-.detail {
-    position: absolute;
-    flex-direction: row;
-    top: 585px;
-    justify-content: flex-start;
-    display: flex;
-    gap: 1300px;
-    left: 40px;
 
-}
 
 .button {
     position: absolute;
@@ -207,4 +291,4 @@ textarea::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 149.5%;
     color: #FFFFFF;
-}
+} */
