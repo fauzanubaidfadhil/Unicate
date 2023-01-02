@@ -118,6 +118,11 @@ textarea::-webkit-input-placeholder {
     border-color: transparent;
 }
 
+.posisikonten4 {
+    border-style: solid;
+    height: 988px;
+}
+
 /* .image3 {
     position: absolute;
     width: 50px;

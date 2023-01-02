@@ -6,6 +6,7 @@ import "../CSS/Komber.css";
 import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
+import Footer from "../Components/Footer";
 
 const MainKomber = () => {
   return (
@@ -49,14 +50,23 @@ const MainKomber = () => {
           Foto/Video
         </button>
       </div>
-
-      {/* <div className="status">
-      <img src={image6} alt="fotokomentar" />
-        <h1 className="nama"> Ngab Dim</h1>
-        <p className="teks"> Barang siapa yang suka membantu surga adalah tempatnya</p>
-        <p className="like"><AiOutlineLike size={30} /> Ga ada yang suka</p>  
-        <p className="share"><HiOutlineShare size={30} /> Bagikan</p>
-      </div> */}
+      <div className="posisikonten4">
+        <div className="status">
+          <img src={image6} alt="fotokomentar" />
+          <h1 className="nama"> Ngab Dim</h1>
+          <p className="teks">
+            {" "}
+            Barang siapa yang suka membantu surga adalah tempatnya
+          </p>
+          <p className="like">
+            <AiOutlineLike size={30} /> Ga ada yang suka
+          </p>
+          <p className="share">
+            <HiOutlineShare size={30} /> Bagikan
+          </p>
+        </div>
+      </div>
+      <Footer />
     </>
   );
 };

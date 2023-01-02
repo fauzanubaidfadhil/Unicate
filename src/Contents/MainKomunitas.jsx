@@ -12,7 +12,6 @@ import "../CSS/Responsive/DekstopMainKomunitas.css";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
 
-
 const MainKomunitas = () => {
   return (
     <>
@@ -70,7 +69,7 @@ const MainKomunitas = () => {
         {/* kontent 2 komunitas */}
 
         {/* konten 3 komunitas */}
-        <div className="posisikonten3">
+        <div style={{height:"896px"}} >
           <img className="imgvolunteersneed" src={img4} alt="volunteers_need" />
           <p className="textmari">Mari Bantu Anak-anak Indonesia</p>
           <button className="buttondonasisekarang" type="button" >Donasi Sekarang</button>
@@ -452,7 +451,7 @@ const MainKomunitas = () => {
         </div>
         {/* kontent 3 komunitas */}
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 };
