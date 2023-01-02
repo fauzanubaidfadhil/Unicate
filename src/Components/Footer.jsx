@@ -32,7 +32,7 @@ const Footer = () => {
                 anak kurang mampu di Indonesia.
               </p>
             </div>
-            <div className="menu">
+            <div style={{marginLeft:"10%"}} className="menu">
               <h1 className="textmenu">Our Service</h1>
               <Link className="link" to={HOME}><li>Beranda</li></Link>
               <li>Artikel</li>

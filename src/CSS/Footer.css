@@ -48,7 +48,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;    
-    width: 100%;
+    width: 245px;
     height: auto;
 }
 
@@ -60,6 +60,8 @@
     gap: 10px;
     max-width: 50%;
     height: auto;
+    margin-left: 5%;
+    width: 862px;
 }
 
 .textmenu {
@@ -82,7 +84,6 @@ li{
     padding: 0px;
     gap: 12px;
     width: 25%;
-    height: auto;
     font-size: 18px;
 }
 
