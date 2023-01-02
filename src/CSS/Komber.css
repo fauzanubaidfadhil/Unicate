@@ -56,7 +56,7 @@
 
 .textkomunitasini {
     margin-left: 56px;
-    width: 1208px;
+    width: 1080px;
     height: 60px;
 
     font-family: 'Poppins';
@@ -88,7 +88,7 @@
 }
 
 textarea {
-    width: 1328px;
+    width: 1200px;
      height:317px; 
      resize:none; 
      border-radius:12px; 
@@ -130,7 +130,7 @@ textarea::-webkit-input-placeholder {
 .status {
     background: #0076BF;
     border-radius: 20px;
-    width: 1328px;
+    width: 1202px;
     height: 228px;
     margin-left:30px;
     color: white;
