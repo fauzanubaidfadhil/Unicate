@@ -1,7 +1,6 @@
 @media screen and (min-width:1200px) and (max-width:1300px) {
     .posisikonten1 {
         width: 1360px;
-        
     }
     .image1 {
         width: 1359px;
@@ -11,14 +10,12 @@
     }
     .posisikonten2 {
         width: 1360px;
-        
     }
     .buttongabung {
         margin-right: -100px;
     }
     .posisikonten3 {
         width: 1360px;
-        
     }
     textarea {
          margin-right: 40px;
@@ -27,8 +24,5 @@
     .posisikonten4 {
         width: 1360px;
        
-    }
-    .status {
-        margin-left:15px;
     }
 }
