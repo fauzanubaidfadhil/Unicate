@@ -1,7 +1,7 @@
 import Home from "./Pages/Home";
 import Komunitas from "./Pages/Komunitas";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION} from './router';
+import {HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION, KISAHINSPIRASI} from './router';
 import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
 import AboutUs from "./Pages/AboutUs";
@@ -10,6 +10,7 @@ import Aksi from "./Pages/Aksi";
 import Aksi_NavLogin from "./Pages/Aksi_NavLogin"; 
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/Terms_And_Condition";
+import Kisahinspirasi from "./Pages/Kisahinspirasi";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path={DONASI} element={<Donasi />} />
           <Route path={PRIVACYPOLICY} element={<PrivacyPolicy />} />
           <Route path={TERMS_AND_CONDITION} element={<TermsAndCondition />} />
+          <Route path={KISAHINSPIRASI} element={<Kisahinspirasi />} />
         </Routes>
       </BrowserRouter>
     </section>

@@ -5,6 +5,8 @@ import ellipse2 from "../Assets/ellipse2.png";
 import ellipse3 from "../Assets/ellipse3.png";
 import smile from "../Assets/smileAksi.png";
 import panah from "../Assets/tanda_panah.png";
+import { Link } from "react-router-dom";
+import { KISAHINSPIRASI } from "../router";
 
 //kisahinspirasi
 import Foto from "../Assets/foto.png";
@@ -67,8 +69,9 @@ const MainAksi =() => {
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
-                        <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px"  }}>
-                            Banyak anak putus sekolah, kapolsek dirikan sekolah</h2>
+                        <Link to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px"  }}>
+                        Banyak anak putus sekolah, kapolsek dirikan sekolah</h2>
+                        </Link>
                         <div className="position-inspirasi">
                             <h2 style={{ fontWeight:"500px", fontSize:"15.2765px", lineWeight:"23px", display:"flex", textAlign:"center", alignItems:"center", justifyContent:"center", marginTop:"5px" }}>Inspirasi</h2>
                         </div>
