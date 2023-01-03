@@ -6,7 +6,7 @@ import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
-// import "../CSS/Responsive/DekstopMainKomber.css";
+import "../CSS/Responsive/DekstopMainKomber.css";
 import Footer from "../Components/Footer";
 
 const MainKomber = () => {
@@ -52,7 +52,7 @@ const MainKomber = () => {
         </button>
       </div>
       <div className="posisikonten4">
-        <div className="status">
+             <div className="status">
           <img className="imgkomentar" src={image6} alt="fotokomentar" />
           <h1 className="textnamamember"> Ngab Dim</h1>
           <p className="textkomentar">
