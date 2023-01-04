@@ -124,6 +124,7 @@ li{
     font-weight: 600;
     font-size: 16px;
     line-height: 149.5%;
+    cursor: pointer;
 }
 
 .buttondonasifooter:hover {
@@ -140,6 +141,7 @@ li{
     border-color: transparent;
     margin-top: 10%;
     margin-left: 2%;
+    cursor: pointer;
 }
 
 .textcopyright {

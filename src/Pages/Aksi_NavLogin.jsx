@@ -6,7 +6,7 @@ import HOC from "../Components/HOC";
 
 function Aksi_NavLogin() {
   return (
-    <HOC headreTitle="Aksi">
+    <HOC headerTitle="Aksi">
       <Navslogin />
       <MainAksi />
       <Footer />

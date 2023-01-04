@@ -94,6 +94,7 @@ input {
     line-height: 149.5%;
     color: white;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .pmasuk {

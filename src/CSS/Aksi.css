@@ -70,6 +70,7 @@
     background: #009EFF;
     border-style: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 .link{
     align-items: center;

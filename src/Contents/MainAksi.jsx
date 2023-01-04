@@ -6,7 +6,7 @@ import ellipse3 from "../Assets/ellipse3.png";
 import smile from "../Assets/smileAksi.png";
 import panah from "../Assets/tanda_panah.png";
 import { Link } from "react-router-dom";
-import { KISAHINSPIRASI } from "../router";
+import { KISAHINSPIRASI, DONASI } from "../router";
 
 //kisahinspirasi
 import Foto from "../Assets/foto.png";
@@ -28,7 +28,10 @@ const MainAksi =() => {
                   <div className="content ">
                     <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
                     <p className="text2-ku">Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan. Satu rupiah dari anda sangat berharga untuk mereka</p>
-                    <button className="button-aksi link">Mulai berdonasi sekarang</button>
+                    <Link to={DONASI}>
+                          <button className="button-aksi link">Mulai berdonasi sekarang</button>
+                    </Link>
+                  
                     
                     <p className="text3">Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!</p>
                     
@@ -69,7 +72,7 @@ const MainAksi =() => {
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
-                        <Link to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px"  }}>
+                        <Link to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px", textDecoration:"none" }}>
                         Banyak anak putus sekolah, kapolsek dirikan sekolah</h2>
                         </Link>
                         <div className="position-inspirasi">

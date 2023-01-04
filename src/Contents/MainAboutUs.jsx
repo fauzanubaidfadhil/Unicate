@@ -424,7 +424,7 @@ const MainAboutUs = () => {
                                 <Job>Designer UI/UX</Job>
                                 <Socmed>
                                         <AkunIG src={iconig} />
-                                        <a href='https://www.instagram.com/addeeee1_//'>addeeee1_</a>
+                                        <a href='https://www.instagram.com/addeeee1_/'>addeeee1_</a>
                                 </Socmed>
                             </BioDetail>
                         </Bio>
@@ -448,7 +448,7 @@ const MainAboutUs = () => {
                                 <Job>Fullstack-Developer</Job>
                                 <Socmed>
                                     <AkunIG src={iconig} />
-                                    <a href='https://www.instagram.com/zn.fauzan/'>za.fauzan</a>
+                                    <a href='https://www.instagram.com/zn.fauzan/'>zn.fauzan</a>
                                 </Socmed>
                             </BioDetail>
                         </Bio>

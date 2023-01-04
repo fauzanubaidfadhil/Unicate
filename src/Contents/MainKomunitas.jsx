@@ -11,6 +11,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../CSS/Responsive/DekstopMainKomunitas.css";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
+import { KOMBER } from "../router";
 
 const MainKomunitas = () => {
   return (
@@ -109,7 +111,9 @@ const MainKomunitas = () => {
                     src={img3}
                     alt="profil_komunitas"
                   />
-                  <p>Indonesia Mengajar</p>
+                  <Link to={KOMBER}>
+                    <p>Indonesia Mengajar</p>
+                  </Link>
                   <p>Gabung</p>
                 </div>
                 <p style={{ position: "absolute", left: "8%", top: "40%" }}>

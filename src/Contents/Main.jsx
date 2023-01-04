@@ -22,6 +22,8 @@ import { FaTiktok } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import { KOMUNITAS } from "../router";
+import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import React from "react";
 import "../CSS/Carousel.css";
@@ -46,9 +48,11 @@ const Main = () => {
         <img className="img-konten1" src={image1} alt="image1" />
         <h1 className="textmajukan">Majukan Pendidikan Anak-Anak Indonesia</h1>
         <p className="textgerakan ">Gerakan Peduli Anak Indonesia</p>
-        <button className="buttonbergabung" onClick="">
+        <Link to={KOMUNITAS}>
+          <button className="buttonbergabung" onClick="">
           Bergabung Sekarang
         </button>
+        </Link>
         <div className="position-textlabel">
           <h2 className="textlabel">
             2020/2021 Ada Sekitar 83,7 Ribu Anak Putus Sekolah di Seluruh

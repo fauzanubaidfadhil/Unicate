@@ -1,13 +1,16 @@
-import MainAboutUs from '../Contents/MainAboutUs';
-import Navigation from '../Components/Navigation';
+import MainAboutUs from "../Contents/MainAboutUs";
+import Navigation from "../Components/Navigation";
+import HOC from "../Components/HOC";
 
 const AboutUs = () => {
-    return (
-        <div>
-            <Navigation />
-            <MainAboutUs />
-        </div>
-    )
-}
+  return (
+    <HOC headerTitle="About us">
+      <div>
+        <Navigation />
+        <MainAboutUs />
+      </div>
+    </HOC>
+  );
+};
 
 export default AboutUs;

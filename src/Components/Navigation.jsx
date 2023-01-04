@@ -2,7 +2,7 @@ import { Container, Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
-import { BERANDA, KOMUNITAS, HOME, AKSI, DAFTAR, } from "../router";
+import { MASUK, KOMUNITAS, HOME, AKSI, DAFTAR, } from "../router";
 import "../CSS/Navigation.css";
 // import "../CSS/Responsive.css";
 import React from "react";
@@ -38,7 +38,7 @@ const Navigation = () => {
             Tentang Kami
           </li>
         </ul>
-        <Link to={BERANDA}>
+        <Link to={MASUK}>
           <button type="button" className="button-masuk">
             Masuk
           </button>

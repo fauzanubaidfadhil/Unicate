@@ -5,7 +5,7 @@ import { MdOutlineNotificationsActive } from "react-icons/md";
 import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
 import { Link } from "react-router-dom";
-import { KOMBER, BERANDA, AKSI_NAVLOGIN } from "../router";
+import { BERANDA, AKSI_NAVLOGIN } from "../router";
 // import "../CSS/Responsive/DekstopNav.css";
 
 function Navslogin() {
@@ -26,12 +26,9 @@ function Navslogin() {
                 Beranda
               </li>
             </Link>
-            <Link to={KOMBER}>
-              {" "}
               <li className="styling-menu-navbar animasi-left-right">
                 Komunitas
               </li>
-            </Link>
             <li className="styling-menu-navbar animasi-left-right">Artikel</li>
             <Link to={AKSI_NAVLOGIN}>
             <li className="styling-menu-navbar animasi-left-right">Aksi</li>

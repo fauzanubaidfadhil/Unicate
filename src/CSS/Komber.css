@@ -52,6 +52,7 @@
     line-height: 149.5%;
     color: white;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .textkomunitasini {
@@ -118,6 +119,7 @@ textarea::-webkit-input-placeholder {
     width: 131px;
     height: 48px;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .posisikonten4 {

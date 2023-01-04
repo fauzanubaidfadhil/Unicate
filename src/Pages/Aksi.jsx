@@ -6,7 +6,7 @@ import HOC from "../Components/HOC";
 
 function Aksi() {
   return (
-    <HOC headreTitle="Aksi">
+    <HOC headerTitle="Aksi">
       <Navigation />
       <MainAksi />
       <Footer />
