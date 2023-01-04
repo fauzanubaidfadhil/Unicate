@@ -1,0 +1,123 @@
+.backgroundpage {
+    background: url('../Assets/backgrounddaftar.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.posisiform {
+    height: 550px; width: 885px;
+    border-radius: 20px; 
+    position: absolute; 
+    margin-left: 37.5vh; 
+    margin-top: 9.5vh;
+    box-shadow: 0 8px 18px 0 rgba(0,0,0,0.5);
+}
+
+.textwelcome {
+    position: absolute;
+    right: 0px;
+    margin-right: -55px;
+    margin-top: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 60px;
+    width: 367px;
+    height: 58px;
+}
+
+.posisiinput {
+    width: 352px;
+    height: 241px;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+    margin-right: 35px;
+    margin-top: 145px;
+}
+
+input {
+  width: 330px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #009EFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.buttondaftar {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 0px;
+    margin-top: 370px;
+    margin-right: 100px;
+
+    background: #009EFF;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: white;
+    border-color: transparent;
+}
+
+p {
+    position: absolute;
+    right:0px;
+}
+
+.textor {
+    margin-top: 415px;
+    margin-right: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+} 
+
+.textsudah {
+    margin-top: 445px; 
+    margin-right: 40px;
+    
+    width: 291px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buttongoogle{
+    border: 1px solid #009EFF;
+    position: absolute;
+    width: 206px;
+    height: 30px;
+    border-radius: 30px;
+    right: 0px;
+    margin-top: 485px; 
+    margin-right: 90px;
+    background-color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 18px;
+}

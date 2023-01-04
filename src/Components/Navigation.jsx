@@ -2,7 +2,7 @@ import { Container, Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
-import { BERANDA, KOMUNITAS, HOME, AKSI } from "../router";
+import { BERANDA, KOMUNITAS, HOME, AKSI, DAFTAR } from "../router";
 import "../CSS/Navigation.css";
 // import "../CSS/Responsive.css";
 import React from "react";
@@ -30,7 +30,7 @@ const Navigation = () => {
           </Link>
           <li className="styling-menu-navbar animasi-left-right">Artikel</li>
           <Link to={AKSI}>
-          <li className="styling-menu-navbar animasi-left-right">Aksi</li>
+            <li className="styling-menu-navbar animasi-left-right">Aksi</li>
           </Link>
           <li className="styling-menu-navbar animasi-left-right">
             Tentang Kami
@@ -41,9 +41,11 @@ const Navigation = () => {
             Masuk
           </button>
         </Link>
-        <button type="button" className="button-daftar">
-          Daftar
-        </button>
+        <Link to={DAFTAR}>
+          <button type="button" className="button-daftar">
+            Daftar
+          </button>
+        </Link>
       </div>
       {/* </Headroom> */}
     </>
