@@ -33,7 +33,7 @@ const MainKisahinspirasi = () => {
       <img className="image5" src={image5} alt="bulathijau" />
       <img className="image4" src={image4} alt="bulatbiru" />
       <img className="image3" src={image3} alt="garis" />
-      <img className="image1" src={image1} alt="kisahin1" />
+      <img className="image1kisahinspirasi" src={image1} alt="kisahin1" />
       <div>
         <h1 className="isi">
           Berawal dari keprihatinannya saat berpatroli ke setiap pelosok desa di

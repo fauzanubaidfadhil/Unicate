@@ -42,13 +42,13 @@
     margin-top: 145px;
 }
 
-input {
+.inputdaftar {
   width: 330px;
   height: 30px;
   border-radius: 5px;
   border-color: #009EFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  color: rgba(0, 0, 0, 0.45);
+  color: black;
 }
 
 .buttondaftar {
@@ -70,7 +70,7 @@ input {
     border-color: transparent;
 }
 
-p {
+.posisitextdaftar {
     position: absolute;
     right:0px;
 }
