@@ -35,7 +35,7 @@ function MainDaftar() {
       <input className="inputdaftar" type="password" id="password" name="password" value={inputs.password} onChange={handleChange} placeholder="Password"/>
          </div>
          <button className="buttondaftar" type="submit">
-          DARTAR
+          DAFTAR
         </button>
       <p className="textor posisitextdaftar">or</p>
         <p className="textsudah posisitextdaftar">Sudah mempunyai akun?<span style={{ color: "#009EFF" }}>Masuk sekarang</span></p>
