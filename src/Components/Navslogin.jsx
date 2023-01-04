@@ -1,6 +1,6 @@
 import { Container, Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
-import Headroom from "react-headroom";
+// import Headroom from "react-headroom";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
@@ -11,7 +11,7 @@ import { KOMBER, BERANDA, AKSI_NAVLOGIN } from "../router";
 function Navslogin() {
   return (
     <>
-      <Headroom>
+      {/* <Headroom> */}
         <div className="navbar">
           <Navbar bg="transparant">
             <Container>
@@ -58,7 +58,7 @@ function Navslogin() {
             </h4>
           </ul>
         </div>
-      </Headroom>
+      {/* </Headroom> */}
     </>
   );
 }

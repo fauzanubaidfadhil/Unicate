@@ -1,0 +1,151 @@
+.backgroundpage {
+    background: url('../Assets/backgrounddaftar.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.bungkusanmasukin{
+    position: absolute;
+    margin-left: 33vh; 
+    margin-top: 5vh;
+}
+
+.imgformmasuk{
+    position: absolute;
+    width: 879px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.posisiinputcuy {
+    width: 352px;
+    height: 241px;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+    margin-right: -390px;
+    margin-top: 195px;
+}
+
+input {
+  width: 330px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #009EFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.teksdung {
+    margin-top: 310px; 
+    margin-right: -390px;
+    
+    width: 291px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lupapasswordcoy {
+    margin-top: 310px; 
+    margin-right: -552px;
+    
+    width: 291px;
+    height: 54px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009EFF;
+}
+
+.cekbok{
+    position: absolute;
+    margin-top: 301px;
+    margin-left: 62px;
+}
+
+.buttonmasuk {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 0px;
+    margin-top: 350px;
+    margin-right: -320px;
+
+    background: #009EFF;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: white;
+    border-color: transparent;
+}
+
+.pmasuk {
+    position: absolute;
+    right:0px;
+}
+
+.textornya {
+    margin-top: 395px; 
+    margin-right: -230px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+} 
+
+.textbelum {
+    margin-top: 420px; 
+    margin-right: -372px;
+    
+    width: 291px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buttongooglemasuk{
+    border: 1px solid #009EFF;
+    position: absolute;
+    width: 206px;
+    height: 30px;
+    border-radius: 30px;
+    right: 0px;
+    margin-top: 455px; 
+    margin-right: -322px;
+    background-color: white;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 18px;
+}
