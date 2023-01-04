@@ -2,7 +2,7 @@ import Home from "./Pages/Home";
 import Komunitas from "./Pages/Komunitas";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION, 
-  KISAHINSPIRASI, DAFTAR, MYFORM} from './router';
+  KISAHINSPIRASI, DAFTAR, } from './router';
 import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
 import AboutUs from "./Pages/AboutUs";
@@ -13,7 +13,7 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/Terms_And_Condition";
 import Kisahinspirasi from "./Pages/Kisahinspirasi";
 import Daftar from "./Pages/Daftar";
-import MyForm from "./Pages/MyForm";
+
 
 function App() {
   return (
@@ -32,7 +32,6 @@ function App() {
           <Route path={TERMS_AND_CONDITION} element={<TermsAndCondition />} />
           <Route path={KISAHINSPIRASI} element={<Kisahinspirasi />} />
           <Route path={DAFTAR} element={<Daftar />} />
-          <Route path={MYFORM} element={<MyForm />} />
         </Routes>
       </BrowserRouter>
     </section>
