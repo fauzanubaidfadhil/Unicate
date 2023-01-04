@@ -12,7 +12,7 @@ function MainDonasi() {
     <div style={{borderStyle:"solid", height:"1800px", borderColor:"transparent"}}>
       <div>
         <img className='image66' src={image66} alt="image66" /></div>
-       <div style={{borderStyle:"solid", position:"relative", marginTop:"200px", width:"422px", height:"620px", marginLeft:"870px", backgroundColor:"White", borderRadius:"20px", borderColor:"black"}}>
+       <div style={{borderStyle:"solid", position:"relative", marginTop:"200px", width:"422px", height:"620px", marginLeft:"800px", backgroundColor:"White", borderRadius:"20px", borderColor:"black"}}>
         <h1 className='text1'>Donasi</h1>
         <h4 className='text2'>Nominal</h4>
         <button type="button" className='bordernominal'>5.000</button>
