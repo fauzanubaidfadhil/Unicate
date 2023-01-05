@@ -13,14 +13,25 @@ import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 import { KOMBER } from "../router";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const MainKomunitas = () => {
+useEffect(() => {
+  AOS.init({
+    once: true,
+    duration: 900,
+  })
+}, [])
+
   return (
     <>
       <section>
         {/* konten 1 */}
         <div>
           <div
+          data-aos="fade-up"
             style={{
               height: "413px",
               width: "100%",
@@ -51,7 +62,10 @@ const MainKomunitas = () => {
             height: "687.03px",
           }}
         >
-          <img className="imgkomunitas2" src={img2} alt="img_komunitas2" />
+          <div data-aos="fade-right">
+             <img className="imgkomunitas2" src={img2} alt="img_komunitas2" />
+          </div>
+          <div data-aos="fade-left">
           <p className="textsupport">Support Education</p>
           <h1 className="textfitur">Fitur Komunitas</h1>
           <p className="textkamimenyediakan">
@@ -67,6 +81,7 @@ const MainKomunitas = () => {
           <p className="textanak">Anak-anak terbantu</p>
           <h1 className="text90 style100-80-90">90</h1>
           <p className="textkomunitas ">Komunitas</p>
+          </div>
         </div>
         {/* kontent 2 komunitas */}
 
