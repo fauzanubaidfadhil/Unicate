@@ -8,7 +8,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/free-mode";
 import "../CSS/CarouselKomunitas.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../CSS/Responsive/DekstopMainKomunitas.css";
+import "../CSS/Dekstop/DekstopMainKomunitas.css";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";

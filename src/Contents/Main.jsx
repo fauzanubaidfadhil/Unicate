@@ -28,8 +28,8 @@ import Footer from "../Components/Footer";
 import React from "react";
 import "../CSS/Carousel.css";
 import "../CSS/Main.css";
-import "../CSS/Responsive/MobileMain.css";
-import "../CSS/Responsive/DekstopMain.css";
+import "../CSS/Dekstop/MobileMain.css";
+import "../CSS/Dekstop/DekstopMain.css";
 
 const Main = () => {
   return (
