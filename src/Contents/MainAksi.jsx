@@ -57,7 +57,7 @@ const MainAksi =() => {
             <div style={{height: "462px", display: "flex", flexDirection: "row", alignItems: "flex-start", gap:"115px"}} >
                 <div>
                 <p className="aksi">Kisah Inspirasi</p>
-                <p className="text1-aksi size-text">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
+                <p className="text1-aksi size-text ">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
                 <p className="text2-aksi size-text">Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah dasar (7 - 12 tahun) yang tidak memperoleh kesempatan menikmati pendidikan formal...</p>
                 </div>
                 <div>

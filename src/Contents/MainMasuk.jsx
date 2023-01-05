@@ -1,5 +1,5 @@
 import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from '@mui/material/Checkbox';
 import { Link } from "react-router-dom";
@@ -9,16 +9,6 @@ import "../CSS/Masuk.css";
 
 const MainMasuk = () => {
     const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-
-    const [formState, setFormState] = useState({
-      username: "",
-      password: "",
-      errorMessage: "",
-    });
-    const handleInputChange = (event) => {
-      const { name, value } = event.target;
-    };
-  
    
     return ( 
         <>
@@ -36,7 +26,7 @@ const MainMasuk = () => {
           />
         </div>
         <div className="cekbok">
-            <Checkbox {...label} defaultChecked />
+            <Checkbox {...label} />
         </div>
         <p className="teksdung pmasuk">Ingat saya</p>
         <p className="lupapasswordcoy pmasuk">Lupa password</p>
@@ -62,3 +52,13 @@ const MainMasuk = () => {
 }
  
 export default MainMasuk;
+
+
+    // const [formState, setFormState] = useState({
+    //   username: "",
+    //   password: "",
+    //   errorMessage: "",
+    // });
+    // const handleInputChange = (event) => {
+    //   const { name, value } = event.target;
+    // };
