@@ -66,6 +66,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
+    cursor: pointer;
+    background-color: white;
     
 }
 
@@ -87,10 +89,7 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    background-color: white;
-    
-    
-    
+    background-color: white;    
 }
 .bordernominal2 {
     box-sizing: border-box;
@@ -110,9 +109,10 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
-    
-}.bordernominal3 {
+    cursor: pointer;
+    background-color: white; 
+}
+.bordernominal3 {
     box-sizing: border-box;
     position: absolute;
     margin-top: -40px;
@@ -130,8 +130,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal4 {
     box-sizing: border-box;
@@ -151,8 +151,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal5 {
     box-sizing: border-box;
@@ -172,7 +172,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal6 {
     box-sizing: border-box;
@@ -192,8 +193,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal7 {
     box-sizing: border-box;
@@ -213,7 +214,8 @@
     height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal8 {
     position: absolute;
@@ -235,8 +237,8 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal9 {
     box-sizing: border-box;
@@ -257,8 +259,8 @@
     font-weight:700;
     font-size: 24px;
     line-height: 36px;
-    
-    
+    cursor: pointer;
+    background-color: white;
 }
 .bordernominal10 {
     box-sizing: border-box;

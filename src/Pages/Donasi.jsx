@@ -6,7 +6,7 @@ import HOC from "../Components/HOC";
 
 function Donasi() {
   return (
-    <HOC headerTitle="Donasi">
+    <HOC headerTitle="Aksi-Donasi">
       <div>
         <Navigation />
         <MainDonasi />

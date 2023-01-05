@@ -119,7 +119,7 @@ const Main = () => {
             <img className="imgcard" src={image10} alt="image10" />
             <h3 className="textcard textcardjudul">Donasi</h3>
             <p className="textcard kontencard">
-              Ikut andil dalam membantu gerakan mendukung pendidikan Indonesia
+              Ikut andil dalam membantu gerakan mendukung pendidikan Indonesia.
             </p>
           </div>
           <div className="card3 card">

@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from '@mui/material/Checkbox';
 import { Link } from "react-router-dom";
-import { BERANDA } from "../router";
+import { BERANDA, DAFTAR } from "../router";
+import "../CSS/Masuk.css";
 
 
 const MainMasuk = () => {
@@ -17,7 +18,6 @@ const MainMasuk = () => {
     const handleInputChange = (event) => {
       const { name, value } = event.target;
     };
-  
   
    
     return ( 
@@ -48,7 +48,9 @@ const MainMasuk = () => {
         <p className="textornya pmasuk">or</p>
         <p className="textbelum pmasuk">
         Belum mempunyai akun ?{" "}
+        <Link style={{ textDecoration: "none" }} to={DAFTAR}>
           <span style={{ color: "#009EFF" }}>Daftar sekarang</span>
+        </Link>
         </p>
         <button className="buttongooglemasuk" type="button" onClick="">
           <FcGoogle size={25} />

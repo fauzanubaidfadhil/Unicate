@@ -111,7 +111,7 @@ const MainKomunitas = () => {
                     src={img3}
                     alt="profil_komunitas"
                   />
-                  <Link to={KOMBER}>
+                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
                     <p>Indonesia Mengajar</p>
                   </Link>
                   <p>Gabung</p>

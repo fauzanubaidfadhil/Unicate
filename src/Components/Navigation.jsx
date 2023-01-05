@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
 import { MASUK, KOMUNITAS, HOME, AKSI, DAFTAR, } from "../router";
 import "../CSS/Navigation.css";
-// import "../CSS/Responsive.css";
 import React from "react";
 
 const Navigation = () => {

@@ -2,8 +2,10 @@ import { useState } from "react";
 import ReactDOM from "react-dom/client";
 import Background from "../Assets/backgroundform.png";
 import { FcGoogle } from "react-icons/fc";
+import { MASUK } from "../router";
+import { Link } from "react-router-dom";
 import "../CSS/Daftar.css";
-import "../CSS/Responsive/DekstopMainDaftar.css";
+import "../CSS/Dekstop/MainDaftar.css";
 
 function MainDaftar() {
   const [inputs, setInputs] = useState({});
@@ -38,7 +40,11 @@ function MainDaftar() {
           DAFTAR
         </button>
       <p className="textor posisitextdaftar">or</p>
-        <p className="textsudah posisitextdaftar">Sudah mempunyai akun?<span style={{ color: "#009EFF" }}>Masuk sekarang</span></p>
+        <p className="textsudah posisitextdaftar">Sudah mempunyai akun?{" "}
+        <Link style={{textDecoration:"none"}} to={MASUK}>
+          <span style={{ color: "#009EFF" }}>Masuk sekarang</span>
+        </Link>
+        </p>
         <button className="buttongoogle" type="button" onClick="">
           <FcGoogle size={25} />
           Masuk dengan google

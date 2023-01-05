@@ -72,7 +72,7 @@ const MainAksi =() => {
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
-                        <Link to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px", textDecoration:"none" }}>
+                        <Link style={{textDecoration:"none"}} to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px", textDecoration:"none" }}>
                         Banyak anak putus sekolah, kapolsek dirikan sekolah</h2>
                         </Link>
                         <div className="position-inspirasi">

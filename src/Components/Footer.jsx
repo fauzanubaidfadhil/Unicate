@@ -63,7 +63,7 @@ const Footer = () => {
                 <div className="detailhelp">
                   <FiMail /> help.unicate@gmail.com{" "}
                 </div>
-                <Link clasname="link" to={DONASI}>
+                <Link style={{textDecoration:'none'}} clasname="link" to={DONASI}>
                 <button
                   className="buttondonasifooter"
                   type="button"

@@ -121,7 +121,7 @@
 .paragraphkonten2{
     width: 502px;
     height: 216px;
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -131,7 +131,7 @@
 }
 
 .textcorporate {
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -219,10 +219,10 @@
     height: 48px;
     margin-left: 649px;
     margin-top: -135px;
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 149.5%;
     color: white;
 }
@@ -281,7 +281,7 @@
 }
 
 .kontencard {
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -357,7 +357,7 @@
 }
 
 .textpemkab {
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -391,7 +391,7 @@
 .textberi {
     width: 254px;
     height: 150px;
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
