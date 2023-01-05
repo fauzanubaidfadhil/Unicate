@@ -50,7 +50,7 @@ const MainKomber = () => {
           Foto/Video
         </button>
       </div>
-      <div className="posisikonten4">
+      {/* <div className="posisikonten4">
              <div className="status">
           <img className="imgkomentar" src={image6} alt="fotokomentar" />
           <h1 className="textnamamember"> Ngab Dim</h1>
@@ -90,7 +90,7 @@ const MainKomber = () => {
             <HiOutlineShare size={30} /> Bagikan
           </p>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
