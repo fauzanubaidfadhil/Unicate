@@ -1,10 +1,11 @@
 import Home from "./Pages/Home";
 import Komunitas from "./Pages/Komunitas";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {HOME, BERANDA, KOMUNITAS, KOMBER, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION, 
+import {HOME, BERANDA, KOMUNITAS, KOMBER, ARTIKEL, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION, 
   KISAHINSPIRASI, DAFTAR, MASUK } from './router';
 import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
+import Artikel from "./Pages/Artikel";
 import AboutUs from "./Pages/AboutUs";
 import Donasi from "./Pages/Donasi";
 import Aksi from "./Pages/Aksi"; 
@@ -25,6 +26,7 @@ function App() {
           <Route path={BERANDA} element={<Beranda />} />
           <Route path={KOMUNITAS} element={<Komunitas />} />
           <Route path={KOMBER} element={<Komber />} />
+          <Route path={ARTIKEL} element={<Artikel />} />
           <Route path={AKSI} element={<Aksi/>} />
           <Route path={AKSI_NAVLOGIN} element={<Aksi_NavLogin />} />
           <Route path={ABOUTUS} element={<AboutUs />} />
