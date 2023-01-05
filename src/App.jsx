@@ -2,7 +2,7 @@ import Home from "./Pages/Home";
 import Komunitas from "./Pages/Komunitas";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {HOME, BERANDA, KOMUNITAS, KOMBER, ARTIKEL, ABOUTUS, DONASI, AKSI,AKSI_NAVLOGIN, PRIVACYPOLICY, TERMS_AND_CONDITION, 
-  KISAHINSPIRASI, DAFTAR, MASUK } from './router';
+  KISAHINSPIRASI, DAFTAR, MASUK, DONASILOGIN  } from './router';
 import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
 import Artikel from "./Pages/Artikel";
@@ -15,6 +15,7 @@ import TermsAndCondition from "./Pages/Terms_And_Condition";
 import Kisahinspirasi from "./Pages/Kisahinspirasi";
 import Daftar from "./Pages/Daftar";
 import Masuk from "./Pages/Masuk";
+import DonasiLogin from "./Pages/DonasiLogin";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path={KISAHINSPIRASI} element={<Kisahinspirasi />} />
           <Route path={DAFTAR} element={<Daftar />} />
           <Route path={MASUK} element={<Masuk />} />
+          <Route path={DONASILOGIN} element={<DonasiLogin />} />
         </Routes>
       </BrowserRouter>
     </section>
