@@ -2,6 +2,8 @@ import image1 from "../Assets/fotosd1.png";
 import image2 from "../Assets/logoinmengajar.png";
 import image3 from "../Assets/gambarmember.png";
 import image6 from "../Assets/fotokomentar.png";
+import { DEKOM } from "../router";
+import { Link } from "react-router-dom";
 import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
@@ -16,7 +18,9 @@ const MainKomber = () => {
     <>
       <div className="posisikonten1">
         <img className="image1" src={image1} alt="fotosd1" />
+        <Link to={DEKOM}>
         <img className="logomengajar" src={image2} alt="logoinmengajar" />
+        </Link>
       </div>
       <div className="posisikonten2">
         <h1 className="textdeskripsi"> Deskripsi</h1>

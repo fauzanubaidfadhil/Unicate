@@ -2,6 +2,7 @@ const HOME = "/";
 const BERANDA = "/Beranda";
 const KOMUNITAS = "/Komunitas";
 const KOMBER = "/Komber";
+const DEKOM = "/Dekom";
 const ARTIKEL = "/Artikel"
 const ABOUTUS = "/Aboutus";
 const DONASI = "/Donasi";
@@ -15,5 +16,5 @@ const MASUK = "/Masuk"
 const DONASILOGIN = '/DonasiLogin'
 
 
-export { HOME, BERANDA, KOMUNITAS, KOMBER, ARTIKEL, ABOUTUS, DONASI, AKSI, PRIVACYPOLICY, TERMS_AND_CONDITION, 
+export { HOME, BERANDA, KOMUNITAS, KOMBER, DEKOM, ARTIKEL, ABOUTUS, DONASI, AKSI, PRIVACYPOLICY, TERMS_AND_CONDITION, 
     AKSI_NAVLOGIN, KISAHINSPIRASI, DAFTAR, MASUK, DONASILOGIN  };

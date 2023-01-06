@@ -1,0 +1,181 @@
+.image1cuy{
+    width: 410px;
+    height: 410px;
+    margin-left: 4%;
+}
+
+.gabungdekom{
+    border-style: solid;
+    border-color: #00A9A5;
+    background-color: #00A9A5;
+    color: white;
+    height: 30px;
+    width: 220px;
+    margin-top: -380px;
+    margin-left: 45%;
+    font-size: large;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.keluarcuy{
+    color: red;
+    margin-top: -45px;
+    margin-left: 65%;
+    font-style: oblique;
+}
+
+.deskripsidekom{
+    font-family: 'poppins';
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+.bawahnyadeskripsi{
+    margin-top: -10px;
+    margin-left: 45%;
+
+    width: 590px;
+    height: 216px;
+
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.kegiatandekom{
+    list-style-type: none;
+    border-style: solid;
+    height: 50px;
+    width: 500px;
+    border-top: #009EFF;
+    background-color: #009EFF;
+    margin-left: 570px;
+    display: flex;
+}
+
+.kegiatancuy{
+    font-family: 'poppins';
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.kalenderdekom{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.icondekom{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.tgldekom{
+    list-style-type: none;
+    margin: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 94%;
+    margin-top: 15px;
+    color: white;
+}
+
+.ketdekom{
+    list-style-type: none;
+    margin: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 94%;
+    margin-top: 15px;
+    color: white;
+}
+
+
+
+
+.ownercuy{
+margin-left: 4%;
+margin-top: -120px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0px;
+}
+
+.image2cuy{
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+.membercuy{
+    margin-left: 4%;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.imagemembernicuy{
+    list-style-type: none;
+}
+
+.fotocuy{
+    font-family: 'poppins';
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: -100px;
+    margin-left: 45%;
+}
+
+.fotosidekom{
+    width: 600px;
+    height: 190px;
+    margin-top: 0px;
+    margin-left: 45%;
+}
+
+.fotosidekom2{
+    width: 600px;
+    height: 190px;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+
+
+
+
+.lokasicuy{
+    margin-left: 4%;
+    margin-top: -350px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.petadekom{
+    height: 260px;
+    width: 300px;
+    margin-left: 4%;
+}
