@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 
 const MainKomber = () => {
   
-
+  
   return (
     <>
       <div className="posisikonten1">

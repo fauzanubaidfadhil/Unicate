@@ -5,15 +5,25 @@ import Checkbox from '@mui/material/Checkbox';
 import { Link } from "react-router-dom";
 import { BERANDA, DAFTAR } from "../router";
 import "../CSS/Masuk.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 const MainMasuk = () => {
     const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-   
+
+    useEffect(() => {
+      AOS.init({
+        once: true,
+        duration: 900,
+      })
+    }, [])
+    
     return ( 
         <>
    
-        <div className="bungkusanmasukin">
+        <div data-aos="flip-left" className="bungkusanmasukin">
             <img className="imgformmasuk" src={Backgroundformmasuk} alt="backgroundformmasuk"/>
         <div className="posisiinputcuy">
           <input type="text" name="username" placeholder="Username" required />

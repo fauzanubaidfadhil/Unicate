@@ -6,8 +6,18 @@ import { MASUK } from "../router";
 import { Link } from "react-router-dom";
 import "../CSS/Daftar.css";
 import "../CSS/Dekstop/MainDaftar.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function MainDaftar() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 900,
+    })
+  }, [])
+
   const [inputs, setInputs] = useState({});
 
   const handleChange = (event) => {
@@ -22,7 +32,7 @@ function MainDaftar() {
   }
 
   return (
-    <div className="posisiform">
+    <div data-aos="flip-left" className="posisiform">
        <img
           style={{ height: "550px", position: "absolute" }}
           src={Background}

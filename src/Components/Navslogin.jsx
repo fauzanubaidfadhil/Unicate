@@ -1,61 +1,77 @@
-import { Container, Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
 // import Headroom from "react-headroom";
-import { MdOutlineNotificationsActive } from "react-icons/md";
-import "../CSS/Navigation.css";
 import profil from "../Assets/profil.png";
+import "../CSS/Navigation.css";
 import { Link } from "react-router-dom";
-import { BERANDA, AKSI_NAVLOGIN } from "../router";
-
+import { BERANDA, AKSI_NAVLOGIN, HOME } from "../router";
+import { MdOutlineNotificationsActive } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
+import { HiUserGroup } from "react-icons/hi";
+import {MdExitToApp} from "react-icons/md";
+import { Container, Navbar, Dropdown } from "react-bootstrap";
 
 function Navslogin() {
-
   return (
     <>
       {/* <Headroom> */}
-        <div className="navbar">
-          <Navbar bg="transparant">
-            <Container>
-              <Navbar.Brand href="#home">
+      <div className="navbar">
+        <Navbar bg="transparant">
+          <Container>
+            <Navbar.Brand>
+              <Link to={BERANDA}>
                 <img className="logo" src={logo} alt="logo" />
-              </Navbar.Brand>
-            </Container>
-          </Navbar>
-          <ul className="position-menu-navbar">
-            <Link to={BERANDA}>
-              <li className="styling-menu-navbar animasi-left-right">
-                Beranda
-              </li>
-            </Link>
-              <li className="styling-menu-navbar animasi-left-right">
-                Komunitas
-              </li>
-            <li className="styling-menu-navbar animasi-left-right">Artikel</li>
-            <Link to={AKSI_NAVLOGIN}>
+              </Link>
+            </Navbar.Brand>
+          </Container>
+        </Navbar>
+        <ul className="position-menu-navbar">
+          <Link to={BERANDA}>
+            <li className="styling-menu-navbar animasi-left-right">Beranda</li>
+          </Link>
+          <li className="styling-menu-navbar animasi-left-right">Komunitas</li>
+          <li className="styling-menu-navbar animasi-left-right">Artikel</li>
+          <Link to={AKSI_NAVLOGIN}>
             <li className="styling-menu-navbar animasi-left-right">Aksi</li>
-            </Link>
-            <li className="styling-menu-navbar animasi-left-right">
-              Tentang Kami
-            </li>
-            <MdOutlineNotificationsActive
-              className="position-icon-notif"
-              size={30}
-            />
-            <img className="img-profil" src={profil} alt="profil" />
-            <h4
+          </Link>
+          <li className="styling-menu-navbar animasi-left-right">
+            Tentang Kami
+          </li>
+          <MdOutlineNotificationsActive
+            className="position-icon-notif"
+            size={30}
+          />
+          <Dropdown>
+            <Dropdown.Toggle
+              className="dropdownnavprofil"
               style={{
-                marginLeft: "10px",
-                marginTop: "16px",
-                fontStyle: "normal",
+                width: "150px",
+                fontSize: "18px",
                 fontWeight: "500",
-                fontSize: "14px",
-                lineHeight: "149.5%",
+                marginTop: "6px",
               }}
+              variant="transparant"
+              id="dropdown-basic"
             >
+              <img className="img-profil" src={profil} alt="profil" />
               Adelia
-            </h4>
-          </ul>
-        </div>
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item style={{ display: "flex", gap: "10px", fontSize: "18px" }}href="#/action-1">
+                <CgProfile size={30} />Profile
+              </Dropdown.Item>
+              <Dropdown.Item style={{ display: "flex", gap: "10px", fontSize: "18px" }} href="#/action-2" >
+                <HiUserGroup size={30} />Komunitas
+              </Dropdown.Item>
+              <Dropdown.Item style={{ fontSize: "18px" }}>
+                <Link style={{display: "flex", gap: "10px",  textDecoration:"none", color:"black"}} to={HOME}>
+                  <MdExitToApp size={30} />Keluar
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </ul>
+      </div>
       {/* </Headroom> */}
     </>
   );
