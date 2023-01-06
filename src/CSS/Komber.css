@@ -27,7 +27,7 @@
     margin-left: 56px;
     width: 146px;
     height: 48px;
-
+    margin-top: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -39,7 +39,7 @@
     position: absolute;
     right:0;
     margin-right: 58px;
-    margin-top: -65px;
+    margin-top: -45px;
     background: #009EFF;
     border-radius: 12px;
     width: 80px;

@@ -18,7 +18,7 @@ const Navigation = () => {
             </Navbar.Brand>
           </Container>
         </Navbar>
-        <ul className="dropdown-menu position-menu-navbar">
+        <ul className=" position-menu-navbar">
           <Link to={HOME}>
             <li className="styling-menu-navbar animasi-left-right">Beranda</li>
           </Link>

@@ -1,5 +1,7 @@
 .positioncontent1 {
     height: 550px;
+   
+    
 }
 
 .style-img-titik {
@@ -11,9 +13,10 @@
 
 .img-konten1 {
     width: 773px;
-    height: 550px;
+    height: 543px;
     position: absolute;
     right: 0;
+    margin-top: 6px;
 }
 
 .textmajukan {
@@ -55,7 +58,7 @@
 
 .position-textlabel {
     position: relative;
-    margin-top: 95px;
+    margin-top: 130px;
     border-style: solid;
     border-color: transparent;
     width: 880px;
@@ -74,12 +77,12 @@
 }
 
 .positionlabel {
-    width: 35px;
+    width: 55px;
     height: 201px;
     position: absolute;
     z-index: 1;
-    right: 0;  
-    margin-top: 235px; 
+    right: 0; 
+    margin-top: 255px; 
     background-color: #0091EA;
     display: flex;
     flex-direction: column;

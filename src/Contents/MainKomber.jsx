@@ -8,7 +8,10 @@ import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
 import Footer from "../Components/Footer";
 
+
 const MainKomber = () => {
+  
+
   return (
     <>
       <div className="posisikonten1">
