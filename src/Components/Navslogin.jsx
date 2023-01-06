@@ -57,8 +57,10 @@ function Navslogin() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item style={{ display: "flex", gap: "10px", fontSize: "18px" }}href="#/action-1">
-                <CgProfile size={30} />Profile
+              <Dropdown.Item style={{ fontSize: "18px" }}href="#/action-1">
+                <Link style={{display: "flex", gap: "10px",  textDecoration:"none", color:"black"}} to="/Profile">
+                  <CgProfile size={30} />Profile
+                </Link>
               </Dropdown.Item>
               <Dropdown.Item style={{ display: "flex", gap: "10px", fontSize: "18px" }} href="#/action-2" >
                 <HiUserGroup size={30} />Komunitas

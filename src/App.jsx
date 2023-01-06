@@ -17,6 +17,7 @@ import Kisahinspirasi from "./Pages/Kisahinspirasi";
 import Daftar from "./Pages/Daftar";
 import Masuk from "./Pages/Masuk";
 import DonasiLogin from "./Pages/DonasiLogin";
+import Profile from "./Pages/Profile";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path={DAFTAR} element={<Daftar />} />
           <Route path={MASUK} element={<Masuk />} />
           <Route path={DONASILOGIN} element={<DonasiLogin />} />
+          <Route path="/Profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </section>

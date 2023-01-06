@@ -1,0 +1,169 @@
+.posisi-card1-profile {
+    position: absolute;
+    width: 284px;
+    height: 280px;
+    right: 0;
+    margin-top: 58px;
+    margin-right: 896px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 72px;
+    border-radius: 20px;
+    background: #E3DFDF;
+   
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.posisi-mainda {
+    border: 2px solid #E3DFDF;
+    height: 1120px;
+    width: 724px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 136px;
+    margin-top: 58px;
+}
+
+.textdetailakun {
+    width: 183px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.profile{
+    width: 90px;
+    height: 90px;
+    margin-left: 12px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.buttonunggah {
+    background: #009EFF;
+    border-radius: 8px;
+    width: 161px;
+    height: 48px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: white;
+    border-color: transparent;
+    margin-left: 140px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.buttonhapus {
+    margin-left: 28px;
+    background: #E3DFDF;
+    border-radius: 8px;
+    color: black;
+    border-color: transparent;
+    width: 68px;
+    height: 48px;
+    position: absolute;
+    margin-left: 313px;
+    margin-top: 30px;
+}
+
+.posisiusernameprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 150px;
+}
+
+.fontstyledataprofil {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.fontstyleisidata {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.5%;
+    color: black;
+}
+
+.posisinamaprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 250px;
+}
+
+.posisialamatprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 350px;
+}
+
+.posisijeniskelaminprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 450px;
+}
+
+.posisitgllahirprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 550px;
+}
+
+.posisiemailprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 650px;
+}
+
+.posisiphoneprofil {
+    position: absolute;
+    border-bottom: solid;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    border-color: #E3DFDF;
+    margin-top: 750px; 
+}

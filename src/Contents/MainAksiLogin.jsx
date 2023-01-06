@@ -17,11 +17,22 @@ import Card2 from "../Assets/card2.png";
 import Card3 from "../Assets/card3.png";
 import "../CSS/Aksi.css";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 const MainAksiLogin = () => {
+    useEffect(() => {
+        AOS.init({
+          once: true,
+          duration: 400,
+        })
+      }, [])
+
     return ( 
         <>
               {/* Content */}
-              <div className="pembungkus-content">
+              <div data-aos="fade-up" className="pembungkus-content">
                 <div className="blur">
                   <div className="content ">
                     <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
@@ -50,7 +61,7 @@ const MainAksiLogin = () => {
         {/* Content */}
 
         {/* KisahInspirasi */}
-            <div style={{height: "462px", display: "flex", flexDirection: "row", alignItems: "flex-start", gap:"115px"}} >
+            <div data-aos="fade-up" style={{height: "462px", display: "flex", flexDirection: "row", alignItems: "flex-start", gap:"115px"}} >
                 <div>
                 <p className="aksi">Kisah Inspirasi</p>
                 <p className="text1-aksi size-text ">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
@@ -64,7 +75,7 @@ const MainAksiLogin = () => {
 
         {/* card */}
         <div className="bagian-card">
-            <div className="shadow">
+            <div data-aos="flip-left"  className="shadow">
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
@@ -79,7 +90,7 @@ const MainAksiLogin = () => {
                 </div>
             </div>
 
-            <div className="shadow">
+            <div data-aos="flip-up" className="shadow">
                 <div className="card-2" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
@@ -93,7 +104,7 @@ const MainAksiLogin = () => {
                 </div>
             </div>
 
-            <div className="shadow">
+            <div data-aos="flip-right" className="shadow">
                 <div className="card-3" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
