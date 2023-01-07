@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import ReactDOM from "react-dom/client";
 import Background from "../Assets/backgroundform.png";
-import { FcGoogle } from "react-icons/fc";
+// import { FcGoogle } from "react-icons/fc";
 import { MASUK } from "../router";
 import { Link } from "react-router-dom";
 import "../CSS/Daftar.css";
-import "../CSS/Dekstop/MainDaftar.css";
+import "../CSS/Dekstop/Daftar.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -96,14 +96,14 @@ function MainDaftar() {
         <button className="buttondaftar" type="submit">
           DAFTAR
         </button>
-        {/* <p className="textor posisitextdaftar">or</p>
+        <p className="textor posisitextdaftar">or</p>
         <p className="textsudah posisitextdaftar">
           Sudah mempunyai akun?{" "}
           <Link style={{ textDecoration: "none" }} to={MASUK}>
             <span style={{ color: "#009EFF" }}>Masuk sekarang</span>
           </Link>
         </p>
-        <button className="buttongoogle" type="button">
+        {/* <button className="buttongoogle" type="button">
           <FcGoogle size={25} />
           Masuk dengan google
         </button> */}

@@ -1,0 +1,20 @@
+@media screen and (min-width:1200px) and (max-width:1260px) {
+    .bungkusanmasukin{
+        margin-left: 24.5vh; 
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (min-width:1270px) and (max-width:1280px) {
+    .bungkusanmasukin{
+        margin-left: 25vh; 
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (min-width:1290px) and (max-width:1300px) {
+    .bungkusanmasukin{
+        margin-left: 26.5vh; 
+        margin-top: 4vh;
+    }
+}

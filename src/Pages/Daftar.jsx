@@ -2,6 +2,7 @@ import React from "react";
 import HOC from "../Components/HOC";
 import MainDaftar from "../Contents/MainDaftar";
 import "../CSS/Daftar.css";
+import "../CSS/Dekstop/Daftar.css";
 
 function Daftar() {
   return (
