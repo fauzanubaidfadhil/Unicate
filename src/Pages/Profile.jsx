@@ -5,10 +5,11 @@ import { HiUserGroup } from "react-icons/hi";
 import {MdSettings} from "react-icons/md";
 import {MdExitToApp} from "react-icons/md";
 import MainDa from "../Contents/MainDa";
+import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
 import Footer from "../Components/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function App() {
     useEffect(() => {
@@ -18,17 +19,20 @@ export default function App() {
         })
       }, [])
 
+      const [menu, setMenu] = useState ("Profile")
+
     return (
         <>
         <Navslogin />
         <div data-aos="fade-up" style={{height:"1336px"}}>
             <div className="posisi-card1-profile">
-                <p><CgProfile size={20} style={{marginRight:"10px"}} />Detail Akun</p>
-                <p><HiUserGroup size={20} style={{marginRight:"10px"}} />Komunitas</p>
+                <p style={{cursor:"pointer"}} onClick={() => setMenu("Profile")}><CgProfile size={20} style={{marginRight:"10px"}} />Detail Akun</p>
+                <p style={{cursor:"pointer"}} onClick={() =>  setMenu("Komunitas")}><HiUserGroup size={20} style={{marginRight:"10px"}} />Komunitas</p>
                 <p><MdSettings size={20} style={{marginRight:"10px"}} />Pengaturan</p>
                 <p><MdExitToApp size={20} style={{marginRight:"10px"}} />Keluar</p>
             </div>
-            <MainDa />
+                {menu === "Profile" && <MainDa />}
+                {menu === "Komunitas" && <MainKomuitasProfile />}
         </div>
         <Footer />
         </>
