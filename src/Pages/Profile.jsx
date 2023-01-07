@@ -9,7 +9,7 @@ import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
 import Footer from "../Components/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function App() {
     useEffect(() => {
@@ -19,7 +19,15 @@ export default function App() {
         })
       }, [])
 
-      const [menu, setMenu] = useState ("Profile")
+    const [menu, setMenu] = useState ("Profile")
+    
+    const handleClick = () => {
+        if (window.confirm('Apakah Anda Ingin Keluar')) {
+            window.location.href="/";
+        } else {
+            localStorage.setItem('showConfirmdialog', false);
+        }
+    }
 
     return (
         <>
@@ -29,7 +37,7 @@ export default function App() {
                 <p style={{cursor:"pointer"}} onClick={() => setMenu("Profile")}><CgProfile size={20} style={{marginRight:"10px"}} />Detail Akun</p>
                 <p style={{cursor:"pointer"}} onClick={() =>  setMenu("Komunitas")}><HiUserGroup size={20} style={{marginRight:"10px"}} />Komunitas</p>
                 <p><MdSettings size={20} style={{marginRight:"10px"}} />Pengaturan</p>
-                <p><MdExitToApp size={20} style={{marginRight:"10px"}} />Keluar</p>
+                <p style={{cursor:"pointer"}} onClick={handleClick}><MdExitToApp size={20} style={{marginRight:"10px"}} />Keluar</p>
             </div>
                 {menu === "Profile" && <MainDa />}
                 {menu === "Komunitas" && <MainKomuitasProfile />}

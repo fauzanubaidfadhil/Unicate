@@ -167,3 +167,27 @@
     border-color: #E3DFDF;
     margin-top: 750px; 
 }
+
+.cardkomunitasprofile {
+    width: 724px;
+    height: 260px;
+    border: 1px solid #E3DFDF;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 136px;
+    margin-top: 58px;
+}
+
+.textkomunitasanda {
+    width: 270px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
