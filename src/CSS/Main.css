@@ -1,7 +1,5 @@
 .positioncontent1 {
-    height: 550px;
-   
-    
+    height: 550px;    
 }
 
 .style-img-titik {
@@ -394,7 +392,9 @@
 .imgartikel2 {
     height: 218px;
     width: 273px;
+    transition: .3s;
 }
+
 
 .posisiteksartikel {
     text-align: center;
@@ -430,7 +430,7 @@
 
 /* transisi */
 .transisi {
-    transition: .3s;
+    transition: .5s;
 }
 
 .transisi:hover {
@@ -450,6 +450,7 @@
 .positioncontent5 {
     height: 528px;
 }
+
 
 .textbagaimana {
     font-family: 'Poppins';
