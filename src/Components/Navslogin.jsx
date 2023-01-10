@@ -23,12 +23,12 @@ function Navslogin() {
             
         <div className="menuheader">
           <div className="mainmenu">
-            <Link to={BERANDA}>
+            <Link className="linknav" to={BERANDA}>
               <li className="styling-menu-navbar animasi-left-right">Beranda</li>
             </Link>
             <li className="styling-menu-navbar animasi-left-right">Komunitas</li>
             <li className="styling-menu-navbar animasi-left-right">Artikel</li>
-            <Link to={AKSI_NAVLOGIN}>
+            <Link className="linknav" to={AKSI_NAVLOGIN}>
               <li className="styling-menu-navbar animasi-left-right">Aksi</li>
             </Link>
             <li className="styling-menu-navbar animasi-left-right">

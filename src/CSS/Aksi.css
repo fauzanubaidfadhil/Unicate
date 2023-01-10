@@ -2,7 +2,7 @@
 .pembungkus-content{
     position: relative;
     overflow: hidden;
-    height: 628px;
+    height: auto;
 }
 
 .blur{
@@ -16,24 +16,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 31px;
+    gap: 21px;
     color:white;
     
     width: 700px;
-    height: 355px;
+    height: auto;
     margin-left: 40px;
     margin-top: 50px;
-
 }
 
+
 .text-ku{
-    height: 216px;
     font-family: 'Poppins' serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 0px;
 }
 
 .text2-ku{
@@ -43,21 +40,21 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    margin-top: -10px;
 }
-
+.content2bottom{
+    margin-left: 60%;
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 .text3{
     width: 200px;
-    height: 90px;
     font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 149%;
-    margin-left: 110%;
-    margin-top: 43px;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .button-aksi{
@@ -75,11 +72,15 @@
 .button-aksi-link{
     align-items: center;
     font-family: 'Poppins' serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 149.5%;
     color: #FFFFFF;
+    background: #009EFF;
+    border-radius: 12px;
+    border: none;
+    width: 344px;
+    height: 60px;
+
 }
 
 .content2{
@@ -88,12 +89,8 @@
     padding: 12px;
     gap: 12px;
 
-    position: relative;
     width: 200px;
-    height: 90px;
-    top: -135px;
-    right: -140%;
-    
+    height: auto;
 
     background: #009EFF;
     border-radius: 20px;
@@ -118,6 +115,9 @@
     height: 65.13px;
     margin-left: 855px;
     margin-top: 353px;
+}
+.gambartopaksi{
+    height: auto;
 }
 
 .panah{
@@ -146,41 +146,56 @@
 
 .aksi{
     border-bottom: solid;
-    width: 222px;
+    width: 23%;
     height: 49px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 149.5%;
     border-color:  #005C95;
-    margin-left: 40px;
+    color: #000000;
+}
+.kishpirmain{
+    height: auto;
+}
+.kishpiraksi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    }
+
+.aksikishpir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 27px;
 }
 
-.size-text{
-    width: 762px;
-    height: 215px;
-    margin-left: 40px;
+.aksikishpirdetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    width: 50%;
 }
-
-.text1-aksi{
+.text1-aksi-size-text{
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 149.5%;
-    width: 583px;
-    height: 124px;
+    width: 70%;
 }
 
-.text2-aksi{
+.text2-aksi-size-text{
     font-family: 'Calibri';
     font-style: normal;
-    width: 612px;
-    height: 108px;
     font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
 }
 
 
@@ -188,7 +203,6 @@
 .bagian-card{
     display: flex;
     flex-direction: row;
-    align-items: flex-start; 
     gap: 45px;
     
     justify-content: center;
@@ -203,7 +217,6 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     
     transition: transform .2s; 
-    margin: 0 auto;
     border-radius: 30px;
     
 }

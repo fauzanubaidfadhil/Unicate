@@ -34,23 +34,24 @@ const MainAksiLogin = () => {
               {/* Content */}
               <div data-aos="fade-up" className="pembungkus-content">
                 <div className="blur">
-                  <div className="content ">
-                    <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
-                    <p className="text2-ku">Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan. Satu rupiah dari anda sangat berharga untuk mereka</p>
-                   <Link to={DONASILOGIN}>
-                      <button className="button-aksi-link">Mulai berdonasi sekarang</button>
-                   </Link>
-                    <p className="text3">Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!</p>
-                    
-                    <div className="content2">
-                      <div className="icon">
-                        <img classname="gambar " src={ellipse1} alt="icon1" />
-                        <img classname="gambar " src={ellipse2} alt="icon2" />
-                        <img classname="gambar" src={ellipse3} alt="icon3" />
-                      </div>
-                        <div className="vol">1300+ Volunteers</div>
+                    <div className="content ">
+                        <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
+                        <p className="text2-ku">Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan. Satu rupiah dari anda sangat berharga untuk mereka</p>
+                        <Link to={DONASILOGIN}>
+                            <button className="button-aksi-link">Mulai berdonasi sekarang</button>
+                        </Link>
                     </div>
-                  </div>
+                    <div className="content2bottom">
+                        <p className="text3">Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!</p>
+                        <div className="content2">
+                            <div className="icon">
+                                <img classname="gambar " src={ellipse1} alt="icon1" />
+                                <img classname="gambar " src={ellipse2} alt="icon2" />
+                                <img classname="gambar" src={ellipse3} alt="icon3" />
+                            </div>
+                            <div className="vol">1300+ Volunteers</div>
+                        </div>
+                    </div>
                 </div>
                   <div>
                     <img className="smile" src={smile} alt="smile" />
@@ -61,14 +62,14 @@ const MainAksiLogin = () => {
         {/* Content */}
 
         {/* KisahInspirasi */}
-            <div data-aos="fade-up" style={{height: "462px", display: "flex", flexDirection: "row", alignItems: "flex-start", gap:"115px"}} >
-                <div>
+            <div data-aos="fade-up" style={{height: "462px", display: "flex", flexDirection: "row", alignItems: "flex-start", gap:"115px", padding: "20px 56px"}} >
                 <p className="aksi">Kisah Inspirasi</p>
-                <p className="text1-aksi size-text ">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
-                <p className="text2-aksi size-text">Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah dasar (7 - 12 tahun) yang tidak memperoleh kesempatan menikmati pendidikan formal...</p>
-                </div>
-                <div>
-                    <img style={{width: "489px", height: "350px", marginTop:"65px"}} src={Foto} alt="foto" />
+                <div className="aksikishpir">
+                    <div className="aksikishpirdetail">
+                        <p className="text1-aksi size-text ">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
+                        <p className="text2-aksi size-text">Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah dasar (7 - 12 tahun) yang tidak memperoleh kesempatan menikmati pendidikan formal...</p>
+                    </div>
+                    <img style={{width: "489px", height: "350px"}} src={Foto} alt="foto" />
                 </div>
             </div>
         {/* KisahInspirasi */}

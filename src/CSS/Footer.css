@@ -184,6 +184,7 @@
 @media(max-width:  768px){
     .lingkaranfooter{
         bottom: 0px;
+        display:    none;
     }
     .position-halo{
         height: auto;
@@ -211,6 +212,7 @@
     .menu{
         width: 60%;
     }
+    
 }
 
 @media (max-width: 900px){

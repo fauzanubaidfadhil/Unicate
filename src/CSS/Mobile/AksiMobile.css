@@ -1,0 +1,81 @@
+@media(max-width: 768px){
+    .aksikishpir{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .kishpircon2{
+        height: auto;
+    }
+    .aksi{
+        width: 40%;
+        font-size: 24px;
+    }
+    .text1-aksi-size-text{
+        width: 80%;
+        height: auto;
+        font-size: 20px;
+    }
+    .text2-aksi-size-text{
+        font-size: 16px;
+    }
+    .aksikishpirdetail{
+        width: 100%;
+    }
+    .bagian-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+        padding: 20px 56px;
+    }
+    .text-ku{
+        font-size:22px;
+        width: 100%;
+    }
+    .text2-ku{
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+    }
+    .button-aksi-link{
+        align-items: center;
+        font-family: 'Poppins' serif;
+        font-weight: 600;
+        font-size: 12px;
+        color: #FFFFFF;
+        background: #009EFF;
+        border-radius: 12px;
+        border: none;
+        width: 164px;
+        height: 30px;
+    }
+    .content{
+        display: flex;
+        gap: 10px;
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .content2bottom{
+        margin-left: 6%;
+    }
+    .panah{
+        transform: matrix(0.99, 0.12, 0.12, -0.99, 0, 0);
+        margin-left: 380px;
+        margin-top: 300px;
+
+    }
+    .fotokish{
+        width: 80%;
+    }
+    .gambartopaksi{
+        width: 100%;
+        height: 600px;
+    }
+    .pembungkus-content{
+        height: 600px;
+    }
+}
