@@ -8,7 +8,7 @@ import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import "../CSS/Footer.css";
 import React from "react";
-import {ABOUTUS, HOME, DONASI, PRIVACYPOLICY, TERMS_AND_CONDITION} from '../router'
+import {ABOUTUS, HOME, DONASI, PRIVACYPOLICY, TERMS_AND_CONDITION, ARTIKEL, KOMUNITAS, AKSI, FAQ} from '../router'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -32,27 +32,27 @@ const Footer = () => {
                 anak kurang mampu di Indonesia.
               </p>
             </div>
-            <div style={{marginLeft:"10%"}} className="menu">
+            <div  className="menu">
               <h1 className="textmenu">Our Service</h1>
-              <Link className="link" to={HOME}><li>Beranda</li></Link>
-              <li>Artikel</li>
-              <li>Komunitas</li>
-              <li>Aksi</li>
+              <Link className="link" to={HOME}><li className="foot">Beranda</li></Link>
+              <Link className="link" to={ARTIKEL}><li className="foot">Artikel</li></Link>
+              <Link className="link" to={KOMUNITAS}><li className="foot">Komunitas</li></Link>
+              <Link className="link" to={AKSI}><li className="foot">Aksi</li></Link>
             </div>
             <div className="menu">
               <h1 className="textmenu">Organization</h1>
-              <li>Contact Us</li>
-              <Link className="link" to={ABOUTUS}><li>About Us</li></Link>
+              <li className="foot">Contact Us</li>
+              <Link className="link" to={ABOUTUS}><li className="foot">About Us</li></Link>
               <Link className="link" to={TERMS_AND_CONDITION}>
-                <li>Terms & Conditions</li>
+                <li className="foot">Terms & Conditions</li>
               </Link>
-              <li>FAQ</li>
+              <Link className="link" to={FAQ}><li className="foot">FAQ</li></Link>
               <Link className="link" to={PRIVACYPOLICY}>
-                <li>Privacy Policy</li>
+                <li className="foot">Privacy Policy</li>
               </Link>
             </div>
             <div className="posisineedhelp">
-                <h2 className="textneed">Need Help? Contact Person</h2>
+                <h2 className="textneed">Need Help?<br></br>Contact Person</h2>
                 <div className="detailhelp">
                   <HiLocationMarker />
                   Bekasi, Medan, Kudus
@@ -78,13 +78,12 @@ const Footer = () => {
               <div
                 style={{
                   borderTop: "solid",
-                  width: "80%",
+                  width: "100%",
                   height: "4px",
-                  position:"absolute",
                 }}
               />
               <div className="menubottom">
-                <p className="textcopyright">Copyright @ 2022 unicate. All Right Reserved</p>
+                <div className="textcopyright">Copyright @ 2022 unicate. All Right Reserved</div>
                 <div className="posisiiconsosmedfooter">
                   <FiFacebook />
                   <FiTwitter />

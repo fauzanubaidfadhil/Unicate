@@ -33,7 +33,7 @@ import "../CSS/Dekstop/DekstopMain.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-
+import "../CSS/Mobile/MainMobile.css";
 const Main = () => {
   useEffect(() => {
     AOS.init({
@@ -83,8 +83,11 @@ const Main = () => {
 
       {/* Our Mission */}
       <div className="positioncontent2">
+        <div className = "positioncontent2left">
         <img data-aos="fade-right" className="img-konten2" src={image5} alt="image5" />
         <img className="segitiga" src={segitiga} alt="segitiga" />
+        </div>
+        <div className="positioncontent2right">
         <h1 data-aos="fade-down" className="textourmission">Our Mission</h1>
         <p data-aos="zoom-in-down" className="paragraphkonten2">
           Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
@@ -98,12 +101,17 @@ const Main = () => {
           melalui platform ini, serta bekerja sama dengan mitra situs
           penggalangan dana untuk menjaga transparansi donasi yang Anda berikan.
         </p>
+        <div className="corp">
         <h4 className="textcorporate">Corporate with:</h4>
         <div  className="posisiiconcorporate">
           <img className="logotonoto" src={image6} alt="image6" />
           <img className="logosampoerna" src={image7} alt="image7" />
           <img className="logoinspirasi" src={image8} alt="image8" />
+        </div>
+        <div  className="posisiiconcorporate">
           <img className="logoinfinite" src={infinite} alt="infinite" />
+        </div>
+        </div>
         </div>
       </div>
       {/* Our Mission */}
@@ -111,33 +119,41 @@ const Main = () => {
       {/* Our Services */}
       <div className="positioncontent3">
         <div className="positionourservice">
-          <h1 data-aos="fade-right" className="textourservice">Our Services</h1>
-          <h1 data-aos="fade-right" className="textwhypeople">Why People Chooise Our Services</h1>
-          <p className="textkonten3">
-            Kami bekerja secara jujur dan berintegritas dalam memperjuangan hak
-            pendidikan setiap anak Indonesia
-          </p>
+          <div className="positionourservicedetail">
+            <div className="positionourservicedetailleft">
+              <h1 data-aos="fade-right" className="textourservice">Our Services</h1>
+              <h1 data-aos="fade-right" className="textwhypeople">Why People Chooise Our Services</h1>
+            </div>
+            <div className="positionourservicedetailright">
+              <p className="textkonten3">
+                Kami bekerja secara jujur dan berintegritas dalam memperjuangan hak
+                pendidikan setiap anak Indonesia
+              </p>
+            </div>
+          </div>
           {/* card */}
-          <div data-aos="flip-left" className="card1 card">
-            <img className="imgcard" src={image9} alt="image9" />
-            <h3 className="textcard textcardjudul">Komunitas</h3>
-            <p className="textcard kontencard">
-              Berperan dalam turun ke lapangan untuk membantu anak anak kecil.
-            </p>
-          </div>
-          <div data-aos="flip-up" className="card2 card">
-            <img className="imgcard" src={image10} alt="image10" />
-            <h3 className="textcard textcardjudul">Donasi</h3>
-            <p className="textcard kontencard">
-              Ikut andil dalam membantu gerakan mendukung pendidikan Indonesia.
-            </p>
-          </div>
-          <div data-aos="flip-right" className="card3 card">
-            <img className="imgcard" src={image11} alt="image11" />
-            <h3 className="textcard textcardjudul">Inspiratif</h3>
-            <p className="textcard kontencard">
-              Kisah-kisah dari para anak-anak maupun volunter yang ikut andil.
-            </p>
+          <div className="cardcontent">
+            <div data-aos="flip-left" className="card1 card">
+              <img className="imgcard" src={image9} alt="image9" />
+              <h3 className="textcard textcardjudul">Komunitas</h3>
+              <p className="textcard kontencard">
+                Berperan dalam turun ke lapangan untuk membantu anak anak kecil.
+              </p>
+            </div>
+            <div data-aos="flip-up" className="card2 card">
+              <img className="imgcard" src={image10} alt="image10" />
+              <h3 className="textcard textcardjudul">Donasi</h3>
+              <p className="textcard kontencard">
+                Ikut andil dalam membantu gerakan mendukung pendidikan Indonesia.
+              </p>
+            </div>
+            <div data-aos="flip-right" className="card3 card">
+              <img className="imgcard" src={image11} alt="image11" />
+              <h3 className="textcard textcardjudul">Inspiratif</h3>
+              <p className="textcard kontencard">
+                Kisah-kisah dari para anak-anak maupun volunter yang ikut andil.
+              </p>
+            </div>
           </div>
           {/* card */}
         </div>
@@ -146,89 +162,98 @@ const Main = () => {
 
       {/* Berita */}
       <div className="positioncontent4">
-        <h1 className="textberita">Berita Terbaru</h1>
-        <p className="textlihat">Lihat selengkapnya</p>
+        <div className="positioncontent4top">
+          <div className="textberita">Berita Terbaru</div>
+          <p className="textlihat">Lihat selengkapnya</p>
+        </div>
+        
         <img
           data-aos="zoom-in"
           className="segitigakotak"
           src={segitigakotak}
           alt="segitigakotak"
         />
-        <div className="posisiimgartikel1">
-          <img data-aos="zoom-in" className="imgartikel1 transisi" src={image12} alt="image12" />
-        </div>
-        <h3 className="textjatim">JATIM</h3>
-        <h1 className="textmelalui">
-          Melalui 'Jaketku' Ribuan Anak Putus Sekolah di Gresik Bisa Dapat
-          Ijazah
-        </h1>
-        <p className="textpemkab">
-          Pemkab Gresik menggagas sebuah program yang dapat membantu anak putus
-          sekolah untuk bisa menyelesaikan pendidikannya.
-        </p>
-        <div className="posisiartikel2">
-          <div
-            style={{
-              height: "218px",
-              width: "273px",
-              borderRadius: "30px",
-              overflow: "hidden",
-            }}
-          >
-            <img data-aos="zoom-in" className="imgartikel2 transisi" src={image13} alt="image13" />
+        <div className="positioncontent4mainberita">
+          <div className="posisiimgartikel1">
+            <img data-aos="zoom-in" className="imgartikel1 transisi" src={image12} alt="image12" />
           </div>
-          <p className="textberi posisiteksartikel">
-            Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-            Resmikan Sekolah Virtual
-          </p>
-        </div>
-        <div className="posisiartikel3">
-          <div 
-            style={{
-              height: "218px",
-              width: "273px",
-              borderRadius: "30px",
-              overflow: "hidden",
-            }}
-          >
-            <img data-aos="zoom-in" className="imgartikel2 transisi" src={image14} alt="image14" />
+          <div className="positioncontent4detailmainberita">
+            <div className="textjatim">JATIM</div>
+            <div className="textmelalui">
+              Melalui 'Jaketku' Ribuan Anak Putus Sekolah di Gresik Bisa Dapat
+              Ijazah
+            </div>
+            <p className="textpemkab">
+              Pemkab Gresik menggagas sebuah program yang dapat membantu anak putus
+              sekolah untuk bisa menyelesaikan pendidikannya.
+            </p>
           </div>
-          <p className="textberi posisiteksartikel">
-            Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-            Resmikan Sekolah Virtual
-          </p>
         </div>
-        <div className="posisiartikel4">
-          <div 
-            style={{
-              height: "218px",
-              width: "273px",
-              borderRadius: "30px",
-              overflow: "hidden",
-            }}
-          >
-            <img data-aos="zoom-in" className="imgartikel2 transisi" src={image15} alt="image15" />
+        <div className="positioncontent4subberita">
+          <div className="posisiartikel2">
+            <div
+              style={{
+                height: "218px",
+                width: "273px",
+                borderRadius: "30px",
+                overflow: "hidden",
+              }}
+            >
+              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image13} alt="image13" />
+            </div>
+            <p className="textberi posisiteksartikel">
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
+              Resmikan Sekolah Virtual
+            </p>
           </div>
-          <p className="textberi posisiteksartikel">
-            Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-            Resmikan Sekolah Virtual
-          </p>
-        </div>
-        <div className="posisiartikel5">
-          <div 
-            style={{
-              height: "218px",
-              width: "273px",
-              borderRadius: "30px",
-              overflow: "hidden",
-            }}
-          >
-            <img data-aos="zoom-in" className="imgartikel2 transisi" src={image16} alt="image16" />
+          <div className="posisiartikel3">
+            <div 
+              style={{
+                height: "218px",
+                width: "273px",
+                borderRadius: "30px",
+                overflow: "hidden",
+              }}
+            >
+              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image14} alt="image14" />
+            </div>
+            <p className="textberi posisiteksartikel">
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
+              Resmikan Sekolah Virtual
+            </p>
           </div>
-          <p className="textberi posisiteksartikel">
-            Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-            karena Resmikan Sekolah Virtual
-          </p>
+          <div className="posisiartikel4">
+            <div 
+              style={{
+                height: "218px",
+                width: "273px",
+                borderRadius: "30px",
+                overflow: "hidden",
+              }}
+            >
+              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image15} alt="image15" />
+            </div>
+            <p className="textberi posisiteksartikel">
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
+              Resmikan Sekolah Virtual
+            </p>
+          </div>
+          <div className="posisiartikel5">
+            <div 
+              style={{
+                height: "218px",
+                width: "273px",
+                borderRadius: "30px",
+                overflow: "hidden",
+              }}
+            >
+              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image16} alt="image16" />
+            </div>
+            <p className="textberi posisiteksartikel">
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
+              karena Resmikan Sekolah Virtual
+            </p>
+          </div>
         </div>
       </div>
       {/* Berita */}

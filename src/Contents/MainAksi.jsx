@@ -29,7 +29,7 @@ const MainAksi =() => {
                     <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
                     <p className="text2-ku">Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan. Satu rupiah dari anda sangat berharga untuk mereka</p>
                     <Link to={DONASI}>
-                          <button className="button-aksi link">Mulai berdonasi sekarang</button>
+                          <button className="button-aksi-link">Mulai berdonasi sekarang</button>
                     </Link>
                   
                     

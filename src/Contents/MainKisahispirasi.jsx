@@ -13,14 +13,14 @@ const MainKisahinspirasi = () => {
   return (
     <>
       <div>
-        <ul>
+      <ul>
           <li className="text-home"> home</li>
-          <li> . </li>
-          <li>Aksi</li>
-          <li> . </li>
-          <li> Kisah Inspirasi </li>
-          <li> . </li>
-          <li> Kekuatan Impian Anak-anak Pelosok Negeri </li>
+          <li className="kishpir"> . </li>
+          <li className="kishpir">Aksi</li>
+          <li className="kishpir"> . </li>
+          <li className="kishpir"> Kisah Inspirasi </li>
+          <li className="kishpir"> . </li>
+          <li className="kishpir"> Kekuatan Impian Anak-anak Pelosok Negeri </li>
         </ul>
       </div>
       <div className="judul">

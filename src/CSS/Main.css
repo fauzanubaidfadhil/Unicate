@@ -93,14 +93,16 @@
 }
 
 .positioncontent2 {
-    height: 728px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 56px;
 }
 
 .img-konten2 {
     width: 527px;
     height: 561.23px;
-    position: absolute;
-    left: 5%;
 }
 
 .segitiga {
@@ -109,15 +111,20 @@
     margin-top: 80px;
 }
 
+.positioncontent2right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
 .textourmission {
-    margin-left: 53%;
-    margin-top: 99px;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 149.5%;
     border-bottom: solid;
-    width: 158px;
+    width: 40%;
     font-family: 'poppins';
 }
 
@@ -129,57 +136,43 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 149.5%;
-    margin-left: 53%;
     text-align: justify;
 }
-
+.corp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .textcorporate {
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.5%;
-    text-align: right;
-    margin-right: 23%;
-    margin-top: 44px;
 }
 
 .posisiiconcorporate {
-    width: 622px;
-    height: 256.1px;
-    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
 }
 
 .logotonoto {
     width: 105px;
     height: 105px;
-    position: absolute;
-    margin-left:10px;
-    margin-top: 1%;
 }
 
 .logosampoerna {
     width: 151px;
     height: 35px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 4.5%;
 }
 
 .logoinspirasi {
-    width: 236px;
-    height: 146.1px;
-    position: absolute;
-    margin-left: 350px;
-    margin-top: 0%;
 }
 
 .logoinfinite {
     width: 242.5px;
     height: 90px;
-    position: absolute;
-    margin-left: 180px;
-    margin-top: 11%;
 }
 
 .positioncontent3 {
@@ -193,11 +186,24 @@
     background-color: #0076BF;
 }
 
+.positionourservicedetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 160px;
+    gap: 60px;
+}
+.positionourservicedetailleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
 .textourservice {
     color: white;
-    margin-left: 190px;
     border-bottom: solid;
-    width: 125px;
+    width: 40%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -213,15 +219,12 @@
     line-height: 149.5%;
     width: 459px;
     height: 108px;
-    margin-left: 190px;
     color: white;
 }
 
 .textkonten3 {
     width: 553px;
     height: 48px;
-    margin-left: 649px;
-    margin-top: -135px;
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
@@ -242,9 +245,6 @@
 }
 
 .card1 {
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 5%;
 }
 
 .imgcard {
@@ -260,17 +260,19 @@
 }
 
 .card2 {
-   position: absolute;
-   margin-top: 5%;
-   margin-left: 38%;
 }
 
 .card3 {
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 70%; 
 }
 
+.cardcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 140px;
+    gap: 60px;
+}
 .textcard {
     text-align: center;
 }
@@ -292,9 +294,15 @@
 }
 
 .positioncontent4 {
-    height: 971.4px;
+    height: auto;
 }
 
+.positioncontent4top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 56px;
+    align-items: center;
+}
 .textberita {
     font-family: 'Poppins';
     font-style: normal;
@@ -302,30 +310,44 @@
     font-size: 28px;
     line-height: 149.5%;
     border-bottom: solid;
-    width: 183px;
-    margin-left: 5%;
+    width: 16%;
 }
 
 .textlihat {
-    text-align: right;
-    margin-top: -4%;
-    margin-right: 5%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 149.5%;
 }
-
+.positioncontent4mainberita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 56px;
+    gap: 20px;
+}
+.positioncontent4detailmainberita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 60%;
+}
+.positioncontent4subberita{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 56px;
+    gap: 34px;
+}
 .posisiimgartikel1 {
     border-style: solid;
     width: 473.75px;
     height: 375px;
-    margin-left: 3%;
-    margin-top: 26px;
     border-radius: 30px;
     overflow: hidden;
-    position: absolute;
     border-color: transparent;
 }
 
@@ -343,8 +365,6 @@
     font-size: 20px;
     line-height: 149.5%;
     color: #EA5900;
-    margin-left: 549px;
-    margin-top: 106px;
 }
 
 .textmelalui {
@@ -353,10 +373,7 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 149.5%;
-    width: 555px;
-    height: 96px;
-    margin-left: 549px;
-    margin-top: 8px;
+    width: 85%;
 }
 
 .textpemkab {
@@ -367,16 +384,11 @@
     line-height: 149.5%;
     width: 425px;
     height: 72px;
-    margin-left: 549px;
-    margin-top: 8px;
 }
 
 .posisiartikel2 {
     width: 273px;
     height: 414.4px;
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 93px;
 }
 
 .imgartikel2 {
@@ -404,25 +416,16 @@
 .posisiartikel3 {
     width: 273px;
     height: 414.4px;
-    position: absolute;
-    margin-left: 26%;
-    margin-top: 93px;
 }
 
 .posisiartikel4 {
     width: 273px;
     height: 414.4px;
-    position: absolute;
-    margin-left: 51%;
-    margin-top: 93px;
 }
 
 .posisiartikel5 {
     width: 273px;
     height: 414.4px;
-    position: absolute;
-    margin-left: 75%;
-    margin-top: 93px;
 }
 
 /* transisi */
@@ -456,8 +459,7 @@
     line-height: 149.5%;
     width: 570px;
     height: 54px;
-    margin-left: 87px;
-    margin-top: 80px;
+    margin-left: 56px;
 }
 
 .imgpetaindonesia {

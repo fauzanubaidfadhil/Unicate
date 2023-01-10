@@ -3,24 +3,32 @@
     border-bottom: 1px solid;
     border-color: transparent;
     box-shadow: 0 7px 8px 0 rgba(0,0,0,0.05);
-    background-color: white;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 56px;
+}
+.menuheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+.buttonloginlogout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
 .logo {
-    position: absolute;
     width: 160px;
     height: 56.05px;
-    left: 40px;
-    top: 0px;
 }
 
 .position-menu-navbar {
     display: flex;
     height: 50px;
-    position: absolute;
-    left: 30%;
-    top: 10px;
 }
 
 .styling-menu-navbar {
@@ -31,9 +39,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 149.5%;
-    color: black;
 }
 
+.mobileview{
+    display: none;
+}
 .button-masuk {
     display: flex;
     flex-direction: row;
@@ -60,10 +70,6 @@
     order: 0;
     flex-grow: 0;
 
-    position: absolute;
-    left: 80%;
-    top: 20px;
-    cursor: pointer;
     }
 
 .button-daftar {
@@ -78,7 +84,7 @@
     height: 39px;
     
     background: white;
-    border: 3px solid #009EFF;
+    border: 1px solid #009EFF;
     border-radius: 16px;
     
     color: black;
@@ -92,28 +98,15 @@
     order: 0;
     flex-grow: 0;
 
-    position: absolute;
-    left: 88.5%;
-    top: 20px;
-    cursor: pointer;
 }
 
 .position-icon-notif {
     justify-content: right;
-    margin-left: 200px;
-    margin-top: 13px;
 }
 
 .img-profil {
-    margin-right: 15px;
-    margin-top: -5px;
     width: 35px;
     height: 35px;
-}
-
-.dropdownnavprofil:hover {
-    background: rgba(0, 158, 255, 0.3);
-    border-style: none;
 }
 
 /* Animasi left right*/
@@ -137,6 +130,255 @@
     color: #009EFF;
   }
 
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.linknav{
+    color: black;
+}
+
+@media (max-width: 1116px) {
+    
+    .button-masuk {
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 10px;
+    
+    width: 89px;
+    height: 40px;
+    
+    background: #009EFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    position: absolute;
+    left: 79%;
+    top: 20px;
+    }
+    
+    .button-daftar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 2px;
+        gap: 10px;
+        
+        width: 88px;
+        height: 39px;
+        
+        background: white;
+        border: 1px solid #009EFF;
+        border-radius: 16px;
+        
+        color: black;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 149.5%;
+        
+        box-sizing: border-box;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+        position: absolute;
+        left: 88.5%;
+        top: 20px;
+    }
+    }
+    
+    @media (max-width: 1023px) {
+        .button-masuk {
+            display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 2px;
+        gap: 10px;
+        
+        width: 69px;
+        height: 30px;
+        
+        background: #009EFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 16px;
+        
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 149.5%;
+        
+        box-sizing: border-box;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+        position: absolute;
+        left: 81%;
+        top: 20px;
+        }
+        
+        .button-daftar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 2px;
+            gap: 10px;
+            
+            width: 68px;
+            height: 29px;
+            
+            background: white;
+            border: 1px solid #009EFF;
+            border-radius: 16px;
+            
+            color: black;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 149.5%;
+            
+            box-sizing: border-box;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        
+            position: absolute;
+            left: 88.5%;
+            top: 20px;
+        }
+    }
+    
+    @media (max-width: 986px) {
+        .button-masuk {
+            display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 2px;
+        gap: 10px;
+        
+        width: 69px;
+        height: 30px;
+        
+        background: #009EFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 16px;
+        
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 149.5%;
+        
+        box-sizing: border-box;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+        position: absolute;
+        left: 88.3%;
+        top: 3px;
+        }
+        
+        .button-daftar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 2px;
+            gap: 10px;
+            
+            width: 68px;
+            height: 29px;
+            
+            background: white;
+            border: 1px solid #009EFF;
+            border-radius: 16px;
+            
+            color: black;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 149.5%;
+            
+            box-sizing: border-box;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        
+            position: absolute;
+            left: 88.5%;
+            top: 35px;
+        }
+    }
+    
+    @media (max-width: 865px) {
+        .styling-menu-navbar {
+            list-style-type: none;
+            padding: 0px;
+            margin: 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 149.5%;
+        }
+    }
+    
+    @media (max-width: 802px) {
+        .styling-menu-navbar {
+            list-style-type: none;
+            padding: 0px;
+            margin: 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 149.5%;
+        }
+    
+        .position-menu-navbar {
+            display: flex;
+            height: 50px;
+            position: absolute;
+            left: 25%;
+            top: -5px;
+        }
+    }
+    
+    
+    
+    @media only Screen and (max-width: 768px) {
+        .menuheader {
+        display: none;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 420px;
+            max-width: auto;
+        }
+    }
   /* dropdown responsive */
 
 

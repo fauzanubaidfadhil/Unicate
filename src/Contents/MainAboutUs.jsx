@@ -112,7 +112,7 @@ const DetailNameTeam = styled.div`
 `;
 
 const LatarBelakang = styled.div`
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -192,7 +192,7 @@ const BioDetail = styled.div`
 `;
 
 const Nama = styled.div`
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -205,7 +205,7 @@ const Nama = styled.div`
 `;
 
 const Job = styled.div`
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -223,7 +223,7 @@ const Socmed = styled.div`
     padding: 0px;
     gap: 4px;
     a{
-        font-family: 'Poppins';
+        font-family: 'Calibri', 'Helvetica Neue';
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -263,7 +263,7 @@ const DetailContact = styled.div`
     margin: auto;
     @media (max-width: 768px) {
         gap: 80px;
-        
+        align-items: flex-end;
     }
     @media (max-width: 425px) {
         display: flex;
@@ -288,7 +288,7 @@ const DetailCP = styled.div`
 `;
 
 const Help = styled.div`
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -310,10 +310,11 @@ const DoContact = styled.div`
     align-items: center;
     padding: 0px;
     gap: 20px;
-    @media(max-width: 425px){
+    @media(max-width: 768px){
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
     }
 `;
 
@@ -338,13 +339,13 @@ const Button = styled.button`
 `;
 
 const Call = styled.div`
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 149.5%;
-    @media (max-width: 725px){
-        font-size: 10px;
+    @media (max-width: 768px){
+        font-size: 14px;
 
     }
 `;

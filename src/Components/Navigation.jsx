@@ -4,50 +4,54 @@ import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
 import { MASUK, KOMUNITAS, ARTIKEL, HOME, AKSI, DAFTAR, } from "../router";
 import "../CSS/Navigation.css";
-import React from "react";
+import React, { useState } from 'react';
+
+import Burger from './HamburgerMenu';
+import MobileNav from './MobileView'
 
 const Navigation = () => {
+  const [open, setOpen] = useState(false);
   return (
     <>
       {/* <Headroom> */}
-      <div className="navbar">
-        <Navbar bg="transparant">
-          <Container>
+        <Navbar classname="navbar" bg="transparant">
             <Navbar.Brand href="#home">
               <img className="logo" src={logo} alt="logo" />
             </Navbar.Brand>
-          </Container>
-        </Navbar>
-        <ul className=" position-menu-navbar">
-          <Link to={HOME}>
-            <li className="styling-menu-navbar animasi-left-right">Beranda</li>
-          </Link>
-          <Link to={KOMUNITAS}>
+          <div className="menuheader">
+          <div className="mainmenu">
+            <Link className="linknav" to={HOME}>
+              <li className="styling-menu-navbar animasi-left-right">Beranda</li>
+            </Link>
+            <Link className="linknav" to={KOMUNITAS}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Komunitas
+              </li>
+            </Link>
+            <Link className="linknav" to={ARTIKEL}>
+                <li className="styling-menu-navbar animasi-left-right">Artikel</li>
+            </Link>
+            <Link className="linknav" to={AKSI}>
+              <li className="styling-menu-navbar animasi-left-right">Aksi</li>
+            </Link>
             <li className="styling-menu-navbar animasi-left-right">
-              Komunitas
+              Tentang Kami
             </li>
+          </div>
+          <div className="buttonloginlogout">
+          <Link to={MASUK}>
+            <button type="button" className="button-masuk">
+              Masuk
+            </button>
           </Link>
-          <Link to={ARTIKEL}>
-              <li className="styling-menu-navbar animasi-left-right">Artikel</li>
+          <Link to={DAFTAR}>
+            <button type="button" className="button-daftar">
+              Daftar
+            </button>
           </Link>
-          <Link to={AKSI}>
-            <li className="styling-menu-navbar animasi-left-right">Aksi</li>
-          </Link>
-          <li className="styling-menu-navbar animasi-left-right">
-            Tentang Kami
-          </li>
-        </ul>
-        <Link to={MASUK}>
-          <button type="button" className="button-masuk">
-            Masuk
-          </button>
-        </Link>
-        <Link to={DAFTAR}>
-          <button type="button" className="button-daftar">
-            Daftar
-          </button>
-        </Link>
-      </div>
+          </div>
+          </div>
+        </Navbar>
       {/* </Headroom> */}
     </>
   );

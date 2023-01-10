@@ -1,0 +1,52 @@
+@media(max-width: 768px){
+    .positioncontent2{
+        display: flex;
+        flex-direction: column;
+    }
+    .positioncontent4subberita{
+        display: flex;
+        flex-direction: column;
+    }
+    .positioncontent4mainberita{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .positionourservicedetail{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 56px;
+        gap: 20px;
+    }
+    .cardcontent{
+        display: flex;
+        flex-direction: column;
+        padding-left: 56px;
+        align-items: flex-start; 
+    }
+    .positioncontent3{
+        height: auto;
+        height:1625px;
+    }
+    .position-textlabel{
+        width: 100%;
+    }
+    .imgpetaindonesia{
+        width: 100%;
+    }
+    .position-carousel{
+        margin-top: 200px;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        border-radius: 20px;
+    }
+    .img-konten1{
+        width: 100%;
+    }
+    .textlabel{
+        font-size: 12px;
+        margin-right: 60px;
+    }
+}

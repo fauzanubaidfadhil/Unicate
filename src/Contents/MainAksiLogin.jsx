@@ -38,7 +38,7 @@ const MainAksiLogin = () => {
                     <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
                     <p className="text2-ku">Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan. Satu rupiah dari anda sangat berharga untuk mereka</p>
                    <Link to={DONASILOGIN}>
-                      <button className="button-aksi link">Mulai berdonasi sekarang</button>
+                      <button className="button-aksi-link">Mulai berdonasi sekarang</button>
                    </Link>
                     <p className="text3">Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!</p>
                     
