@@ -11,7 +11,7 @@ import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
 import AC2 from "../Assets/AC2.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {MdNavigateNext} from "react-icons/md"
 // import Ava from "../Assets/Avacarousel.png";
 

@@ -1,16 +1,23 @@
-import { Container, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 // import Headroom from "react-headroom";
-import { MASUK, KOMUNITAS, ARTIKEL, HOME, AKSI, DAFTAR } from "../router";
+import {
+  MASUK,
+  KOMUNITAS,
+  HOME,
+  AKSI,
+  DAFTAR,
+  ABOUTUS,
+} from "../router";
 import "../CSS/Navigation.css";
-import React, { useState } from "react";
+import React from "react";
 
-import Burger from "./HamburgerMenu";
-import MobileNav from "./MobileView";
+// import Burger from "./HamburgerMenu";
+// import MobileNav from "./MobileView";
 
 const Navigation = () => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   return (
     <>
       {/* <Headroom> */}
@@ -20,27 +27,29 @@ const Navigation = () => {
         </Navbar.Brand>
         <div className="menuheader">
           <div className="mainmenu">
-            <Link className="linknav" to={HOME}>
+            <Link style={{ color: "black" }} className="linknav" to={HOME}>
               <li className="styling-menu-navbar animasi-left-right">
                 Beranda
               </li>
             </Link>
-            <Link className="linknav" to={KOMUNITAS}>
+            <Link style={{ color: "black" }} className="linknav" to={KOMUNITAS}>
               <li className="styling-menu-navbar animasi-left-right">
                 Komunitas
               </li>
             </Link>
-            <Link className="linknav" to={ARTIKEL}>
               <li className="styling-menu-navbar animasi-left-right">
                 Artikel
               </li>
-            </Link>
-            <Link className="linknav" to={AKSI}>
+            {/* <Link style={{ color: "black" }} className="linknav" to={ARTIKEL}>
+            </Link> */}
+            <Link style={{ color: "black" }} className="linknav" to={AKSI}>
               <li className="styling-menu-navbar animasi-left-right">Aksi</li>
             </Link>
-            <li className="styling-menu-navbar animasi-left-right">
-              Tentang Kami
-            </li>
+            <Link style={{ color: "black" }} to={ABOUTUS}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Tentang Kami
+              </li>
+            </Link>
           </div>
           <div className="buttonloginlogout">
             <Link style={{ textDecoration: "none" }} to={MASUK}>

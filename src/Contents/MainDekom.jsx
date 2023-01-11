@@ -31,7 +31,7 @@ const MainDekom = () => {
             <p className='kegiatancuy'>Kegiatan</p>
             <ul style={{borderStyle:'solid', height:'50px', width:'500px',
                         borderColor:'#009EFF', backgroundColor:'#009EFF',
-                        textAlign:'center', listStyle:'none', height: '40px',
+                        textAlign:'center', listStyle:'none', 
                         display:'flex', marginLeft:'570px', marginTop:'-15px'}}>
                 <li className='icondekom'><FcCalendar size={30}/></li>
                 <li className='tgldekom'>16 Juli 2022</li>
@@ -40,7 +40,7 @@ const MainDekom = () => {
             </ul>
             <ul style={{borderStyle:'solid', height:'50px', width:'500px',
                         borderColor:'#009EFF', backgroundColor:'#009EFF',
-                        textAlign:'center', listStyle:'none', height: '40px',
+                        textAlign:'center', listStyle:'none', 
                         display:'flex', marginLeft:'570px', marginTop:'0px'}}>
                 <li className='icondekom'><FcCalendar size={30}/></li>
                 <li className='tgldekom'>17 September 2022</li>

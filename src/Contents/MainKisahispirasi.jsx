@@ -4,8 +4,8 @@ import image4 from "../Assets/bulatbiru.png";
 import image5 from "../Assets/bulathijau.png";
 import image6 from "../Assets/segitiga1.png";
 import image7 from "../Assets/segitiga2.png";
-import image8 from "../Assets/segitiga3.png";
-import image9 from "../Assets/segitiga4.png";
+// import image8 from "../Assets/segitiga3.png";
+// import image9 from "../Assets/segitiga4.png";
 import "../CSS/Kisahinspirasi.css";
 import "../CSS/Mobile/KisahInspirasiMobile.css"
 import {MdNavigateNext} from "react-icons/md"

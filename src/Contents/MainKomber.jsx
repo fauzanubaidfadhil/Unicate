@@ -1,12 +1,12 @@
 import image1 from "../Assets/fotosd1.png";
 import image2 from "../Assets/logoinmengajar.png";
 import image3 from "../Assets/gambarmember.png";
-import image6 from "../Assets/fotokomentar.png";
+// import image6 from "../Assets/fotokomentar.png";
 import { DEKOM } from "../router";
 import { Link } from "react-router-dom";
 import { MdOutlineLinkedCamera } from "react-icons/md";
-import { AiOutlineLike } from "react-icons/ai";
-import { HiOutlineShare } from "react-icons/hi";
+// import { AiOutlineLike } from "react-icons/ai";
+// import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
 import Footer from "../Components/Footer";
 

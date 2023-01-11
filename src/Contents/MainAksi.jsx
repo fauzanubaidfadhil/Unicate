@@ -79,7 +79,7 @@ const MainAksi =() => {
 
         {/* card */}
         <div className="bagian-card">
-            <div className="shadow">
+            <div data-aos="flip-left" className="shadow">
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
@@ -94,7 +94,7 @@ const MainAksi =() => {
                 </div>
             </div>
 
-            <div className="shadow">
+            <div data-aos="flip-up" className="shadow">
                 <div className="card-2" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
@@ -108,7 +108,7 @@ const MainAksi =() => {
                 </div>
             </div>
 
-            <div className="shadow">
+            <div data-aos="flip-right" className="shadow">
                 <div className="card-3" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">

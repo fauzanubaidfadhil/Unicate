@@ -115,8 +115,6 @@
     line-height: 149.5%;
 }
 
-.text80 {
-}
 
 .textanak {
     width: 143px;
@@ -129,8 +127,6 @@
     line-height: 149.5%;
 }
 
-.text90 {
-}
 
 .textkomunitas {
     width: 143px;
@@ -159,6 +155,7 @@
     width: 296px;
     height: 658px;
     border-radius: 8px;
+    margin-top: 30px;
 }
 
 .posisikomunitas1 {
@@ -170,7 +167,7 @@
     align-items: center;
     padding: 0px;
     gap: 28px;
-    margin-left: 18px;
+    margin-left: 10px;
 }
 
 .styletextposisikomunitas {

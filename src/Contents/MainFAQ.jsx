@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import {FiSearch} from 'react-icons/fi'
+// import {FiSearch} from 'react-icons/fi'
 import gambar1 from '../Assets/Ellipse 171.png'
 import gambar2 from '../Assets/Ellipse 172.png'
 import gambar3 from '../Assets/Ellipse 173.png'
 import Faq from "react-faq-component";
-import { IoMdSearch } from 'react-icons/io';
+// import { IoMdSearch } from 'react-icons/io';
 
 const FAQSection = styled.section`
     width: 100%;
@@ -39,9 +39,9 @@ const SubTitle = styled.div`
     display: inline-block;
     color: rgba(0, 0, 0, 0.5);
 `;
-const Field = styled.div`
+// const Field = styled.div`
 
-`;
+// `;
 
 const Search = styled.div`
   padding: .5rem;
@@ -65,14 +65,14 @@ const FAQDetail = styled.div`
     justify-content: center;
 
 `;
-const Ask = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    width: 100%;
-`;
+// const Ask = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     padding: 0px;
+//     gap: 32px;
+//     width: 100%;
+// `;
 const Text = styled.div`
     font-family: 'Poppins';
     font-style: normal;
@@ -85,11 +85,11 @@ const Text = styled.div`
         font-size: 10px;
     }
 `
-const Line = styled.div`
-    width: 100%;
-    height: 2px;
-    background: rgba(0, 0, 0, 0.3);
-`;
+// const Line = styled.div`
+//     width: 100%;
+//     height: 2px;
+//     background: rgba(0, 0, 0, 0.3);
+// `;
 const ContactUs = styled.div`
     display: flex;
     flex-direction: column;

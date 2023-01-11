@@ -107,6 +107,7 @@ useEffect(() => {
                   fontWeight: "500",
                   fontSize: "20px",
                   lineHeight: "149.5%",
+                  margin:"20px",
                 }}
               >
                 Komunitas Terbaru
