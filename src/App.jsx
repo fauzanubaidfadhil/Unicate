@@ -19,7 +19,7 @@ import Masuk from "./Pages/Masuk";
 import DonasiLogin from "./Pages/DonasiLogin";
 import Profile from "./Pages/Profile";
 import Faq from "./Pages/Faq";
-
+import DetailArtikel from "./Pages/DetailArtikel";
 
 function App() {
   return (
@@ -43,7 +43,9 @@ function App() {
           <Route path={MASUK} element={<Masuk />} />
           <Route path={DONASILOGIN} element={<DonasiLogin />} />
           <Route path="/Profile" element={<Profile />} />
+          <Route path="/DetailArtikel" element={<DetailArtikel />} />
           <Route path={FAQ} element={<Faq />} />
+          
         </Routes>
       </BrowserRouter>
     </section>

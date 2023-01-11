@@ -11,6 +11,7 @@ import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
 import AC2 from "../Assets/AC2.png";
+import { Link } from "react-router-dom";
 // import Ava from "../Assets/Avacarousel.png";
 
 // Import Swiper styles
@@ -104,9 +105,10 @@ const MainArtikel = () => {
                 width: "350px",
                 height: "51px",
               }}
-            >
+            ><Link to="/DetailArtikel">
               Keterbatasan ekonomi masih menjadi salah satu alasan banyaknya
               anak-anak tidak bisa melanjutkan......
+            </Link>
             </p>
           </div>
           {/* Artikel 1 */}
