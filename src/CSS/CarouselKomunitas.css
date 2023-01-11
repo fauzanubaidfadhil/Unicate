@@ -25,9 +25,8 @@ body {
 } */
 
 .mySwiper {
-    width: 606px;
+    width: auto;
     height: 832px;
-    margin-top: 2.5%;
 }
 
 .swiper-slide {

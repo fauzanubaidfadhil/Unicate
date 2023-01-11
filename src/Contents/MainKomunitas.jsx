@@ -16,6 +16,7 @@ import { KOMBER } from "../router";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import '../CSS/Mobile/KomunitasMobile.css';
 
 const MainKomunitas = () => {
 useEffect(() => {
@@ -30,7 +31,7 @@ useEffect(() => {
       <section>
         {/* konten 1 */}
         <div>
-          <div
+          <div className="konten1top"
           data-aos="fade-up"
             style={{
               height: "413px",
@@ -42,52 +43,262 @@ useEffect(() => {
               justifyContent: "center",
             }}
           >
-            <h1 className="texttemukan">
-              Temukan Komunitas & Bergabunglah Dalam Gerakan Memajukan
-              Pendidikan Indonesia
-            </h1>
-            <p className="textkami">
-              Kami menyediakan wadah para volunteer dan juga masyarakat yang
-              ingin bergabung bersatu dalam menggalang aksi untuk pendidikan
-              anak Indonesia
-            </p>
+            <div className="konten1title">
+              <h1 className="texttemukan">
+                Temukan Komunitas & Bergabunglah Dalam Gerakan Memajukan
+                Pendidikan Indonesia
+              </h1>
+              <p className="textkami">
+                Kami menyediakan wadah para volunteer dan juga masyarakat yang
+                ingin bergabung bersatu dalam menggalang aksi untuk pendidikan
+                anak Indonesia
+              </p>
+            </div>
             <img className="imgkomunitas1" src={img1} alt="img_komunitas1" />
           </div>
         </div>
         {/* konten komunitas */}
 
         {/* konten 2 komunitas*/}
-        <div className="konten2komuntas"
+        <div className="konten2komunitas"
           style={{
-            height: "687.03px", display:"flex"
+            height: "auto", display:"flex"
           }}
         >
           <img  data-aos="fade-right" className="imgkomunitas2" src={img2} alt="img_komunitas2" />
           <div className="kontenkomunitasdetail" data-aos="fade-left">
-          <p className="textsupport">Support Education</p>
-          <h1 className="textfitur">Fitur Komunitas</h1>
-          <p className="textkamimenyediakan">
-            Kami menyediakan fitur komunitas untuk menggaet para volunteer di
-            Indonesia yang ingin ikut dalam menggerakkan perjuangan maupun
-            membantu anak-anak yang kurang mendapat pendidikan. Selain itu,
-            komunitas juga bisa membuat antar sesama volunteer saling berkenalan
-            dan berinteraksi.
-          </p>
-          <h1 className="text100 style100-80-90 ">100+</h1>
-          <p className="text100 textvolunteer">Volunteer</p>
-          <h1 className="text80 style100-80-90">80k+</h1>
-          <p className="textanak">Anak-anak terbantu</p>
-          <h1 className="text90 style100-80-90">90</h1>
-          <p className="textkomunitas ">Komunitas</p>
+            <div className="kontenkomunitasdetailtitle">
+              <p className="textsupport">Support Education</p>
+              <h1 className="textfitur">Fitur Komunitas</h1>
+            </div>
+            <p className="textkamimenyediakan">
+              Kami menyediakan fitur komunitas untuk menggaet para volunteer di
+              Indonesia yang ingin ikut dalam menggerakkan perjuangan maupun
+              membantu anak-anak yang kurang mendapat pendidikan. Selain itu,
+              komunitas juga bisa membuat antar sesama volunteer saling berkenalan
+              dan berinteraksi.
+            </p>
+            <div className="konten2detailjob">
+              <div className="konten2detailjobleft">
+                <h1 className="text100 style100-80-90 ">100+</h1>
+                <p className="text100 textvolunteer">Volunteer</p>
+                <h1 className="text90 style100-80-90">90</h1>
+                <p className="textkomunitas ">Komunitas</p>
+              </div>
+              <div className="konten2detailjobright">
+                <h1 className="text80 style100-80-90">80k+</h1>
+                <p className="textanak">Anak-anak terbantu</p>
+              </div>
+            </div>
           </div>
         </div>
         {/* kontent 2 komunitas */}
 
         {/* konten 3 komunitas */}
-        <div style={{height:"896px"}} >
+        <div className="konten3komunitas" style={{height:"auto"}} >
+        <div className="posisikomunitasterbaru">
+            <div className="spacekomunitasterbaru">
+              <h3
+                style={{
+                  width: "194px",
+                  height: "30px",
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  fontSize: "20px",
+                  lineHeight: "149.5%",
+                }}
+              >
+                Komunitas Terbaru
+              </h3>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+            </div>
+            <p className="textlihatsemuanya">Lihat Semuanya</p>
+          </div>
+        <div  className="konten3komunitastopmobile">
+          <div className="posisikomunitasterbaru">
+            <div className="spacekomunitasterbaru">
+              <h3
+                style={{
+                  width: "194px",
+                  height: "30px",
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  fontSize: "20px",
+                  lineHeight: "149.5%",
+                }}
+              >
+                Komunitas Terbaru
+              </h3>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={img3}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas">
+                  Bumi Langit <br />
+                  <br /> 50 member 2 post
+                </p>
+              </div>
+            </div>
+            <p className="textlihatsemuanya">Lihat Semuanya</p>
+          </div>
+          <div className="konten3komunitasrightmobile">
           <img className="imgvolunteersneed" src={img4} alt="volunteers_need" />
-          <p className="textmari">Mari Bantu Anak-anak Indonesia</p>
-          <button className="buttondonasisekarang" type="button" >Donasi Sekarang</button>
+            <p className="textmari">Mari Bantu Anak-anak Indonesia</p>
+            <button className="buttondonasisekarang" type="button" >Donasi Sekarang</button>
+          </div>
+        </div>
           <Swiper
             direction={"vertical"}
             slidesPerView={"auto"}
@@ -365,105 +576,11 @@ useEffect(() => {
             </SwiperSlide>
           </Swiper>
           {/* komunitas 6 */}
-          <div className="posisikomunitasterbaru">
-            <div className="spacekomunitasterbaru">
-              <h3
-                style={{
-                  width: "194px",
-                  height: "30px",
-                  marginLeft: "20px",
-                  marginTop: "20px",
-                  fontFamily: "Poppins",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  fontSize: "20px",
-                  lineHeight: "149.5%",
-                }}
-              >
-                Komunitas Terbaru
-              </h3>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                    marginTop: "0",
-                    marginLeft: "20px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                    marginTop: "0",
-                    marginLeft: "20px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                    marginTop: "0",
-                    marginLeft: "20px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                    marginTop: "0",
-                    marginLeft: "20px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                    marginTop: "0",
-                    marginLeft: "20px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-            </div>
-            <p className="textlihatsemuanya">Lihat Semuanya</p>
+          
+          <div className="konten3komunitasright">
+            <img className="imgvolunteersneed" src={img4} alt="volunteers_need" />
+            <p className="textmari">Mari Bantu Anak-anak Indonesia</p>
+            <button className="buttondonasisekarang" type="button" >Donasi Sekarang</button>
           </div>
         </div>
         {/* kontent 3 komunitas */}
