@@ -1,122 +1,121 @@
-.BungkusArtikelcuy{
-    height: 850px;
-}
 
-.Ulnyaartikel{
-    list-style-type: none;
-    display: flex;
-    height: 40px;
-    margin-left: 0.5%;
-}
-
-.Linyaartikel{
-    list-style-type: none;
-    padding: 0px;
-    margin: 4px;
+.homefromartikel{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 94%;
+    font-size: 20px;
 }
 
-.Artikelatascuy{
+.ulartikel{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 56px;
+}
+
+.linknavartikel{
+    list-style-type: none;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.artikeltitletop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;   
+    padding: 0px 56px;
+}
+.titleartikel{
     font-style: normal;
     font-weight: 505;
     font-size: 33px;
-    line-height: 0px;
-    margin-left: 4%;
-    margin-top: 70px;
-
+    width: 8%;
     border-bottom: solid;
-    width: 98px;
-    height: 20px;
     border-color: #005C95;
     border-width: 5px;
     border-radius: 4px;
 }
 
-.FotoPertamanicuy{
+.artikelimage{
     height: 410px;
     border-radius: 20px;
-    margin-left: 4%;
-    margin-top: 0%;
 }
 
-.Ulnyaartikel2{
-    list-style-type: none;
+.locanddatearticle{
+    width: 60%;
     display: flex;
-    height: 0px;
-    margin-left: 1.5%;
     gap: 3%;
-    margin-top: 1%;
+    padding: 0 0 0 0px;
+    align-items: center;
 }
 
-.Jatim1cuy{
+.locate{
     list-style-type: none;
-    padding: 0px;
-    margin: 1px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     color: #EA5900;
 }
 
-.Jatim2cuy{
-    padding: 0px;
-    margin: 3px;
+.date{
     list-style-type: none;
-    height: 30px;
+    width: auto;
 }
 
-.Headernicuy{
-    width: 700px;
-    margin-left: 4%;
-    margin-top: 40px;
-
+.titlecontentarticle{
+    width: 60%;
     font-style: normal;
     font-weight: 520;
     font-size: 32px;
 }
 
-.Bawahheadernicuy{
-    width: 700px;
-    margin-left: 4%;
-    margin-top: -0px;
-
+.subcontentarticle{
+    width: 60%;
     font-style: normal;
     font-weight: 410;
     font-size: 16px;
     line-height: 149.5%;
 }
 
-.sernicuy{
-    height: 24px;
-    margin-left: 4%;
+.sharearticle{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 149.5%;
 }
 
-.sericoncuy{
-    margin-left: 3%;
-    margin-top: -0.5%;
+.iconshare{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+.artikeltitlebottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
 }
 
-.iconsercuy{
-    margin-left:  1%;
+.swiperartikel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 56px;
 }
 
-
-
-
-
+.artikelimage{
+    width: 80%;
+}
 
 .Carouselsusah {
-    width: 1290px;
-    height: 430px;
-    margin-top: -2%;
-    margin-left: -3.2%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 0 0 0px;
 }
 
 .Artikellainnyacuy{
@@ -124,38 +123,20 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    margin-left: 4%;
 }
 
-.divnyaartikel{
-    height: 500px;
-    border: 1px solid black;
-}
 
 .swiper-slide {
     background: transparent;
 }
 
 
-
-
-
-
 .busetdah{
-    border-style: solid;
-    height: 390px;
-    width:900px;
-    margin-top: 5%;
-}
-
-.dipnyacarousel2{
-    border-style: solid;
-    height: 600px;
+    width: 100%;
 }
 
 .FotoAC2cuy{
-    width: 1103px;
-    height: 440px;
+    width: 80%;
     
     border-radius: 20px;
 }
@@ -165,7 +146,7 @@
     height: 100%;
   }
   
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: transparent;
