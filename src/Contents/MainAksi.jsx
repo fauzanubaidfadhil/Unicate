@@ -18,12 +18,23 @@ import Card2 from "../Assets/card2.png";
 import Card3 from "../Assets/card3.png";
 import "../CSS/Aksi.css";
 import "../CSS/Mobile/AksiMobile.css";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
  
 const MainAksi =() => {
+    useEffect(() => {
+        AOS.init({
+          once: true,
+          duration: 400,
+        })
+      }, [])
+
     return (
         <>
         {/* Content */}
-            <div className="pembungkus-content">
+            <div data-aos="fade-up" className="pembungkus-content">
                 <div className="blur">
                     <div className="content">
                         <h1 className="text-ku">Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu</h1>
