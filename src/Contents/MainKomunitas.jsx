@@ -57,15 +57,13 @@ useEffect(() => {
         {/* konten komunitas */}
 
         {/* konten 2 komunitas*/}
-        <div
+        <div className="konten2komuntas"
           style={{
-            height: "687.03px",
+            height: "687.03px", display:"flex"
           }}
         >
-          <div data-aos="fade-right">
-             <img className="imgkomunitas2" src={img2} alt="img_komunitas2" />
-          </div>
-          <div data-aos="fade-left">
+          <img  data-aos="fade-right" className="imgkomunitas2" src={img2} alt="img_komunitas2" />
+          <div className="kontenkomunitasdetail" data-aos="fade-left">
           <p className="textsupport">Support Education</p>
           <h1 className="textfitur">Fitur Komunitas</h1>
           <p className="textkamimenyediakan">
