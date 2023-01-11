@@ -1,6 +1,7 @@
 import MainKisahinspirasi from "../Contents/MainKisahispirasi";
 import Navigation from "../Components/Navigation";
 import HOC from "../Components/HOC";
+import Footer from "../Components/Footer";
 
 const Kisahinspirasi = () => {
   return (
@@ -8,6 +9,7 @@ const Kisahinspirasi = () => {
       <div>
         <Navigation />
         <MainKisahinspirasi />
+        <Footer />
       </div>
     </HOC>
   );

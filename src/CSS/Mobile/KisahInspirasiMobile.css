@@ -1,0 +1,11 @@
+@media(max-width:768px) {
+    .kishpir{
+        font-size: 12px;
+    }
+    .text-home{
+        font-size: 14px;
+    }
+    .isi{
+        font-size: 16px;
+    }
+}

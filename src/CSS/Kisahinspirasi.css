@@ -1,9 +1,9 @@
+.linknavkishpir{
+    padding: 5px 56px;
+}
 .image1kisahinspirasi {
-    position: absolute;
-    width: 750px;
+    width: 90%;
     height: 354px;
-    left: 320px;
-    top: 250px;
 }
 
 .image2 {
@@ -26,8 +26,8 @@
     position: absolute;
     width: 112px;
     height: 108px;
-    left: 1200px;
-    top: 450px;
+    right: 100px;
+    top: 600px;
 }
 
 .image5 {
@@ -35,113 +35,91 @@
     width: 139px;
     height: 220px;
     left: -79px;
-    top: 890px;   
+    top: 800px;   
+}
+.segitigaorange{
+    right: 0px;
+    position: absolute;
 }
 
 .image6 {
-    position: absolute;
     width: 133px;
     height: 133px;
-    left: 1200px;
-    top: 100px;
+    margin-left: 50px;
 }
 
 .image7 {
     position: absolute;
     width: 133px;
     height: 133px;
-    left: 1170px;
-    top: 100px;
 }
 
 .image8 {
-    position: absolute;
     width: 183px;
     height: 183px;
-    left: 76%;
-    top: 140%;
+    margin-left: 40px;
+    z-index: 1;
 }
 
+.garis{
+    width: 200px;
+    height: 6px;
+    background: #005C95;
+    border-radius: 20px;
+}
 
 .image9 {
-    position: absolute;
     width: 183px;
     height: 183px;
-    left: 78%;
-    top: 145%;
+    position: absolute;
+    z-index: 1;
+}
+.segitigaorangebottom{
+    position: absolute;
+    top: 850px;
+    z-index: 1;
+    left: 1200px;
+
 }
 
 .judul {
-    position: absolute;
-    width: 600px;
-    height: 120px;
     font-family: 'Poppins';
-    top: 110px;
-    left: 50px;
-
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.mainkishpir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 56px;
+    gap: 50px;
+    z-index: 20;
+    position: relative;
 }
 
-
+.titlekishpir{
+    padding: 5px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 .isi {
-    position: absolute;
-    width: 1080px;
-    font-family: 'Poppins';
-    height: 382px;
-    margin-top: 580px;
-    left: 150px;
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
-.isi2 {
-    position: absolute;
-    width: 1070px;
-    font-family: 'Poppins';
-    height: 382px;
-    margin-top: 675px;
-    left: 150px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-
-}
-
-.isi3 {
-    position: absolute;
-    width: 1020px;
-    font-family: 'Poppins';
-    height: 382px;
-    margin-top: 795px;
-    left: 150px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.isi4 {
-    position: absolute;
-    width: 890px;
-    font-family: 'Poppins';
-    height: 382px;
-    left: 150px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: 895px;
-}
-
-ul {
+.linktopkish{
     display: flex;
     gap: 5px;
-    position: absolute;
+    padding: 20px 0px;
+    align-items: center;
 }
 
-li .kishpir{
+.kishpir{
     list-style-type: none;    
     font-style: normal;
     font-weight: 500;
@@ -150,4 +128,9 @@ li .kishpir{
 }
 .text-home {
     color: blue;
+    list-style-type: none; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
 }
