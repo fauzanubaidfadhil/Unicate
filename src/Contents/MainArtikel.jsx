@@ -61,7 +61,6 @@ const MainArtikel = () => {
 
                                       {/* CAROUSEL ARTIKEL 1 */}
 
-<<<<<<< HEAD
     <div className="swiperartikel">
       <>
         <h2 className="Artikellainnyacuy">Artikel Lainnya</h2>
@@ -73,22 +72,6 @@ const MainArtikel = () => {
           modules={[Pagination]}
           className="Carouselsusah"
         >
-          <SwiperSlide>
-            {" "}
-                      {/* Artikel 1 */}
-              <div
-=======
-    <div className="divnyaartikel">
-          <>
-          <h2 className="Artikellainnyacuy">Artikel Lainnya</h2>
-      <Swiper
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="Carouselsusah"
-      >
         <SwiperSlide>
           {" "}
           {/* Artikel 1 */}
@@ -97,18 +80,6 @@ const MainArtikel = () => {
               height: "360px",
             }}
           >
-            <img
-              style={{ width: "364px", height: "198px" }}
-              src={FotoArtikel1}
-              alt="FotoArtikel1"
-            />
-            <h4
->>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
-              style={{
-                width: "370px",
-                height: "360px",
-              }}
-            >
               <img
                 style={{ width: "364px", height: "198px" }}
                 src={FotoArtikel1}
@@ -138,7 +109,7 @@ const MainArtikel = () => {
                 Keterbatasan ekonomi masih menjadi salah satu alasan banyaknya
                 anak-anak tidak bisa melanjutkan......
               </p>
-            </div>
+          </div>
             {/* Artikel 1 */}
             {/* Artikel 2 */}
             <div
@@ -217,98 +188,6 @@ const MainArtikel = () => {
               </p>
             </div>
             {/* Artikel 3 */}
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-                      {/* Artikel 1 */}
-                      <div
-              style={{
-                width: "370px",
-                height: "360px",
-              }}
-            >
-              <img
-                style={{ width: "364px", height: "198px" }}
-                src={FotoArtikel1}
-                alt="FotoArtikel1"
-              />
-              <h4
-                style={{
-                  textAlign: "left",
-                  width: "100%",
-                  fontSize: "16px",
-                  fontWeight: "600",
-                }}
-              >
-                Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
-                Sekolah untuk Anak Kurang Mampu
-              </h4>
-              <p
-                style={{
-                  textAlign: "left",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  fontSize: "12px",
-                  lineHeight: "18px",
-                  width: "100%",
-                }}
-              >
-                Keterbatasan ekonomi masih menjadi salah satu alasan banyaknya
-                anak-anak tidak bisa melanjutkan......
-              </p>
-            </div>
-            {/* Artikel 1 */}
-            {/* Artikel 2 */}
-            <div
-              style={{
-                width: "370px",
-                height: "360px",
-              }}
-            >
-<<<<<<< HEAD
-              <img
-                style={{ width: "364px", height: "198px" }}
-                src={FotoArtikel2}
-                alt="FotoArtikel2"
-              />
-              <h4
-                style={{
-                  textAlign: "left",
-                  width: "322px",
-                  height: "72px",
-                  fontSize: "16px",
-                  fontWeight: "600",
-                  marginTop: "5px",
-                }}
-              >
-                Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
-                Sekolah untuk Anak Kurang Mampu
-              </h4>
-              <p
-                style={{
-                  textAlign: "left",
-                  marginTop: "-15px",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  fontSize: "14px",
-                  lineHeight: "18px",
-                  width: "392.31px",
-                  height: "51px",
-                }}
-              >
-                Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-                Resmikan Sekolah Virtual
-              </p>
-            </div>
-            {/* Artikel 2 */}
-            {/* Artikel 3 */}
-            <div
-=======
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-              Resmikan Sekolah Virtual
-            </p>
-          </div>
-          {/* Artikel 3 */}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
@@ -321,18 +200,6 @@ const MainArtikel = () => {
               left: "4%",
             }}
           >
-            <img
-              style={{ width: "364px", height: "198px" }}
-              src={FotoArtikel1}
-              alt="FotoArtikel1"
-            />
-            <h4
->>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
-              style={{
-                width: "370px",
-                height: "360px",
-              }}
-            >
               <img
                 style={{ width: "364px", height: "198px" }}
                 src={FotoArtikel3}
