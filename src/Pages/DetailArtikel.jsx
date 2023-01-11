@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 import MainDetailArtikel from "../Contents/MainDetailArtikel";
+import Navigation from "../Components/Navigation";
 
 function DetailArtikel() {
   return (
-    <div>
-      <MainDetailArtikel />
-    </div>
-  )
+    <>
+      <Navigation />
+      <MainDetailArtikel />;
+    </>
+  );
 }
 
-export default DetailArtikel
+export default DetailArtikel;

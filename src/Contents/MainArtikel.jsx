@@ -69,11 +69,11 @@ const MainArtikel = () => {
       >
         <SwiperSlide>
           {" "}
+        <div>
           {/* Artikel 1 */}
           <div
             style={{
               height: "360px",
-              marginLeft: "4%",
             }}
           >
             <img
@@ -105,7 +105,7 @@ const MainArtikel = () => {
                 width: "350px",
                 height: "51px",
               }}
-            ><Link to="/DetailArtikel">
+            ><Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
               Keterbatasan ekonomi masih menjadi salah satu alasan banyaknya
               anak-anak tidak bisa melanjutkan......
             </Link>
@@ -116,7 +116,6 @@ const MainArtikel = () => {
           <div
             style={{
               height: "360px",
-              marginLeft: "3.2%",
             }}
           >
             <img
@@ -158,7 +157,6 @@ const MainArtikel = () => {
           <div
             style={{
               height: "360px",
-              marginLeft: "3.2%",
             }}
           >
             <img
@@ -196,6 +194,7 @@ const MainArtikel = () => {
             </p>
           </div>
           {/* Artikel 3 */}
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
