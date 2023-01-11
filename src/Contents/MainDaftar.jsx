@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import ReactDOM from "react-dom/client";
 import Background from "../Assets/backgroundform.png";
 // import { FcGoogle } from "react-icons/fc";
 import { MASUK } from "../router";
@@ -11,7 +10,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function MainDaftar() {
+  // const navigate = useNavigate();
+
   useEffect(() => {
+    // const token = localStorage.getItem("Authorization");
+
+    // if (token !== undefined) navigate("/", { replace: true });
+
     AOS.init({
       once: true,
       duration: 400,
@@ -19,7 +24,6 @@ function MainDaftar() {
   }, []);
 
   const [inputs, setInputs] = useState({});
-
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -33,7 +37,11 @@ function MainDaftar() {
         "http://localhost:5500/api/v1/user-register",
         inputs
       );
-      console.log(data);
+
+      if (data.Authorization !== undefined) {
+        localStorage.setItem("Authorization", data.Authorization);
+        // navigate("/", { replace: true });
+      }
     } catch (error) {
       console.log(error);
     }
@@ -111,8 +119,5 @@ function MainDaftar() {
     </div>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MainDaftar />);
 
 export default MainDaftar;

@@ -30,8 +30,8 @@ import "../CSS/Carousel.css";
 import "../CSS/Main.css";
 import "../CSS/Dekstop/MobileMain.css";
 import "../CSS/Dekstop/DekstopMain.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "../CSS/Mobile/MainMobile.css";
 const Main = () => {
@@ -39,13 +39,18 @@ const Main = () => {
     AOS.init({
       once: true,
       duration: 400,
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <>
       <div className="positioncontent1">
-        <img data-aos="fade-down" className="style-img-titik" src={titik} alt="titiktitik" />
+        <img
+          data-aos="fade-down"
+          className="style-img-titik"
+          src={titik}
+          alt="titiktitik"
+        />
         <div className="positionlabel">
           <BsWhatsapp style={{ marginLeft: "4px", color: "white" }} size={30} />
           <BsInstagram
@@ -55,13 +60,26 @@ const Main = () => {
           <FaTiktok style={{ marginLeft: "4px", color: "white" }} size={30} />
           <FiTwitter style={{ marginLeft: "4px", color: "white" }} size={30} />
         </div>
-        <img data-aos="fade-left" className="img-konten1" src={image1} alt="image1" />
-        <h1 data-aos="fade-up" className="textmajukan">Majukan Pendidikan Anak-Anak Indonesia</h1>
-        <p data-aos="fade-up" className="textgerakan ">Gerakan Peduli Anak Indonesia</p>
+        <img
+          data-aos="fade-left"
+          className="img-konten1"
+          src={image1}
+          alt="image1"
+        />
+        <h1 data-aos="fade-up" className="textmajukan">
+          Majukan Pendidikan Anak-Anak Indonesia
+        </h1>
+        <p data-aos="fade-up" className="textgerakan ">
+          Gerakan Peduli Anak Indonesia
+        </p>
         <Link to={KOMUNITAS}>
-          <button data-aos="fade-right" className="buttonbergabung" onClick="">
-          Bergabung Sekarang
-        </button>
+          <button
+            data-aos="fade-right"
+            className="buttonbergabung"
+            type="button"
+          >
+            Bergabung Sekarang
+          </button>
         </Link>
         <div className="position-textlabel">
           <h2 className="textlabel">
@@ -83,35 +101,43 @@ const Main = () => {
 
       {/* Our Mission */}
       <div className="positioncontent2">
-        <div className = "positioncontent2left">
-        <img data-aos="fade-right" className="img-konten2" src={image5} alt="image5" />
-        <img className="segitiga" src={segitiga} alt="segitiga" />
+        <div className="positioncontent2left">
+          <img
+            data-aos="fade-right"
+            className="img-konten2"
+            src={image5}
+            alt="image5"
+          />
+          <img className="segitiga" src={segitiga} alt="segitiga" />
         </div>
         <div className="positioncontent2right">
-        <h1 data-aos="fade-down" className="textourmission">Our Mission</h1>
-        <p data-aos="zoom-in-down" className="paragraphkonten2">
-          Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
-          yang dihadapi oleh pelajar dan pelaku pendidikan. unicate merupakan
-          platform yang menghubungkan pemberi bantuan dengan pelajar atau pelaku
-          pendidikan yang membutuhkan bantuan akses, dukungan fasilitas belajar,
-          serta konten pendidikan yang berkualitas.
-          <br />
-          <br />
-          Kami tidak menerima dana dan mengambil komisi dalam bentuk apapun
-          melalui platform ini, serta bekerja sama dengan mitra situs
-          penggalangan dana untuk menjaga transparansi donasi yang Anda berikan.
-        </p>
-        <div className="corp">
-        <h4 className="textcorporate">Corporate with:</h4>
-        <div  className="posisiiconcorporate">
-          <img className="logotonoto" src={image6} alt="image6" />
-          <img className="logosampoerna" src={image7} alt="image7" />
-          <img className="logoinspirasi" src={image8} alt="image8" />
-        </div>
-        <div  className="posisiiconcorporate">
-          <img className="logoinfinite" src={infinite} alt="infinite" />
-        </div>
-        </div>
+          <h1 data-aos="fade-down" className="textourmission">
+            Our Mission
+          </h1>
+          <p data-aos="zoom-in-down" className="paragraphkonten2">
+            Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
+            yang dihadapi oleh pelajar dan pelaku pendidikan. unicate merupakan
+            platform yang menghubungkan pemberi bantuan dengan pelajar atau
+            pelaku pendidikan yang membutuhkan bantuan akses, dukungan fasilitas
+            belajar, serta konten pendidikan yang berkualitas.
+            <br />
+            <br />
+            Kami tidak menerima dana dan mengambil komisi dalam bentuk apapun
+            melalui platform ini, serta bekerja sama dengan mitra situs
+            penggalangan dana untuk menjaga transparansi donasi yang Anda
+            berikan.
+          </p>
+          <div className="corp">
+            <h4 className="textcorporate">Corporate with:</h4>
+            <div className="posisiiconcorporate">
+              <img className="logotonoto" src={image6} alt="image6" />
+              <img className="logosampoerna" src={image7} alt="image7" />
+              <img className="logoinspirasi" src={image8} alt="image8" />
+            </div>
+            <div className="posisiiconcorporate">
+              <img className="logoinfinite" src={infinite} alt="infinite" />
+            </div>
+          </div>
         </div>
       </div>
       {/* Our Mission */}
@@ -121,13 +147,17 @@ const Main = () => {
         <div className="positionourservice">
           <div className="positionourservicedetail">
             <div className="positionourservicedetailleft">
-              <h1 data-aos="fade-right" className="textourservice">Our Services</h1>
-              <h1 data-aos="fade-right" className="textwhypeople">Why People Chooise Our Services</h1>
+              <h1 data-aos="fade-right" className="textourservice">
+                Our Services
+              </h1>
+              <h1 data-aos="fade-right" className="textwhypeople">
+                Why People Chooise Our Services
+              </h1>
             </div>
             <div className="positionourservicedetailright">
               <p className="textkonten3">
-                Kami bekerja secara jujur dan berintegritas dalam memperjuangan hak
-                pendidikan setiap anak Indonesia
+                Kami bekerja secara jujur dan berintegritas dalam memperjuangan
+                hak pendidikan setiap anak Indonesia
               </p>
             </div>
           </div>
@@ -144,7 +174,8 @@ const Main = () => {
               <img className="imgcard" src={image10} alt="image10" />
               <h3 className="textcard textcardjudul">Donasi</h3>
               <p className="textcard kontencard">
-                Ikut andil dalam membantu gerakan mendukung pendidikan Indonesia.
+                Ikut andil dalam membantu gerakan mendukung pendidikan
+                Indonesia.
               </p>
             </div>
             <div data-aos="flip-right" className="card3 card">
@@ -166,7 +197,7 @@ const Main = () => {
           <div className="textberita">Berita Terbaru</div>
           <p className="textlihat">Lihat selengkapnya</p>
         </div>
-        
+
         <img
           data-aos="zoom-in"
           className="segitigakotak"
@@ -175,7 +206,12 @@ const Main = () => {
         />
         <div className="positioncontent4mainberita">
           <div className="posisiimgartikel1">
-            <img data-aos="zoom-in" className="imgartikel1 transisi" src={image12} alt="image12" />
+            <img
+              data-aos="zoom-in"
+              className="imgartikel1 transisi"
+              src={image12}
+              alt="image12"
+            />
           </div>
           <div className="positioncontent4detailmainberita">
             <div className="textjatim">JATIM</div>
@@ -184,8 +220,8 @@ const Main = () => {
               Ijazah
             </div>
             <p className="textpemkab">
-              Pemkab Gresik menggagas sebuah program yang dapat membantu anak putus
-              sekolah untuk bisa menyelesaikan pendidikannya.
+              Pemkab Gresik menggagas sebuah program yang dapat membantu anak
+              putus sekolah untuk bisa menyelesaikan pendidikannya.
             </p>
           </div>
         </div>
@@ -199,7 +235,12 @@ const Main = () => {
                 overflow: "hidden",
               }}
             >
-              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image13} alt="image13" />
+              <img
+                data-aos="zoom-in"
+                className="imgartikel2 transisi"
+                src={image13}
+                alt="image13"
+              />
             </div>
             <p className="textberi posisiteksartikel">
               Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
@@ -207,7 +248,7 @@ const Main = () => {
             </p>
           </div>
           <div className="posisiartikel3">
-            <div 
+            <div
               style={{
                 height: "218px",
                 width: "273px",
@@ -215,7 +256,12 @@ const Main = () => {
                 overflow: "hidden",
               }}
             >
-              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image14} alt="image14" />
+              <img
+                data-aos="zoom-in"
+                className="imgartikel2 transisi"
+                src={image14}
+                alt="image14"
+              />
             </div>
             <p className="textberi posisiteksartikel">
               Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
@@ -223,7 +269,7 @@ const Main = () => {
             </p>
           </div>
           <div className="posisiartikel4">
-            <div 
+            <div
               style={{
                 height: "218px",
                 width: "273px",
@@ -231,7 +277,12 @@ const Main = () => {
                 overflow: "hidden",
               }}
             >
-              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image15} alt="image15" />
+              <img
+                data-aos="zoom-in"
+                className="imgartikel2 transisi"
+                src={image15}
+                alt="image15"
+              />
             </div>
             <p className="textberi posisiteksartikel">
               Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
@@ -239,7 +290,7 @@ const Main = () => {
             </p>
           </div>
           <div className="posisiartikel5">
-            <div 
+            <div
               style={{
                 height: "218px",
                 width: "273px",
@@ -247,11 +298,16 @@ const Main = () => {
                 overflow: "hidden",
               }}
             >
-              <img data-aos="zoom-in" className="imgartikel2 transisi" src={image16} alt="image16" />
+              <img
+                data-aos="zoom-in"
+                className="imgartikel2 transisi"
+                src={image16}
+                alt="image16"
+              />
             </div>
             <p className="textberi posisiteksartikel">
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-              karena Resmikan Sekolah Virtual
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
+              Resmikan Sekolah Virtual
             </p>
           </div>
         </div>
@@ -259,8 +315,15 @@ const Main = () => {
       {/* Berita */}
 
       <div className="positioncontent5">
-        <h2 data-aos="zoom-in-down" className="textbagaimana">Bagaimana pendapat mereka</h2>
-        <img data-aos="fade-up-right" className="imgpetaindonesia" src={image17} alt="image17" />
+        <h2 data-aos="zoom-in-down" className="textbagaimana">
+          Bagaimana pendapat mereka
+        </h2>
+        <img
+          data-aos="fade-up-right"
+          className="imgpetaindonesia"
+          src={image17}
+          alt="image17"
+        />
         <div data-aos="fade-up-left" className="position-carousel">
           <Swiper
             spaceBetween={30}

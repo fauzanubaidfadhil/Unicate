@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     <>
       {/* <Headroom> */}
-      <Navbar classname="navbar" bg="transparant">
+      <Navbar className="navbar" bg="transparant">
         <Navbar.Brand href="#home">
           <img className="logo" src={logo} alt="logo" />
         </Navbar.Brand>
