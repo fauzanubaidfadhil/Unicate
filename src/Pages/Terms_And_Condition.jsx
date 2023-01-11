@@ -9,7 +9,7 @@ const TermsAndCondition =() =>{
             <Navigation />
             <div >
                 <img style={{width: "400px", display:"block", margin:"auto", paddingTop:"30px"}} src={Logo} alt="logo" />
-                <div style={{ fontFamily: 'Poppins', fontStyle: "normal", maxWidth: "1000px", display:"block", margin:"auto", textAlign:"justify"}}>
+                <div style={{ fontFamily: 'Poppins', fontStyle: "normal", width: "90%", display:"block", margin:"auto", textAlign:"justify"}}>
                     <h3 style={{ fontWeight: "700", fontSize: "40px", lineHeight: "60px",
                                     
                                 
