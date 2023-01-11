@@ -69,7 +69,6 @@ const MainArtikel = () => {
       >
         <SwiperSlide>
           {" "}
-        <div>
           {/* Artikel 1 */}
           <div
             style={{
@@ -194,12 +193,11 @@ const MainArtikel = () => {
             </p>
           </div>
           {/* Artikel 3 */}
-          </div>
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-                    {/* Artikel 1 */}
-                    <div
+         {/* Artikel 1 */}
+         <div
             style={{
               width: "370px",
               height: "360px",

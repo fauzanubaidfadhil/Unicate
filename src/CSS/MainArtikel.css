@@ -129,17 +129,11 @@
 
 .divnyaartikel{
     height: 500px;
-    border: 1px solid black;
 }
 
 .swiper-slide {
     background: transparent;
 }
-
-
-
-
-
 
 .busetdah{
     border-style: solid;
@@ -149,7 +143,6 @@
 }
 
 .dipnyacarousel2{
-    border-style: solid;
     height: 600px;
 }
 
@@ -161,8 +154,16 @@
 }
 
 .Carouselsusah {
-    width: 100%;
-    height: 100%;
+    width: 1328px;
+    height: 430px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    margin-top: 5px;
+    right: 0;
+    margin-right: 40px;
   }
   
   .swiper-slide {
@@ -191,4 +192,5 @@
     height: 100%;
     object-fit: cover;
   }
+
   
