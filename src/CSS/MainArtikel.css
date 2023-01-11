@@ -125,14 +125,32 @@
     line-height: 36px;
 }
 
+<<<<<<< HEAD
+=======
+.divnyaartikel{
+    height: 500px;
+}
+>>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
 
 .swiper-slide {
     background: transparent;
 }
 
+<<<<<<< HEAD
 
 .busetdah{
     width: 100%;
+=======
+.busetdah{
+    border-style: solid;
+    height: 390px;
+    width:900px;
+    margin-top: 5%;
+}
+
+.dipnyacarousel2{
+    height: 600px;
+>>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
 }
 
 .FotoAC2cuy{
@@ -142,8 +160,16 @@
 }
 
 .Carouselsusah {
-    width: 100%;
-    height: 100%;
+    width: 1328px;
+    height: 430px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    margin-top: 5px;
+    right: 0;
+    margin-right: 40px;
   }
   
 .swiper-slide {
@@ -172,4 +198,5 @@
     height: 100%;
     object-fit: cover;
   }
+
   

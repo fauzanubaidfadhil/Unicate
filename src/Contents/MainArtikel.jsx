@@ -61,6 +61,7 @@ const MainArtikel = () => {
 
                                       {/* CAROUSEL ARTIKEL 1 */}
 
+<<<<<<< HEAD
     <div className="swiperartikel">
       <>
         <h2 className="Artikellainnyacuy">Artikel Lainnya</h2>
@@ -76,6 +77,33 @@ const MainArtikel = () => {
             {" "}
                       {/* Artikel 1 */}
               <div
+=======
+    <div className="divnyaartikel">
+          <>
+          <h2 className="Artikellainnyacuy">Artikel Lainnya</h2>
+      <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="Carouselsusah"
+      >
+        <SwiperSlide>
+          {" "}
+          {/* Artikel 1 */}
+          <div
+            style={{
+              height: "360px",
+            }}
+          >
+            <img
+              style={{ width: "364px", height: "198px" }}
+              src={FotoArtikel1}
+              alt="FotoArtikel1"
+            />
+            <h4
+>>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
               style={{
                 width: "370px",
                 height: "360px",
@@ -237,6 +265,7 @@ const MainArtikel = () => {
                 height: "360px",
               }}
             >
+<<<<<<< HEAD
               <img
                 style={{ width: "364px", height: "198px" }}
                 src={FotoArtikel2}
@@ -274,6 +303,31 @@ const MainArtikel = () => {
             {/* Artikel 2 */}
             {/* Artikel 3 */}
             <div
+=======
+              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
+              Resmikan Sekolah Virtual
+            </p>
+          </div>
+          {/* Artikel 3 */}
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+         {/* Artikel 1 */}
+         <div
+            style={{
+              width: "370px",
+              height: "360px",
+              position: "absolute",
+              left: "4%",
+            }}
+          >
+            <img
+              style={{ width: "364px", height: "198px" }}
+              src={FotoArtikel1}
+              alt="FotoArtikel1"
+            />
+            <h4
+>>>>>>> b27a5ed0d698297587e04a6477ae0b61bafde88d
               style={{
                 width: "370px",
                 height: "360px",
