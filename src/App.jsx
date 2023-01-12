@@ -11,6 +11,8 @@ import {
   ABOUTUS,
   DONASI,
   AKSI,
+  AKSIDETAIL,
+  AKSIDETAIL2,
   AKSI_NAVLOGIN,
   PRIVACYPOLICY,
   TERMS_AND_CONDITION,
@@ -27,6 +29,8 @@ import Artikel from "./Pages/Artikel";
 import AboutUs from "./Pages/AboutUs";
 import Donasi from "./Pages/Donasi";
 import Aksi from "./Pages/Aksi";
+import AksiDetail from "./Pages/AksiDetail";
+import AksiDetail2 from "./Pages/AksiDetail2";
 import Aksi_NavLogin from "./Pages/Aksi_NavLogin";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/Terms_And_Condition";
@@ -49,6 +53,8 @@ function App() {
         <Route path={DEKOM} element={<Dekom />} />
         <Route path={ARTIKEL} element={<Artikel />} />
         <Route path={AKSI} element={<Aksi />} />
+          <Route path={AKSIDETAIL} element={<AksiDetail/>} />
+          <Route path={AKSIDETAIL2} element={<AksiDetail2/>} />
         <Route path={AKSI_NAVLOGIN} element={<Aksi_NavLogin />} />
         <Route path={ABOUTUS} element={<AboutUs />} />
         <Route path={DONASI} element={<Donasi />} />

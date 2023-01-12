@@ -1,0 +1,71 @@
+.dipnyaaksidetail{
+    border-style: solid;
+}
+
+.ulnyadetailaksi{
+    padding: 5px 56px;
+}
+
+.headerdetailaksi{
+    width: 700px;
+    height: 120px;
+    margin-left: 4%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    
+    border-bottom: solid;
+    border-color: #005C95;
+    border-width: 5px;
+    border-radius: 4px;
+}
+
+.fotodetailaksi{
+    width: 60%;
+    height: 300px;
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+}
+
+.fotodetailaksi2{
+    width: 60%;
+    height: 300px;
+}
+
+.divtulisanaksidetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisandetailartikel{
+    width: 90%;
+
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisandetailaksi2{
+    width: 90%;
+
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -6,7 +6,7 @@ import ellipse3 from "../Assets/ellipse3.png";
 import smile from "../Assets/smileAksi.png";
 import panah from "../Assets/tanda_panah.png";
 import { Link } from "react-router-dom";
-import { KISAHINSPIRASI, DONASI } from "../router";
+import { KISAHINSPIRASI, DONASI, AKSIDETAIL, AKSIDETAIL2 } from "../router";
 
 //kisahinspirasi
 import Foto from "../Assets/foto.png";
@@ -79,13 +79,14 @@ const MainAksi =() => {
 
         {/* card */}
         <div className="bagian-card">
+        <Link style={{textDecoration:"none"}} to={KISAHINSPIRASI}> 
             <div data-aos="flip-left" className="shadow">
                 <div className="card-1" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
-                        <Link style={{textDecoration:"none"}} to={KISAHINSPIRASI}> <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px", textDecoration:"none" }}>
+                        
+                        <h2 style={{ color:"white", fontStyle:"normal", fontWeight:"700px", fontSize:"18px", lineHeight:"33px", marginLeft:"15px", textDecoration:"none" }}>
                         Banyak anak putus sekolah, kapolsek dirikan sekolah</h2>
-                        </Link>
                         <div className="position-inspirasi">
                             <h2 style={{ fontWeight:"500px", fontSize:"15.2765px", lineWeight:"23px", display:"flex", textAlign:"center", alignItems:"center", justifyContent:"center", marginTop:"5px" }}>Inspirasi</h2>
                         </div>
@@ -93,8 +94,10 @@ const MainAksi =() => {
                     <img classname="imgcard" src={Card1} alt="background" />
                 </div>
             </div>
+        </Link>
 
             <div data-aos="flip-up" className="shadow">
+            <Link to={AKSIDETAIL}>
                 <div className="card-2" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
                     <div className="caption">
@@ -106,8 +109,10 @@ const MainAksi =() => {
                     </div>
                     <img classname="imgcard" src={Card2} alt="background" />
                 </div>
+                </Link>
             </div>
 
+            <Link to={AKSIDETAIL2}>
             <div data-aos="flip-right" className="shadow">
                 <div className="card-3" >
                     <img className="unicate" src={Logo} alt="logo unicate" />
@@ -121,6 +126,7 @@ const MainAksi =() => {
                     <img classname="imgcard" src={Card3} alt="background" />
                 </div>
             </div>
+            </Link>
 
         </div>
         {/* card */}
