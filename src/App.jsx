@@ -42,6 +42,9 @@ import DonasiLogin from "./Pages/DonasiLogin";
 import Profile from "./Pages/Profile";
 import Faq from "./Pages/Faq";
 import DetailArtikel from "./Pages/DetailArtikel";
+import DetailArtikel2 from "./Pages/DetailArtikel2";
+import DetailArtikel3 from "./Pages/DetailArtikel3";
+import DetailArtikel4 from "./Pages/DetailArtikel4";
 
 function App() {
   return (
@@ -67,6 +70,9 @@ function App() {
         <Route path={DONASILOGIN} element={<DonasiLogin />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/DetailArtikel" element={<DetailArtikel />} />
+        <Route path="/DetailArtikel2" element={<DetailArtikel2 />} />
+        <Route path="/DetailArtikel3" element={<DetailArtikel3 />} />
+        <Route path="/DetailArtikel4" element={<DetailArtikel4 />} />
         <Route path={FAQ} element={<Faq />} />
       </Routes>
     </BrowserRouter>

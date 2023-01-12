@@ -131,6 +131,7 @@ const MainArtikel = () => {
                   height: "360px",
                 }}
               >
+                <Link to="/DetailArtikel2">
                 <img
                   style={{ width: "364px", height: "198px" }}
                   src={FotoArtikel2}
@@ -160,6 +161,7 @@ const MainArtikel = () => {
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                   karena Resmikan Sekolah Virtual
                 </p>
+                </Link>
               </div>
               {/* Artikel 2 */}
               {/* Artikel 3 */}
@@ -169,6 +171,7 @@ const MainArtikel = () => {
                   height: "360px",
                 }}
               >
+                <Link to="/DetailArtikel3">
                 <img
                   style={{ width: "364px", height: "198px" }}
                   src={FotoArtikel3}
@@ -199,6 +202,7 @@ const MainArtikel = () => {
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                   karena Resmikan Sekolah Virtual
                 </p>
+                </Link>
               </div>
               {/* Artikel 3 */}
             </SwiperSlide>
@@ -213,6 +217,7 @@ const MainArtikel = () => {
                   left: "4%",
                 }}
               >
+                <Link to="/DetailArtikel4">
                 <img
                   style={{ width: "364px", height: "198px" }}
                   src={FotoArtikel3}
@@ -246,6 +251,7 @@ const MainArtikel = () => {
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                   karena Resmikan Sekolah Virtual
                 </p>
+                </Link>
               </div>
               {/* Artikel 3 */}
             </SwiperSlide>
