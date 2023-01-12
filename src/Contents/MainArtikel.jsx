@@ -14,6 +14,7 @@ import AC2 from "../Assets/AC2.png";
 // import { Link } from "react-router-dom";
 import {MdNavigateNext} from "react-icons/md"
 // import Ava from "../Assets/Avacarousel.png";
+import {Link} from "react-router-dom";
 
 // Import Swiper styles
 import "swiper/css";
@@ -117,7 +118,7 @@ const MainArtikel = () => {
                 width: "370px",
                 height: "360px",
               }}
-            >
+            ><Link to="/DetailArtikel">
               <img
                 style={{ width: "364px", height: "198px" }}
                 src={FotoArtikel2}
@@ -147,6 +148,7 @@ const MainArtikel = () => {
                 Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
                 Resmikan Sekolah Virtual
               </p>
+              </Link>
             </div>
             {/* Artikel 2 */}
             {/* Artikel 3 */}

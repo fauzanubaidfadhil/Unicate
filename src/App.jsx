@@ -21,6 +21,7 @@ import {
   MASUK,
   DONASILOGIN,
   FAQ,
+  DETAILARTIKEL
 } from "./router";
 import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
@@ -65,7 +66,7 @@ function App() {
         <Route path={MASUK} element={<Masuk />} />
         <Route path={DONASILOGIN} element={<DonasiLogin />} />
         <Route path="/Profile" element={<Profile />} />
-        <Route path="/DetailArtikel" element={<DetailArtikel />} />
+        <Route path={DETAILARTIKEL} element={<DetailArtikel />} />
         <Route path={FAQ} element={<Faq />} />
       </Routes>
     </BrowserRouter>
