@@ -434,7 +434,7 @@ const MainAboutUs = () => {
                         <Bio>
                             <ProfilePicture src={roby} />
                             <BioDetail>
-                                <Nama>Roby  Iqbal Dzulqifar</Nama>
+                                <Nama>Robby Iqbal Dzulqifar</Nama>
                                 <Job>Fullstack-Developer</Job>
                                 <Socmed>
                                     <AkunIG src={iconig} />
