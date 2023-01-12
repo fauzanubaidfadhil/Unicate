@@ -165,8 +165,8 @@
     height: 35px;
 }
 
-.logoinspirasi {
-}
+/* .logoinspirasi {
+} */
 
 .logoinfinite {
     width: 242.5px;
@@ -242,8 +242,8 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.card1 {
-}
+/* .card1 {
+} */
 
 .imgcard {
     border-top-left-radius: 12px;
@@ -257,11 +257,11 @@
     scale: 1.2;
 }
 
-.card2 {
-}
+/* .card2 {
+} */
 
-.card3 {
-}
+/* .card3 {
+} */
 
 .cardcontent {
     display: flex;

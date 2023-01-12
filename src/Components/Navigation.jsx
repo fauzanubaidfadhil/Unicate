@@ -9,6 +9,7 @@ import {
   AKSI,
   DAFTAR,
   ABOUTUS,
+  ARTIKEL,
 } from "../router";
 import "../CSS/Navigation.css";
 import React from "react";
@@ -37,11 +38,11 @@ const Navigation = () => {
                 Komunitas
               </li>
             </Link>
+            <Link style={{ color: "black" }} className="linknav" to={ARTIKEL}>
               <li className="styling-menu-navbar animasi-left-right">
                 Artikel
               </li>
-            {/* <Link style={{ color: "black" }} className="linknav" to={ARTIKEL}>
-            </Link> */}
+            </Link>
             <Link style={{ color: "black" }} className="linknav" to={AKSI}>
               <li className="styling-menu-navbar animasi-left-right">Aksi</li>
             </Link>
