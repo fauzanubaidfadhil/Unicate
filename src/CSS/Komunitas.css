@@ -9,7 +9,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 149.5%;
     color: white;
     width: 80%;
 }
@@ -29,14 +28,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 149.5%;
     color: white;
     max-width: 60%;
 }
 
 .imgkomunitas2 {
-    width: 649px;
-    height: 553.03px;
+    width: 50%;
 }
 
 .textsupport {
@@ -76,7 +73,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 149.5%;
     width: auto;
 }
 
@@ -85,16 +81,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 149.5%;
     color: black;
     width: 100%;
+    text-align: justify;
 }
 .konten2detailjob{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 160px;
+    justify-content: space-between;
 }
 
 .konten2detailjobleft{
@@ -112,7 +105,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 149.5%;
 }
 
 
@@ -124,7 +116,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 149.5%;
 }
 
 
@@ -136,7 +127,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 149.5%;
 }
 
 .style100-80-90 {
@@ -146,7 +136,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 149.5%;
 }
 
 
@@ -160,14 +149,12 @@
 
 .posisikomunitas1 {
     border-bottom: solid;
-    width: 254px;
     height: 86px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 28px;
-    margin-left: 10px;
 }
 
 .styletextposisikomunitas {
@@ -175,7 +162,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.5%;
 }
 
 .spacekomunitasterbaru {
@@ -184,19 +170,15 @@
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-
-    width: 256px;
-    height: 512px;
+    padding: 20px 20px;
 }
 
 .textlihatsemuanya {
     text-align: center;
-    margin-top: 100px;
     font-family: 'calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.5%;
     color: #009EFF
 }
 
@@ -229,7 +211,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.5%;
     text-align: center;
 }
 
@@ -241,9 +222,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 30px;
     border-radius: 20px;
     border-color: #009EFF;
     color: #009EFF;
     background-color: white;
+}
+.posisikomunitasterbarumobile{
+    border-style: solid;
+    border-radius: 8px;
 }
