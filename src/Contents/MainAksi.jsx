@@ -72,7 +72,7 @@ const MainAksi =() => {
                             <p className="text1-aksi-size-text ">Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.</p>
                             <p className="text2-aksi-size-text">Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah dasar (7 - 12 tahun) yang tidak memperoleh kesempatan menikmati pendidikan formal...</p>
                         </div>
-                        <img style={{width: "489px", height: "350px"}} src={Foto} alt="foto" className="fotokish"/>
+                        <img style={{width: "100%" }} src={Foto} alt="foto" className="fotokish"/>
                     </div>
             </div>
         {/* KisahInspirasi */}
