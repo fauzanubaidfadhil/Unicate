@@ -1,4 +1,3 @@
-import VectorDetar from "../Assets/VectorDetar.png";
 import facebookDetar from "../Assets/facebookDetar.png";
 import twitterDetar from "../Assets/twitterDetar.png";
 import instagramDetar from "../Assets/instagramDetar.png";
@@ -7,6 +6,8 @@ import Foto1aDetar from "../Assets/Foto1aDetar.png";
 import Foto1bDetar from "../Assets/Foto1bDetar.png";
 import Foto1cDetar from "../Assets/Foto1cDetar.png";
 import { Link } from "react-router-dom";
+import {MdNavigateNext} from "react-icons/md"
+import '../CSS/Mobile/DetailArtikelMobile.css'
 
 const MainDetailArtikel = () => {
   return (
@@ -14,106 +15,99 @@ const MainDetailArtikel = () => {
       {/* link atas */}
       <div style={{ padding: "20px 56px" }}>
         <a
-          style={{ textDecoration: "none", color: "black", padding: "0 5px" }}
+          style={{ textDecoration: "none", color: "#009EFF", fontSize: "14px" }}
           href="/"
         >
           Home
         </a>
-        <img src={VectorDetar} alt="" />
+        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
         <a
-          style={{ textDecoration: "none", color: "black", padding: "0 5px" }}
+          style={{ textDecoration: "none", color: "#009EFF", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
         </a>
-        <img src={VectorDetar} alt="" />
+        <MdNavigateNext style={{ color: "#dfdfdf"}} />
         <a
-          style={{ textDecoration: "none", color: "#009EFF", padding: "0 5px" }}
+          style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
           href="/DetailArtikel"
         >
           Detail Artikel
         </a>
       </div>
       {/* judul dan content */}
-      <div
+      <div className="detailartikecontent"
         style={{
           display: "flex",
-          flexDirection: "row",
-          alignItems: "flex-start",
+          justifyContent: "space-between",
           padding: "40px 56px",
           gap: "25px",
         }}
       >
         {/* content kanan */}
-        <div style={{ flex: "75%" }}>
+        <div className="maindetailartikelcontent" >
           <p
             style={{
               fontFamily: "Poppins",
               fontStyle: "normal",
               fontWeight: "700",
               fontSize: "38.9027px",
-              lineHeight: "58px",
               color: "#000000",
             }}
           >
             Mengapa Pendidikan Indonesia
           </p>
-          <div
+          <div className="topartikeldetail"
             style={{
               display: "flex",
-              flexDirection: "row",
-              alignItems: "flex-start",
+              justifyContent: "space-between",
+              width: "80%"
             }}
           >
-            <p
-              style={{
-                color: "#EA5900",
-                width: "60px",
-                height: "29px",
-                fontFamily: "Poppins",
-                fontStyle: "normal",
-                fontWeight: "600",
-                fontSize: "19.4513px",
-                lineHeight: "149.5%",
-              }}
-            >
-              JATIM
-            </p>
-            <p
-              style={{
-                color: "#00000066",
-                width: "152px",
-                height: "29px",
-                fontFamily: "Poppins",
-                fontStyle: "normal",
-                fontWeight: "500",
-                fontSize: "19.4513px",
-                lineHeight: "149.5%",
-                marginLeft: "3%",
-              }}
-            >
-              3 hari yang lalu
-            </p>
+            <div className="detaildateandlocation">
+              <p
+                style={{
+                  color: "#EA5900",
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  fontSize: "19.4513px",
+                  margin: "0 0px"
+                }}
+              >
+                JATIM
+              </p>
+              <p
+                style={{
+                  color: "#00000066",
+                  fontFamily: "Poppins",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  fontSize: "19.4513px",
+                  margin: "0 0px"
+                }}
+              >
+                3 hari yang lalu
+              </p>
+            </div>
             <div
               style={{
                 display: "flex",
                 flexDirection: "row",
-                alignItems: "flex-start",
+                alignItems: "center",
                 gap: "9.73px",
-                margin: "auto",
               }}
             >
-              <p
+              <div
                 style={{
                   fontFamily: "Poppins",
                   fontStyle: "normal",
                   fontWeight: "500",
                   fontSize: "15.5611px",
-                  lineHeight: "149.5%",
                 }}
               >
                 Share :
-              </p>
+              </div>
               <img
                 style={{ width: "29.18px", height: "29.18px" }}
                 src={twitterDetar}
@@ -133,7 +127,7 @@ const MainDetailArtikel = () => {
           </div>
           <img
             style={{
-              width: "876.28px",
+              width: "100%",
               height: "409.93px",
               borderRadius: "17.6314px",
             }}
@@ -148,7 +142,6 @@ const MainDetailArtikel = () => {
               fontStyle: "normal",
               fontWeight: "400",
               fontSize: "19.501px",
-              lineHeight: "29px",
               textAlign: "justify",
             }}
           >
@@ -182,7 +175,6 @@ const MainDetailArtikel = () => {
                 fontStyle: "normal",
                 fontWeight: "500",
                 fontSize: "19.501px",
-                lineHeight: "29px",
                 paddingLeft: "7.5px",
               }}
             >
@@ -199,7 +191,6 @@ const MainDetailArtikel = () => {
               fontStyle: "normal",
               fontWeight: "400",
               fontSize: "19.501px",
-              lineHeight: "29px",
               textAlign: "justify",
             }}
           >
@@ -228,20 +219,19 @@ const MainDetailArtikel = () => {
           </p>
         </div>
         {/* content kiri */}
-        <div style={{ flex: "25%" }}>
+        <div className="anotherdetailartikel" >
           <p
             style={{
               fontFamily: "Poppins",
               fontStyle: "normal",
               fontWeight: "600",
               fontSize: "16px",
-              lineHeight: "24px",
             }}
           >
             Terkini{" "}
           </p>
           {/* 1 */}
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row", alignItems:"center", gap: "10px" }}>
             <img
               style={{
                 width: "152px",
@@ -253,14 +243,10 @@ const MainDetailArtikel = () => {
             />
             <p
               style={{
-                paddingLeft: "2%",
                 fontFamily: "Calibri",
                 fontStyle: "normal",
                 fontWeight: "600",
                 fontSize: "14px",
-                lineHeight: "21px",
-                width: "139px",
-                height: "22px",
               }}
             >
               <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
@@ -270,7 +256,7 @@ const MainDetailArtikel = () => {
           </div>
           {/* 2 */}
           <div
-            style={{ display: "flex", flexDirection: "row", paddingTop: "5%" }}
+            style={{ display: "flex", flexDirection: "row",alignItems:"center", gap: "10px"  }}
           >
             <img
               style={{
@@ -283,14 +269,11 @@ const MainDetailArtikel = () => {
             />
             <p
               style={{
-                paddingLeft: "2%",
                 fontFamily: "Calibri",
                 fontStyle: "normal",
                 fontWeight: "600",
                 fontSize: "14px",
-                lineHeight: "21px",
-                width: "139px",
-                height: "22px",
+                margin:"auto"
               }}
             >
               Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus
@@ -299,7 +282,7 @@ const MainDetailArtikel = () => {
           </div>
           {/* 3 */}
           <div
-            style={{ display: "flex", flexDirection: "row", paddingTop: "5%" }}
+            style={{ display: "flex", flexDirection: "row", alignItems:"center", gap: "10px"}}
           >
             <img
               style={{
@@ -312,14 +295,11 @@ const MainDetailArtikel = () => {
             />
             <p
               style={{
-                paddingLeft: "2%",
                 fontFamily: "Calibri",
                 fontStyle: "normal",
                 fontWeight: "600",
                 fontSize: "14px",
-                lineHeight: "21px",
-                width: "139px",
-                height: "22px",
+                padding:"20px auto"
               }}
             >
               Mengapa Pendidikan di Indonesia Belum Merata?

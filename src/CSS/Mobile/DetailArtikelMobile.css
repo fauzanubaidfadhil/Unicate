@@ -1,0 +1,50 @@
+.detaildateandlocation{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.maindetailartikelcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.anotherdetailartikel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.topartikeldetail{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+@media(max-width:768px){
+    .detailartikecontent{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .maindetailartikelcontent{
+        width: 100%
+    }
+    .anotherdetailartikel{
+        width: 90%;
+    }
+    .detaildateandlocation{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topartikeldetail{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
