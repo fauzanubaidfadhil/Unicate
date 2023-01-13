@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+    .logomengajar{
+        left: 18%;
+        margin-top: 30%;
+        width: 70%;
+    }
+    .textkomunitasini{
+        font-size: 16px;
+    }
+    .posisikonten2, .posisikonten3 , .posisikonten4{
+        padding: 20px 20px;
+    }
+}
