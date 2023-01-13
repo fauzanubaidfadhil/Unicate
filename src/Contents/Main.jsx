@@ -34,6 +34,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "../CSS/Mobile/MainMobile.css";
+
 const Main = () => {
   useEffect(() => {
     AOS.init({

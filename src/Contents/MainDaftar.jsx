@@ -6,21 +6,22 @@ import { MASUK } from "../router";
 import { Link } from "react-router-dom";
 import "../CSS/Daftar.css";
 import "../CSS/Dekstop/Daftar.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import MoonLoader from "react-spinners/MoonLoader";
+
 
 function MainDaftar() {
   // const navigate = useNavigate();
+const [loading, setLoading] = useState("false");
 
   useEffect(() => {
     // const token = localStorage.getItem("Authorization");
 
     // if (token !== undefined) navigate("/", { replace: true });
-
-    AOS.init({
-      once: true,
-      duration: 400,
-    });
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+    
   }, []);
 
   const [inputs, setInputs] = useState({});
@@ -48,7 +49,12 @@ function MainDaftar() {
   };
 
   return (
-    <div data-aos="flip-left" className="posisiform">
+    <>
+    {loading ? (  
+      <div style={{marginLeft:"43%", position:"absolute",marginTop:"15%" , height:"100px", width:"100px"}}>
+    <MoonLoader color={"#009EFF"} loading={loading} size={150} />
+ </div>) : (
+    <div className="posisiform">
       <img
         style={{ height: "550px", position: "absolute" }}
         src={Background}
@@ -122,6 +128,9 @@ function MainDaftar() {
         </button> */}
       </form>
     </div>
+
+ )}
+    </>
   );
 }
 
