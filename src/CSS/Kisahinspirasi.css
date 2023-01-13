@@ -2,7 +2,7 @@
     padding: 5px 56px;
 }
 .image1kisahinspirasi {
-    width: 90%;
+    width: 60%;
     height: 354px;
 }
 
@@ -86,7 +86,7 @@
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 40px;
-    line-height: 60px;
+    width: 70%;
 }
 .mainkishpir{
     display: flex;
@@ -109,7 +109,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    text-align: justify;
 }
 
 .linktopkish{
@@ -123,13 +123,12 @@
     list-style-type: none;    
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
 }
 .text-home {
     color: blue;
     list-style-type: none; 
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 14px;
 }
