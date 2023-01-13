@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 4px 56px;
+    z-index: 1000;
 }
 .menuheader{
     display: flex;
@@ -34,7 +35,7 @@
 .styling-menu-navbar {
     list-style-type: none;
     padding: 0px;
-    margin: 15px;
+    margin: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -355,7 +356,7 @@
         .styling-menu-navbar {
             list-style-type: none;
             padding: 0px;
-            margin: 15px;
+            margin: 10px;
             font-style: normal;
             font-weight: 500;
             font-size: 14px;
@@ -379,10 +380,9 @@
         }
         .navbar{
             display: flex;
-            align-items: center;
-            flex-direction: row;
-            gap: 420px;
-            max-width: auto;
+            justify-content: space-between;
+            padding: 0px 60px 0px 60px;
+            width:100%;
         }
     }
   /* dropdown responsive */

@@ -13,6 +13,7 @@ import {
 } from "../router";
 import "../CSS/Navigation.css";
 import React from "react";
+import Burger from "./HamburgerMenu";
 
 // import Burger from "./HamburgerMenu";
 // import MobileNav from "./MobileView";
@@ -65,6 +66,7 @@ const Navigation = () => {
             </Link>
           </div>
         </div>
+        <Burger />
       </Navbar>
       {/* </Headroom> */}
     </>

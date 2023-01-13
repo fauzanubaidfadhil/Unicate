@@ -1,44 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import MobileView from './MobileView';
 
-export const StyledBurger = styled.button`
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
+
+
+const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
-  
-  &:focus {
-    outline: none;
+  z-index: 1000;
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
   }
-  
   div {
     width: 2rem;
     height: 0.25rem;
-    background: #000000;
+    background-color:#009EFF;
     border-radius: 10px;
-    transition: all 0.3s linear;
-    position: relative;
     transform-origin: 1px;
+    transition: all 0.3s linear;
+    z-index: 1000;
+    &:nth-child(1) {
+      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+    }
+    &:nth-child(2) {
+      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
+      opacity: ${({ open }) => open ? 0 : 1};
+    }
+    &:nth-child(3) {
+      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+    }
   }
-  @media (max-width: 768px) {
-    display: flex;
-  }
-
 `;
 
 const Burger = () => {
+  const [open, setOpen] = useState(false)
+  
   return (
-    <StyledBurger>
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
+    <>
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+      <MobileView open={open}/>
+    </>
   )
 }
 

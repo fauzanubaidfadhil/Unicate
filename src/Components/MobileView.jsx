@@ -1,60 +1,119 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
+// import Headroom from "react-headroom";
+import {
+  MASUK,
+  KOMUNITAS,
+  HOME,
+  AKSI,
+  DAFTAR,
+  ABOUTUS,
+  ARTIKEL
+} from "../router";
 
-export const StyledMenu = styled.nav`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #009EFF;
-  height: screen-height;
-  text-align: left;
-  padding: 2rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease-in-out;
+const Ul = styled.ul`
+  list-style: none;
+  display: none;
+  flex-flow: row nowrap;
+  z-index: 100;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #0D2538;
+    position: fixed;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding: 2rem;
+    gap: 5px
+    transition: transform 0.3s ease-in-out;
+    li {
+      color: #fff;
+    }
+    .buttonmasukmobile, .buttondaftarmobile{
+      padding: 0px 2px;
+      gap: 10px;
   
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 100%;
-  }
-
-  a {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
-    color: ${({ theme }) => theme.primaryDark};
-    text-decoration: none;
-    transition: color 0.3s linear;
+      width: 89px;
+      height: 30%;
+  
+      background: #009EFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 16px;
+  
+      color: #FFFFFF;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .animasi-left-right {
+      display: inline-block;
+    }
+  
+    .animasi-left-right:after {
+        content: '';
+        display: block;
+        height: .1525rem;
+        width: 0;
+        background: #fff ;
+        transition: width .3s ease, background-color .3s ease;
+        color: #009EFF;
+    }
     
-    @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    &:hover {
-      color: ${({ theme }) => theme.primaryHover};
-    }
+    .animasi-left-right:hover:after {
+        width: 100%;
+        background: #fff;
+        color: #009EFF;
+      }
   }
 `;
-
-const Menu = () => {
+const MobileView = ({ open }) => {
   return (
-    <StyledMenu>
-      <a href="/">
-        <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
-        About us
-      </a>
-      <a href="/">
-        <span role="img" aria-label="price">&#x1f4b8;</span>
-        Pricing
-        </a>
-      <a href="/">
-        <span role="img" aria-label="contact">&#x1f4e9;</span>
-        Contact
-        </a>
-    </StyledMenu>
+    <Ul open={open}>
+      <Link style={{ color: "black" }} className="linknav" to={HOME}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Beranda
+              </li>
+            </Link>
+            <Link style={{ color: "black" }} className="linknav" to={KOMUNITAS}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Komunitas
+              </li>
+            </Link>
+            <Link style={{ color: "black" }} className="linknav" to={ARTIKEL}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Artikel
+              </li>
+            </Link>
+            {/* <Link style={{ color: "black" }} className="linknav" to={ARTIKEL}>
+            </Link> */}
+            <Link style={{ color: "black" }} className="linknav" to={AKSI}>
+              <li className="styling-menu-navbar animasi-left-right">Aksi</li>
+            </Link>
+            <Link style={{ color: "black" }} to={ABOUTUS}>
+              <li className="styling-menu-navbar animasi-left-right">
+                Tentang Kami
+              </li>
+            </Link>
+            <Link style={{ textDecoration: "none" }} to={MASUK}>
+              <li className="styling-menu-navbar animasi-left-right">
+              <button type="button" className="buttonmasukmobile">
+                Masuk
+              </button>
+              </li>
+            </Link>
+            <Link style={{ textDecoration: "none" }} to={DAFTAR}>
+              <li className="styling-menu-navbar animasi-left-right">
+              <button type="button" className="buttondaftarmobile">
+                Daftar
+              </button>
+              </li>
+            </Link>
+    </Ul>
   )
 }
-export default Menu;
+
+export default MobileView;
