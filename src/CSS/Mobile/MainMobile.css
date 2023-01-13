@@ -2,6 +2,10 @@
     .positioncontent2{
         display: flex;
         flex-direction: column;
+        gap: 10px;
+    }
+    .textmajukan, .textgerakan{
+        color: #fff;
     }
     .positioncontent4subberita{
         display: flex;
@@ -15,7 +19,7 @@
     .positionourservicedetail{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 56px;
         gap: 20px;
     }
@@ -23,14 +27,16 @@
         display: flex;
         flex-direction: column;
         padding-left: 56px;
-        align-items: flex-start; 
+        padding-right: 56px;
+        align-items: center;
+        width: 100%; 
     }
     .positioncontent3{
         height: auto;
         height:1625px;
     }
     .position-textlabel{
-        width: 100%;
+        width: 90%;
     }
     .imgpetaindonesia{
         width: 100%;
@@ -47,6 +53,78 @@
     }
     .textlabel{
         font-size: 12px;
-        margin-right: 60px;
+        margin-right: 0px;
+    }
+    .img-konten2{
+        width: 90%;
+    }
+    .positioncontent2right, .positionourservicedetailleft{
+        display: flex;
+        align-items: center;
+    }
+    .positionourservicedetailright{
+        text-align: center;
+    }
+    .positionourservicedetailleft{
+        width: 100%;
+    }
+    .textwhypeople, .textourservice {
+        text-align: center;
+    }
+    .textlihat{
+        font-size: 14px;
+    }
+    .textberita{
+        font-size: 20px;
+    }
+    .positioncontent4top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 56px;
+        align-items: center;
+    }
+    .imgartikel1{
+        width: 100%;
+    }
+    .positioncontent4detailmainberita{
+        width: 100%;
+    }
+    .subarticleinhome{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+    .textberi{
+        width: 50%;
+        height: auto !important;
+        font-size: 18px;
+    }
+    .positioncontent5{
+        height: 700px;
+        padding: 0px ;
+    }
+    .textbagaimana{
+        margin-left: 56px;
+    }
+    .textwhypeople{
+        width: 100%;
+        height: auto;
+    }
+    .textkonten3{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .imgartikel2{
+        width: 100%;
+    }
+    .card, .imgcard{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .posisiimgartikel1{
+        width: 100%;
     }
 }

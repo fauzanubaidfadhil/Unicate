@@ -66,20 +66,20 @@ const Main = () => {
           src={image1}
           alt="image1"
         />
-        <h1 data-aos="fade-up" className="textmajukan">
-          Majukan Pendidikan Anak-Anak Indonesia
-        </h1>
-        <p data-aos="fade-up" className="textgerakan ">
-          Gerakan Peduli Anak Indonesia
-        </p>
-        <Link to={KOMUNITAS}>
-          <button
-            data-aos="fade-right"
-            className="buttonbergabung"
-            type="button"
-          >
-            Bergabung Sekarang
-          </button>
+          <h1 data-aos="fade-up" className="textmajukan">
+            Majukan Pendidikan Anak-Anak Indonesia
+          </h1>
+          <p data-aos="fade-up" className="textgerakan ">
+            Gerakan Peduli Anak Indonesia
+          </p>
+          <Link to={KOMUNITAS}>
+            <button
+              data-aos="fade-right"
+              className="buttonbergabung"
+              type="button"
+            >
+              Bergabung Sekarang
+            </button>
         </Link>
         <div className="position-textlabel">
           <h2 className="textlabel">
@@ -89,8 +89,8 @@ const Main = () => {
           <img
             style={{
               position: "absolute",
-              bottom: "0",
-              width: "160px",
+              bottom: "0px",
+              width: "140px",
               left: "50px",
             }}
             src={image4}
@@ -195,7 +195,7 @@ const Main = () => {
       <div className="positioncontent4">
         <div className="positioncontent4top">
           <div className="textberita">Berita Terbaru</div>
-          <p className="textlihat">Lihat selengkapnya</p>
+          <div className="textlihat">Lihat selengkapnya</div>
         </div>
 
         <img
@@ -214,23 +214,21 @@ const Main = () => {
             />
           </div>
           <div className="positioncontent4detailmainberita">
-            <div className="textjatim">JATIM</div>
-            <div className="textmelalui">
+            <div className="lokasiartikelinhome">JATIM</div>
+            <div className="titlearticleinhome">
               Melalui 'Jaketku' Ribuan Anak Putus Sekolah di Gresik Bisa Dapat
               Ijazah
             </div>
-            <p className="textpemkab">
+            <p className="detailarticleinhome">
               Pemkab Gresik menggagas sebuah program yang dapat membantu anak
               putus sekolah untuk bisa menyelesaikan pendidikannya.
             </p>
           </div>
         </div>
         <div className="positioncontent4subberita">
-          <div className="posisiartikel2">
+          <div className="subarticleinhome">
             <div
               style={{
-                height: "218px",
-                width: "273px",
                 borderRadius: "30px",
                 overflow: "hidden",
               }}
@@ -247,11 +245,9 @@ const Main = () => {
               Resmikan Sekolah Virtual
             </p>
           </div>
-          <div className="posisiartikel3">
+          <div className="subarticleinhome">
             <div
               style={{
-                height: "218px",
-                width: "273px",
                 borderRadius: "30px",
                 overflow: "hidden",
               }}
@@ -268,11 +264,9 @@ const Main = () => {
               Resmikan Sekolah Virtual
             </p>
           </div>
-          <div className="posisiartikel4">
+          <div className="subarticleinhome">
             <div
               style={{
-                height: "218px",
-                width: "273px",
                 borderRadius: "30px",
                 overflow: "hidden",
               }}
@@ -289,11 +283,9 @@ const Main = () => {
               Resmikan Sekolah Virtual
             </p>
           </div>
-          <div className="posisiartikel5">
+          <div className="subarticleinhome">
             <div
               style={{
-                height: "218px",
-                width: "273px",
                 borderRadius: "30px",
                 overflow: "hidden",
               }}
