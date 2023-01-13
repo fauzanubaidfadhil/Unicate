@@ -1,0 +1,12 @@
+
+
+@media(max-width:768px){
+    .detailprivacy{
+        font-size: 12px;
+
+    }
+    .mainprivacy{
+        padding: 0px 56px;
+    }
+    
+}

@@ -1,3 +1,9 @@
-.detailterms{
-    padding:  0px 56px;
+@media(max-width: 768px){
+    .detailtermscondition{
+        font-size: 12px;
+    }
+    .mainterms{
+        padding: 0px 56px;
+        width: 100%;
+    }
 }
