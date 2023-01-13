@@ -1,85 +1,83 @@
 .position-carousel {
-    background-color: #0076BF;
-    display: flex;
-    position: absolute;
-      width: 676px;
-      height: 393px;
-    right: 0;
-    margin-top: -2.5%;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+  background-color: #0076BF;
+  display: flex;
+  position: absolute;
+  width: 676px;
+  height: 393px;
+  right: 0;
+  margin-top: -2.5%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .swiper {
-    width: 746px;
-    height: 400px;
-  }
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 746px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.position-text-1-slider-1 {
+  width: 408px;
+  height: 72px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 149.5%;
+  position: absolute;
+  text-align: left;
+  color: white;
+  margin-bottom: 25%;
   
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 746px;
-    height: 400px;
-    object-fit: cover;
-  }
+}
 
-  .position-text-1-slider-1 {
-    width: 408px;
-    height: 72px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 149.5%;
-    position: absolute;
-    text-align: left;
-    color: white;
-    margin-bottom: 25%;
-    
-  }
+.position-text-2-slider-1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 149.5%;
+  text-align: left;
+  color: white;
 
-  .position-text-2-slider-1 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 149.5%;
-    text-align: left;
-    color: white;
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  left: 20%;
+  top: 40%;
+}
 
-    position: absolute;
-    width: 145px;
-    height: 30px;
-    left: 20%;
-    top: 40%;
-  }
+.position-text-3-slider-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 149.5%;
+  color: white;
 
-  .position-text-3-slider-1 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 149.5%;
-    color: white;
-
-    position: absolute;
-    left: 20%;
-    top: 50%;
-  }
-  
+  position: absolute;
+  left: 20%;
+  top: 50%;
+}

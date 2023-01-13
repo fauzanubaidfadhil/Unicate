@@ -42,7 +42,7 @@ const MainArtikel = () => {
               Home{" "}
             </Link>
           </li>
-          <MdNavigateNext />
+          <MdNavigateNext style={{color:"#dfdfdf"}}/>
           <li className="linknavartikel"> Artikel </li>
         </ul>
         <div className="artikeltitletop">
@@ -88,26 +88,23 @@ const MainArtikel = () => {
             }}
             modules={[Pagination]}
             className="Carouselsusah"
+
           >
             <SwiperSlide>
               {" "}
               {/* Artikel 1 */}
-              <div
-                style={{
-                  height: "360px",
-                }}
-              >
+              <div style={{width: "30%"}}>
                 <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                   <img
-                    style={{ width: "364px", height: "198px" }}
+                    style={{ width: "100%"}}
                     src={FotoArtikel1}
                     alt="FotoArtikel1"
                   />
                   <h4
                     style={{
-                      textAlign: "left",
+                      textAlign: "justify",
                       width: "100%",
-                      fontSize: "16px",
+                      fontSize: "18px",
                       fontWeight: "600",
                     }}
                   >
@@ -116,10 +113,10 @@ const MainArtikel = () => {
                   </h4>
                   <p
                     style={{
-                      textAlign: "left",
+                      textAlign: "justify",
                       fontStyle: "normal",
                       fontWeight: "400",
-                      fontSize: "12px",
+                      fontSize: "14px",
                       lineHeight: "18px",
                       width: "100%",
                     }}
@@ -133,20 +130,21 @@ const MainArtikel = () => {
               {/* Artikel 2 */}
               <div
                 style={{
-                  width: "370px",
-                  height: "360px",
+                  width: "30%",
+                  display: "flex",
+                  flexDirection: "column",
                 }}
               >
                 <img
-                  style={{ width: "364px", height: "198px" }}
+                  style={{ width: "100%"  }}
                   src={FotoArtikel2}
                   alt="FotoArtikel2"
                 />
                 <h4
                   style={{
-                    textAlign: "left",
+                    textAlign: "justify",
                     width: "100%",
-                    fontSize: "16px",
+                    fontSize: "18px",
                     fontWeight: "600",
                   }}
                 >
@@ -155,12 +153,12 @@ const MainArtikel = () => {
                 </h4>
                 <p
                   style={{
-                    textAlign: "left",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    fontSize: "14px",
-                    lineHeight: "18px",
-                    width: "100%",
+                    textAlign: "justify",
+                      fontStyle: "normal",
+                      fontWeight: "400",
+                      fontSize: "14px",
+                      lineHeight: "18px",
+                      width: "100%",
                   }}
                 >
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
@@ -171,22 +169,20 @@ const MainArtikel = () => {
               {/* Artikel 3 */}
               <div
                 style={{
-                  width: "370px",
-                  height: "360px",
+                  width: '30%'
                 }}
               >
                 <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
                   <img
-                    style={{ width: "364px", height: "198px" }}
+                    style={{ width: "100%" }}
                     src={FotoArtikel3}
                     alt="FotoArtikel3"
                   />
                   <h4
                     style={{
-                      textAlign: "left",
+                      textAlign: "justify",
                       width: "100%",
-                      height: "72px",
-                      fontSize: "16px",
+                      fontSize: "18px",
                       fontWeight: "600",
                     }}
                   >
@@ -195,7 +191,7 @@ const MainArtikel = () => {
                   </h4>
                   <p
                     style={{
-                      textAlign: "left",
+                      textAlign: "justify",
                       fontStyle: "normal",
                       fontWeight: "400",
                       fontSize: "14px",
@@ -234,7 +230,6 @@ const MainArtikel = () => {
                       height: "72px",
                       fontSize: "16px",
                       fontWeight: "600",
-                      marginTop: "5px",
                     }}
                   >
                     Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
@@ -247,7 +242,6 @@ const MainArtikel = () => {
                       fontStyle: "normal",
                       fontWeight: "400",
                       fontSize: "14px",
-                      lineHeight: "18px",
                       width: "392.31px",
                       height: "51px",
                     }}

@@ -1,9 +1,9 @@
 
 .homefromartikel{
-    font-family: 'Calibri';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .ulartikel{
@@ -11,15 +11,16 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 5px 56px;
+    padding: 10px 56px 10px 56px;
+    margin-bottom: 0px;
 }
 
 .linknavartikel{
     list-style-type: none;
-    padding: 0px;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .artikeltitletop{
@@ -33,7 +34,6 @@
     font-style: normal;
     font-weight: 505;
     font-size: 33px;
-    width: 8%;
     border-bottom: solid;
     border-color: #005C95;
     border-width: 5px;
@@ -41,7 +41,6 @@
 }
 
 .artikelimage{
-    height: 410px;
     border-radius: 20px;
 }
 
@@ -85,6 +84,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    margin: 0 0;
 }
 
 .iconshare{
@@ -112,13 +112,6 @@
     width: 80%;
 }
 
-.Carouselsusah {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 0 0 0 0px;
-}
-
 .Artikellainnyacuy{
     font-style: normal;
     font-weight: 700;
@@ -132,45 +125,28 @@
 .swiper-slide {
     background: transparent;
 }
-.busetdah{
-    width: 100%;
-}
-.busetdah{
-    border-style: solid;
-    height: 390px;
-    width:900px;
-    margin-top: 5%;
-}
 
 .dipnyacarousel2{
-    height: 600px;
-    margin-top: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .FotoAC2cuy{
-    width: 80%;
     border-radius: 20px;
 }
 
 .Carouselsusah {
-    width: 1328px;
-    height: 430px;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 5px;
-    position: absolute;
-    margin-top: 5px;
-    right: 0;
-    margin-right: 40px;
+    gap: 40px;
   }
   
 .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: transparent;
-  
-    /* Center slide text vertically */
+    flex-direction: row;
+    gap: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
