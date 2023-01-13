@@ -25,7 +25,8 @@ const FAQTitle = styled.div`
     gap: 20px;
     @media(max-width: 600px){
         display: flex;
-        align-items: flex-start;
+        align-items: center;
+        gap: 10px;
     }
 `;
 const Title = styled.div`
@@ -33,6 +34,9 @@ const Title = styled.div`
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
+    @media(max-width: 768px){
+        font-size: 32px;
+    }
 `;
 const SubTitle = styled.div`
     font-size: 20px;
