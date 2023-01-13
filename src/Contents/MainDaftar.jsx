@@ -64,6 +64,7 @@ function MainDaftar() {
             value={inputs.username}
             onChange={handleChange}
             placeholder="Username"
+            required
           />
           <input
             className="inputdaftar"
@@ -72,6 +73,7 @@ function MainDaftar() {
             value={inputs.fullname}
             onChange={handleChange}
             placeholder="Full Name"
+            required
           />
           <input
             className="inputdaftar"
@@ -81,6 +83,7 @@ function MainDaftar() {
             value={inputs.email}
             onChange={handleChange}
             placeholder="Email"
+            required
           />
           <input
             className="inputdaftar"
@@ -90,6 +93,7 @@ function MainDaftar() {
             value={inputs.password}
             onChange={handleChange}
             placeholder="Password"
+            required
           />
           <input
             className="inputdaftar"
@@ -99,6 +103,7 @@ function MainDaftar() {
             value={inputs.confPassword}
             onChange={handleChange}
             placeholder="Confirm Password"
+            required
           />
         </div>
         <button className="buttondaftar" type="submit">

@@ -34,7 +34,13 @@ const MainArtikel = () => {
         <ul className="ulartikel">
           <li className="homefromartikel">
             {" "}
-            <Link style={{ color: "#009EFF", textDecoration:"none" }} to={HOME}> Home </Link>
+            <Link
+              style={{ color: "#009EFF", textDecoration: "none" }}
+              to={HOME}
+            >
+              {" "}
+              Home{" "}
+            </Link>
           </li>
           <MdNavigateNext />
           <li className="linknavartikel"> Artikel </li>
@@ -91,7 +97,7 @@ const MainArtikel = () => {
                   height: "360px",
                 }}
               >
-                <Link to="/DetailArtikel">
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                   <img
                     style={{ width: "364px", height: "198px" }}
                     src={FotoArtikel1}
@@ -131,7 +137,6 @@ const MainArtikel = () => {
                   height: "360px",
                 }}
               >
-                <Link to="/DetailArtikel2">
                 <img
                   style={{ width: "364px", height: "198px" }}
                   src={FotoArtikel2}
@@ -161,7 +166,6 @@ const MainArtikel = () => {
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                   karena Resmikan Sekolah Virtual
                 </p>
-                </Link>
               </div>
               {/* Artikel 2 */}
               {/* Artikel 3 */}
@@ -171,37 +175,37 @@ const MainArtikel = () => {
                   height: "360px",
                 }}
               >
-                <Link to="/DetailArtikel3">
-                <img
-                  style={{ width: "364px", height: "198px" }}
-                  src={FotoArtikel3}
-                  alt="FotoArtikel3"
-                />
-                <h4
-                  style={{
-                    textAlign: "left",
-                    width: "100%",
-                    height: "72px",
-                    fontSize: "16px",
-                    fontWeight: "600",
-                  }}
-                >
-                  Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
-                  Sekolah untuk Anak Kurang Mampu
-                </h4>
-                <p
-                  style={{
-                    textAlign: "left",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    fontSize: "14px",
-                    lineHeight: "18px",
-                    width: "100%",
-                  }}
-                >
-                  Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-                  karena Resmikan Sekolah Virtual
-                </p>
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
+                  <img
+                    style={{ width: "364px", height: "198px" }}
+                    src={FotoArtikel3}
+                    alt="FotoArtikel3"
+                  />
+                  <h4
+                    style={{
+                      textAlign: "left",
+                      width: "100%",
+                      height: "72px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                    }}
+                  >
+                    Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
+                    Peralatan Sekolah untuk Anak Kurang Mampu
+                  </h4>
+                  <p
+                    style={{
+                      textAlign: "left",
+                      fontStyle: "normal",
+                      fontWeight: "400",
+                      fontSize: "14px",
+                      lineHeight: "18px",
+                      width: "100%",
+                    }}
+                  >
+                    Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
+                    karena Resmikan Sekolah Virtual
+                  </p>
                 </Link>
               </div>
               {/* Artikel 3 */}
@@ -217,40 +221,40 @@ const MainArtikel = () => {
                   left: "4%",
                 }}
               >
-                <Link to="/DetailArtikel4">
-                <img
-                  style={{ width: "364px", height: "198px" }}
-                  src={FotoArtikel3}
-                  alt="FotoArtikel3"
-                />
-                <h4
-                  style={{
-                    textAlign: "left",
-                    width: "322px",
-                    height: "72px",
-                    fontSize: "16px",
-                    fontWeight: "600",
-                    marginTop: "5px",
-                  }}
-                >
-                  Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
-                  Sekolah untuk Anak Kurang Mampu
-                </h4>
-                <p
-                  style={{
-                    textAlign: "left",
-                    marginTop: "-15px",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    fontSize: "14px",
-                    lineHeight: "18px",
-                    width: "392.31px",
-                    height: "51px",
-                  }}
-                >
-                  Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-                  karena Resmikan Sekolah Virtual
-                </p>
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
+                  <img
+                    style={{ width: "364px", height: "198px" }}
+                    src={FotoArtikel3}
+                    alt="FotoArtikel3"
+                  />
+                  <h4
+                    style={{
+                      textAlign: "left",
+                      width: "322px",
+                      height: "72px",
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      marginTop: "5px",
+                    }}
+                  >
+                    Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
+                    Peralatan Sekolah untuk Anak Kurang Mampu
+                  </h4>
+                  <p
+                    style={{
+                      textAlign: "left",
+                      marginTop: "-15px",
+                      fontStyle: "normal",
+                      fontWeight: "400",
+                      fontSize: "14px",
+                      lineHeight: "18px",
+                      width: "392.31px",
+                      height: "51px",
+                    }}
+                  >
+                    Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
+                    karena Resmikan Sekolah Virtual
+                  </p>
                 </Link>
               </div>
               {/* Artikel 3 */}
