@@ -13,7 +13,7 @@ import {
   AKSI,
   AKSIDETAIL,
   AKSIDETAIL2,
-  AKSI_NAVLOGIN,
+  AKSINAVLOGIN,
   PRIVACYPOLICY,
   TERMS_AND_CONDITION,
   KISAHINSPIRASI,
@@ -32,7 +32,7 @@ import Donasi from "./Pages/Donasi";
 import Aksi from "./Pages/Aksi";
 import AksiDetail from "./Pages/AksiDetail";
 import AksiDetail2 from "./Pages/AksiDetail2";
-import Aksi_NavLogin from "./Pages/Aksi_NavLogin";
+import AksiNavLogin from "./Pages/AksiNavLogin";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/Terms_And_Condition";
 import Kisahinspirasi from "./Pages/Kisahinspirasi";
@@ -57,9 +57,9 @@ function App() {
         <Route path={DEKOM} element={<Dekom />} />
         <Route path={ARTIKEL} element={<Artikel />} />
         <Route path={AKSI} element={<Aksi />} />
-          <Route path={AKSIDETAIL} element={<AksiDetail/>} />
-          <Route path={AKSIDETAIL2} element={<AksiDetail2/>} />
-        <Route path={AKSI_NAVLOGIN} element={<Aksi_NavLogin />} />
+        <Route path={AKSIDETAIL} element={<AksiDetail/>} />
+        <Route path={AKSIDETAIL2} element={<AksiDetail2/>} />
+        <Route path={AKSINAVLOGIN} element={<AksiNavLogin />} />
         <Route path={ABOUTUS} element={<AboutUs />} />
         <Route path={DONASI} element={<Donasi />} />
         <Route path={PRIVACYPOLICY} element={<PrivacyPolicy />} />
