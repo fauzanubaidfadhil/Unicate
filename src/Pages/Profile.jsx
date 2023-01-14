@@ -1,4 +1,4 @@
-import Navslogin from "../Components/Navslogin";
+import React, { useEffect, useState } from "react";
 import "../CSS/Profile.css";
 import { CgProfile } from "react-icons/cg";
 import { HiUserGroup } from "react-icons/hi";
@@ -9,7 +9,6 @@ import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
 import Footer from "../Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect, useState } from "react";
 
 export default function App() {
   useEffect(() => {
@@ -31,7 +30,6 @@ export default function App() {
 
   return (
     <>
-      <Navslogin />
       <div data-aos="fade-up" style={{ height: "1336px" }}>
         <div className="posisi-card1-profile">
           <p style={{ cursor: "pointer" }} onClick={() => setMenu("Profile")}>
