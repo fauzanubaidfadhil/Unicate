@@ -1,18 +1,35 @@
-import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
 import MoonLoader from "react-spinners/MoonLoader";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from "@mui/material/Checkbox";
-import { Link, useNavigate } from "react-router-dom";
 import { DAFTAR } from "../router";
+import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
 import "../CSS/Masuk.css";
 import "aos/dist/aos.css";
 import "../CSS/Dekstop/Masuk.css";
 
 const MainMasuk = () => {
   const navigate = useNavigate();
-  const [loading, setLoading] = useState("false");
+  const [loading, setLoading] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    // formState: { errors },
+  } = useForm();
+
+  const onSubmit = async (value) => {
+    try {
+      const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/user-login`, value);
+      if (data.Athorization !== undefined) {
+        localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorize);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   useEffect(() => {
     const token = localStorage.getItem("Authorization");
@@ -27,25 +44,6 @@ const MainMasuk = () => {
   }, []);
 
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
-
-  const [inputs, setInputs] = useState({});
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setInputs((values) => ({ ...values, [name]: value }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/user-login`, inputs);
-      if (data.Athorization !== undefined) {
-        localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorize);
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <>
@@ -64,25 +62,22 @@ const MainMasuk = () => {
       ) : (
         <div className="bungkusanmasukin">
           <img className="imgformmasuk" src={Backgroundformmasuk} alt="backgroundformmasuk" />
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="posisiinputcuy">
               <input
                 type="email"
                 id="email"
-                name="email"
-                value={inputs.email}
-                onChange={handleChange}
+                {...register("email", {
+                  required: { value: true, message: "This field is required!" },
+                })}
                 placeholder="Email"
-                required
               />
+              {/* {errors.email && <p style={{ color: "red" }}>{errors.email.message}</p>} */}
               <input
                 type="password"
                 id="password"
-                name="password"
-                value={inputs.password}
-                onChange={handleChange}
+                {...register("password", { required: true })}
                 placeholder="Password"
-                required
               />
             </div>
             <div className="cekbok">
@@ -116,12 +111,3 @@ const MainMasuk = () => {
 };
 
 export default MainMasuk;
-
-// const [formState, setFormState] = useState({
-//   username: "",
-//   password: "",
-//   errorMessage: "",
-// });
-// const handleInputChange = (event) => {
-//   const { name, value } = event.target;
-// };
