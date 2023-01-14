@@ -22,7 +22,7 @@ const MainDetailArtikel = () => {
         </a>
         <MdNavigateNext style={{ color: "#dfdfdf"}}/>
         <a
-          style={{ textDecoration: "none", color: "#009EFF", fontSize: "14px" }}
+          style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
@@ -40,7 +40,7 @@ const MainDetailArtikel = () => {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          padding: "40px 56px",
+          padding: "10px 56px",
           gap: "25px",
         }}
       >
@@ -53,6 +53,7 @@ const MainDetailArtikel = () => {
               fontWeight: "700",
               fontSize: "38.9027px",
               color: "#000000",
+              margin: "0 0"
             }}
           >
             Mengapa Pendidikan Indonesia
@@ -226,6 +227,7 @@ const MainDetailArtikel = () => {
               fontStyle: "normal",
               fontWeight: "600",
               fontSize: "16px",
+              margin: "0 0"
             }}
           >
             Terkini{" "}

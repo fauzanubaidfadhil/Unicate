@@ -1,0 +1,47 @@
+@media(max-width:768px) {
+    .titlecontentarticle{
+        font-size: 28px;
+        width: 100%;
+    }
+    .subcontentarticle{
+        width: 100%;
+    }
+    .Artikellainnya{
+        font-size: 20px;
+    }
+    .titleartikelbottom{
+        font-size: 16px;
+    }
+    .swiper-slide{
+        display: flex;
+        justify-content: space-around;
+    }
+    .subtitleartikelbottom{
+        font-size: 10px;
+    }
+    .cardartikelbottom{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .imgdanartikelspot{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .artikelimage{
+        width: 50%;
+    }
+    .locanddatearticle{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .artikeltitlebottom{
+        gap: 10px;
+    }
+    #iconsocmed{
+        width: 20px;
+        height: 20px;
+    }
+}
