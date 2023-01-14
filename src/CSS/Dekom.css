@@ -1,181 +1,190 @@
-.image1cuy{
-    width: 410px;
-    height: 410px;
-    margin-left: 4%;
+.imagekomunitasdetail{
+    width: 100%;
 }
 
-.gabungdekom{
+.linknavdekom{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding: 5px 56px;
+    margin: 0 0;
+}
+
+.linknavdetail, .linknavhome{
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.maindekom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 56px;
+}
+
+.maindekomleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 45%;
+}
+
+.personalteamkomunitasdetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.ownerkomunitas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.ownerkomunitasid{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.memberkomunitas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.memberkomunitasid{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.imagememberkomunitasid{
+    width: 100%;
+}
+
+.imagememberkomunitasid{
+    list-style-type: none;
+}
+
+.lokasikomunitas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.lokasikomunitasid{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.maindekomright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+}
+
+.maindekomrighttop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.identifyjoin{
     border-style: solid;
     border-color: #00A9A5;
     background-color: #00A9A5;
     color: white;
-    height: 30px;
-    width: 220px;
-    margin-top: -380px;
-    margin-left: 45%;
+    padding: 5px 5px;
+    margin: 0 0;
     font-size: large;
     font-weight: 500;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 10px;
     border-radius: 8px;
 }
 
-.keluarcuy{
+.logoutkomunitas{
     color: red;
-    margin-top: -45px;
-    margin-left: 65%;
     font-style: oblique;
+    margin: 0 0;
 }
 
-.deskripsidekom{
+.deskripsititlekomunitas{
     font-family: 'poppins';
     font-size: 32px;
     font-weight: 600;
-    margin-top: 25px;
-    margin-left: 45%;
+    margin: 0 0;
 }
 
-.bawahnyadeskripsi{
-    margin-top: -10px;
-    margin-left: 45%;
-
-    width: 590px;
-    height: 216px;
-
+.deskripsidetailkomunitasdekom{
     font-family: 'calibri';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
     text-align: justify;
 }
 
-.kegiatandekom{
-    list-style-type: none;
-    border-style: solid;
-    height: 50px;
-    width: 500px;
-    border-top: #009EFF;
-    background-color: #009EFF;
-    margin-left: 570px;
-    display: flex;
-}
-
-.kegiatancuy{
+.kegiatankomunitasdetail{
     font-family: 'poppins';
     font-size: 32px;
     font-weight: 600;
-    margin-top: 20px;
-    margin-left: 45%;
+    margin: 0 0;
 }
 
-.kalenderdekom{
-    list-style-type: none;
+.datekegiatan{
     display: flex;
-    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 21px;
+    background: #009EFF;
+    border-radius: 16px;
+    margin: 0 0;
 }
 
-.icondekom{
-    margin-top: 5px;
-    margin-left: 0px;
-}
-
-.tgldekom{
+.tanggalkegiatankomunitas{
     list-style-type: none;
-    margin: 4px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 94%;
-    margin-top: 15px;
     color: white;
 }
 
-.ketdekom{
-    list-style-type: none;
-    margin: 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 94%;
-    margin-top: 15px;
-    color: white;
-}
-
-
-
-
-.ownercuy{
-margin-left: 4%;
-margin-top: -120px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 0px;
-}
-
-.image2cuy{
-    margin-left: 4%;
-    margin-top: 0px;
-}
-
-.membercuy{
-    margin-left: 4%;
-    margin-top: 30px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 0px;
-}
-
-.imagemembernicuy{
-    list-style-type: none;
-}
-
-.fotocuy{
+.fotokegiatantitle{
     font-family: 'poppins';
     font-size: 32px;
     font-weight: 600;
-    margin-top: -100px;
-    margin-left: 45%;
+    margin: 0 0;
 }
 
-.fotosidekom{
-    width: 600px;
-    height: 190px;
-    margin-top: 0px;
-    margin-left: 45%;
+.fotokegiatandetail{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 22px;
 }
 
-.fotosidekom2{
-    width: 600px;
-    height: 190px;
-    margin-top: 15px;
-    margin-left: 45%;
-}
-
-
-
-
-.lokasicuy{
-    margin-left: 4%;
-    margin-top: -350px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 0px;
-}
-
-.petadekom{
-    height: 260px;
-    width: 300px;
-    margin-left: 4%;
+.fotokegiatandetailid{
+    width: 30%;
 }
