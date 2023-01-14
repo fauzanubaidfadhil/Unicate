@@ -1,28 +1,32 @@
 import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
-import React, { useState, useEffect, } from "react";
+import React, { useState, useEffect } from "react";
 import MoonLoader from "react-spinners/MoonLoader";
 import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from "@mui/material/Checkbox";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { DAFTAR } from "../router";
 import "../CSS/Masuk.css";
 import "aos/dist/aos.css";
 import "../CSS/Dekstop/Masuk.css";
 
-
 const MainMasuk = () => {
+  const navigate = useNavigate();
   const [loading, setLoading] = useState("false");
 
   useEffect(() => {
+    const token = localStorage.getItem("Authorization");
+    if (token !== null) navigate("/", { replace: true });
+
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
-
 
   const [inputs, setInputs] = useState({});
   const handleChange = (e) => {
@@ -34,12 +38,9 @@ const MainMasuk = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post(
-        "http://localhost:5500/api/v1/user-login",
-        inputs
-      );
+      const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/user-login`, inputs);
       if (data.Athorization !== undefined) {
-        localStorage.setItem("Authorization", data.Authorize);
+        localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorize);
       }
     } catch (error) {
       console.log(error);
@@ -49,16 +50,20 @@ const MainMasuk = () => {
   return (
     <>
       {loading ? (
-        <div style={{marginLeft:"43%", position:"absolute",marginTop:"15%" , height:"100px", width:"100px"}}>
-           <MoonLoader color={"#009EFF"} loading={loading} size={150} />
+        <div
+          style={{
+            marginLeft: "43%",
+            position: "absolute",
+            marginTop: "15%",
+            height: "100px",
+            width: "100px",
+          }}
+        >
+          <MoonLoader color={"#009EFF"} loading={loading} size={150} />
         </div>
       ) : (
         <div className="bungkusanmasukin">
-          <img
-            className="imgformmasuk"
-            src={Backgroundformmasuk}
-            alt="backgroundformmasuk"
-          />
+          <img className="imgformmasuk" src={Backgroundformmasuk} alt="backgroundformmasuk" />
           <form onSubmit={handleSubmit}>
             <div className="posisiinputcuy">
               <input
