@@ -5,11 +5,33 @@
     align-items: center;
 }
 
+.locate{
+    color: "#EA5900";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0;
+}
+.date{
+    color: "#00000066";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0;
+}
+
 .maindetailartikelcontent{
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 70%;
+}
+
+.iconsocmed{
+    width: 30px;
+    height: 30px;
 }
 
 .anotherdetailartikel{
@@ -39,12 +61,21 @@
     }
     .detaildateandlocation{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
+        
     }
     .topartikeldetail{
         display: flex;
         flex-direction: column;
         gap: 5px;
+        width: 100%;    
+    }
+    .locate, .date{
+        font-size: 12px;
+    }
+    .iconsocmed{
+        width: 22px;
+        height: 22px;
     }
 }

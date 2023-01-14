@@ -7,6 +7,8 @@ import { FcCalendar } from "react-icons/fc";
 import {MdNavigateNext} from "react-icons/md"
 import '../CSS/Dekom.css';
 import '../CSS/Mobile/DekomMobile.css';
+import { Link } from "react-router-dom";
+import { KOMUNITAS, HOME} from "../router";
 
 
 const MainDekom = () => {
@@ -14,9 +16,19 @@ const MainDekom = () => {
     return ( 
         <>
             <ul className="linknavdekom">
-                <li style={{color: '#009EFF'}} className="linknavhome"> Home </li>
+                <Link
+                style={{ color: "#009EFF", textDecoration: "none" }}
+                to={HOME}
+                >
+                    <li style={{color: '#009EFF'}} className="linknavhome"> Home </li>
+                </Link>
                 <MdNavigateNext style={{color:"#dfdfdf"}}/>
+                <Link
+                    style={{ color: "black", textDecoration: "none" }}
+                    to={KOMUNITAS}
+                    >
                 <li className="linknavdetail"> Komunitas </li>
+                </Link>
                 <MdNavigateNext style={{color:"#dfdfdf"}}/>
                 <li className="linknavdetail"> Rumah Mengajar </li>
             </ul>
@@ -30,14 +42,38 @@ const MainDekom = () => {
                         </div>
                         <div className='memberkomunitas'>
                             <p className='memberkomunitasid'>Member</p>
-                            <ul style={{padding: '0 0'}}>
-                                <img src={Avamembercuy} className='imagememberkomunitasid' />
-                                <img src={Avamembercuy} className='imagememberkomunitasid'/>
-                                <img src={Avamembercuy2} className='imagememberkomunitasid'/>
-                            </ul>
+                            <div className='jajaranmember'>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                            </div>
+                            <div className='jajaranmember'>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                            </div>
+                            <div className='jajaranmember'>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                                <img className='imageownerkomunitasid' src={Avaownercuy} alt="Avaownercuy"/>
+                            </div>
                         </div>
                         <div className="lokasikomunitas">
                             <p className='lokasikomunitasid'>Lokasi</p>
+                            <iframe style={{width: '100%', 
+                            allowFullScreen: '', 
+                            loading: 'lazy', 
+                            reffererPolicy: 'no-referrer-when-downgrade'}}
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254832.50415561642!2d98.52940335267581!3d3.6426183063634547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x23d431c8a6908262!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1673717114211!5m2!1sid!2sid" ></iframe>
                         </div>
                     </div>
                 </div>

@@ -42,42 +42,33 @@
 }
 
 .position-text-1-slider-1 {
-  width: 408px;
-  height: 72px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 149.5%;
-  position: absolute;
   text-align: left;
   color: white;
-  margin-bottom: 25%;
-  
 }
 
 .position-text-2-slider-1 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 149.5%;
   text-align: left;
   color: white;
-
-  position: absolute;
-  width: 145px;
-  height: 30px;
-  left: 20%;
-  top: 40%;
 }
 
 .position-text-3-slider-1 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 149.5%;
   color: white;
+}
 
-  position: absolute;
-  left: 20%;
-  top: 50%;
+.slidependapat{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+padding-left: 20px;
 }

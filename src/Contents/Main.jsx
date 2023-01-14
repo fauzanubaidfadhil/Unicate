@@ -34,7 +34,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "../CSS/Mobile/MainMobile.css";
-
 const Main = () => {
   useEffect(() => {
     AOS.init({
@@ -99,7 +98,6 @@ const Main = () => {
           />
         </div>
       </div>
-
       {/* Our Mission */}
       <div className="positioncontent2">
         <div className="positioncontent2left">
@@ -142,7 +140,6 @@ const Main = () => {
         </div>
       </div>
       {/* Our Mission */}
-
       {/* Our Services */}
       <div className="positioncontent3">
         <div className="positionourservice">
@@ -191,7 +188,6 @@ const Main = () => {
         </div>
       </div>
       {/* Our Services */}
-
       {/* Berita */}
       <div className="positioncontent4">
         <div className="positioncontent4top">
@@ -306,7 +302,6 @@ const Main = () => {
         </div>
       </div>
       {/* Berita */}
-
       <div className="positioncontent5">
         <h2 data-aos="zoom-in-down" className="textbagaimana">
           Bagaimana pendapat mereka
@@ -326,37 +321,45 @@ const Main = () => {
             modules={[Pagination]}
           >
             <SwiperSlide>
-              <p className="position-text-1-slider-1 ">
-                “Website ini sangat memudahkan saya dalam membantu pendidikan
-                anak Indonesia, terlebih anak jalanan di luar sana”
-              </p>
-              <h2 className="position-text-2-slider-1">Andre Michael</h2>
-              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+              <div className="slidependapat">
+                <p className="position-text-1-slider-1 ">
+                  “Website ini sangat memudahkan saya dalam membantu pendidikan
+                  anak Indonesia, terlebih anak jalanan di luar sana”
+                </p>
+                <h2 className="position-text-2-slider-1">Andre Michael</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+              </div>
             </SwiperSlide>
 
             <SwiperSlide>
-              <p className="position-text-1-slider-1">
-                “Website ini sangat memudahkan saya dalam membantu pendidikan
-                anak Indonesia, terlebih anak jalanan di luar sana”
-              </p>
-              <h2 className="position-text-2-slider-1">Andre Michael</h2>
-              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            <div className="slidependapat">
+                <p className="position-text-1-slider-1 ">
+                  “Website ini sangat memudahkan saya dalam membantu pendidikan
+                  anak Indonesia, terlebih anak jalanan di luar sana”
+                </p>
+                <h2 className="position-text-2-slider-1">Andre Michael</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </div>
             </SwiperSlide>
             <SwiperSlide>
-              <p className="position-text-1-slider-1">
-                “Website ini sangat memudahkan saya dalam membantu pendidikan
-                anak Indonesia, terlebih anak jalanan di luar sana”
-              </p>
-              <h2 className="position-text-2-slider-1">Andre Michael</h2>
-              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            <div className="slidependapat">
+                <p className="position-text-1-slider-1 ">
+                  “Website ini sangat memudahkan saya dalam membantu pendidikan
+                  anak Indonesia, terlebih anak jalanan di luar sana”
+                </p>
+                <h2 className="position-text-2-slider-1">Andre Michael</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            </div>
             </SwiperSlide>
             <SwiperSlide>
-              <p className="position-text-1-slider-1">
-                “Website ini sangat memudahkan saya dalam membantu pendidikan
-                anak Indonesia, terlebih anak jalanan di luar sana”
-              </p>
-              <h2 className="position-text-2-slider-1">Andre Michael</h2>
-              <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+            <div className="slidependapat">
+                <p className="position-text-1-slider-1 ">
+                  “Website ini sangat memudahkan saya dalam membantu pendidikan
+                  anak Indonesia, terlebih anak jalanan di luar sana”
+                </p>
+                <h2 className="position-text-2-slider-1">Andre Michael</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>

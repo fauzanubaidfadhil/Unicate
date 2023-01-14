@@ -63,7 +63,7 @@
 
 .garis{
     width: 200px;
-    height: 6px;
+    height: 4px;
     background: #005C95;
     border-radius: 20px;
 }
@@ -131,4 +131,5 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    
 }

@@ -66,28 +66,10 @@ const MainDetailArtikel = () => {
             }}
           >
             <div className="detaildateandlocation">
-              <p
-                style={{
-                  color: "#EA5900",
-                  fontFamily: "Poppins",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  fontSize: "19.4513px",
-                  margin: "0 0px"
-                }}
-              >
+              <p className="locate" >
                 JATIM
               </p>
-              <p
-                style={{
-                  color: "#00000066",
-                  fontFamily: "Poppins",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  fontSize: "19.4513px",
-                  margin: "0 0px"
-                }}
-              >
+              <p className="date">
                 3 hari yang lalu
               </p>
             </div>
@@ -109,18 +91,15 @@ const MainDetailArtikel = () => {
               >
                 Share :
               </div>
-              <img
-                style={{ width: "29.18px", height: "29.18px" }}
+              <img className="iconsocmed"
                 src={twitterDetar}
                 alt=""
               />
-              <img
-                style={{ width: "29.18px", height: "29.18px" }}
+              <img className="iconsocmed"
                 src={instagramDetar}
                 alt=""
               />
-              <img
-                style={{ width: "29.18px", height: "29.18px" }}
+              <img className="iconsocmed"
                 src={facebookDetar}
                 alt=""
               />

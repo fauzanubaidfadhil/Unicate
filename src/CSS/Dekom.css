@@ -2,6 +2,14 @@
     width: 100%;
 }
 
+.jajaranmember{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+}
+
 .linknavdekom{
     display: flex;
     flex-direction: row;
@@ -83,6 +91,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    width: 100%;
 }
 
 .lokasikomunitasid{
@@ -143,6 +152,8 @@
     font-weight: 400;
     font-size: 20px;
     text-align: justify;
+    margin: 0 0;
+
 }
 
 .kegiatankomunitasdetail{
