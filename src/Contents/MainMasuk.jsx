@@ -22,7 +22,10 @@ const MainMasuk = () => {
 
   const onSubmit = async (value) => {
     try {
-      const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/user-login`, value);
+      const { data } = await axios.post(
+        `${process.env.REACT_APP_API}/api/v1/user-login`,
+        value
+      );
       if (data.Athorization !== undefined) {
         localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorize);
       }
@@ -34,7 +37,7 @@ const MainMasuk = () => {
   useEffect(() => {
     const token = localStorage.getItem("Authorization");
     if (token !== null) navigate("/", { replace: true });
-
+    
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
@@ -61,7 +64,11 @@ const MainMasuk = () => {
         </div>
       ) : (
         <div className="bungkusanmasukin">
-          <img className="imgformmasuk" src={Backgroundformmasuk} alt="backgroundformmasuk" />
+          <img
+            className="imgformmasuk"
+            src={Backgroundformmasuk}
+            alt="backgroundformmasuk"
+          />
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="posisiinputcuy">
               <input
