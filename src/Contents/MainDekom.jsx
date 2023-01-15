@@ -1,7 +1,7 @@
 import IMygy from '../Assets/IMygy.png';
 import Avaownercuy from '../Assets/Avaownercuy.png';
-import Avamembercuy from '../Assets/Avamembercuy.png';
-import Avamembercuy2 from '../Assets/Avamembercuy2.png';
+// import Avamembercuy from '../Assets/Avamembercuy.png';
+// import Avamembercuy2 from '../Assets/Avamembercuy2.png';
 import fotokegiatan from '../Assets/kegiatankomunitas.png';
 import { FcCalendar } from "react-icons/fc";
 import {MdNavigateNext} from "react-icons/md"
@@ -73,6 +73,7 @@ const MainDekom = () => {
                             allowFullScreen: '', 
                             loading: 'lazy', 
                             reffererPolicy: 'no-referrer-when-downgrade'}}
+                            title="lokasimedan"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254832.50415561642!2d98.52940335267581!3d3.6426183063634547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x23d431c8a6908262!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1673717114211!5m2!1sid!2sid" ></iframe>
                         </div>
                     </div>

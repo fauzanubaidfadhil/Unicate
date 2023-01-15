@@ -11,7 +11,7 @@ import FotoArtikel3 from "../Assets/FotoArtikel3.png";
 import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
-import AC2 from "../Assets/AC2.png";
+// import AC2 from "../Assets/AC2.png";
 import benefit from "../Assets/benefitanak.png"
 import benefit2 from "../Assets/benefitanak2.png"
 import benefit3 from "../Assets/benefitanak3.png"
@@ -35,7 +35,7 @@ const Benefit = styled.div`
   padding: 20px 114px;
   gap: 100px;
   background-image: url('../Assets/AC2.png');
-  .imgbenefit{
+  .imgbenefit{ alt="benefit"
     width: 120px;
     height: 120px;
   }
@@ -49,7 +49,7 @@ const Benefit = styled.div`
     p{
       font-size: 12px;
     }
-    .imgbenefit{
+    .imgbenefit{ alt="benefit"
       width: 80px;
       height: 80px;
     }
@@ -97,9 +97,9 @@ const MainArtikel = () => {
               </p>
               <p className="sharearticle">Share</p>
               <div className="iconshare">
-                <img src={Iconfb} id="iconsocmed" />
-                <img src={Iconig} id="iconsocmed" />
-                <img src={Icontwit} id="iconsocmed" />
+                <img src={Iconfb} alt="iconsocmed" />
+                <img src={Iconig} alt="iconsocmed" />
+                <img src={Icontwit} alt="iconsocmed" />
               </div>
             </div>
           </div>
@@ -243,19 +243,19 @@ const MainArtikel = () => {
         >
           <SwiperSlide>
             <Benefit>
-              <img src={benefit} className="imgbenefit"/>
+              <img src={benefit} className="imgbenefit" alt="benefit"/>
               <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
             </Benefit>
           </SwiperSlide>
           <SwiperSlide>
             <Benefit>
-              <img src={benefit2} className="imgbenefit"/>
+              <img src={benefit2} className="imgbenefit" alt="benefit"/>
               <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
             </Benefit>
           </SwiperSlide>
           <SwiperSlide>
             <Benefit>
-              <img src={benefit3} className="imgbenefit"/>
+              <img src={benefit3} className="imgbenefit" alt="benefit"/>
               <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
             </Benefit>
           </SwiperSlide>

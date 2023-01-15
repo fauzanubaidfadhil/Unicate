@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Dropdown } from "react-bootstrap";
 import jwtDecode from "jwt-decode";
@@ -22,7 +22,6 @@ import "../CSS/Navigation.css";
 import React from "react";
 import Burger from "./HamburgerMenu";
 
-
 // import Burger from "./HamburgerMenu";
 // import MobileNav from "./MobileView";
 
@@ -36,26 +35,42 @@ const usernameLength = (name) => {
   return convertName;
 };
 
-const Navigation = () => {
-  const navRef = useRef({
+const validateToken = () => {
+  const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
+  if (tokenExists !== null) {
+    const token = tokenExists.split(" ")[1];
+    const { username } = jwtDecode(token);
+    const isLogin = token === undefined ? false : true;
+    return {
+      isLogin,
+      username,
+    };
+  }
+  return {
     isLogin: false,
     username: "",
+  };
+};
+
+const Navigation = () => {
+  const { isLogin, username } = validateToken();
+  const navRef = useRef({
+    isLogin,
+    username,
   });
 
-  useEffect(() => {
-    const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
-    console.log(tokenExists);
-    if (tokenExists !== null) {
-      const token = tokenExists.split(" ")[1];
-      const { username } = jwtDecode(token);
-      const isExistsToken = token === undefined ? false : true;
-      console.log(isExistsToken);
-      navRef.current.isLogin = isExistsToken;
-      navRef.current.username = username;
-    }
-  }, []);
-
-  console.log(navRef.current);
+  // useEffect(() => {
+  //   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
+  //   console.log(tokenExists);
+  //   if (tokenExists !== null) {
+  //     const token = tokenExists.split(" ")[1];
+  //     const { username } = jwtDecode(token);
+  //     const isExistsToken = token === undefined ? false : true;
+  //     console.log(isExistsToken);
+  //     navRef.current.isLogin = isExistsToken;
+  //     navRef.current.username = username;
+  //   }
+  // }, []);
 
   const displayButton = !navRef.current.isLogin ? (
     <div className="buttonloginlogout">

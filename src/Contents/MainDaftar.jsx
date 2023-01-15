@@ -34,6 +34,7 @@ function MainDaftar() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
+    
       const { data } = await axios.post(
         `${process.env.REACT_APP_API}/api/v1/user-register`,
         inputs
