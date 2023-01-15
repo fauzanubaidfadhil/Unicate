@@ -92,7 +92,7 @@ const Navigation = () => {
         <Dropdown.Toggle
           className="dropdownnavprofil"
           style={{
-            width: "138px",
+            width: "158px",
             height: "56px",
             fontSize: "18px",
             fontWeight: "500",

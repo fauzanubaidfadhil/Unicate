@@ -9,16 +9,14 @@ const DONASI = "/Donasi";
 const AKSI= "/Aksi";
 const AKSIDETAIL= "/AksiDetail";
 const AKSIDETAIL2= "/AksiDetail2";
-const AKSINAVLOGIN= "/AksiNavLogin"
 const PRIVACYPOLICY="/PrivacyPolicy"
 const TERMS_AND_CONDITION="/Terms_And_Condition"
 const KISAHINSPIRASI= "/Kisahinspirasi";
 const DAFTAR = "/Daftar"
 const MASUK = "/Masuk"
-const DONASILOGIN = '/DonasiLogin'
 const FAQ = '/FAQ'
 
 
 
 export { HOME, BERANDA, KOMUNITAS, KOMBER, DEKOM, ARTIKEL, ABOUTUS, DONASI, AKSI, AKSIDETAIL, AKSIDETAIL2, PRIVACYPOLICY, TERMS_AND_CONDITION, 
-    AKSINAVLOGIN, KISAHINSPIRASI, DAFTAR, MASUK, DONASILOGIN, FAQ };
+    KISAHINSPIRASI, DAFTAR, MASUK, FAQ };
