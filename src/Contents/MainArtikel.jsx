@@ -11,7 +11,6 @@ import FotoArtikel3 from "../Assets/FotoArtikel3.png";
 import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
-// import AC2 from "../Assets/AC2.png";
 import benefit from "../Assets/benefitanak.png"
 import benefit2 from "../Assets/benefitanak2.png"
 import benefit3 from "../Assets/benefitanak3.png"

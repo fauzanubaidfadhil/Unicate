@@ -6,15 +6,47 @@
     width: 100%;
 }
 
+.iddonasi{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.bank{
+    width: 100%;
+}
+
+.tempatdonasi{
+    border-style: solid;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -500px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 23px;
+    gap: 20px;
+}
+
+.listnominal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+}
+
 .image67 {
-    width: 620px;
-    height: 424.5px;
+    width: 60%;
 }
 
 .image68 {
-    width: 152px;
-    height: 140px;
-    
 }
 
 .image69 {
@@ -22,18 +54,27 @@
     height: 65.13px;
 }
 
+.inputiddonasi{
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
 .text1 {
     border-bottom: solid;
     font-size: 22px;
-    margin: 15px;
     font-family: 'Poppins';
     font-style: normal;
+    width: 100%;
+    border-width: 100%;
+    margin: 0 0;
+    padding-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0.5);;
 }
 
 .text2 {
-    width:69px;
-    height:64px;
-    margin: 15px;
+    margin: 0 0;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
@@ -41,173 +82,21 @@
 }
 .bordernominal {
     box-sizing: border-box;
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 10px;
     font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
     letter-spacing: 0em;
     text-align: left;
     border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
-    height: 30px;
     border: 1px solid #009EFF;
     border-radius: 12px;
     cursor: pointer;
     background-color: white;
-    
 }
 
-.bordernominal1 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 110px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    background-color: white;    
-}
-.bordernominal2 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 210px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white; 
-}
-.bordernominal3 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 310px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white;
-}
-.bordernominal4 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white;
-}
-.bordernominal5 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 110px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white;
-}
-.bordernominal6 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 210px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white;
-}
-.bordernominal7 {
-    box-sizing: border-box;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 310px;
-    border-style: solid;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    border: 1px solid #009EFF;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: white;
-}
+
 .laporankeuangan{
     display: flex;
     flex-direction: row;
@@ -217,22 +106,24 @@
     width: 100%;
 }
 .laporankeuangandetail{
-    width: 85%;
+    width: 100%;
 }
 .bordernominaluang {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60px;
+    padding: 5px;
     border: 1px solid #009EFF;
     border-radius: 10px;
     color:#000000;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
+    width: 60%;
+    position: relative;
+    margin-right: 0px;
 }
 .bordernominal9 {
     box-sizing: border-box;
@@ -249,7 +140,6 @@
     font-style: normal;
     font-weight:700;
     font-size: 24px;
-    line-height: 36px;
     cursor: pointer;
     background-color: white;
 }
@@ -269,21 +159,16 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
     background-color: white
 }
 .buttonproses{
-position:absolute;
-height: 40px;
-width: 382px;
-margin-left: 15px;
-margin-top: 420px;
-border-radius: 12px;
-padding: 2px 7px 2px 7px;
-background: #009EFF;
-border-color: #009EFF;
-border-radius: 12px;
-color: white;
+    width: 100%;
+    border-radius: 12px;
+    padding: 8px;
+    background: #009EFF;
+    border-color: #009EFF;
+    border-radius: 12px;
+    color: white;
 }
 
 .bordertextuang{
@@ -309,48 +194,35 @@ color: white;
     padding: 5px 5px;
 }
 .textnama{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
-    line-height: 24px;
     color: #000000;
-
+    margin: 0 0;
 }
 
 .textemail{
-    position: absolute;
-    margin-top: 135px;
-    margin-left: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
-    line-height: 24px;
     color: #000000;
-    }
+    margin: 0 0;
+}
 
 .textnomortelepon{
-    position: absolute;
-    margin-top: 225px;
-    margin-left: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
-    line-height: 24px;
     color: #000000;
+    margin: 0 0;
 }
-    .textmetodepembayaran{
-        position: absolute;
-        margin-top: 315px;
-        margin-left: 15px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-size: 18px;
-        line-height: 24px;
-        color: #000000;
-     }
+.textmetodepembayaran{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    color: #000000;
+    margin: 0 0;
+}
 
     
 .laporantop{
@@ -361,36 +233,33 @@ color: white;
     gap: 8px;
 }
 
-    .textupdate{
-        border-Style: solid;
-        border-Radius: 10px;
-        background: #009EFF;
-        color: white; 
-        width: auto;
-        height: 54px;
-        padding: 5px 15px;
-        gap: 10px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 48px;
-    }
+.textupdate{
+    border-Style: solid;
+    border-Radius: 10px;
+    background: #009EFF;
+    color: white; 
+    width: 80%;
+    padding: 5px 15px;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
 
-     .laporan{
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 96px;
-
-        color: #009EFF;
-     }
+.laporan{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #009EFF;
+    margin: 0 0;
+}
 .sublaporantop{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 20px;
 
 }
 .sublaporantopdetail{
@@ -398,25 +267,25 @@ color: white;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 0px;
+    gap: 10px;
 }
 .textlaporan1{
-    width: 500px;
+    width: 100%;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 24px;
-    line-height: 36px;
-
+    margin: 0 0;
+    text-align: justify;
 }
 .textlaporan2{
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
-    width: 490px;
-    height: 90px;
+    width: 100%;
     font-size: 20px;
     font-weight: 100px;
-
+    margin: 0 0;
+    text-align: justify;
 }
 
 .laporandet{
@@ -425,6 +294,7 @@ color: white;
     align-items: flex-start;
     padding: 42px 56px;
     gap: 20px;
+    width: 50%;
 }
 
 .laporanbottom{
@@ -440,33 +310,31 @@ color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     width: 100%;
+    margin: 0 0;
+    text-align: justify;
 }
 .textlaporan4 {
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    width: 635px;
+    width: 100%;
 }
 .textlaporan5 {
-    width: 400px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
+    margin: 0 0;
 }
 .textdonasi{
-    width: 132px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 48px;
     color: #000000;
+    margin: 0 0;
 }
 .textdonasi1{
     width: 100%;
@@ -474,8 +342,8 @@ color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 19px;
     color: #000000;
+    margin: 0 0;
 }
 
 .donasibottom{

@@ -1,7 +1,5 @@
 import IMygy from '../Assets/IMygy.png';
 import Avaownercuy from '../Assets/Avaownercuy.png';
-// import Avamembercuy from '../Assets/Avamembercuy.png';
-// import Avamembercuy2 from '../Assets/Avamembercuy2.png';
 import fotokegiatan from '../Assets/kegiatankomunitas.png';
 import { FcCalendar } from "react-icons/fc";
 import {MdNavigateNext} from "react-icons/md"

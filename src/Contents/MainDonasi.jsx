@@ -1,44 +1,58 @@
 import React from 'react'
-import image66 from '../Assets/navdonasi.png';
 import image67 from '../Assets/orangdidonasi.png';
 import image68 from '../Assets/Orangdilaporan.png';
 import image69 from '../Assets/smile.png';
 import '../CSS/Donasi.css';
 import '../CSS/Mobile/DonasiMobile.css';
+import { Dropdown } from 'react-bootstrap';
+import BRI from '../Assets/BRI.png'
+import iddonasi from '../Assets/iddonasiimg.png'
 
 
 function MainDonasi() {
   return (
     <>
-    <div style={{borderStyle:"solid", height:"auto", borderColor:"transparent"}}>
-      <div>
-      <img className='image66' src={image66} alt="image66" /></div>
-       <div className='tempatdonasi' style={{borderStyle:"solid", position:"relative", marginTop:"200px", width:"422px", height:"620px", marginLeft:"800px", 
-       backgroundColor:"White", borderRadius:"20px", borderColor:"transparent", boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+    <div style={{borderStyle:"solid", height:"auto", borderColor:"transparent", backgroundColor: '#005C95'}}>
+      <img src={iddonasi} alt='iddonasi' className='iddonasi'/>
+      <div className='tempatdonasi'>
         <h1 className='text1'>Donasi</h1>
         <h4 className='text2'>Nominal</h4>
-        <button type="button" className='bordernominal'>5.000</button>
-        <button type="button" className='bordernominal1'>10.000</button>
-        <button type="button" className='bordernominal2'>20.000</button>
-        <button type="button" className='bordernominal3'>50.000</button>
-        <button type="button" className='bordernominal4'>75.000</button>
-        <button type="button" className='bordernominal5'>100.000</button>
-        <button type="button" className='bordernominal6'>200.000</button>
-        <button type="button" className='bordernominal7'>500.000</button>
-        
-          <h1 className='textnama'>Nama</h1>
-          <input type="text" style={{width:"372px", height:"32px", borderRadius:"12px", marginLeft:"15px", position:"absolute", marginTop:"85px", borderColor:"black", border:"2px solid rgba (0, 0, 0, 0.5)"}}/>
-          <h1 className='textemail'>Emaill</h1>
-          <input type="text" style={{width:"372px", height:"32px", borderRadius:"12px", marginLeft:"15px", position:"absolute", marginTop:"170px", borderColor:"black", border:"2px solid rgba (0, 0, 0, 0.5)"}}/>
-          <h1 className='textnomortelepon'>Nomor Telepon</h1>
-          <input type="text" style={{width:"372px", height:"32px", borderRadius:"12px", marginLeft:"15px", position:"absolute", marginTop:"250px", borderColor:"black", border:"2px solid rgba (0, 0, 0, 0.5)"}}/>
-          <h1 className='textmetodepembayaran'>Metode Pembayaran</h1>
-          <input type="text" style={{width:"372px", height:"32px", borderRadius:"12px", marginLeft:"15px", position:"absolute", marginTop:"350px", borderColor:"black", border:"2px solid rgba (0, 0, 0, 0.5)"}}/>
+        <div className='listnominal'>
+          <button type="button" className='bordernominal'>5.000</button>
+          <button type="button" className='bordernominal'>10.000</button>
+          <button type="button" className='bordernominal'>20.000</button>
+          <button type="button" className='bordernominal'>50.000</button>
+          <button type="button" className='bordernominal'>75.000</button>`
+        </div>
+        <div className='listnominal'>
+          <button type="button" className='bordernominal'>100.000</button>
+          <button type="button" className='bordernominal'>200.000</button>
+          <button type="button" className='bordernominal'>500.000</button>
+        </div>
+        <h1 className='textnama'>Nama</h1>
+        <input type="text" className='inputiddonasi' />
+        <h1 className='textemail'>Emaill</h1>
+        <input type="text" className='inputiddonasi'/>
+        <h1 className='textnomortelepon'>Nomor Telepon</h1>
+        <input type="text" className='inputiddonasi'/>
+        <h1 className='textmetodepembayaran'>Metode Pembayaran</h1>
+        <div className='bank'>
+          <Dropdown >
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item href="#/action-1">
+                  <img src={BRI} alt="BRI" style={{ width: '60px', height: '20px'}}/>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          </div>
           <button type="button" className="buttonproses">
               Masuk
             </button>
       </div>  
-      <div className='laporandet' style={{width:"60%", height:"auto",borderColor:"black", padding:" 10px 56px", marginTop:"-300px"}}>  
+      </div>
+      <div className='laporandet'>  
         <div className="laporantop">
           <div className='textupdate'>UPDATE PER NOVEMBER 2022</div>
           <div className='sublaporantop'>
@@ -73,7 +87,7 @@ function MainDonasi() {
               Semoga dengan adanya program Rumah Pintar dapat membantu anak-anak
               Indonesia untuk mendapatkan pendidikan yang seharusnya mereka dapatkan.
           </p>
-          <p className='textlaporan5'>TERIMKASIH ORANG BAIK</p>
+          <p className='textlaporan5'>TERIMAKASIH ORANG BAIK</p>
         </div>
       </div>
       <div className='donasibottom' style={{width:"auto",height:"auto"}}>
@@ -87,7 +101,7 @@ function MainDonasi() {
           <img className='image69' src={image69} alt="image69" />
         </div>
       </div>
-    </div>
+    
     </>
   )
 }

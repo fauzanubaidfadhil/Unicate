@@ -4,9 +4,59 @@
         flex-direction: column;
         align-items: flex-start;
         width: 60%;
-        padding: 10px 32px;
-    }
+        padding: 10px 56px;
+    }  
+}
+
+@media(max-width: 1200px){
     .tempatdonasi{
-        margin-left: 32px;
+        margin-left: 720px;
     }
+    .sublaporantop{
+        display: flex;
+        flex-direction: column;
+    }
+    .bordertextuang{
+        width: 100%;
+    }
+    .iddonasi{
+        width: 40%;
+        margin-left: 60px;
+    }
+    .laporankeuangan{
+        width: 200%;
+    }
+}
+
+@media(max-width:768px){
+    .tempatdonasi{
+        margin-left: 364px;
+        margin-top: -400px;
+        width: 45%;
+    }
+    .bordernominal{
+        font-size: 10px;
+    }
+    .textupdate{
+        font-size: 20px;
+    }
+    .laporan{
+        font-size: 32px;
+    }
+    .textlaporan1{
+        font-size: 16px;
+    }
+    .textlaporan2,.textlaporan3{
+        font-size: 16px;
+    }
+    .sublaporantop{
+        gap: 20px;
+    }
+    .textlaporan5{
+        font-size: 14px;
+    }
+    .textdonasi{
+        font-size: 30px;
+    }
+    
 }
