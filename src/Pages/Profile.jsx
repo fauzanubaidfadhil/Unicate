@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../CSS/Profile.css";
 import { CgProfile } from "react-icons/cg";
 import { HiUserGroup } from "react-icons/hi";
-import { MdSettings } from "react-icons/md";
+import {MdOutlinePrivacyTip} from "react-icons/md";
 import { MdExitToApp } from "react-icons/md";
 import MainDa from "../Contents/MainDa";
 import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
@@ -41,8 +41,8 @@ export default function App() {
             Komunitas
           </p>
           <p>
-            <MdSettings size={20} style={{ marginRight: "10px" }} />
-            Pengaturan
+            <MdOutlinePrivacyTip size={20} style={{ marginRight: "10px" }} />
+            Privasi
           </p>
           <p style={{ cursor: "pointer" }} onClick={handleClick}>
             <MdExitToApp size={20} style={{ marginRight: "10px" }} />
