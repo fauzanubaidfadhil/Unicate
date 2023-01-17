@@ -6,6 +6,14 @@ import '../CSS/Donasi.css';
 import '../CSS/Mobile/DonasiMobile.css';
 import { Dropdown } from 'react-bootstrap';
 import BRI from '../Assets/BRI.png'
+import BCA from '../Assets/bca.png'
+import BNI from '../Assets/bni.jpg'
+import BSI from '../Assets/bsi.jpg'
+import MANDIRI from '../Assets/Mandiri.png'
+import GOPAY from '../Assets/Gopay.png'
+import OVO from '../Assets/ovo.jpg'
+import ALFAMART from '../Assets/alfamart.jpg'
+import INDOMARET from '../Assets/indomarett.png'
 import iddonasi from '../Assets/iddonasiimg.png'
 
 
@@ -41,8 +49,35 @@ function MainDonasi() {
             <Dropdown.Toggle variant="success" id="dropdown-basic">
             </Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">
+            <Dropdown.Item href="#/action-1">
+                 ATM & Internet Banking
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-2">
                   <img src={BRI} alt="BRI" style={{ width: '60px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-3">
+                  <img src={BCA} alt="BCA" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-4">
+                  <img src={BNI} alt="BNI" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-5">
+                  <img src={BSI} alt="BSI" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-6">
+                  <img src={MANDIRI} alt="MANDIRI" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-7">
+                  <img src={GOPAY} alt="GOPAY" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-8">
+                  <img src={OVO} alt="OVO" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-9">
+                  <img src={ALFAMART} alt="ALFAMART" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-10">
+                  <img src={INDOMARET} alt="INDOMARET" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
