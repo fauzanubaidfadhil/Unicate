@@ -1,6 +1,6 @@
-import { useRef } from "react";
-import { Link } from "react-router-dom";
-import { Navbar, Dropdown } from "react-bootstrap";
+import { useRef, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Navbar, Dropdown, Button } from "react-bootstrap";
 import jwtDecode from "jwt-decode";
 import logo from "../Assets/logo.png";
 // import Headroom from "react-headroom";
@@ -35,6 +35,7 @@ const usernameLength = (name) => {
   return convertName;
 };
 
+
 const validateToken = () => {
   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
   if (tokenExists !== null) {
@@ -64,6 +65,19 @@ const Navigation = () => {
     password,
     email,
   });
+  
+    const navigate = useNavigate();
+    const logout =  () => {
+      localStorage.removeItem(process.env.REACT_APP_AUTH)
+      navigate({HOME}, {replace: true});
+    };
+
+  useEffect(() => {  
+    const token = localStorage.getItem(process.env.REACT_APP_AUTH);
+    if (token !== null) navigate({HOME}, { replace: true });
+      // eslint-disable-next-line
+  }, [])
+
 
   // useEffect(() => {
   //   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
@@ -126,27 +140,16 @@ const Navigation = () => {
             <CgProfile size={30} />
             Profile
           </Link>
-
           <Dropdown.Item
             style={{ display: "flex", gap: "10px", fontSize: "18px" }}
           >
             <HiUserGroup size={30} />
             Komunitas
           </Dropdown.Item>
-          <Link
-            className="dropdown-item"
-            style={{
-              display: "flex",
-              gap: "10px",
-              textDecoration: "none",
-              color: "black",
-              fontSize: "18px",
-            }}
-            to={HOME}
-          >
+          <Button variant="light" onClick={logout}>
             <MdExitToApp size={30} />
             Keluar
-          </Link>
+          </Button>
         </Dropdown.Menu>
       </Dropdown>
     </div>
