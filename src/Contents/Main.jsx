@@ -13,7 +13,7 @@ import image12 from "../Assets/image-article-1.png";
 import image13 from "../Assets/image-article-2.png";
 import image14 from "../Assets/image-article-3.png";
 import image15 from "../Assets/image-article-4.png";
-import image16 from "../Assets/image-article-5.png";
+// import image16 from "../Assets/image-article-5.png";
 import image17 from "../Assets/peta-indonesia.jpg";
 import segitiga from "../Assets/segitiga.png";
 import segitigakotak from "../Assets/segitigakota.png";
@@ -290,7 +290,7 @@ const Main = () => {
               <img
                 data-aos="zoom-in"
                 className="imgartikel2 transisi"
-                src={image16}
+                src={image15}
                 alt="image16"
               />
             </div>
