@@ -133,6 +133,7 @@
 .dipnyacarousel2{
     padding-top: 60px;
     padding-bottom: 60px;
+    height: 520px;
 }
 
 .FotoAC2cuy{
@@ -175,9 +176,9 @@
     object-fit: cover;
 }
 
-.swiper-pagination{
+/* .swiper-pagination{
     position: relative;
-}
+} */
 
 .titleartikelbottom{
     text-align: justify;
@@ -208,4 +209,20 @@
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;  
+}
+
+.sizecarouselartikel2 {
+    width: 1103px;
+    height: 440px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.btn-btstrp {
+    margin-bottom: 50px;
+    background: white;
+    width: 212px;
+    height: 50px;
+    border-radius: 20px;
+    color: #009EFF;
 }

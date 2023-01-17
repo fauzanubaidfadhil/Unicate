@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import Carousel from 'react-bootstrap/Carousel';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import {Carousel, Button} from 'react-bootstrap';
 import "../CSS/Artikel.css";
 import "../CSS/Mobile/ArtikelMobile.css";
 import Artikelpertama from "../Assets/Fotoartikelatas.png";
@@ -11,48 +10,51 @@ import FotoArtikel3 from "../Assets/FotoArtikel3.png";
 import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
-import benefit from "../Assets/benefitanak.png"
-import benefit2 from "../Assets/benefitanak2.png"
-import benefit3 from "../Assets/benefitanak3.png"
+// import benefit from "../Assets/benefitanak.png"
+// import benefit2 from "../Assets/benefitanak2.png"
+// import benefit3 from "../Assets/benefitanak3.png"
 import { MdNavigateNext } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { HOME } from "../router";
-import styled from 'styled-components'
+// import styled from 'styled-components'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import img1c2 from "../Assets/img-carousel2-artikel.png";
+import img2c2 from "../Assets/img2-carousel2-artikel.png";
+import img3c2 from "../Assets/img3-carousel2-artikel.png";
 
 // import required modules
-import { Pagination, Autoplay, Navigation  } from "swiper";
+import { Pagination,  } from "swiper";
 
 
-const Benefit = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px 114px;
-  gap: 100px;
-  background-image: url('../Assets/AC2.png');
-  .imgbenefit{ alt="benefit"
-    width: 120px;
-    height: 120px;
-  }
-  p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  @media(max-width: 768px){
-    p{
-      font-size: 12px;
-    }
-    .imgbenefit{ alt="benefit"
-      width: 80px;
-      height: 80px;
-    }
-  }
-`
+// const Benefit = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   padding: 20px 114px;
+//   gap: 100px;
+//   background-image: url('../Assets/AC2.png');
+//   .imgbenefit{ alt="benefit"
+//     width: 120px;
+//     height: 120px;
+//   }
+//   p{
+//     font-family: 'Poppins';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 20px;
+//   }
+//   @media(max-width: 768px){
+//     p{
+//       font-size: 12px;
+//     }
+//     .imgbenefit{ alt="benefit"
+//       width: 80px;
+//       height: 80px;
+//     }
+//   }
+// `
 
 const MainArtikel = () => {
   return (
@@ -233,36 +235,68 @@ const MainArtikel = () => {
           </Swiper>
         </>
       </div>
-      <div className="dipnyacarousel2">
-
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          slidesPerView={1}
-          navigation
-          autoplay={{ delay: 1000 }}
-        >
-          <SwiperSlide>
-            <Benefit>
-              <img src={benefit} className="imgbenefit" alt="benefit"/>
-              <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
-            </Benefit>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Benefit>
-              <img src={benefit2} className="imgbenefit" alt="benefit"/>
-              <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
-            </Benefit>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Benefit>
-              <img src={benefit3} className="imgbenefit" alt="benefit"/>
-              <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
-            </Benefit>
-          </SwiperSlide>
-        </Swiper>
+      <div style={{display:"flex", alignItems:"center", flexDirection:"column"}} className="dipnyacarousel2">
+      <Carousel className="sizecarouselartikel2" fade>
+      <Carousel.Item>
+        <img
+          className=""
+          src={img1c2 }
+          alt="First slide"
+        />
+        <Carousel.Caption>
+        <Button className="btn-btstrp">Donasi Sekarang</Button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className=""
+          src={img2c2 }
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+        <Button className="btn-btstrp">Donasi Sekarang</Button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className=""
+          src={img3c2 }
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+        <Button className="btn-btstrp">Donasi Sekarang</Button>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
       </div>
     </>
   );
 };
 
 export default MainArtikel;
+
+// {/* <Swiper
+//   modules={[Navigation, Autoplay]}
+//   slidesPerView={1}
+//   navigation
+//   autoplay={{ delay: 1000 }}
+// >
+//   <SwiperSlide>
+//     <Benefit>
+//       <img src={benefit} className="imgbenefit" alt="benefit"/>
+//       <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
+//     </Benefit>
+//   </SwiperSlide>
+//   <SwiperSlide>
+//     <Benefit>
+//       <img src={benefit2} className="imgbenefit" alt="benefit"/>
+//       <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
+//     </Benefit>
+//   </SwiperSlide>
+//   <SwiperSlide>
+//     <Benefit>
+//       <img src={benefit3} className="imgbenefit" alt="benefit"/>
+//       <p>Anak-anak yang putus sekolah di Kudus mendapat bantuan pakaian yang layak.</p>
+//     </Benefit>
+//   </SwiperSlide>
+// </Swiper> */}
