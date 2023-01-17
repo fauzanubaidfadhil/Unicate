@@ -68,15 +68,21 @@ function MainDonasi() {
                   <img src={MANDIRI} alt="MANDIRI" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
               <Dropdown.Item href="#/action-7">
-                  <img src={GOPAY} alt="GOPAY" style={{ width: '70px', height: '20px'}}/>
+                 E-Wallet
               </Dropdown.Item>
               <Dropdown.Item href="#/action-8">
-                  <img src={OVO} alt="OVO" style={{ width: '70px', height: '20px'}}/>
+                  <img src={GOPAY} alt="GOPAY" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
               <Dropdown.Item href="#/action-9">
-                  <img src={ALFAMART} alt="ALFAMART" style={{ width: '70px', height: '20px'}}/>
+                  <img src={OVO} alt="OVO" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
               <Dropdown.Item href="#/action-10">
+                 Minimarket
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-11">
+                  <img src={ALFAMART} alt="ALFAMART" style={{ width: '70px', height: '20px'}}/>
+              </Dropdown.Item>
+              <Dropdown.Item href="#/action-12">
                   <img src={INDOMARET} alt="INDOMARET" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
             </Dropdown.Menu>
