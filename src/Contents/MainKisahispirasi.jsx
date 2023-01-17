@@ -4,8 +4,6 @@ import image4 from "../Assets/bulatbiru.png";
 import image5 from "../Assets/bulathijau.png";
 import image6 from "../Assets/segitiga1.png";
 import image7 from "../Assets/segitiga2.png";
-// import image8 from "../Assets/segitiga3.png";
-// import image9 from "../Assets/segitiga4.png";
 import "../CSS/Kisahinspirasi.css";
 import "../CSS/Mobile/KisahInspirasiMobile.css"
 import {MdNavigateNext} from "react-icons/md"
@@ -32,10 +30,10 @@ const MainKisahinspirasi = () => {
       <div className="titlekishpir">
         <div className="judul">Banyak Anak Yang Putus Sekolah Kapolsek Dirikan Sekolah </div>
         <div className="garis" />
-      </div>
       <div className="segitigaorange">
         <img className="image7" src={image7} alt="segitiga2" />
         <img className="image6" src={image6} alt="segitiga1" />
+      </div>
       </div>
       <img className="image5" src={image5} alt="bulathijau" />
       <img className="image4" src={image4} alt="bulatbiru" />
