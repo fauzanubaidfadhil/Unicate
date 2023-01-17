@@ -93,7 +93,7 @@ const MainAksi = () => {
               yang tidak memperoleh kesempatan menikmati pendidikan formal...
             </p>
           </div>
-          <img style={{ width: "100%" }} src={Foto} alt="foto" className="fotokish" />
+          <img src={Foto} alt="foto" className="fotokish" />
         </div>
       </div>
       {/* KisahInspirasi */}
@@ -101,8 +101,7 @@ const MainAksi = () => {
       {/* card */}
       <div className="bagian-card">
         <Link style={{ textDecoration: "none" }} to={KISAHINSPIRASI}>
-          <div data-aos="flip-left" className="shadow">
-            <div className="card-1">
+            <div data-aos="flip-left" className="card-1 stylecardaksi">
               <img className="unicate" src={Logo} alt="logo unicate" />
               <div className="caption">
                 <h2
@@ -135,14 +134,11 @@ const MainAksi = () => {
                   </h2>
                 </div>
               </div>
-              <img className="imgcard" src={Card1} alt="background" />
+              <img className="efektransisi " src={Card1} alt="background" />
             </div>
-          </div>
         </Link>
-
-        <div data-aos="flip-up" className="shadow">
           <Link to={AKSIDETAIL}>
-            <div className="card-2">
+            <div data-aos="flip-up" className="card-2 stylecardaksi">
               <img className="unicate" src={Logo} alt="logo unicate" />
               <div className="caption">
                 <h2
@@ -174,14 +170,11 @@ const MainAksi = () => {
                   </h2>
                 </div>
               </div>
-              <img className="imgcard" src={Card2} alt="background" />
+              <img className="efektransisi " src={Card2} alt="background" />
             </div>
           </Link>
-        </div>
-
         <Link to={AKSIDETAIL2}>
-          <div data-aos="flip-right" className="shadow">
-            <div className="card-3">
+            <div data-aos="flip-right" className="card-3 stylecardaksi">
               <img className="unicate" src={Logo} alt="logo unicate" />
               <div className="caption">
                 <h2
@@ -213,9 +206,8 @@ const MainAksi = () => {
                   </h2>
                 </div>
               </div>
-              <img className="imgcard" src={Card3} alt="background" />
+              <img className="efektransisi " src={Card3} alt="background" />
             </div>
-          </div>
         </Link>
       </div>
       {/* card */}
