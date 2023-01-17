@@ -26,8 +26,9 @@ const MainMasuk = () => {
         `${process.env.REACT_APP_API}/api/v1/user-login`,
         value
       );
+
       if (data.Athorization !== undefined) {
-        localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorize);
+        localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorization);
       }
     } catch (error) {
       console.log(error);
@@ -37,7 +38,7 @@ const MainMasuk = () => {
   useEffect(() => {
     const token = localStorage.getItem("Authorization");
     if (token !== null) navigate("/", { replace: true });
-    
+
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
@@ -72,14 +73,14 @@ const MainMasuk = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="posisiinputcuy">
               <input
-                type="email"
-                id="email"
-                {...register("email", {
+                type="username"
+                id="username"
+                {...register("username", {
                   required: { value: true, message: "This field is required!" },
                 })}
-                placeholder="Email"
+                placeholder="Username"
               />
-              {/* {errors.email && <p style={{ color: "red" }}>{errors.email.message}</p>} */}
+              {/* {errors.username && <p style={{ color: "red" }}>{errors.username.message}</p>} */}
               <input
                 type="password"
                 id="password"

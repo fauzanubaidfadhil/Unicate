@@ -40,30 +40,28 @@ const validateToken = () => {
   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
   if (tokenExists !== null) {
     const token = tokenExists.split(" ")[1];
-    const { username, email, password } = jwtDecode(token);
+    const { username } = jwtDecode(token);
     const isLogin = token === undefined ? false : true;
     return {
       isLogin,
       username,
-      password,
-      email,
+      
+    
     };
   }
   return {
     isLogin: false,
     username: "",
-    password:"",
-    email:"",
+    email:""
   };
 };
 
 const Navigation = () => {
-  const { isLogin, username, password, email } = validateToken();
+  const { isLogin, username, } = validateToken();
   const navRef = useRef({
     isLogin,
     username,
-    password,
-    email,
+  
   });
   
     const navigate = useNavigate();
