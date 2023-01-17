@@ -213,6 +213,7 @@ const MainDetailArtikel = () => {
           </p>
           {/* 1 */}
           <div style={{ display: "flex", flexDirection: "row", alignItems:"center", gap: "10px" }}>
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
             <img
               style={{
                 width: "152px",
@@ -230,10 +231,9 @@ const MainDetailArtikel = () => {
                 fontSize: "14px",
               }}
             >
-              <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
                 Ada 150 Anak Putus Sekolah di Ternate
-              </Link>
             </p>
+              </Link>
           </div>
           {/* 2 */}
           <div

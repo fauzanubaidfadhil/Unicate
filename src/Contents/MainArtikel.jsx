@@ -14,7 +14,6 @@ import Icontwit from "../Assets/Icontwit.png";
 import benefit from "../Assets/benefitanak.png"
 import benefit2 from "../Assets/benefitanak2.png"
 import benefit3 from "../Assets/benefitanak3.png"
-// import { Link } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { HOME } from "../router";
@@ -120,6 +119,7 @@ const MainArtikel = () => {
               {" "}
               {/* Artikel 1 */}
               <div className="cardartikelbottom">
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                   <img
                     style={{ width: "100%"}}
                     src={FotoArtikel1}
@@ -129,7 +129,6 @@ const MainArtikel = () => {
                     Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                     Peralatan Sekolah untuk Anak Kurang Mampu
                   </h4>
-                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                   <p className="subtitleartikelbottom">
                     Keterbatasan ekonomi masih menjadi salah satu alasan
                     banyaknya anak-anak tidak bisa melanjutkan......
@@ -139,6 +138,7 @@ const MainArtikel = () => {
               {/* Artikel 1 */}
               {/* Artikel 2 */}
               <div className="cardartikelbottom">
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
                 <img
                   style={{ width: "100%"  }}
                   src={FotoArtikel2}
@@ -154,10 +154,12 @@ const MainArtikel = () => {
                   Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                   karena Resmikan Sekolah Virtual
                 </p>
+                </Link>
               </div>
               {/* Artikel 2 */}
               {/* Artikel 3 */}
               <div className="cardartikelbottom">
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
                   <img
                     style={{ width: "100%" }}
                     src={FotoArtikel3}
@@ -167,7 +169,6 @@ const MainArtikel = () => {
                     Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                     Peralatan Sekolah untuk Anak Kurang Mampu
                   </h4>
-                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
                   <p className="subtitleartikelbottom">
                     Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
                     karena Resmikan Sekolah Virtual
@@ -178,6 +179,7 @@ const MainArtikel = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="cardartikelbottom">
+                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <img
                       style={{ width: "100%"}}
                       src={FotoArtikel1}
@@ -187,7 +189,6 @@ const MainArtikel = () => {
                       Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                       Peralatan Sekolah untuk Anak Kurang Mampu
                     </h4>
-                    <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <p className="subtitleartikelbottom">
                       Keterbatasan ekonomi masih menjadi salah satu alasan
                       banyaknya anak-anak tidak bisa melanjutkan......
@@ -195,6 +196,7 @@ const MainArtikel = () => {
                   </Link>
                 </div>
                 <div className="cardartikelbottom">
+                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <img
                       style={{ width: "100%"}}
                       src={FotoArtikel1}
@@ -204,7 +206,6 @@ const MainArtikel = () => {
                       Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                       Peralatan Sekolah untuk Anak Kurang Mampu
                     </h4>
-                    <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <p className="subtitleartikelbottom">
                       Keterbatasan ekonomi masih menjadi salah satu alasan
                       banyaknya anak-anak tidak bisa melanjutkan......
@@ -212,6 +213,7 @@ const MainArtikel = () => {
                   </Link>
                 </div>
                 <div className="cardartikelbottom">
+                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <img
                       style={{ width: "100%"}}
                       src={FotoArtikel1}
@@ -221,7 +223,6 @@ const MainArtikel = () => {
                       Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                       Peralatan Sekolah untuk Anak Kurang Mampu
                     </h4>
-                    <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <p className="subtitleartikelbottom">
                       Keterbatasan ekonomi masih menjadi salah satu alasan
                       banyaknya anak-anak tidak bisa melanjutkan......
