@@ -224,7 +224,7 @@ const MainDetailArtikel = () => {
               alt=""
             />
             </Link>
-              <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
             <p
               style={{
                 fontFamily: "Calibri",
@@ -241,6 +241,7 @@ const MainDetailArtikel = () => {
           <div
             style={{ display: "flex", flexDirection: "row",alignItems:"center", gap: "10px"  }}
           >
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
             <img
               style={{
                 width: "152px",
@@ -250,6 +251,8 @@ const MainDetailArtikel = () => {
               src={Foto1bDetar}
               alt=""
             />
+            </Link>
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
             <p
               style={{
                 fontFamily: "Calibri",
@@ -262,11 +265,13 @@ const MainDetailArtikel = () => {
               Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus
               Sekolah{" "}
             </p>
+            </Link>
           </div>
           {/* 3 */}
           <div
             style={{ display: "flex", flexDirection: "row", alignItems:"center", gap: "10px"}}
           >
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
             <img
               style={{
                 width: "152px",
@@ -276,6 +281,8 @@ const MainDetailArtikel = () => {
               src={Foto1cDetar}
               alt=""
             />
+            </Link>
+            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
             <p
               style={{
                 fontFamily: "Calibri",
@@ -287,6 +294,7 @@ const MainDetailArtikel = () => {
             >
               Mengapa Pendidikan di Indonesia Belum Merata?
             </p>
+            </Link>
           </div>
         </div>
       </div>

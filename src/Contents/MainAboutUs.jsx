@@ -467,7 +467,11 @@ const MainAboutUs = () => {
                     </DetailTeam>
                 </BottomDetail>
             </DetailContent>
-            <Gambar1 src={gambar1} />
+            <Gambar1 src={gambar1} 
+                     style={{width: "252.37px",
+                            height: "129.85px",
+                            marginLeft: "1159px",
+                            marginTop: "410px"}}/>
         </Content>
         <Contact>
             <Gambar src={gambar2} />

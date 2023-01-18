@@ -7,6 +7,8 @@ import Foto1aDetar from "../Assets/Foto1aDetar.png";
 import Foto1bDetar from "../Assets/Foto1bDetar.png";
 import Foto1cDetar from "../Assets/Foto1cDetar.png";
 
+import { Link } from "react-router-dom";
+
 
 const MainDetailArtikel2 = () => {
     return ( 
@@ -127,9 +129,12 @@ const MainDetailArtikel2 = () => {
                     {/* 1 */}
                     <div style={{ display: 'flex',
                                   flexDirection: 'row' }}>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                         <img style={{ width: '152px',
                                       height: '90px',
                                       borderRadius: '4.12811px' }} src={Foto1Detar} alt="" />
+                        </Link>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                         <p style={{ paddingLeft:'2%',
                                     fontFamily: 'Calibri',
                                     fontStyle: 'normal',
@@ -139,14 +144,18 @@ const MainDetailArtikel2 = () => {
                                     width: '139px',
                                     height: '22px' }}
                             >Mengapa Pendidikan Indonesia</p>
+                        </Link>
                     </div>
                     {/* 2 */}
                     <div style={{ display: 'flex',
                                   flexDirection: 'row',
                                   paddingTop:'5%' }}>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
                         <img style={{ width: '152px',
                                       height: '90px',
                                       borderRadius: '4.12811px' }} src={Foto1bDetar} alt="" />
+                        </Link>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
                         <p style={{ paddingLeft:'2%',
                                     fontFamily: 'Calibri',
                                     fontStyle: 'normal',
@@ -156,14 +165,18 @@ const MainDetailArtikel2 = () => {
                                     width: '139px',
                                     height: '22px' }}
                             >Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus Sekolah </p>
+                        </Link>
                     </div>
                     {/* 3 */}
                     <div style={{ display: 'flex',
                                   flexDirection: 'row',
                                   paddingTop:'5%' }}>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
                         <img style={{ width: '152px',
                                       height: '90px',
                                       borderRadius: '4.12811px' }} src={Foto1cDetar} alt="" />
+                        </Link>
+                        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
                         <p style={{ paddingLeft:'2%',
                                     fontFamily: 'Calibri',
                                     fontStyle: 'normal',
@@ -173,6 +186,7 @@ const MainDetailArtikel2 = () => {
                                     width: '139px',
                                     height: '22px' }}
                             >Mengapa Pendidikan di Indonesia Belum Merata?</p>
+                        </Link>
                     </div>
                 </div>
             </div>
