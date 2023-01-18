@@ -101,7 +101,7 @@ function MainAksiDetail() {
             <div 
             style={{display: 'flex', flexDirection: 'column', alignItems: 'center', 
                     padding: '10px 56px', gap: '60px'}}>
-            <img className='fotodetailaksi2' src={Fotodetailaksi2} alt='Fotodetailaksi2'/>
+            <img className='fotodetailaksi' src={Fotodetailaksi2} alt='Fotodetailaksi2'/>
             <p className='tulisandetailaksi2'>Bagi sebagian orang, impian mungkin hanya akan berhenti sebagai 
             bunga tidur. Tapi bagi mereka yang menjadikan impian sebagai bangunan dasar untuk mewujudkan 
             angan-angan, impian bisa selalu menjadi api semangat untuk meraih apa pun!
