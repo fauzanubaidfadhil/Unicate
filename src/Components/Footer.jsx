@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
             <div className="posisineedhelp">
               <h2 className="textneed">
-                Need Help?<br></br>Contact Person
+                Need Help? Contact Person
               </h2>
               <div className="detailhelp">
                 <HiLocationMarker />

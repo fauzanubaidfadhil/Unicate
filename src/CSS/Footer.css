@@ -32,7 +32,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding: 0px;
-    gap: 100px;
+    gap: 90px;
     width: 100%; 
 }
 .top-logo{
@@ -41,7 +41,7 @@
     align-items: flex-start;
     padding: 0px;
     gap: 10px;
-    width: 30%;
+    width: 25%;
 }
 .textmenghadirkan {
     font-family: 'Poppins';
@@ -82,7 +82,7 @@
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-    width: 25%;
+    width: 35%;
     height: auto;
     font-size: 18px;
 }

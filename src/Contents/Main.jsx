@@ -154,7 +154,7 @@ const Main = () => {
             </div>
             <div className="positionourservicedetailright">
               <p className="textkonten3">
-                Kami bekerja secara jujur dan berintegritas dalam memperjuangan
+                Kami bekerja secara jujur dan berintegritas dalam memperjuangan<br/>
                 hak pendidikan setiap anak Indonesia
               </p>
             </div>
@@ -191,7 +191,7 @@ const Main = () => {
       {/* Berita */}
       <div className="positioncontent4">
         <div className="positioncontent4top">
-          <div className="textberita">Berita Terbaru</div>
+          <div className="textberita">Artikel Terbaru</div>
           <div className="textlihat">Lihat selengkapnya</div>
         </div>
 
@@ -211,11 +211,16 @@ const Main = () => {
             />
           </div>
           <div className="positioncontent4detailmainberita">
-            <div className="lokasiartikelinhome">JATIM</div>
-            <div className="titlearticleinhome">
+            <div className="jatimberanda">
+              <p className="lokasiartikelinhome">JATIM</p>
+              <p className="dateberanda">
+                3 hari yang lalu
+              </p>
+            </div>
+            <p className="titlearticleinhome">
               Melalui 'Jaketku' Ribuan Anak Putus Sekolah di Gresik Bisa Dapat
               Ijazah
-            </div>
+            </p>
             <p className="detailarticleinhome">
               Pemkab Gresik menggagas sebuah program yang dapat membantu anak
               putus sekolah untuk bisa menyelesaikan pendidikannya.
@@ -240,6 +245,8 @@ const Main = () => {
             <p className="textberi posisiteksartikel">
               Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
               Resmikan Sekolah Virtual
+              <br />
+              <span className="tambahanMain">15 November 2022</span>
             </p>
           </div>
           <div className="subarticleinhome">
@@ -257,8 +264,9 @@ const Main = () => {
               />
             </div>
             <p className="textberi posisiteksartikel">
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-              Resmikan Sekolah Virtual
+              Solusi Jitu Dinas Pendidikan Atasi Masalah Anak Putus Sekolah di Makassar
+              <br />
+              <span className="tambahanMain">12 November 2022</span>
             </p>
           </div>
           <div className="subarticleinhome">
@@ -276,8 +284,9 @@ const Main = () => {
               />
             </div>
             <p className="textberi posisiteksartikel">
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-              Resmikan Sekolah Virtual
+              KPAI Beberkan 5 Alasan Utama Anak Putus Sekolah Selama Pandemi Covid-19
+              <br />
+              <span className="tambahanMain">13 November 2022</span>
             </p>
           </div>
           <div className="subarticleinhome">
@@ -295,8 +304,9 @@ const Main = () => {
               />
             </div>
             <p className="textberi posisiteksartikel">
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-              Resmikan Sekolah Virtual
+              KPAI Beberkan 5 Alasan Utama Anak Putus Sekolah Selama Pandemi Covid-19
+              <br />
+              <span className="tambahanMain">13 November 2022</span>
             </p>
           </div>
         </div>
@@ -334,31 +344,30 @@ const Main = () => {
             <SwiperSlide>
             <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Website ini sangat memudahkan saya dalam membantu pendidikan
-                  anak Indonesia, terlebih anak jalanan di luar sana”
+                  “Melalui website ini saya jadi bisa membantu anak-anak di Indonesia.
+                  Saya telah bergabung ke dalam komunitas volunteer melalui website ini.”
                 </p>
-                <h2 className="position-text-2-slider-1">Andre Michael</h2>
-                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+                <h2 className="position-text-2-slider-1">Vianica Sofia</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Bekasi</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Website ini sangat memudahkan saya dalam membantu pendidikan
-                  anak Indonesia, terlebih anak jalanan di luar sana”
+                  “Tampilannya yang interaktif membuat website ini menjadi lebih menarik.
+                  Artikel yang disajikan juga selalu yang terbaru”
                 </p>
-                <h2 className="position-text-2-slider-1">Andre Michael</h2>
-                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+                <h2 className="position-text-2-slider-1">Dinda Hauwala</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Medan</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Website ini sangat memudahkan saya dalam membantu pendidikan
-                  anak Indonesia, terlebih anak jalanan di luar sana”
+                  “Saya harap website ini dapat terus exist dan mendukung pendidikan anak di Indonesia”
                 </p>
-                <h2 className="position-text-2-slider-1">Andre Michael</h2>
-                <p className="position-text-3-slider-1">Mahasiswa Jakarta</p>
+                <h2 className="position-text-2-slider-1">Mario Hasbuan</h2>
+                <p className="position-text-3-slider-1">Mahasiswa Sulawesi</p>
               </div>
             </SwiperSlide>
           </Swiper>
