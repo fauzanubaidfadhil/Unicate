@@ -109,7 +109,7 @@ const MainAksi = () => {
                     color: "white",
                     fontStyle: "normal",
                     fontWeight: "700px",
-                    fontSize: "18px",
+                    fontSize: "20px",
                     lineHeight: "33px",
                     marginLeft: "15px",
                     textDecoration: "none",
@@ -146,7 +146,7 @@ const MainAksi = () => {
                     color: "white",
                     fontStyle: "normal",
                     fontWeight: "700px",
-                    fontSize: "18px",
+                    fontSize: "20px",
                     lineHeight: "33px",
                     marginLeft: "15px",
                   }}
@@ -182,7 +182,7 @@ const MainAksi = () => {
                     color: "white",
                     fontStyle: "normal",
                     fontWeight: "700px",
-                    fontSize: "18px",
+                    fontSize: "20px",
                     lineHeight: "33px",
                     marginLeft: "15px",
                   }}
