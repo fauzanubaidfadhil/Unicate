@@ -54,7 +54,7 @@ function MainDonasi() {
         <h1 className='textmetodepembayaran'>Metode Pembayaran</h1>
         <div className='bank'>
           <Dropdown >
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle variant="primary" style={{width:"392px", borderRadius:"12px"}} id="dropdown-basic">
             </Dropdown.Toggle>
             <Dropdown.Menu>
             <Dropdown.Item href="#/action-1">
@@ -98,7 +98,7 @@ function MainDonasi() {
           
           </div>
           <button type="button" className="buttonproses">
-              Masuk
+             Proses
             </button>
       </div>  
       </div>
