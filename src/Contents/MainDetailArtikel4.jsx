@@ -1,4 +1,4 @@
-import VectorDetar from "../Assets/VectorDetar.png";
+import {MdNavigateNext} from "react-icons/md"
 import facebookDetar from "../Assets/facebookDetar.png";
 import twitterDetar from "../Assets/twitterDetar.png";
 import instagramDetar from "../Assets/instagramDetar.png";
@@ -12,13 +12,28 @@ const MainDetailArtikel4 = () => {
     return ( 
         <>
             {/* link atas */}
-            <div style={{ padding: '20px 56px'}}>
-                <a style={{ textDecoration:'none', color:'black', padding:'0 5px' }} href="/">Home</a>
-                <img  src={VectorDetar} alt="" />
-                <a style={{ textDecoration:'none', color:'black', padding:'0 5px' }} href="/Artikel">Artikel</a>
-                <img src={VectorDetar} alt="" />
-                <a style={{ textDecoration:'none', color:'#009EFF', padding:'0 5px' }} href="/DetailArtikel">Detail Artikel</a>
-            </div>
+            <div style={{ padding: "20px 56px" }}>
+        <a
+          style={{ textDecoration: "none", color: "#009EFF", fontSize: "14px" }}
+          href="/"
+        >
+          Home
+        </a>
+        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
+        <a
+          style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
+          href="/Artikel"
+        >
+          Artikel
+        </a>
+        <MdNavigateNext style={{ color: "#dfdfdf"}} />
+        <a
+          style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
+          href="/DetailArtikel"
+        >
+          Detail Artikel
+        </a>
+      </div>
             {/* judul dan content */}
             <div style={{ display:'flex', flexDirection:'row', alignItems:'flex-start', padding:'40px 56px', gap:'25px' }}>
                 {/* content kanan */}
