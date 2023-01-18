@@ -213,7 +213,7 @@ const MainDetailArtikel = () => {
           </p>
           {/* 1 */}
           <div style={{ display: "flex", flexDirection: "row", alignItems:"center", gap: "10px" }}>
-            <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
+          <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
             <img
               style={{
                 width: "152px",
@@ -223,6 +223,8 @@ const MainDetailArtikel = () => {
               src={Foto1aDetar}
               alt=""
             />
+            </Link>
+              <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
             <p
               style={{
                 fontFamily: "Calibri",

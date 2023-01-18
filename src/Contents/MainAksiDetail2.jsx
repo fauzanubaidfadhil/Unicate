@@ -31,6 +31,7 @@ function MainAksiDetail() {
             <li className="kishpir"> Kekuatan Impian Anak-anak Pelosok Negeri </li>
             </ul>
             <h1 className='headerdetailaksi'>Banyak Anak Yang Putus Sekolah Kapolsek Dirikan Sekolah</h1>
+            <div className="garis" style={{marginLeft: "4.3%"}} />
 
             <div 
             style={{display: 'flex', flexDirection: 'column', alignItems: 'center', 

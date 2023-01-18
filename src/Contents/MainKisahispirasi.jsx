@@ -39,8 +39,10 @@ const MainKisahinspirasi = () => {
       <img className="image4" src={image4} alt="bulatbiru" />
       <div className="mainkishpir">
         <img className="image1kisahinspirasi" src={image1} alt="kisahin1" />
-        <div>
-          <h1 className="isi">
+        <div
+         style={{display: 'flex', flexDirection: 'column', alignItems: 'center', 
+         padding: '10px 56px', gap: '60px'}}>
+          <p className="isi">
             Berawal dari keprihatinannya saat berpatroli ke setiap pelosok desa di
             Cianjur selatan, dia menemukan satu desa yang memiliki lulusan SMP
             putus sekolah paling banyak. Alasan putus sekolah tersebut didasari
@@ -61,7 +63,7 @@ const MainKisahinspirasi = () => {
             Kini, sekolah yang didirikannya berhasil merekrut 53 siswa-siswi dan
             sudah memasuki tahun kedua. Sedangkan untuk tahun ini sudah ada 26
             calon siswa yang mendaftar.
-          </h1>
+          </p>
         </div>
       </div>
       <img className="image2" src={image2} alt="bulatoren" />

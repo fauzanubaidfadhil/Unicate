@@ -107,11 +107,17 @@
     overflow: hidden;
 }
 .isi {
-    font-family: 'Calibri';
+    width: 90%;
+
+    font-family: 'calibri';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linktopkish{
