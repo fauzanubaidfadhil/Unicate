@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import image67 from '../Assets/orangdidonasi.png';
 import image68 from '../Assets/Orangdilaporan.png';
 import image69 from '../Assets/smile.png';
@@ -18,7 +18,14 @@ import iddonasi from '../Assets/iddonasiimg.png'
 
 
 function MainDonasi() {
+  // const [menu, setMenu] = useState (() => {
 
+  // });
+
+  // const handleChange = (e) => {
+  //   setMenu = (e.target.value)
+  //  };
+   
   return (
     <>
     <div style={{borderStyle:"solid", height:"auto", borderColor:"transparent", backgroundColor: '#005C95'}}>
@@ -51,7 +58,7 @@ function MainDonasi() {
             </Dropdown.Toggle>
             <Dropdown.Menu>
             <Dropdown.Item href="#/action-1">
-                 ATM & Internet Banking
+                  ATM & Internet Banking
               </Dropdown.Item>
               <Dropdown.Item href="#/action-2">
                   <img src={BRI} alt="BRI" style={{ width: '60px', height: '20px'}}/>
@@ -69,7 +76,7 @@ function MainDonasi() {
                   <img src={MANDIRI} alt="MANDIRI" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
               <Dropdown.Item href="#/action-7">
-                 E-Wallet
+                  E-Wallet
               </Dropdown.Item>
               <Dropdown.Item href="#/action-8">
                   <img src={GOPAY} alt="GOPAY" style={{ width: '70px', height: '20px'}}/>
@@ -78,7 +85,7 @@ function MainDonasi() {
                   <img src={OVO} alt="OVO" style={{ width: '70px', height: '20px'}}/>
               </Dropdown.Item>
               <Dropdown.Item href="#/action-10">
-                 Minimarket
+                  Minimarket
               </Dropdown.Item>
               <Dropdown.Item href="#/action-11">
                   <img src={ALFAMART} alt="ALFAMART" style={{ width: '70px', height: '20px'}}/>
@@ -88,6 +95,7 @@ function MainDonasi() {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+          
           </div>
           <button type="button" className="buttonproses">
               Masuk
@@ -148,3 +156,11 @@ function MainDonasi() {
   )
 }
 export default MainDonasi;
+
+
+          // {/* <form>
+          //   <select className='listpembayaran' value={menu} onChange={handleChange}>
+          //     <option></option>
+          //     <option></option>
+          //   </select>
+          // </form> */}

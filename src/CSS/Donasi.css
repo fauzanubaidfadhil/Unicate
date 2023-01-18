@@ -75,7 +75,7 @@
     border-width: 100%;
     margin: 0 0;
     padding-bottom: 10px;
-    border-color: rgba(0, 0, 0, 0.5);;
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
 .text2 {
@@ -372,4 +372,12 @@
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
+}
+
+/* new */
+.listpembayaran {
+    width: 392px;
+height: 33px;
+border-radius: 12px;
+border-color: rgba(0, 0, 0, 0.5);
 }
