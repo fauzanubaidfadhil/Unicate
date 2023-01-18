@@ -97,7 +97,7 @@ useEffect(() => {
         {/* konten 3 komunitas */}
         <div className="konten3komunitas" style={{height:"auto"}} >
         <div className="posisikomunitasterbaru">
-            <div className="spacekomunitasterbaru">
+            <div className="spacekomunitasterbaru" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', }}>
               <h3
                 style={{
                   width: "194px",

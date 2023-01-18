@@ -95,7 +95,7 @@ const MainDetailArtikel2 = () => {
                     <div style={{ display: 'flex',
                                   flexDirection: 'row',
                                   alignItems: 'center' }}>
-                        <div style={{ borderLeft: '7.8px solid #005C95 ', height:'97.5px'}}>
+                        <div style={{ borderLeft: "7.8px solid #005C95 ", borderRadius: "10px", height: "97.5px"}}>
                         </div>
                         <p style={{ fontFamily: 'Calibri',
                                     fontStyle: 'normal',
