@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Navbar, Dropdown, Button } from "react-bootstrap";
+import { Navbar, Dropdown } from "react-bootstrap";
 import jwtDecode from "jwt-decode";
 import logo from "../Assets/logo.png";
 // import Headroom from "react-headroom";
@@ -139,15 +139,15 @@ const Navigation = () => {
             Profile
           </Link>
           <Dropdown.Item
-            style={{ display: "flex", gap: "10px", fontSize: "18px" }}
+            style={{ display: "flex", gap: "10px", fontSize: "18px"  }}
           >
             <HiUserGroup size={30} />
             Komunitas
           </Dropdown.Item>
-          <Button variant="light" onClick={logout}>
+            <span onClick={logout} style={{cursor:"pointer",  display: "flex", gap: "10px", fontSize: "18px", marginLeft:"16px" }}>
             <MdExitToApp size={30} />
             Keluar
-          </Button>
+            </span>
         </Dropdown.Menu>
       </Dropdown>
     </div>
