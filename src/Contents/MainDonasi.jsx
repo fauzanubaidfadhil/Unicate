@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import image67 from '../Assets/orangdidonasi.png';
 import image68 from '../Assets/Orangdilaporan.png';
 import image69 from '../Assets/smile.png';
@@ -18,6 +18,7 @@ import iddonasi from '../Assets/iddonasiimg.png'
 
 
 function MainDonasi() {
+
   return (
     <>
     <div style={{borderStyle:"solid", height:"auto", borderColor:"transparent", backgroundColor: '#005C95'}}>
