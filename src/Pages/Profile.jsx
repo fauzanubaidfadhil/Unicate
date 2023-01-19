@@ -35,8 +35,8 @@ export default function App() {
         localStorage.removeItem(process.env.REACT_APP_AUTH);
         navigate("/Masuk", {replace: true});
         Swal.fire(
-          'Deleted!',
-          'Your file has been deleted.',
+          'Berhasil keluar!',
+          '',
           'success'
         )
       }

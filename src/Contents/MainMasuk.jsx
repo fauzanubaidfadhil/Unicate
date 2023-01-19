@@ -10,6 +10,9 @@ import "aos/dist/aos.css";
 import "../CSS/Dekstop/Masuk.css";
 import AuthLayout from "../Components/AuthLayout";
 import Swal from "sweetalert2";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const MainMasuk = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -32,9 +35,16 @@ const MainMasuk = () => {
     }
   };
 
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 400,
+    });
+  }, []);
+
   return (
     <AuthLayout>
-       <div className="bungkusanmasukin">
+       <div data-aos="flip-up" className="bungkusanmasukin">
           <img
             className="imgformmasuk"
             src={Backgroundformmasuk}

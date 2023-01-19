@@ -6,6 +6,9 @@ import { Link, useNavigate } from "react-router-dom";
 import "../CSS/Daftar.css";
 import "../CSS/Dekstop/Daftar.css";
 import Swal from "sweetalert2";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import AuthLayout from "../Components/AuthLayout";
 
@@ -27,9 +30,17 @@ function MainDaftar() {
       Swal.fire("Mohon dicek kembali data diri anda", "", "warning");
     }
   };
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 400,
+    });
+  }, []);
+
   return (
     <AuthLayout>
-      <div className="posisiform">
+      <div  data-aos="flip-up" className="posisiform">
         <img
           style={{ height: "550px", position: "absolute" }}
           src={Background}
