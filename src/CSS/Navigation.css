@@ -175,9 +175,6 @@
     order: 0;
     flex-grow: 0;
     
-    position: absolute;
-    left: 79%;
-    top: 20px;
     }
     
     .button-daftar {
@@ -206,9 +203,6 @@
         order: 0;
         flex-grow: 0;
     
-        position: absolute;
-        left: 88.5%;
-        top: 20px;
     }
     }
     
@@ -239,9 +233,6 @@
         order: 0;
         flex-grow: 0;
         
-        position: absolute;
-        left: 81%;
-        top: 20px;
         }
         
         .button-daftar {
@@ -269,10 +260,6 @@
             flex: none;
             order: 0;
             flex-grow: 0;
-        
-            position: absolute;
-            left: 88.5%;
-            top: 20px;
         }
     }
     
@@ -303,9 +290,6 @@
         order: 0;
         flex-grow: 0;
         
-        position: absolute;
-        left: 88.3%;
-        top: 3px;
         }
         
         .button-daftar {
@@ -334,9 +318,6 @@
             order: 0;
             flex-grow: 0;
         
-            position: absolute;
-            left: 88.5%;
-            top: 35px;
         }
     }
     
@@ -383,6 +364,11 @@
             justify-content: space-between;
             padding: 0px 60px 0px 60px;
             width:100%;
+        }
+        .buttonloginlogout{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
     }
   /* dropdown responsive */
