@@ -19,6 +19,7 @@ import {
   DAFTAR,
   MASUK,
   FAQ,
+  CONTACTUS,
   
 } from "./router";
 import Beranda from "./Pages/Beranda";
@@ -37,6 +38,7 @@ import Daftar from "./Pages/Daftar";
 import Masuk from "./Pages/Masuk";
 import Profile from "./Pages/Profile";
 import Faq from "./Pages/Faq";
+import ContactUs from "./Pages/ContactUs";
 import DetailArtikel from "./Pages/DetailArtikel";
 import DetailArtikel2 from "./Pages/DetailArtikel2";
 import DetailArtikel3 from "./Pages/DetailArtikel3";
@@ -68,6 +70,7 @@ function App() {
         <Route path="/DetailArtikel3" element={<DetailArtikel3 />} />
         <Route path="/DetailArtikel4" element={<DetailArtikel4 />} />
         <Route path={FAQ} element={<Faq />} />
+        <Route path={CONTACTUS} element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );

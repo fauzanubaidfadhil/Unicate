@@ -18,6 +18,7 @@ import {
   KOMUNITAS,
   AKSI,
   FAQ,
+  CONTACTUS,
 } from "../router";
 import { Link } from "react-router-dom";
 
@@ -59,7 +60,9 @@ const Footer = () => {
             </div>
             <div className="menu">
               <h1 className="textmenu">Organization</h1>
+              <Link className="link" to={CONTACTUS}>
               <li className="foot">Contact Us</li>
+              </Link>
               <Link className="link" to={ABOUTUS}>
                 <li className="foot">About Us</li>
               </Link>

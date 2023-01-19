@@ -1,16 +1,17 @@
 import React from 'react';
-import MainFAQ from '../Contents/MainFAQ';
+import MainContactUs from '../Contents/MainContactUs';
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import HOC from "../Components/HOC";
 
-function Aksi() {
+function ContactUs() {
   return (
-    <HOC headreTitle="Faq">
+    <HOC headreTitle="Contact Us">
       <Navigation />
-      <MainFAQ />
+      <MainContactUs />
       <Footer />
     </HOC>
   )
 }
-export default Aksi;
+
+export default ContactUs;
