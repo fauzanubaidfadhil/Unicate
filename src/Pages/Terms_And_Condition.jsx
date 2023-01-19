@@ -3,13 +3,15 @@ import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import HOC from "../Components/HOC";
 import "../CSS/Terms.css"
+import { Link } from "react-router-dom";
+
 const TermsAndCondition =() =>{
     return(
         <HOC headreTitle="Terms & Condition">
             <Navigation />
             <div >
-                <img style={{width: "60%", display:"block", margin:"auto", paddingTop:"30px"}} src={Logo} alt="logo" />
-                <div className="mainterms" style={{ fontFamily: 'Poppins', fontStyle: "normal", width: "90%", display:"block", margin:"auto", textAlign:"justify"}}>
+                <img style={{width: "20%", display:"block", margin:"1% auto", paddingTop:"30px"}} src={Logo} alt="logo" />
+                <div className="mainterms" style={{ fontFamily: 'Poppins', fontStyle: "normal", width: "90%", display:"block",  textAlign:"justify", margin:"3% auto"}}>
                     <h3 style={{ fontWeight: "700", fontSize: "40px", 
                                     }}>
                                 Terms & Condition</h3>
@@ -18,8 +20,34 @@ const TermsAndCondition =() =>{
                     <p className="detailtermscondition" style={{ fontFamily: 'Poppins',
                                 fontStyle: "normal",
                                 fontWeight: "400",
-                                fontSize: "24px"}} >
-                       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                                fontSize: "20px"}} >
+                    Saat mengunjungi dan menggunakan situs ini, termasuk setiap fitur dan layanannya, 
+                    Setiap Pengguna wajib untuk mematuhi ketentuan Pengguna Situs berikut ini:
+                    <br /> <br />
+                    <ol>
+                        <li>Pengguna minimum berusia 19 tahun sampai 50 tahun.</li>
+                        <li>Setiap Pengguna sepakat untuk tidak menyalin, menggunakan atau mengunduh semua informasi, tulisan, gambar, dokumen, database yang ada di situs 
+                        <Link style={{textDecoration:"none", color:"#009EFF"}} to="/">
+                        <span> www.unicate.com</span>
+                        </Link></li>
+                        <li>Saat mengunjungi dan menggunakan situs 
+                            <Link style={{textDecoration:"none", color:"#009EFF"}} to="/">
+                            <span> www.unicate.com</span>
+                            </Link>
+                             , termasuk setiap fitur dan layanannya, Setiap Pengguna tidak perkenankan untuk :
+                            <br />
+                            <ul>
+                                <li>memberikan informasi dan konten yang salah, tidak akurat, bersifat menyesatkan, bersifat memfitnah, bersifat asusila, mengandung pornografi, bersifat diskriminasi atau rasis.</li>
+                                <li>mengambil tindakan yang dapat mengacaukan sistem saran atau masukan dan atau peringkat (seperti menampilkan, mengimpor atau mengekspor informasi atau masukan dari situs luar atau menggunakannya untuk tujuan yang tidak terkait dengan situs 
+                                    <Link style={{textDecoration:"none", color:"#009EFF"}} to="/">
+                                    <span> www.unicate.com</span>
+                                    </Link>
+                                    ).</li>
+                            </ul>
+                        </li>
+                        <li>Akses situs ini hanya diperkenankan untuk keperluan dan kepentingan user dan informasi terkait dengan layanan situs ini.</li>
+                    </ol>
+                    </p>
 
                     
                 </div>

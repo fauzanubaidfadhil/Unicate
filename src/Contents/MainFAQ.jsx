@@ -150,26 +150,19 @@ const data = {
     rows: [
         {
             title: "Apakah saya bisa menemukan bukti dari donasi yang telah saya berikan?",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            content: `Bisa, Kamu dapat meilhat bukti donasi yang telah kamu berikan pada update laporan pemasukan dan pengeluaran yang terkumpul sekarang terdapat pada halaman donasi.`,
         },
         {
-            title: "Apakah saya bisa menemukan bukti dari donasi yang telah saya berikan?",
-            content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+            title: "Apakah artikel yang dihadirkan selalu diupdate?",
+            content:"Ya, Artikel yang kami hadirkan akan selalu update sesuai informasi terbaru mengenai perkembangan pendidikan yang ada Indonesia.",
         },
         {
-            title: "Apakah saya bisa menemukan bukti dari donasi yang telah saya berikan?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "Apakah saya bisa menemukan komunitas Volunteer yang terpercaya?",
+            content: `Bisa, Melalui website unicate kamu dapat menemukan komunitas Volunteer yang terpecaya tidak hanya itu kamu juga dapat bergabung pada komunitas Volunteer untuk membantu pendidikan anak-anak di Indonesia.`,
         },
         {
-            title: "Apakah saya bisa menemukan bukti dari donasi yang telah saya berikan?",
-            content: <p>current version is 1.2.1</p>,
+            title: "Apakah saya bisa berkomunikasi dengan volunteer lain melalui website ini?",
+            content: `Bisa, Kamu bisa berkomunikasi dengan volunteer lain melalui volunteer yang ada di komunitas.`,
         },
     ]
     
