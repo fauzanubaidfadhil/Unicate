@@ -9,6 +9,8 @@ import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
 import Footer from "../Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useNavigate } from "react-router";
+import Swal from "sweetalert2";
 
 export default function App() {
   useEffect(() => {
@@ -19,14 +21,35 @@ export default function App() {
   }, []);
 
   const [menu, setMenu] = useState("Profile");
+  const navigate = useNavigate();
+  const logout = () => {
+    Swal.fire({
+      title: 'Apakah anda ingin keluar?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        localStorage.removeItem(process.env.REACT_APP_AUTH);
+        navigate("/Masuk", {replace: true});
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+        )
+      }
+    });
+  } 
 
-  const handleClick = () => {
-    if (window.confirm("Apakah Anda Ingin Keluar")) {
-      window.location.href = "/";
-    } else {
-      localStorage.setItem("showConfirmdialog", false);
-    }
-  };
+  // const handleClick = () => {
+  //   if (window.confirm("Apakah Anda Ingin Keluar")) {
+  //     window.location.href = "/";
+  //   } else {
+  //     localStorage.setItem("showConfirmdialog", false);
+  //   }
+  // };
 
   return (
     <>
@@ -44,7 +67,7 @@ export default function App() {
             <MdOutlinePrivacyTip size={20} style={{ marginRight: "10px" }} />
             Privasi
           </p>
-          <p style={{ cursor: "pointer" }} onClick={handleClick}>
+          <p style={{ cursor: "pointer" }} onClick={() => logout()}>
             <MdExitToApp size={20} style={{ marginRight: "10px" }} />
             Keluar
           </p>

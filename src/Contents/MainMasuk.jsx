@@ -9,6 +9,7 @@ import "../CSS/Masuk.css";
 import "aos/dist/aos.css";
 import "../CSS/Dekstop/Masuk.css";
 import AuthLayout from "../Components/AuthLayout";
+import Swal from "sweetalert2";
 
 const MainMasuk = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -23,9 +24,11 @@ const MainMasuk = () => {
      if (data.Authorization) {
       localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorization);
       navigate("/", { replace: true });
+      Swal.fire("Selamat datang kembali!", "", "success");
      }
     } catch (error) {
       console.log(error);
+      Swal.fire("username/password salah!", "", "error");
     }
   };
 

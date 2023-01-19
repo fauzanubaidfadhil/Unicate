@@ -21,9 +21,10 @@ function MainDaftar() {
      if (data.Authorization) {
       localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorization);
       navigate("/", { replace: true });
+      Swal.fire("Daftar sukses!", "", "success");
      }
     } catch (error) {
-      Swal.fire("Failed!", error.response.data.message, "error");
+      Swal.fire("Mohon dicek kembali data diri anda", "", "warning");
     }
   };
   return (

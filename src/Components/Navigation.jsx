@@ -28,8 +28,8 @@ import Burger from "./HamburgerMenu";
 const usernameLength = (name) => {
   let convertName = name;
 
-  if (convertName.length > 5) {
-    convertName = convertName.substr(0, 5) + "...";
+  if (convertName.length > 7) {
+    convertName = convertName.substr(0, 7) + "...";
   }
   return convertName;
 };
@@ -61,7 +61,7 @@ const Navigation = () => {
     const navigate = useNavigate();
     const logout =  () => {
       localStorage.removeItem(process.env.REACT_APP_AUTH)
-      navigate({HOME}, {replace: true});
+      navigate("/Masuk");
     };
 
   useEffect(() => {  
@@ -138,7 +138,7 @@ const Navigation = () => {
             <HiUserGroup size={30} />
             Komunitas
           </Dropdown.Item>
-            <span onClick={logout} style={{cursor:"pointer",  display: "flex", gap: "10px", fontSize: "18px", marginLeft:"16px" }}>
+            <span onClick={() => logout()} style={{cursor:"pointer",  display: "flex", gap: "10px", fontSize: "18px", marginLeft:"16px" }}>
             <MdExitToApp size={30} />
             Keluar
             </span>
