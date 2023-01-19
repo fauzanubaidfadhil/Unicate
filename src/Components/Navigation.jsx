@@ -31,10 +31,8 @@ const usernameLength = (name) => {
   if (convertName.length > 5) {
     convertName = convertName.substr(0, 5) + "...";
   }
-
   return convertName;
 };
-
 
 const validateToken = () => {
   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
@@ -45,14 +43,11 @@ const validateToken = () => {
     return {
       isLogin,
       username,
-      
-    
     };
   }
   return {
     isLogin: false,
     username: "",
-    email:""
   };
 };
 
@@ -61,7 +56,6 @@ const Navigation = () => {
   const navRef = useRef({
     isLogin,
     username,
-  
   });
   
     const navigate = useNavigate();
