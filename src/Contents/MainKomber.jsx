@@ -25,10 +25,12 @@ const MainKomber = () => {
       <div className="posisikonten2">
         <div className="konten2top">
           <h1 className="textdeskripsi"> Deskripsi</h1>
+          <Link to={DEKOM}>
           <button type="button" className="buttongabung">
             {" "}
             Gabung
           </button>
+          </Link>
         </div>
         <p className="textkomunitasini">
           Komunitas ini berdiri dengan kekuatan alam yang sangat mendasar dari

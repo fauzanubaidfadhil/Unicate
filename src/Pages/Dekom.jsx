@@ -6,7 +6,7 @@ import Footer from "../Components/Footer";
 
 function Dekom() {
   return (
-    <HOC headreTitle="Dekom">
+    <HOC headreTitle="Detail Komunitas">
       <div>
         <Navigation />
         <MainDekom/>

@@ -83,11 +83,10 @@ const MainDekom = () => {
                     </div>
                     <p className='deskripsititlekomunitas'>Description</p>
                     <p className='deskripsidetailkomunitasdekom'>
-                        Indonesia Mengajar merupakan komunitas yang bertekad 
-                        dalam membantu pendidikan anak Indonesia.Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    Indonesia Mengajar merupakan sebuah lembaga nirlaba yang merekrut, 
+                    melatih, dan mengirim generasi muda terbaik bangsa ke berbagai daerah 
+                    di Indonesia untuk mengabdi sebagai Pengajar Muda di Sekolah Dasar dan 
+                    masyarakat selama satu tahun. </p>
                     <p className='kegiatankomunitasdetail'>Kegiatan</p>
                     <ul className='datekegiatan'>
                         <FcCalendar size={30}/>
