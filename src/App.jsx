@@ -3,7 +3,6 @@ import Komunitas from "./Pages/Komunitas";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   HOME,
-  BERANDA,
   KOMUNITAS,
   KOMBER,
   DEKOM,
@@ -22,7 +21,6 @@ import {
   CONTACTUS,
   
 } from "./router";
-import Beranda from "./Pages/Beranda";
 import Komber from "./Pages/Komber";
 import Dekom from "./Pages/Dekom";
 import Artikel from "./Pages/Artikel";
@@ -49,7 +47,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={HOME} element={<Home />} />
-        <Route path={BERANDA} element={<Beranda />} />
         <Route path={KOMUNITAS} element={<Komunitas />} />
         <Route path={KOMBER} element={<Komber />} />
         <Route path={DEKOM} element={<Dekom />} />

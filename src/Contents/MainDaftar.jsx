@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Background from "../Assets/backgroundform.png";
-import { MASUK } from "../router";
+import { MASUK, HOME } from "../router";
 import { Link, useNavigate } from "react-router-dom";
 import "../CSS/Daftar.css";
 import "../CSS/Dekstop/Daftar.css";
@@ -9,6 +9,7 @@ import Swal from "sweetalert2";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {IoMdArrowRoundBack} from "react-icons/io";
 
 import AuthLayout from "../Components/AuthLayout";
 
@@ -46,6 +47,10 @@ function MainDaftar() {
           src={Background}
           alt="backgroundform"
         />
+        <Link style={{color:"black"}} to={HOME}>
+        <h3 style={{position:"absolute", right:"0px", marginRight:"37%", marginTop:"10px"}}><IoMdArrowRoundBack style={{marginBottom:"5px"}} 
+        size={40} />Back</h3>
+        </Link>
         <h2 className="textwelcome">WELCOME !</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="posisiinput">

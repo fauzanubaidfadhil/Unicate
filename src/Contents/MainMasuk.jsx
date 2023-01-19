@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from "@mui/material/Checkbox";
-import { DAFTAR } from "../router";
+import { DAFTAR, HOME } from "../router";
 import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
 import "../CSS/Masuk.css";
 import "aos/dist/aos.css";
@@ -13,6 +13,7 @@ import Swal from "sweetalert2";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {IoMdArrowRoundBack} from "react-icons/io";
 
 const MainMasuk = () => {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -50,9 +51,14 @@ const MainMasuk = () => {
             src={Backgroundformmasuk}
             alt="backgroundformmasuk"
           />
+            <Link style={{color:"black"}} to={HOME}>
+            <IoMdArrowRoundBack style={{position:"absolute", right:"0px", marginRight:"-50px", marginTop:"15px"}} size={40} />
+            <h3 style={{position:"absolute", right:"0px", marginRight:"-110px", marginTop:"15px"}}>Back</h3>
+            </Link>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="posisiinputcuy">
               <input
+              className="inputmasuk"
                 type="username"
                 id="username"
                 {...register("username", {
@@ -62,6 +68,7 @@ const MainMasuk = () => {
               />
               {/* {errors.username && <p style={{ color: "red" }}>{errors.username.message}</p>} */}
               <input
+               className="inputmasuk"
                 type="password"
                 id="password"
                 {...register("password", { required: true })}
