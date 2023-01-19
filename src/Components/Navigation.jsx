@@ -17,7 +17,7 @@ import { CgProfile } from "react-icons/cg";
 import { HiUserGroup } from "react-icons/hi";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import { MdExitToApp } from "react-icons/md";
-
+import Swal from "sweetalert2";
 import "../CSS/Navigation.css";
 import React from "react";
 import Burger from "./HamburgerMenu";
@@ -60,8 +60,24 @@ const Navigation = () => {
   
     const navigate = useNavigate();
     const logout =  () => {
-      localStorage.removeItem(process.env.REACT_APP_AUTH)
-      navigate("/Masuk");
+      Swal.fire({
+        title: 'Apakah anda ingin keluar?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          localStorage.removeItem(process.env.REACT_APP_AUTH);
+          navigate("/Masuk", {replace: true});
+          Swal.fire(
+            'Berhasil keluar!',
+            '',
+            'success'
+          )
+        }
+      });
     };
 
   useEffect(() => {  
