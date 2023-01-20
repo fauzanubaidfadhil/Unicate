@@ -5,6 +5,7 @@ import { HiUserGroup } from "react-icons/hi";
 import {MdOutlinePrivacyTip} from "react-icons/md";
 import { MdExitToApp } from "react-icons/md";
 import MainDa from "../Contents/MainDa";
+import MainPrivasi from "../Contents/MainPrivasi";
 import MainKomuitasProfile from "../Contents/MainKomunitasProfile";
 import Footer from "../Components/Footer";
 import AOS from "aos";
@@ -55,7 +56,7 @@ export default function App() {
 
   return (
     <>
-      <div data-aos="fade-up" style={{ height: "1336px"}}>
+      <div data-aos="fade-up" style={{ height: "936px"}}>
           <h4 style={{margin:"30px"}}><Link style={{textDecoration:"none", color:"black"}} to="/"><BiHomeAlt style={{marginBottom:"10px"}} size={30}/>Beranda</Link></h4>
         <div className="posisi-card1-profile">
           <p className="hover" style={{ cursor: "pointer" }} onClick={() => setMenu("Profile")}>
@@ -66,7 +67,7 @@ export default function App() {
             <HiUserGroup size={20} style={{ marginRight: "10px" }} />
             Komunitas
           </p>
-          <p className="hover">
+          <p className="hover" style={{cursor:"pointer"}} onClick={() => setMenu("Privasi")}>
             <MdOutlinePrivacyTip size={20} style={{ marginRight: "10px" }} />
             Privasi
           </p>
@@ -77,6 +78,7 @@ export default function App() {
         </div>
         {menu === "Profile" && <MainDa />}
         {menu === "Komunitas" && <MainKomuitasProfile />}
+        {menu === "Privasi" && <MainPrivasi />}
       </div>
       <Footer />
     </>

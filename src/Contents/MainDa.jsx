@@ -1,42 +1,31 @@
-import Profile from "../Assets/adeliaprofil.png";
 import "../CSS/Profile.css";
+import {BsPersonCircle} from "react-icons/bs";
 
 const MainDa = () => {
     return ( 
         <>
         <div className="posisi-mainda">
             <h3 className="textdetailakun">Detail Akun</h3>
-            <img className="profile" src={Profile} alt="profil" /> 
+           <BsPersonCircle style={{position:"absolute", marginLeft:"12px"}} size={120} />
             <button className="buttonunggah" type="submit">Unggah foto baru</button>
             <button className="buttonhapus" type="submit">Hapus</button>
             <div className="posisiusernameprofil">
-                <p className="fontstyledataprofil">Username</p>
-                <p className="fontstyleisidata">adelia</p>
+                <p className="fontstyledataprofil">Nama</p>
+                <input className="input-profil" type="text" placeholder="Your Name" />
             </div>
             <div className="posisinamaprofil">
-                <p className="fontstyledataprofil">Nama</p>
-                <p className="fontstyleisidata">Adelia</p>
+                <p className="fontstyledataprofil">Jenis Kelamin</p>
+                <input className="input-profil" type="text" placeholder="Your Gender" />
             </div>
             <div className="posisialamatprofil">
-                <p className="fontstyledataprofil">Alamat</p>
-                <p className="fontstyleisidata">Jalan SM. Raja, Pematang Siantar, Sumatera Utara</p>
+                <p className="fontstyledataprofil">Email</p>
+                <input className="input-profil" type="email" placeholder="Your Email" />
             </div>
             <div className="posisijeniskelaminprofil">
-                <p className="fontstyledataprofil">Jenis Kelamin</p>
-                <p className="fontstyleisidata">perempuan</p>
+                <p className="fontstyledataprofil">No Telephone</p>
+                <input className="input-profil" type="phonenumber" placeholder="Your Phonenumber" />
             </div>
-            <div className="posisitgllahirprofil">
-                <p className="fontstyledataprofil">Tanggal Lahir</p>
-                <p className="fontstyleisidata">20/08/2022</p>
-            </div>
-            <div className="posisiemailprofil">
-                <p className="fontstyledataprofil">Email</p>
-                <p className="fontstyleisidata">ade***6@gmail.com</p>
-            </div>
-            <div className="posisiphoneprofil">
-                <p className="fontstyledataprofil">No. Telephone</p>
-                <p className="fontstyleisidata">+62 878-yang lain kapan-kapan</p>
-            </div>
+            <button className="btn-save-profil" type="submit">Simpan</button>
         </div>
         </>
      );

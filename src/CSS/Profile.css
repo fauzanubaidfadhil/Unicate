@@ -22,7 +22,7 @@
 
 .posisi-mainda {
     border: 2px solid #E3DFDF;
-    height: 1120px;
+    height: 700px;
     width: 724px;
     border-radius: 20px;
     position: absolute;
@@ -45,13 +45,6 @@
     margin-top: 12px;
 }
 
-.profile{
-    width: 90px;
-    height: 90px;
-    margin-left: 12px;
-    margin-top: 12px;
-    position: absolute;
-}
 
 .buttonunggah {
     background: #009EFF;
@@ -65,13 +58,12 @@
     line-height: 149.5%;
     color: white;
     border-color: transparent;
-    margin-left: 140px;
+    margin-left: 160px;
     margin-top: 30px;
     position: absolute;
 }
 
 .buttonhapus {
-    margin-left: 28px;
     background: #E3DFDF;
     border-radius: 8px;
     color: black;
@@ -79,18 +71,22 @@
     width: 68px;
     height: 48px;
     position: absolute;
-    margin-left: 313px;
+    margin-left: 343px;
     margin-top: 30px;
 }
 
 .posisiusernameprofil {
     position: absolute;
-    border-bottom: solid;
     width: 700px;
     height: 82px;
     margin-left: 12px;
-    border-color: #E3DFDF;
     margin-top: 150px;
+}
+
+.input-profil {
+    width: 700px;
+    border-radius: 8px;
+    height: 40px;
 }
 
 .fontstyledataprofil {
@@ -99,6 +95,29 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 149.5%;
+}
+
+.btn-save-profil {
+    width: 111px;
+    height: 40px;
+    margin-top: 78%;
+    margin-left: 12px;
+    border-radius: 12px;
+    background: black;
+    color: white;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.btn-save-profil:hover {
+    background: white;
+    color: black;
+    transition: .5s;
+    transition-delay: .1s;
 }
 
 .fontstyleisidata {
@@ -200,3 +219,73 @@
     transition: .1s;
     transition-delay: .1s;
 }
+
+.cardprivasi {
+    width: 724px;
+    height: 460px;
+    border: 1px solid #E3DFDF;
+    position: absolute;
+    right: 0;
+    margin-right: 136px;
+    border-radius: 20px;
+    margin-top: 58px;
+    box-shadow: 0px 5px 5px 0px #888888;
+}
+
+.textprivasi {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 270px;
+    height: 48px;
+}
+
+.posisioldpw {
+    position: absolute;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+}
+
+.posisinewpw {
+    position: absolute;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    margin-top: 100px;
+}
+
+.posisiconfpw {
+    position: absolute;
+    width: 700px;
+    height: 82px;
+    margin-left: 12px;
+    margin-top: 200px;
+}
+
+.btn-save-privasi {
+    width: 111px;
+    height: 40px;
+    margin-top:42%;
+    margin-left: 12px;
+    border-radius: 12px;
+    background: black;
+    color: white;
+
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.5%;
+}
+
+.btn-save-privasi:hover {
+    background: white;
+    color: black;
+    transition: .5s;
+    transition-delay: .1s;
+} 
