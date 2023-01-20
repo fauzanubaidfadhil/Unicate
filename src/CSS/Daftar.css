@@ -76,6 +76,14 @@
     cursor: pointer;
 }
 
+.buttondaftar:hover {
+    background: white;
+    color: #009EFF;
+    transition: .5s;
+    transition-delay: .1s;
+    border-color: #009EFF;
+}
+
 .posisitextdaftar {
     position: absolute;
     right:0px;

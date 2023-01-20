@@ -80,7 +80,13 @@
     border: none;
     width: 344px;
     height: 60px;
+}
 
+.button-aksi-link:hover {
+    background: white;
+    color: #009EFF;
+    transition: .5s;
+    transition-delay: .1s;
 }
 
 .content2{

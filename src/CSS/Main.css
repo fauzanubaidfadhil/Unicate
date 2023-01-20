@@ -59,6 +59,14 @@
     position: relative;
 }
 
+.buttonbergabung:hover {
+    background: white;
+    color: #0076BF;
+    transition: .5s;
+    transition-delay: .1s;
+    border-color: #0076BF;
+}
+
 .position-textlabel {
     position: relative;
     margin-top: 131px;

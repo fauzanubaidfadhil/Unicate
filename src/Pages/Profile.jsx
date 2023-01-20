@@ -58,19 +58,19 @@ export default function App() {
       <div data-aos="fade-up" style={{ height: "1336px"}}>
           <h4 style={{margin:"30px"}}><Link style={{textDecoration:"none", color:"black"}} to="/"><BiHomeAlt style={{marginBottom:"10px"}} size={30}/>Beranda</Link></h4>
         <div className="posisi-card1-profile">
-          <p style={{ cursor: "pointer" }} onClick={() => setMenu("Profile")}>
+          <p className="hover" style={{ cursor: "pointer" }} onClick={() => setMenu("Profile")}>
             <CgProfile size={20} style={{ marginRight: "10px" }} />
             Detail Akun
           </p>
-          <p style={{ cursor: "pointer" }} onClick={() => setMenu("Komunitas")}>
+          <p className="hover" style={{ cursor: "pointer" }} onClick={() => setMenu("Komunitas")}>
             <HiUserGroup size={20} style={{ marginRight: "10px" }} />
             Komunitas
           </p>
-          <p>
+          <p className="hover">
             <MdOutlinePrivacyTip size={20} style={{ marginRight: "10px" }} />
             Privasi
           </p>
-          <p style={{ cursor: "pointer" }} onClick={() => logout()}>
+          <p className="hover" style={{ cursor: "pointer" }} onClick={() => logout()}>
             <MdExitToApp size={20} style={{ marginRight: "10px" }} />
             Keluar
           </p>

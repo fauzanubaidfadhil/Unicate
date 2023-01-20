@@ -130,7 +130,7 @@
 .buttondonasifooter:hover {
     background-color: #009EFF;
     color: #FFFFFF;
-    transition: .1s ease-in-out;
+    transition: .5s;
     transition-delay: .1s;
     text-decoration: none;
 }

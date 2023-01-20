@@ -227,6 +227,14 @@
     color: #009EFF;
     background-color: white;
 }
+
+.buttondonasisekarang:hover {
+    background: #009EFF;
+    color: white;
+    transition: .5s;
+    transition-delay: .1s;
+}
+
 .posisikomunitasterbarumobile{
     border-style: solid;
     border-radius: 8px;
