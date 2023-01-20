@@ -29,7 +29,7 @@ const MainMasuk = () => {
         localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorization);
         navigate("/", { replace: true });
         Swal.fire({
-          position: "top-end",
+          position: "top-center",
           icon: "success",
           title: "selamat datang kembali!",
           showConfirmButton: false,

@@ -10,7 +10,9 @@ import Footer from "../Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import {BiHomeAlt} from "react-icons/bi";
 
 export default function App() {
   useEffect(() => {
@@ -53,7 +55,8 @@ export default function App() {
 
   return (
     <>
-      <div data-aos="fade-up" style={{ height: "1336px" }}>
+      <div data-aos="fade-up" style={{ height: "1336px"}}>
+          <h4 style={{margin:"30px"}}><Link style={{textDecoration:"none", color:"black"}} to="/"><BiHomeAlt style={{marginBottom:"10px"}} size={30}/>Beranda</Link></h4>
         <div className="posisi-card1-profile">
           <p style={{ cursor: "pointer" }} onClick={() => setMenu("Profile")}>
             <CgProfile size={20} style={{ marginRight: "10px" }} />
