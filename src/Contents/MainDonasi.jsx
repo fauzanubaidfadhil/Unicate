@@ -4,17 +4,19 @@ import image68 from '../Assets/Orangdilaporan.png';
 import image69 from '../Assets/smile.png';
 import '../CSS/Donasi.css';
 import '../CSS/Mobile/DonasiMobile.css';
-import { Dropdown } from 'react-bootstrap';
-import BRI from '../Assets/BRI.png'
-import BCA from '../Assets/bca.png'
-import BNI from '../Assets/bni.jpg'
-import BSI from '../Assets/bsi.jpg'
-import MANDIRI from '../Assets/Mandiri.png'
-import GOPAY from '../Assets/Gopay.png'
-import OVO from '../Assets/ovo.jpg'
-import ALFAMART from '../Assets/alfamart.jpg'
-import INDOMARET from '../Assets/indomarett.png'
+// import { Dropdown } from 'react-bootstrap';
+// import BRI from '../Assets/BRI.png'
+// import BCA from '../Assets/bca.png'
+// import BNI from '../Assets/bni.jpg'
+// import BSI from '../Assets/bsi.jpg'
+// import MANDIRI from '../Assets/Mandiri.png'
+// import GOPAY from '../Assets/Gopay.png'
+// import OVO from '../Assets/ovo.jpg'
+// import ALFAMART from '../Assets/alfamart.jpg'
+// import INDOMARET from '../Assets/indomarett.png'
 import iddonasi from '../Assets/iddonasiimg.png'
+import MyButton from '../Components/Buttons'
+import PaymentForm from '../Components/Payment'
 
 
 function MainDonasi() {
@@ -33,70 +35,19 @@ function MainDonasi() {
       <div className='tempatdonasi'>
         <h1 className='text1'>Donasi</h1>
         <h4 className='text2'>Nominal</h4>
-        <div className='listnominal'>
-          <button type="button" className='bordernominal'>5.000</button>
-          <button type="button" className='bordernominal'>10.000</button>
-          <button type="button" className='bordernominal'>20.000</button>
-          <button type="button" className='bordernominal'>50.000</button>
-          <button type="button" className='bordernominal'>75.000</button>`
-        </div>
-        <div className='listnominal'>
-          <button type="button" className='bordernominal'>100.000</button>
-          <button type="button" className='bordernominal'>200.000</button>
-          <button type="button" className='bordernominal'>500.000</button>
-        </div>
+        <div style={{}}>
+        <MyButton/>
+        </div> 
         <h1 className='textnama'>Nama</h1>
         <input type="text" className='inputiddonasi' />
-        <h1 className='textemail'>Emaill</h1>
+        <h1 className='textemail'>Email</h1>
         <input type="text" className='inputiddonasi'/>
         <h1 className='textnomortelepon'>Nomor Telepon</h1>
         <input type="text" className='inputiddonasi'/>
         <h1 className='textmetodepembayaran'>Metode Pembayaran</h1>
         <div className='bank'>
-          <Dropdown >
-            <Dropdown.Toggle variant="primary" style={{width:"392px", borderRadius:"12px"}} id="dropdown-basic">
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">
-                  ATM & Internet Banking
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-2">
-                  <img src={BRI} alt="BRI" style={{ width: '60px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-3">
-                  <img src={BCA} alt="BCA" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-4">
-                  <img src={BNI} alt="BNI" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-5">
-                  <img src={BSI} alt="BSI" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-6">
-                  <img src={MANDIRI} alt="MANDIRI" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-7">
-                  E-Wallet
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-8">
-                  <img src={GOPAY} alt="GOPAY" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-9">
-                  <img src={OVO} alt="OVO" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-10">
-                  Minimarket
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-11">
-                  <img src={ALFAMART} alt="ALFAMART" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-12">
-                  <img src={INDOMARET} alt="INDOMARET" style={{ width: '70px', height: '20px'}}/>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-          
-          </div>
+          <PaymentForm/>
+        </div>
           <button type="button" className="buttonproses">
              Proses
             </button>

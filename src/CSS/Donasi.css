@@ -1,3 +1,8 @@
+.beng{
+    width: 50px;
+    height: 50px;
+}
+
 .image66 {
     position: absolute;
     height: 520px;
@@ -12,6 +17,23 @@
     margin-left: 100px;
 }
 
+.duit{
+    font-size: large;
+    width: 20%;
+    margin: 8px;
+    padding: 2px;
+    border-radius: 10px;
+    border-color: #009EFF;
+    background: none;
+}
+
+.pilihbang{
+    width: 348px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 5px;
+}
+
 .bank{
     width: 100%;
 }
@@ -21,7 +43,7 @@
     position: absolute;
     margin-left: 800px;
     margin-top: -370px;
-    width: auto;
+    width: 400px;
     background-color: #ffffff;
     border-radius: 20px;
     border-color: transparent;
@@ -38,7 +60,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 12px;
+    gap: 0px;
     width: 100%;
 }
 
@@ -51,7 +73,7 @@
     width: 152px;
     height: 140px;
     margin-left: 550px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 .image69 {
