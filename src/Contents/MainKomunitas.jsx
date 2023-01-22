@@ -2,6 +2,11 @@ import img1 from "../Assets/img_komunitas1.png";
 import img2 from "../Assets/img_komunitas2.png";
 import img3 from "../Assets/profil_komunitas.png";
 import img4 from "../Assets/volunteers_need.png";
+import bumilangit from "../Assets/bumilangit.png";
+import anakindo from "../Assets/anakindo.png";
+import indopin from "../Assets/indopin.png";
+import indoma from "../Assets/indoma.png";
+import indohe from "../Assets/indohe.png";
 import "swiper/css";
 import "../CSS/Komunitas.css";
 import "swiper/css/scrollbar";
@@ -116,55 +121,16 @@ useEffect(() => {
                   style={{
                     height: "50px",
                     width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={bumilangit}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
                   Bumi Langit 
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit 
-                  <br /> 50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  50 member 2 post
-                </p>
-              </div>
-              <div className="posisikomunitas1">
-                <img
-                  style={{
-                    height: "50px",
-                    width: "50px",
-                  }}
-                  src={img3}
-                  alt="profil_komunitas"
-                />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit 
-                  <br /> 50 member 2 post
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>50 member 2 post</span> 
                 </p>
               </div>
               <div className="posisikomunitas1">
@@ -173,13 +139,66 @@ useEffect(() => {
                     height: "50px",
                     width: "50px",
                     marginTop: "0",
+                    marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={anakindo}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit  
-                  <br /> 50 member 2 post
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Anak Indonesia
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>99 member 10 post</span> 
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={indopin}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Pintar
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>34 member 1 post</span> 
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={indoma}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Maju
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>12 member 2 post</span> 
+                </p>
+              </div>
+              <div className="posisikomunitas1">
+                <img
+                  style={{
+                    height: "50px",
+                    width: "50px",
+                    marginTop: "0",
+                    marginLeft: "20px",
+                  }}
+                  src={indohe}
+                  alt="profil_komunitas"
+                />
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Hebat
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>80 member 2 post</span> 
                 </p>
               </div>
             </div>
@@ -209,12 +228,13 @@ useEffect(() => {
                     marginTop: "0",
                     marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={bumilangit}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
                   Bumi Langit 
-                  <br /> 50 member 2 post
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>50 member 2 post</span> 
                 </p>
               </div>
               <div className="posisikomunitas1">
@@ -225,12 +245,13 @@ useEffect(() => {
                     marginTop: "0",
                     marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={anakindo}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Anak Indonesia
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>99 member 10 post</span> 
                 </p>
               </div>
               <div className="posisikomunitas1">
@@ -241,12 +262,13 @@ useEffect(() => {
                     marginTop: "0",
                     marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={indopin}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Pintar
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>34 member 1 post</span> 
                 </p>
               </div>
               <div className="posisikomunitas1">
@@ -257,12 +279,13 @@ useEffect(() => {
                     marginTop: "0",
                     marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={indoma}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Maju
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>12 member 2 post</span> 
                 </p>
               </div>
               <div className="posisikomunitas1">
@@ -273,12 +296,13 @@ useEffect(() => {
                     marginTop: "0",
                     marginLeft: "20px",
                   }}
-                  src={img3}
+                  src={indohe}
                   alt="profil_komunitas"
                 />
-                <p className="styletextposisikomunitas">
-                  Bumi Langit <br />
-                  <br /> 50 member 2 post
+                <p className="styletextposisikomunitas" style={{ fontWeight:"700" }}>
+                  Indonesia Hebat
+                  <br /> 
+                  <span style={{ color: "rgba(0, 0, 0, 0.5)", fontWeight:"500"}}>80 member 2 post</span> 
                 </p>
               </div>
             </div>
@@ -329,21 +353,16 @@ useEffect(() => {
                     src={img3}
                     alt="profil_komunitas"
                   />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
+                  <div style={{ fontWeight:"700" }}>Indonesia Mengajar</div>
+                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                    <div>Gabung</div>
                   </Link>
-                  <div>Gabung</div>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
                 </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
+                <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                    50 member 2 post
                 </div>
               </div>
             </SwiperSlide>
@@ -351,143 +370,128 @@ useEffect(() => {
             {/* komunitas 2 */}
             <SwiperSlide>
               <div
-                style={{
-                  borderStyle: "solid",
-                  width: "auto",
-                  overflow: "hidden",
-                  borderRadius: "8px",
-                  padding: "10px 20px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                  alignItems: "flex-start",
-                }}
-              >
-                <div
                   style={{
+                    borderStyle: "solid",
+                    width: "auto",
+                    overflow: "hidden",
+                    borderRadius: "8px",
+                    padding: "10px 20px",
                     display: "flex",
-                    gap: "20px",
-                    flexDirection: "row",
-                    alignItems: "center",
+                    flexDirection: "column",
+                    gap: "10px",
+                    alignItems: "flex-start",
                   }}
                 >
-                  <img
-                    style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
-                    src={img3}
-                    alt="profil_komunitas"
-                  />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
-                  </Link>
-                  <div>Gabung</div>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                      flexDirection: "row",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
+                      src={bumilangit}
+                      alt="profil_komunitas"
+                    />
+                    <div style={{ fontWeight:"700" }}>Bumi Langit</div>
+                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                      <div>Gabung</div>
+                    </Link>
+                  </div>
+                  <div style={{fontSize:'16px' }} >
+                    Komunitas yang masih dalam naungan bergabung
+                  </div>
+                  <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                      50 member 2 post
+                  </div>
                 </div>
-                <div style={{fontSize:'16px' }} >
-                  Komunitas yang masih dalam naungan bergabung
-                </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
-                </div>
-              </div>
             </SwiperSlide>
             {/* komunitas 2 */}
             {/* komunitas 3 */}
             <SwiperSlide>
               <div
-                style={{
-                  borderStyle: "solid",
-                  width: "auto",
-                  overflow: "hidden",
-                  borderRadius: "8px",
-                  padding: "10px 20px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                  alignItems: "flex-start",
-                }}
-              >
-                <div
                   style={{
+                    borderStyle: "solid",
+                    width: "auto",
+                    overflow: "hidden",
+                    borderRadius: "8px",
+                    padding: "10px 20px",
                     display: "flex",
-                    gap: "20px",
-                    flexDirection: "row",
-                    alignItems: "center",
+                    flexDirection: "column",
+                    gap: "10px",
+                    alignItems: "flex-start",
                   }}
                 >
-                  <img
-                    style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
-                    src={img3}
-                    alt="profil_komunitas"
-                  />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
-                  </Link>
-                  <div>Gabung</div>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                      flexDirection: "row",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
+                      src={anakindo}
+                      alt="profil_komunitas"
+                    />
+                    <div style={{ fontWeight:"700" }}>Anak Indonesia</div>
+                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                      <div>Gabung</div>
+                    </Link>
+                  </div>
+                  <div style={{fontSize:'16px' }} >
+                    Komunitas yang masih dalam naungan bergabung
+                  </div>
+                  <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                      99 member 10 post
+                  </div>
                 </div>
-                <div style={{fontSize:'16px' }} >
-                  Komunitas yang masih dalam naungan bergabung
-                </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
-                </div>
-              </div>
             </SwiperSlide>
             {/* komunitas 3 */}
 
             {/* komunitas 4 */}
             <SwiperSlide>
               <div
-                style={{
-                  borderStyle: "solid",
-                  width: "auto",
-                  overflow: "hidden",
-                  borderRadius: "8px",
-                  padding: "10px 20px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                  alignItems: "flex-start",
-                }}
-              >
-                <div
                   style={{
+                    borderStyle: "solid",
+                    width: "auto",
+                    overflow: "hidden",
+                    borderRadius: "8px",
+                    padding: "10px 20px",
                     display: "flex",
-                    gap: "20px",
-                    flexDirection: "row",
-                    alignItems: "center",
+                    flexDirection: "column",
+                    gap: "10px",
+                    alignItems: "flex-start",
                   }}
                 >
-                  <img
-                    style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
-                    src={img3}
-                    alt="profil_komunitas"
-                  />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
-                  </Link>
-                  <div>Gabung</div>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                      flexDirection: "row",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
+                      src={indopin}
+                      alt="profil_komunitas"
+                    />
+                    <div style={{ fontWeight:"700" }}>Indonesia Pintar</div>
+                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                      <div>Gabung</div>
+                    </Link>
+                  </div>
+                  <div style={{fontSize:'16px' }} >
+                    Komunitas yang masih dalam naungan bergabung
+                  </div>
+                  <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                      34 member 1 post
+                  </div>
                 </div>
-                <div style={{fontSize:'16px' }} >
-                  Komunitas yang masih dalam naungan bergabung
-                </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
-                </div>
-              </div>
             </SwiperSlide>
             {/* komunitas 4 */}
             {/* komunitas 5 */}
@@ -509,39 +513,32 @@ useEffect(() => {
                   style={{
                     display: "flex",
                     gap: "20px",
-                    width: "333px",
-                    height: "50px",
                     flexDirection: "row",
                     alignItems: "center",
                   }}
                 >
                   <img
                     style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
-                    src={img3}
+                    src={indoma}
                     alt="profil_komunitas"
                   />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
+                  <div style={{ fontWeight:"700" }}>Indonesia Maju</div>
+                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                    <div>Gabung</div>
                   </Link>
-                  <div>Gabung</div>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
                 </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
+                <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                    12 member 2 post
                 </div>
               </div>
             </SwiperSlide>
             {/* komunitas 5 */}
             {/* komunitas 6 */}
             <SwiperSlide>
-              <div
+            <div
                 style={{
                   borderStyle: "solid",
                   width: "auto",
@@ -564,24 +561,19 @@ useEffect(() => {
                 >
                   <img
                     style={{ height: "40px", width: "40px", marginTop: "2.5%" }}
-                    src={img3}
+                    src={indohe}
                     alt="profil_komunitas"
                   />
-                  <Link style={{textDecoration:'none', color:"black"}} to={KOMBER}>
-                    <div>Indonesia Mengajar</div>
+                  <div style={{ fontWeight:"700" }}>Indonesia Hebat</div>
+                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
+                    <div>Gabung</div>
                   </Link>
-                  <div>Gabung</div>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
                 </div>
-                <div style={{ display: "flex", flexDirection:'row', gap:'10px' }}>
-                  <p >
-                    50 member
-                  </p>
-                  <p >
-                    2 post
-                  </p>
+                <div style={{ color: "rgba(0, 0, 0, 0.5)", fontSize:"14px" }}>
+                    80 member 2 post
                 </div>
               </div>
             </SwiperSlide>
