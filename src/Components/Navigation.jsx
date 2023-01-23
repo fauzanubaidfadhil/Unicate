@@ -87,18 +87,6 @@ const Navigation = () => {
   }, [])
 
 
-  // useEffect(() => {
-  //   const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
-  //   console.log(tokenExists);
-  //   if (tokenExists !== null) {
-  //     const token = tokenExists.split(" ")[1];
-  //     const { username } = jwtDecode(token);
-  //     const isExistsToken = token === undefined ? false : true;
-  //     console.log(isExistsToken);
-  //     navRef.current.isLogin = isExistsToken;
-  //     navRef.current.username = username;
-  //   }
-  // }, []);
 
   const displayButton = !navRef.current.isLogin ? (
     <div className="buttonloginlogout">

@@ -1,7 +1,43 @@
 import "../CSS/Profile.css";
 import {BsPersonCircle} from "react-icons/bs";
+// import { useRef, useEffect } from "react";
+// import jwtDecode from "jwt-decode";
+
+// const usernameLength = (name) => {
+//     let convertName = name;
+
+//     if (convertName.length > 7) {
+//         convertName = convertName.substr(0, 7) + "...";
+//     }
+//     return convertName;
+// };
+
+// const validateToken = () => {
+//     const tokenExists = localStorage.getItem(process.env.REACT_APP_AUTH);
+//     if (tokenExists !== null) {
+//         const token = tokenExists.split(" ") [1];
+//         const { fullname } = jwtDecode(token);
+//         const isLogin = token === undefined ? false : true;
+//         return {
+//             isLogin,
+//             fullname,
+//         };
+//     }
+//     return {
+//         isLogin: false,
+//         username:" ",
+//     };
+// };
 
 const MainDa = () => {
+
+
+    // const { isLogin, fullname, } = validateToken();
+    // const navRef = useRef({
+    //     isLogin,
+    //     fullname,
+    // });
+
     return ( 
         <>
         <div className="posisi-mainda">

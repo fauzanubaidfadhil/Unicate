@@ -12,8 +12,9 @@ class MyButtons extends React.Component {
     handleClick(id) {
       this.setState({ activeButton: id });
     }
-  
+
     render() {
+      
       return (
         <div>
           <button className='duit'
