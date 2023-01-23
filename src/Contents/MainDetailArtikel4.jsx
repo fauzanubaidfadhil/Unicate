@@ -20,14 +20,14 @@ const MainDetailArtikel4 = () => {
         >
           Home
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
+        <MdNavigateNext/>
         <a
           style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}} />
+        <MdNavigateNext />
         <a
           style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
           href="/DetailArtikel"
@@ -87,9 +87,9 @@ const MainDetailArtikel4 = () => {
                                 lineHeight: '29px',
                                 textAlign:'justify' }}>
                         <a style={{ textDecoration:'none' }} href="/">Unicate.com </a>
-                        - Kondisi itu selaras dengan Angka Partisipasi Sekolah (APS) di daerah berjuluk 'Negeri Sejuta Pesona' itu pun hingga kini terbilang rendah. Pada jenjang SD 99,96 persen dan turun pada jenjang SMP turun menjadi 96,75 persen dan SMA hanya 82,17 persen. <br/>
-                        Kepala Badan Pusat Statistik (BPS) Pesisir Selatan, Yudi Yos Elvin mengatakan, faktor pendidikan memiliki peranan sangat penting dalam meningkatkan kesejahteraan dan pertumbuhan ekonomi masyarakat melalui peningkatan kapasitas dan produktivitas kerja. <br/>
-                        "Tanpa kualitas sumber daya manusia yang mumpuni, sulit bagi wilayah atau daerah lepas dari jerat kemiskinan," katanya, Selasa (8/2/2022). <br/>
+                        - Kondisi itu selaras dengan Angka Partisipasi Sekolah (APS) di daerah berjuluk 'Negeri Sejuta Pesona' itu pun hingga kini terbilang rendah. Pada jenjang SD 99,96 persen dan turun pada jenjang SMP turun menjadi 96,75 persen dan SMA hanya 82,17 persen. <br/><br />
+                        Kepala Badan Pusat Statistik (BPS) Pesisir Selatan, Yudi Yos Elvin mengatakan, faktor pendidikan memiliki peranan sangat penting dalam meningkatkan kesejahteraan dan pertumbuhan ekonomi masyarakat melalui peningkatan kapasitas dan produktivitas kerja. <br/><br />
+                        "Tanpa kualitas sumber daya manusia yang mumpuni, sulit bagi wilayah atau daerah lepas dari jerat kemiskinan," katanya, Selasa (8/2/2022). 
                         Data TNP2K mengonfirmasi anak keluarga miskin usia sekolah 40.517 orang. Sebanyak 5.988 orang tidak bersekolah. Sebagian besar diantaranya adalah anak usia 7-12 tahun dan 13-15 tahun.
                     </p>
                     <br />
@@ -113,15 +113,15 @@ const MainDetailArtikel4 = () => {
                                 fontSize: '19.501px',
                                 lineHeight: '29px',
                                 textAlign:'justify' }}>
-                        Kondisi itu selaras dengan Angka Partisipasi Sekolah (APS) di daerah berjuluk 'Negeri Sejuta Pesona' itu pun hingga kini terbilang rendah. Pada jenjang SD 99,96 persen dan turun pada jenjang SMP turun menjadi 96,75 persen dan SMA hanya 82,17 persen. <br/>
-                        Menurutnya fenomena tersebut merupakan dampak dari belum efektifnya pelaksanaan program wajib belajar di Pesisir Selatan dari yang awalnya hanya sampai usia 9 tahun saja, kini meningkat menjadi 12 tahun. <br/>
-                        "Sebab persentase paling tinggi berada pada jenjang pendidikan SD dan semakin menurun pada jenjang lanjutan," katanya. <br/>
-                        Karena itu pemerintah kabupaten mesti meningkatkan efektivitas program wajib belajar dari 9 tahun menjadi 12 tahun dan menjamin pemerataan pendidikan yang berkualitas, sesuai target SDGs di 2030. <br/>
-                        Selain sektor kesehatan, pembangunan di bidang pendidikan merupakan salah satu pembangunan utama dalam mewujudkan tercapainya kualitas sumber daya manusia yang berdaya saing.  <br/>
-                        Sementara Pemerintah Kabupaten Pesisir Selatan dalam Rencana Pembangunan Jangka Menengah Daerah (RPJMD) 2021-2026 menjadikan peningkatan kualitas sumber daya manusia sebagai arus utama, salah satunya lewat pendidikan.  <br/>
-                        Pemerintah kabupaten menargetkan terwujudnya sumber daya manusia yang beriman, kreatif dan berdaya saing. Upaya itu dilakukan dengan meningkatkan akses pendidikan. Pemerataan dan peningkatan sarana prasarana pendidikan.  <br/>
-                        Meningkatkan partisipasi sekolah pada anak usia sekolah dengan peningkatan harapan lama sekolah dan rata-rata lama sekolah yang diaharapkan dapat menjawab sasaran pembangunan daerah.  <br/>
-                        Meningkatkan daya saing pendidikan, seiring dengan menaikan jumlah tenaga pendidik yang berkompeten dan mencetak siswa berprestasi. Membangun kerjasama dengan perguruan tinggi. <br/>
+                        Kondisi itu selaras dengan Angka Partisipasi Sekolah (APS) di daerah berjuluk 'Negeri Sejuta Pesona' itu pun hingga kini terbilang rendah. Pada jenjang SD 99,96 persen dan turun pada jenjang SMP turun menjadi 96,75 persen dan SMA hanya 82,17 persen. <br/><br />
+                        Menurutnya fenomena tersebut merupakan dampak dari belum efektifnya pelaksanaan program wajib belajar di Pesisir Selatan dari yang awalnya hanya sampai usia 9 tahun saja, kini meningkat menjadi 12 tahun. 
+                        "Sebab persentase paling tinggi berada pada jenjang pendidikan SD dan semakin menurun pada jenjang lanjutan," katanya. 
+                        Karena itu pemerintah kabupaten mesti meningkatkan efektivitas program wajib belajar dari 9 tahun menjadi 12 tahun dan menjamin pemerataan pendidikan yang berkualitas, sesuai target SDGs di 2030. <br/><br />
+                        Selain sektor kesehatan, pembangunan di bidang pendidikan merupakan salah satu pembangunan utama dalam mewujudkan tercapainya kualitas sumber daya manusia yang berdaya saing.  
+                        Sementara Pemerintah Kabupaten Pesisir Selatan dalam Rencana Pembangunan Jangka Menengah Daerah (RPJMD) 2021-2026 menjadikan peningkatan kualitas sumber daya manusia sebagai arus utama, salah satunya lewat pendidikan.  <br/><br />
+                        Pemerintah kabupaten menargetkan terwujudnya sumber daya manusia yang beriman, kreatif dan berdaya saing. Upaya itu dilakukan dengan meningkatkan akses pendidikan. Pemerataan dan peningkatan sarana prasarana pendidikan. 
+                        Meningkatkan partisipasi sekolah pada anak usia sekolah dengan peningkatan harapan lama sekolah dan rata-rata lama sekolah yang diaharapkan dapat menjawab sasaran pembangunan daerah.  <br/><br />
+                        Meningkatkan daya saing pendidikan, seiring dengan menaikan jumlah tenaga pendidik yang berkompeten dan mencetak siswa berprestasi. Membangun kerjasama dengan perguruan tinggi. 
                         Salah satu rencana aksi yang kini telah dilakukan untuk mencapai tujuan tersebut adalah dengan membebaskan biaya pendidikan pada jenjang SD dan SMP, sesuai kewenangan pemerintah daerah. <br/>
                     </p>
                 </div>

@@ -12,6 +12,8 @@ import kontak from '../Assets/contact.png'
 import gambar2 from '../Assets/gambar2aboutus.png'
 import gambar1 from '../Assets/gambar1aboutus.png'
 
+import { Link } from "react-router-dom";
+
 const Content = styled.section`
   display: flex;
   flex-direction: row;
@@ -481,7 +483,9 @@ const MainAboutUs = () => {
                     <Help>Tanya seputar komunitas, donasi dan juga kisah inspirasi yang terdapat dalam unicate</Help>
                     <Garis2 />
                     <DoContact>
-                        <Button>Contact Us</Button>
+                        <Link to="/ContactUs">
+                            <Button>Contact Us</Button>
+                        </Link>
                         <Call>Or call (808) 555-000111</Call>
                     </DoContact>
                 </DetailCP>

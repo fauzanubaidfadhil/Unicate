@@ -10,10 +10,10 @@ import image9 from "../Assets/image-card-1.png";
 import image10 from "../Assets/image-card-2.png";
 import image11 from "../Assets/image-card-3.png";
 import image12 from "../Assets/image-article-1.png";
-import image13 from "../Assets/image-article-2.png";
-import image14 from "../Assets/image-article-3.png";
-import image15 from "../Assets/image-article-4.png";
-// import image16 from "../Assets/image-article-5.png";
+import FotoArtikel1 from "../Assets/FotoArtikel1.png";
+import FotoArtikel2 from "../Assets/FotoArtikel2.png";
+import FotoArtikel3 from "../Assets/FotoArtikel3.png";
+import Foto1aDetar from "../Assets/Foto1aDetar.png";
 import image17 from "../Assets/peta-indonesia.jpg";
 import segitiga from "../Assets/segitiga.png";
 import segitigakotak from "../Assets/segitigakota.png";
@@ -22,7 +22,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import { KOMUNITAS } from "../router";
+import { KOMUNITAS, ARTIKEL } from "../router";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import React from "react";
@@ -192,7 +192,9 @@ const Main = () => {
       <div className="positioncontent4">
         <div className="positioncontent4top">
           <div className="textberita">Artikel Terbaru</div>
-          <div className="textlihat">Lihat selengkapnya</div>
+          <Link to={ARTIKEL} style={{ textDecoration:"none", color:"#0076BF" }}>
+            <div className="textlihat">Lihat selengkapnya</div>
+          </Link>
         </div>
 
         <img
@@ -228,6 +230,7 @@ const Main = () => {
           </div>
         </div>
         <div className="positioncontent4subberita">
+        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel"> 
           <div className="subarticleinhome">
             <div
               style={{
@@ -238,17 +241,18 @@ const Main = () => {
               <img
                 data-aos="zoom-in"
                 className="imgartikel2 transisi"
-                src={image13}
+                src={FotoArtikel1}
                 alt="image13"
               />
             </div>
             <p className="textberi posisiteksartikel">
-              Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan karena
-              Resmikan Sekolah Virtual
+              Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan Sekolah untuk Anak Kurang Mampu
               <br />
-              <span className="tambahanMain">15 November 2022</span>
+              <span className="tambahanMain">13 November 2022</span>
             </p>
           </div>
+        </Link>
+        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
           <div className="subarticleinhome">
             <div
               style={{
@@ -259,16 +263,18 @@ const Main = () => {
               <img
                 data-aos="zoom-in"
                 className="imgartikel2 transisi"
-                src={image14}
+                src={FotoArtikel3}
                 alt="image14"
               />
             </div>
             <p className="textberi posisiteksartikel">
-              Solusi Jitu Dinas Pendidikan Atasi Masalah Anak Putus Sekolah di Makassar
+              Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus Sekolah
               <br />
               <span className="tambahanMain">12 November 2022</span>
             </p>
           </div>
+        </Link>
+        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
           <div className="subarticleinhome">
             <div
               style={{
@@ -279,16 +285,18 @@ const Main = () => {
               <img
                 data-aos="zoom-in"
                 className="imgartikel2 transisi"
-                src={image15}
+                src={FotoArtikel2}
                 alt="image15"
               />
             </div>
             <p className="textberi posisiteksartikel">
-              KPAI Beberkan 5 Alasan Utama Anak Putus Sekolah Selama Pandemi Covid-19
+              Mengapa Pendidikan di Indonesia Belum Merata?
               <br />
-              <span className="tambahanMain">13 November 2022</span>
+              <span className="tambahanMain">12 November 2022</span>
             </p>
           </div>
+        </Link>
+        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
           <div className="subarticleinhome">
             <div
               style={{
@@ -299,16 +307,17 @@ const Main = () => {
               <img
                 data-aos="zoom-in"
                 className="imgartikel2 transisi"
-                src={image15}
+                src={Foto1aDetar}
                 alt="image16"
               />
             </div>
             <p className="textberi posisiteksartikel">
-              KPAI Beberkan 5 Alasan Utama Anak Putus Sekolah Selama Pandemi Covid-19
+              Ada 150 Anak Putus Sekolah di Ternate
               <br />
               <span className="tambahanMain">13 November 2022</span>
             </p>
           </div>
+        </Link>
         </div>
       </div>
       {/* Berita */}

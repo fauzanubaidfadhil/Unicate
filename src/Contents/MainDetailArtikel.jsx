@@ -20,14 +20,14 @@ const MainDetailArtikel = () => {
         >
           Home
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
+        <MdNavigateNext/>
         <a
           style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}} />
+        <MdNavigateNext/>
         <a
           style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
           href="/DetailArtikel"

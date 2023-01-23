@@ -7,6 +7,7 @@ import Artikelpertama from "../Assets/Fotoartikelatas.png";
 import FotoArtikel1 from "../Assets/FotoArtikel1.png";
 import FotoArtikel2 from "../Assets/FotoArtikel2.png";
 import FotoArtikel3 from "../Assets/FotoArtikel3.png";
+import Foto1aDetar from "../Assets/Foto1aDetar.png";
 import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
@@ -70,7 +71,7 @@ const MainArtikel = () => {
               Home
             </Link>
           </li>
-          <MdNavigateNext style={{color:"#dfdfdf"}}/>
+          <MdNavigateNext/>
           <li className="linknavartikel"> Artikel </li>
         </ul>
         <div className="artikeltitletop">
@@ -132,8 +133,7 @@ const MainArtikel = () => {
                     Peralatan Sekolah untuk Anak Kurang Mampu
                   </h4>
                   <p className="subtitleartikelbottom">
-                    Keterbatasan ekonomi masih menjadi salah satu alasan
-                    banyaknya anak-anak tidak bisa melanjutkan......
+                    Keterbatasan ekonomi masih menjadi salah satu...
                   </p>
                 </Link>
               </div>
@@ -149,12 +149,10 @@ const MainArtikel = () => {
                 <h4
                   className='titleartikelbottom'
                 >
-                  Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
-                  Sekolah untuk Anak Kurang Mampu
+                  Mengapa Pendidikan di Indonesia Belum Merata ?
                 </h4>
                 <p className="subtitleartikelbottom">
-                  Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-                  karena Resmikan Sekolah Virtual
+                Pendidikan memiliki peranan yang sangat penting sebagai penunjang kehidupan manusia,...
                 </p>
                 </Link>
               </div>
@@ -168,66 +166,28 @@ const MainArtikel = () => {
                     alt="FotoArtikel3"
                   />
                   <h4 className='titleartikelbottom'>
-                    Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
-                    Peralatan Sekolah untuk Anak Kurang Mampu
-                  </h4>
-                  <p className="subtitleartikelbottom">
-                    Beri Kesempatan Anak Kurang Mampu, Ganjar Banjir Dukungan
-                    karena Resmikan Sekolah Virtual
-                  </p>
+                     Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus Sekolah
+                    </h4>
+                    <p className="subtitleartikelbottom">
+                      Kondisi itu selaras dengan Angka Partisipasi...
+                    </p>
                 </Link>
               </div>
               {/* Artikel 3 */}
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide style={{ justifyContent:"left" }}>
               <div className="cardartikelbottom">
                 <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
                     <img
                       style={{ width: "100%"}}
-                      src={FotoArtikel1}
+                      src={Foto1aDetar}
                       alt="FotoArtikel1"
                     />
                     <h4 className='titleartikelbottom'>
-                      Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
-                      Peralatan Sekolah untuk Anak Kurang Mampu
+                    Ada 150 Anak Putus Sekolah di Ternate
                     </h4>
                     <p className="subtitleartikelbottom">
-                      Keterbatasan ekonomi masih menjadi salah satu alasan
-                      banyaknya anak-anak tidak bisa melanjutkan......
-                    </p>
-                  </Link>
-                </div>
-                <div className="cardartikelbottom">
-                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
-                    <img
-                      style={{ width: "100%"}}
-                      src={FotoArtikel1}
-                      alt="FotoArtikel1"
-                    />
-                    <h4 className='titleartikelbottom'>
-                      Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
-                      Peralatan Sekolah untuk Anak Kurang Mampu
-                    </h4>
-                    <p className="subtitleartikelbottom">
-                      Keterbatasan ekonomi masih menjadi salah satu alasan
-                      banyaknya anak-anak tidak bisa melanjutkan......
-                    </p>
-                  </Link>
-                </div>
-                <div className="cardartikelbottom">
-                  <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
-                    <img
-                      style={{ width: "100%"}}
-                      src={FotoArtikel1}
-                      alt="FotoArtikel1"
-                    />
-                    <h4 className='titleartikelbottom'>
-                      Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
-                      Peralatan Sekolah untuk Anak Kurang Mampu
-                    </h4>
-                    <p className="subtitleartikelbottom">
-                      Keterbatasan ekonomi masih menjadi salah satu alasan
-                      banyaknya anak-anak tidak bisa melanjutkan......
+                    Anak putus sekolah di Kota Ternate, Maluku Utara (Malut), secara bertahap dikembalikan ke sekolah.
                     </p>
                   </Link>
                 </div>

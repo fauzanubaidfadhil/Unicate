@@ -21,14 +21,14 @@ const MainDetailArtikel2 = () => {
         >
           Home
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
+        <MdNavigateNext />
         <a
           style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}} />
+        <MdNavigateNext  />
         <a
           style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
           href="/DetailArtikel"
@@ -89,7 +89,7 @@ const MainDetailArtikel2 = () => {
                                 textAlign:'justify' }}>
                         <a style={{ textDecoration:'none' }} href="/">Unicate.com </a>
                         -Anak putus sekolah di Kota Ternate, Maluku Utara (Malut), secara bertahap dikembalikan ke sekolah.
-                        Ini berkat inisiasi Ikatan Sarjana Nahdlatul Ulama Malut dan Komunitas Talas Center Anti Narkoba, lewat program Ayo kembali ke Sekolah. <br/> Anggota Komisi III DPRD Ternate, Nurlaela Syarif, mengatakan dari 150 anak putus sekolah, baru 4 orang yang resmi bersekolah.
+                        Ini berkat inisiasi Ikatan Sarjana Nahdlatul Ulama Malut dan Komunitas Talas Center Anti Narkoba, lewat program Ayo kembali ke Sekolah. <br/><br /> Anggota Komisi III DPRD Ternate, Nurlaela Syarif, mengatakan dari 150 anak putus sekolah, baru 4 orang yang resmi bersekolah.
                         "Ada di SD Negeri 7 Kelurahan Santiong, SD Negeri 30 Kayu Merah, SD Negeri 4 Mononutu, dan SMP Islam," jelas Nuraela, Selasa (24/5).
                         Untuk Putri Delani yang kini tercatat sebagai siswi SDN 7 Santiong, kata Nurlaela, putus sekolah karena sudah yatim-piatu.
                     </p>
@@ -107,6 +107,7 @@ const MainDetailArtikel2 = () => {
                                     paddingLeft:'7.5px'}}>
                             <strong>Baca Juga</strong><br />Solusi Jitu Dinas Pendidikan Atasi Masalah Anak Putus Sekolah di Makassar</p>
                     </div>
+                    <br />
                     <p style={{ marginTop:'25px',
                                 fontFamily: 'Calibri',
                                 fontStyle: 'normal',

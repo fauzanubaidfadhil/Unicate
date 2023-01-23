@@ -20,14 +20,14 @@ const MainDetailArtikel3 = () => {
         >
           Home
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}}/>
+        <MdNavigateNext />
         <a
           style={{ textDecoration: "none", color: "black", fontSize: "14px" }}
           href="/Artikel"
         >
           Artikel
         </a>
-        <MdNavigateNext style={{ color: "#dfdfdf"}} />
+        <MdNavigateNext  />
         <a
           style={{ textDecoration: "none", color: "black",  fontSize: "14px" }}
           href="/DetailArtikel"
@@ -87,8 +87,8 @@ const MainDetailArtikel3 = () => {
                                 lineHeight: '29px',
                                 textAlign:'justify' }}>
                         <a style={{ textDecoration:'none' }} href="/">Unicate.com </a>
-                        Pendidikan memiliki peranan yang sangat penting sebagai penunjang kehidupan manusia, karna sejatinya manusia tidak akan terlepas dari pendidikan. Pengembangan kajian pendidikanpun harus diseimbangi sesuai dengan apa yang terjadi di masyarakat sosial. karna pendidikan bagaikan eksperimen yang menjadi percobaan sepanjang masa. Generasi muda yang berperan sebagai Agent Of Change haruslah mampu berperan juga sebagai Agent Of Producer yang mampu menciptakan perubahan yang nyata. <br/>
-                        "Ada di SD Negeri 7 Kelurahan Santiong, SD Negeri 30 Kayu Merah, SD Negeri 4 Mononutu, dan SMP Islam," jelas Nuraela, Selasa (24/5). <br/>
+                        Pendidikan memiliki peranan yang sangat penting sebagai penunjang kehidupan manusia, karna sejatinya manusia tidak akan terlepas dari pendidikan. Pengembangan kajian pendidikanpun harus diseimbangi sesuai dengan apa yang terjadi di masyarakat sosial. karna pendidikan bagaikan eksperimen yang menjadi percobaan sepanjang masa. Generasi muda yang berperan sebagai Agent Of Change haruslah mampu berperan juga sebagai Agent Of Producer yang mampu menciptakan perubahan yang nyata. <br/><br />
+                        "Ada di SD Negeri 7 Kelurahan Santiong, SD Negeri 30 Kayu Merah, SD Negeri 4 Mononutu, dan SMP Islam," jelas Nuraela, Selasa (24/5).
                         Untuk Putri Delani yang kini tercatat sebagai siswi SDN 7 Santiong, kata Nurlaela, putus sekolah karena sudah yatim-piatu.
                     </p>
                     <br />
@@ -112,10 +112,10 @@ const MainDetailArtikel3 = () => {
                                 fontSize: '19.501px',
                                 lineHeight: '29px',
                                 textAlign:'justify' }}>
-                        Menurut naufal syah putra (mahasiswa pgsd Uhamka) - Indonesia merupakan negara yang berpendidikan, namun kondisi pendidikan di Indonesia belum merata. Pendidikan yang belum merata menjadi permasalahan yang genting. Banyak penyebab yang menyebabkan pendidikan di Indonesia belum merata, diantara lain ialah faktor minimnya sumber daya masyarakat (SDM), rendahnya kualitas guru, dan kurangnya sarana dan prasarana yang menunjang untuk pendidikan. <br/>
-                        Banyak daerah diluar sana yang masih minim tentang pendidikan, terutama di daerah bagian timur pelosok sana, bahkan bukan hanya sarana dan prasarana yang kurang memadai, namun juga rendahnya tenaga pendidik, sehingga memerlukan tenaga pendidik dari luar. Penyebab dari faktor kemiskinan anak anak yang masih dibawah umur yang membantu ekonomi keluarganya, sehingga menghambat pendidikannya. Oleh karena itu, pemerintah haruslah membuka mata memikirkan pentingnya untuk meratakan pendidikan di Indonesia, terutama bagi sekelompok masyarakat di pelosok terpencil.<br/>
+                        Menurut naufal syah putra (mahasiswa pgsd Uhamka) - Indonesia merupakan negara yang berpendidikan, namun kondisi pendidikan di Indonesia belum merata. Pendidikan yang belum merata menjadi permasalahan yang genting. Banyak penyebab yang menyebabkan pendidikan di Indonesia belum merata, diantara lain ialah faktor minimnya sumber daya masyarakat (SDM), rendahnya kualitas guru, dan kurangnya sarana dan prasarana yang menunjang untuk pendidikan. <br/><br />
+                        Banyak daerah diluar sana yang masih minim tentang pendidikan, terutama di daerah bagian timur pelosok sana, bahkan bukan hanya sarana dan prasarana yang kurang memadai, namun juga rendahnya tenaga pendidik, sehingga memerlukan tenaga pendidik dari luar. Penyebab dari faktor kemiskinan anak anak yang masih dibawah umur yang membantu ekonomi keluarganya, sehingga menghambat pendidikannya. Oleh karena itu, pemerintah haruslah membuka mata memikirkan pentingnya untuk meratakan pendidikan di Indonesia, terutama bagi sekelompok masyarakat di pelosok terpencil.<br/><br />
                         Kualitas pendidikan di Indonesia saat ini sangat memperhatikan dengan bukti data UNESCO tahun 2000 tentang indeks pengembangan manusia (Human development indeks) yaitu merupakan komposisi dari peringkat kecapaian pendidikan. Baik pendidikan formal maupun informal.
-                        Banyak hal yang harus diperbaiki di Indonesia. Baik dari pemerintah maupun masyarakat yang menjadi tokoh peran penting dalam perubahan pendidikan di Indonesia ini. Agar dapat menciptakan sumber daya manusia yang unggul dalam ilmu pengetahuan dan mampu bersaing dengan negara berkembang dan negara maju lainnya. Dimulai dari sosialisasi masyarakatnya, mewajibkan belajar selama 12 tahun, memperbaiki kualitas guru, dan melengkapi sarana dan prasarana pendidikan ditempat tempat terpencil, terutama di sekolah yang berada di daerah pelosok-pelosok negri.<br/>
+                        Banyak hal yang harus diperbaiki di Indonesia. Baik dari pemerintah maupun masyarakat yang menjadi tokoh peran penting dalam perubahan pendidikan di Indonesia ini. Agar dapat menciptakan sumber daya manusia yang unggul dalam ilmu pengetahuan dan mampu bersaing dengan negara berkembang dan negara maju lainnya. Dimulai dari sosialisasi masyarakatnya, mewajibkan belajar selama 12 tahun, memperbaiki kualitas guru, dan melengkapi sarana dan prasarana pendidikan ditempat tempat terpencil, terutama di sekolah yang berada di daerah pelosok-pelosok negeri.<br/>
                     </p>
                 </div>
                 {/* content kiri */}
