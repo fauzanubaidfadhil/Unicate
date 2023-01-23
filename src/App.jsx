@@ -41,6 +41,7 @@ import DetailArtikel from "./Pages/DetailArtikel";
 import DetailArtikel2 from "./Pages/DetailArtikel2";
 import DetailArtikel3 from "./Pages/DetailArtikel3";
 import DetailArtikel4 from "./Pages/DetailArtikel4";
+import Payment from "./Pages/Payment";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
         <Route path="/DetailArtikel4" element={<DetailArtikel4 />} />
         <Route path={FAQ} element={<Faq />} />
         <Route path={CONTACTUS} element={<ContactUs />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </BrowserRouter>
   );

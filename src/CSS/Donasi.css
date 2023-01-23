@@ -19,12 +19,17 @@
 
 .duit{
     font-size: large;
-    width: 20%;
-    margin: 8px;
-    padding: 2px;
+    width: 23%;
     border-radius: 10px;
     border-color: #009EFF;
     background: none;
+}
+
+.duit:hover {
+    background: #009EFF;
+    color: white;
+    transition: .1s;
+    transition-delay: .1s;
 }
 
 .pilihbang{
@@ -196,6 +201,7 @@
     border-color: #009EFF;
     border-radius: 12px;
     color: white;
+    font-family: 'Calibri';
 }
 
 .bordertextuang{
