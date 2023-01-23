@@ -89,14 +89,13 @@ textarea {
      border-radius:12px; 
      right: 0;
      font-size:20px; 
-     font-family:'Poppins';
+     font-family:'Calibri';
 }
 
 textarea::-webkit-input-placeholder {
-    font-family: 'poppins';
+    font-family: 'Calibri';
     position: absolute;
-    margin-left: 20px;
-    margin-top: 20px;
+   
 }
 
 .buttoninputfoto {
@@ -106,7 +105,7 @@ textarea::-webkit-input-placeholder {
     align-items: center;
     padding: 4px 8px;
     gap: 8px;
-    width: 131px;
+    width: 101px;
     height: 48px;
     border-color: transparent;
     cursor: pointer;
@@ -157,19 +156,20 @@ textarea::-webkit-input-placeholder {
 }
 
 .textnamamember {
-
-    font-family: 'Poppins';
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .textkomentar {
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    margin: 0 0;
+    font-size: 30px;
+    margin-Left: 45px;
 }
 
 .detailstatusbottom{
