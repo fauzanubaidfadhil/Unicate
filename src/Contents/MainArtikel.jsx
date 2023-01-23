@@ -102,6 +102,7 @@ const MainArtikel = () => {
                 <img src={Iconig} alt="iconsocmed" />
                 <img src={Icontwit} alt="iconsocmed" />
               </div>
+              <br />
             </div>
           </div>
         </div>
@@ -111,7 +112,7 @@ const MainArtikel = () => {
         <>
           <h2 className="Artikellainnya">Artikel Lainnya</h2>
           <Swiper
-            spaceBetween={30}
+            spaceBetween={20}
             pagination={{
               clickable: true,
               position: 'relative'

@@ -13,6 +13,7 @@ import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
 import Footer from "../Components/Footer";
 import "../CSS/Mobile/KomberMobile.css";
+// import {useEffect} from "react";
 
 const MainKomber = () => {
   

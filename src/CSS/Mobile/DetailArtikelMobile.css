@@ -14,10 +14,10 @@
     margin: 0 0;
 }
 .date{
-    color: "#00000066";
+    color:'#00000066';
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     margin: 0 0;
 }

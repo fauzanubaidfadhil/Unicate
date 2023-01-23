@@ -22,7 +22,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import { KOMUNITAS, ARTIKEL } from "../router";
+import { KOMUNITAS, ARTIKEL, DONASI, AKSI } from "../router";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import React from "react";
@@ -161,28 +161,34 @@ const Main = () => {
           </div>
           {/* card */}
           <div className="cardcontent">
-            <div data-aos="flip-left" className="card1 card">
-              <img className="imgcard" src={image9} alt="image9" />
-              <h3 className="textcard textcardjudul">Komunitas</h3>
-              <p className="textcard kontencard">
-                Berperan dalam turun ke lapangan untuk membantu anak anak kecil.
-              </p>
-            </div>
-            <div data-aos="flip-up" className="card2 card">
-              <img className="imgcard" src={image10} alt="image10" />
-              <h3 className="textcard textcardjudul">Donasi</h3>
-              <p className="textcard kontencard">
-                Ikut andil dalam membantu gerakan mendukung pendidikan
-                Indonesia.
-              </p>
-            </div>
-            <div data-aos="flip-right" className="card3 card">
-              <img className="imgcard" src={image11} alt="image11" />
-              <h3 className="textcard textcardjudul">Inspiratif</h3>
-              <p className="textcard kontencard">
-                Kisah-kisah dari para anak-anak maupun volunter yang ikut andil.
-              </p>
-            </div>
+            <Link to={KOMUNITAS} style={{textDecoration:"none", color:"black"}}>
+              <div data-aos="flip-left" className="card1 card">
+                <img className="imgcard" src={image9} alt="image9" />
+                <h3 className="textcard textcardjudul">Komunitas</h3>
+                <p className="textcard kontencard">
+                  Berperan dalam turun ke lapangan untuk membantu anak anak kecil.
+                </p>
+              </div>
+            </Link>
+            <Link to={DONASI} style={{textDecoration:"none", color:"black"}}>
+              <div data-aos="flip-up" className="card2 card">
+                <img className="imgcard" src={image10} alt="image10" />
+                <h3 className="textcard textcardjudul">Donasi</h3>
+                <p className="textcard kontencard">
+                  Ikut andil dalam membantu gerakan mendukung pendidikan
+                  Indonesia.
+                </p>
+              </div>
+            </Link>
+            <Link to={AKSI} style={{textDecoration:"none", color:"black"}}>
+              <div data-aos="flip-right" className="card3 card">
+                <img className="imgcard" src={image11} alt="image11" />
+                <h3 className="textcard textcardjudul">Inspiratif</h3>
+                <p className="textcard kontencard">
+                  Kisah-kisah dari para anak-anak maupun volunter yang ikut andil.
+                </p>
+              </div>
+            </Link>
           </div>
           {/* card */}
         </div>

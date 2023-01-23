@@ -51,6 +51,7 @@
     padding: 0 0 0 0px;
     align-items: center;
     margin: 0 0;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .locate{
@@ -68,6 +69,7 @@
 
 .titlecontentarticle{
     width: 60%;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 520;
     font-size: 32px;
@@ -102,6 +104,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    font-size: 12px;
 }
 
 .swiperartikel{
@@ -118,6 +121,7 @@
 
 .Artikellainnya{
     font-style: normal;
+    font-family: 'poppins';
     font-weight: 700;
     font-size: 24px;
     margin: 0 0;

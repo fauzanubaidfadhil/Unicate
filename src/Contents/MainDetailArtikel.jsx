@@ -66,12 +66,21 @@ const MainDetailArtikel = () => {
             }}
           >
             <div className="detaildateandlocation">
-              <p className="locate" >
-                JATIM
-              </p>
-              <p className="date">
-                3 hari yang lalu
-              </p>
+            <p style={{ color:'#EA5900',
+                                    width:'200px',
+                                    height: '29px',
+                                    fontFamily: 'Poppins',
+                                    fontStyle: 'normal',
+                                    fontWeight: '600',
+                                    fontSize: '19.4513px',
+                                    lineHeight:'149.5%'
+                                    }}>Jawa Timur</p>
+              <p style={{ color:'#00000066',
+                                    fontFamily: 'Poppins',
+                                    fontStyle: 'normal',
+                                    fontWeight: '500',
+                                    fontSize: '19.4513px',
+                                    }}>3 hari yang lalu</p>
             </div>
             <div
               style={{

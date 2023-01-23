@@ -20,6 +20,7 @@
     margin-top: 46px;
     width: 432px;
     height: 120px;
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -213,7 +214,7 @@
 .textourservice {
     color: white;
     border-bottom: solid;
-    font-family: 'Calibri';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 22px;

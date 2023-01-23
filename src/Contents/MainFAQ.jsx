@@ -5,6 +5,7 @@ import gambar1 from '../Assets/Ellipse 171.png'
 import gambar2 from '../Assets/Ellipse 172.png'
 import gambar3 from '../Assets/Ellipse 173.png'
 import Faq from "react-faq-component";
+import { Link } from 'react-router-dom'
 // import { IoMdSearch } from 'react-icons/io';
 
 const FAQSection = styled.section`
@@ -215,7 +216,9 @@ const MainFAQ = () => {
                     <IMG3 src={gambar3} />
                 </Gambar>
                 <Text>Belum menemukan pertanyaan yang anda butuhkan? Hubungi tim kami langsung.</Text>
-                <Button>Contact Us</Button>
+                <Link to="/ContactUs">
+                    <Button>Contact Us</Button>
+                </Link>
             </ContactUs>
         </FAQSection>
     )

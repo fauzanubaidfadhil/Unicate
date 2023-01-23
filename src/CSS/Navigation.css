@@ -126,14 +126,14 @@
     display: block;
     height: .1525rem;
     width: 0;
-    background: black ;
+    background:#009EFF; ;
     transition: width .3s ease, background-color .3s ease;
     color: #009EFF;
 }
 
 .animasi-left-right:hover:after {
     width: 100%;
-    background: black;
+    background: #009EFF;
     color: #009EFF;
   }
 

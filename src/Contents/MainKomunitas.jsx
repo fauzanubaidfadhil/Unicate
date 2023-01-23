@@ -16,20 +16,41 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../CSS/Dekstop/DekstopMainKomunitas.css";
 import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 import Footer from "../Components/Footer";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { KOMBER, DONASI } from "../router";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import '../CSS/Mobile/KomunitasMobile.css';
 
+import Swal from "sweetalert2";
+
 const MainKomunitas = () => {
+  const navigate = useNavigate();
+
 useEffect(() => {
   AOS.init({
     once: true,
     duration: 400,
   })
 }, [])
+
+const handleClick = () =>{
+  Swal.fire({
+    title: 'Anda ingin bergabung?',
+    text: "Masuk terlebih dahulu!",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Masuk'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      navigate("/Masuk", {replace:true})
+      
+    }
+  })
+}
 
   return (
     <>
@@ -202,7 +223,7 @@ useEffect(() => {
                 </p>
               </div>
             </div>
-            <p className="textlihatsemuanya">Lihat Semuanya</p>
+            {/* <p className="textlihatsemuanya">Lihat Semuanya</p> */}
           </div>
         <div  className="konten3komunitastopmobile">
           <div className="posisikomunitasterbarumobile">
@@ -306,7 +327,7 @@ useEffect(() => {
                 </p>
               </div>
             </div>
-            <p className="textlihatsemuanya">Lihat Semuanya</p>
+            {/* <p className="textlihatsemuanya">Lihat Semuanya</p> */}
           </div>
           <div className="konten3komunitasrightmobile">
           <img className="imgvolunteersneed" src={img4} alt="volunteers_need" />
@@ -354,9 +375,7 @@ useEffect(() => {
                     alt="profil_komunitas"
                   />
                   <div style={{ fontWeight:"700" }}>Indonesia Mengajar</div>
-                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                    <div>Gabung</div>
-                  </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
@@ -396,9 +415,7 @@ useEffect(() => {
                       alt="profil_komunitas"
                     />
                     <div style={{ fontWeight:"700" }}>Bumi Langit</div>
-                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                      <div>Gabung</div>
-                    </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                   </div>
                   <div style={{fontSize:'16px' }} >
                     Komunitas yang masih dalam naungan bergabung
@@ -438,9 +455,7 @@ useEffect(() => {
                       alt="profil_komunitas"
                     />
                     <div style={{ fontWeight:"700" }}>Anak Indonesia</div>
-                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                      <div>Gabung</div>
-                    </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                   </div>
                   <div style={{fontSize:'16px' }} >
                     Komunitas yang masih dalam naungan bergabung
@@ -481,9 +496,7 @@ useEffect(() => {
                       alt="profil_komunitas"
                     />
                     <div style={{ fontWeight:"700" }}>Indonesia Pintar</div>
-                    <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                      <div>Gabung</div>
-                    </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                   </div>
                   <div style={{fontSize:'16px' }} >
                     Komunitas yang masih dalam naungan bergabung
@@ -523,9 +536,7 @@ useEffect(() => {
                     alt="profil_komunitas"
                   />
                   <div style={{ fontWeight:"700" }}>Indonesia Maju</div>
-                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                    <div>Gabung</div>
-                  </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
@@ -565,9 +576,7 @@ useEffect(() => {
                     alt="profil_komunitas"
                   />
                   <div style={{ fontWeight:"700" }}>Indonesia Hebat</div>
-                  <Link style={{textDecoration:'none', color:"#009EFF"}} to={KOMBER}>
-                    <div>Gabung</div>
-                  </Link>
+                    <p style={{ margin:"auto", color:"#009EFF", cursor:"pointer" }} onClick={handleClick}>Gabung</p>
                 </div>
                 <div style={{fontSize:'16px' }} >
                   Komunitas yang masih dalam naungan bergabung
