@@ -22,7 +22,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "../CSS/Mobile/KomunitasMobile.css";
-
 import Swal from "sweetalert2";
 
 const MainKomunitas = () => {
@@ -30,7 +29,7 @@ const MainKomunitas = () => {
 
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       duration: 400,
     });
   }, []);
@@ -98,12 +97,16 @@ const MainKomunitas = () => {
             src={img2}
             alt="img_komunitas2"
           />
-          <div className="kontenkomunitasdetail" data-aos="fade-up">
+          <div className="kontenkomunitasdetail">
             <div className="kontenkomunitasdetailtitle">
-              <p className="textsupport">Support Education</p>
-              <h1 className="textfitur">Fitur Komunitas</h1>
+              <p data-aos="fade-up" className="textsupport">
+                Support Education
+              </p>
+              <h1 data-aos="fade-up" className="textfitur">
+                Fitur Komunitas
+              </h1>
             </div>
-            <p className="textkamimenyediakan">
+            <p data-aos="fade-up" className="textkamimenyediakan">
               Kami menyediakan fitur komunitas untuk menggaet para volunteer di
               Indonesia yang ingin ikut dalam menggerakkan perjuangan maupun
               membantu anak-anak yang kurang mendapat pendidikan. Selain itu,
@@ -112,14 +115,26 @@ const MainKomunitas = () => {
             </p>
             <div className="konten2detailjob">
               <div className="konten2detailjobleft">
-                <h1 className="text100 style100-80-90 ">100+</h1>
-                <p className="text100 textvolunteer">Volunteer</p>
-                <h1 className="text90 style100-80-90">90</h1>
-                <p className="textkomunitas ">Komunitas</p>
+                <h1 data-aos="fade-up" className="text100 style100-80-90 ">
+                  100+
+                </h1>
+                <p data-aos="fade-up" className="text100 textvolunteer">
+                  Volunteer
+                </p>
+                <h1 data-aos="fade-up" className="text90 style100-80-90">
+                  90
+                </h1>
+                <p data-aos="fade-up" className="textkomunitas ">
+                  Komunitas
+                </p>
               </div>
               <div className="konten2detailjobright">
-                <h1 className="text80 style100-80-90">80k+</h1>
-                <p className="textanak">Anak-anak terbantu</p>
+                <h1 data-aos="fade-up" className="text80 style100-80-90">
+                  80k+
+                </h1>
+                <p data-aos="fade-up" className="textanak">
+                  Anak-anak terbantu
+                </p>
               </div>
             </div>
           </div>
@@ -127,7 +142,11 @@ const MainKomunitas = () => {
         {/* kontent 2 komunitas */}
 
         {/* konten 3 komunitas */}
-        <div className="konten3komunitas" style={{ height: "auto" }}>
+        <div
+          data-aos="fade-up"
+          className="konten3komunitas"
+          style={{ height: "auto" }}
+        >
           <div className="posisikomunitasterbaru">
             <div
               className="spacekomunitasterbaru"

@@ -34,6 +34,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "../CSS/Mobile/MainMobile.css";
+
 const Main = () => {
   useEffect(() => {
     AOS.init({
@@ -45,48 +46,53 @@ const Main = () => {
   return (
     <>
       <div className="positioncontent1">
-        <img
-          data-aos="fade-down"
-          className="style-img-titik"
-          src={titik}
-          alt="titiktitik"
-        />
+        <img className="style-img-titik" src={titik} alt="titiktitik" />
         <div className="positionlabel">
-          <BsWhatsapp style={{ marginLeft: "4px", color: "white" }} size={30} />
-          <BsInstagram
+          <BsWhatsapp
+            data-aos="fade-up"
             style={{ marginLeft: "4px", color: "white" }}
             size={30}
           />
-          <FaTiktok style={{ marginLeft: "4px", color: "white" }} size={30} />
-          <FiTwitter style={{ marginLeft: "4px", color: "white" }} size={30} />
+          <BsInstagram
+            data-aos="fade-up"
+            style={{ marginLeft: "4px", color: "white" }}
+            size={30}
+          />
+          <FaTiktok
+            data-aos="fade-up"
+            style={{ marginLeft: "4px", color: "white" }}
+            size={30}
+          />
+          <FiTwitter
+            data-aos="fade-up"
+            style={{ marginLeft: "4px", color: "white" }}
+            size={30}
+          />
         </div>
         <img
-          data-aos="fade-left"
+          data-aos="fade-up"
           className="img-konten1"
           src={image1}
           alt="image1"
         />
-          <h1 data-aos="fade-up" className="textmajukan">
-            Majukan Pendidikan Anak-Anak Indonesia
-          </h1>
-          <p data-aos="fade-up" className="textgerakan ">
-            Gerakan Peduli Anak Indonesia
-          </p>
-          <Link to={KOMUNITAS}>
-            <button
-              data-aos="fade-right"
-              className="buttonbergabung"
-              type="button"
-            >
-              Bergabung Sekarang
-            </button>
+        <h1 data-aos="fade-up" className="textmajukan">
+          Majukan Pendidikan Anak-Anak Indonesia
+        </h1>
+        <p data-aos="fade-up" className="textgerakan ">
+          Gerakan Peduli Anak Indonesia
+        </p>
+        <Link to={KOMUNITAS}>
+          <button className="buttonbergabung" type="button">
+            Bergabung Sekarang
+          </button>
         </Link>
         <div className="position-textlabel">
-          <h2 className="textlabel">
+          <h2 data-aos="fade-up" className="textlabel">
             2020/2021 Ada Sekitar 83,7 Ribu Anak Putus Sekolah di Seluruh
             Indonesia.
           </h2>
           <img
+            data-aos="fade-up"
             style={{
               position: "absolute",
               bottom: "0px",
@@ -102,7 +108,7 @@ const Main = () => {
       <div className="positioncontent2">
         <div className="positioncontent2left">
           <img
-            data-aos="fade-right"
+            data-aos="fade-up"
             className="img-konten2"
             src={image5}
             alt="image5"
@@ -110,10 +116,10 @@ const Main = () => {
           <img className="segitiga" src={segitiga} alt="segitiga" />
         </div>
         <div className="positioncontent2right">
-          <h1 data-aos="fade-down" className="textourmission">
+          <h1 data-aos="fade-up" className="textourmission">
             Our Mission
           </h1>
-          <p data-aos="zoom-in-down" className="paragraphkonten2">
+          <p data-aos="fade-up" className="paragraphkonten2">
             Unicate sebagai wujud kepedulian kami terhadap tantangan pendidikan
             yang dihadapi oleh pelajar dan pelaku pendidikan. unicate merupakan
             platform yang menghubungkan pemberi bantuan dengan pelajar atau
@@ -127,13 +133,30 @@ const Main = () => {
             berikan.
           </p>
           <div className="corp">
-            <h4 className="textcorporate">Corporate with:</h4>
+            <h4 data-aos="fade-up" className="textcorporate">
+              Corporate with:
+            </h4>
             <div className="posisiiconcorporate">
-              <img className="logotonoto" src={image6} alt="image6" />
-              <img className="logosampoerna" src={image7} alt="image7" />
-              <img className="logoinspirasi" src={image8} alt="image8" />
+              <img
+                data-aos="fade-up"
+                className="logotonoto"
+                src={image6}
+                alt="image6"
+              />
+              <img
+                data-aos="fade-up"
+                className="logosampoerna"
+                src={image7}
+                alt="image7"
+              />
+              <img
+                data-aos="fade-up"
+                className="logoinspirasi"
+                src={image8}
+                alt="image8"
+              />
             </div>
-            <div className="posisiiconcorporate">
+            <div data-aos="fade-up" className="posisiiconcorporate">
               <img className="logoinfinite" src={infinite} alt="infinite" />
             </div>
           </div>
@@ -141,36 +164,40 @@ const Main = () => {
       </div>
       {/* Our Mission */}
       {/* Our Services */}
-      <div className="positioncontent3">
+      <div data-aos="fade-up" className="positioncontent3">
         <div className="positionourservice">
           <div className="positionourservicedetail">
             <div className="positionourservicedetailleft">
-              <h1 data-aos="fade-right" className="textourservice">
-                Our Services
-              </h1>
-              <h1 data-aos="fade-right" className="textwhypeople">
-                Why People Chooise Our Services
-              </h1>
+              <h1 className="textourservice">Our Services</h1>
+              <h1 className="textwhypeople">Why People Chooise Our Services</h1>
             </div>
             <div className="positionourservicedetailright">
               <p className="textkonten3">
-                Kami bekerja secara jujur dan berintegritas dalam memperjuangan<br/>
+                Kami bekerja secara jujur dan berintegritas dalam memperjuangan
+                <br />
                 hak pendidikan setiap anak Indonesia
               </p>
             </div>
           </div>
           {/* card */}
-          <div className="cardcontent">
-            <Link to={KOMUNITAS} style={{textDecoration:"none", color:"black"}}>
-              <div data-aos="flip-left" className="card1 card">
+          <div data-aos="flip-left" className="cardcontent">
+            <Link
+              to={KOMUNITAS}
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <div className="card1 card">
                 <img className="imgcard" src={image9} alt="image9" />
                 <h3 className="textcard textcardjudul">Komunitas</h3>
                 <p className="textcard kontencard">
-                  Berperan dalam turun ke lapangan untuk membantu anak anak kecil.
+                  Berperan dalam turun ke lapangan untuk membantu anak anak
+                  kecil.
                 </p>
               </div>
             </Link>
-            <Link to={DONASI} style={{textDecoration:"none", color:"black"}}>
+            <Link
+              to={DONASI}
+              style={{ textDecoration: "none", color: "black" }}
+            >
               <div data-aos="flip-up" className="card2 card">
                 <img className="imgcard" src={image10} alt="image10" />
                 <h3 className="textcard textcardjudul">Donasi</h3>
@@ -180,12 +207,13 @@ const Main = () => {
                 </p>
               </div>
             </Link>
-            <Link to={AKSI} style={{textDecoration:"none", color:"black"}}>
+            <Link to={AKSI} style={{ textDecoration: "none", color: "black" }}>
               <div data-aos="flip-right" className="card3 card">
                 <img className="imgcard" src={image11} alt="image11" />
                 <h3 className="textcard textcardjudul">Inspiratif</h3>
                 <p className="textcard kontencard">
-                  Kisah-kisah dari para anak-anak maupun volunter yang ikut andil.
+                  Kisah-kisah dari para anak-anak maupun volunter yang ikut
+                  andil.
                 </p>
               </div>
             </Link>
@@ -195,35 +223,30 @@ const Main = () => {
       </div>
       {/* Our Services */}
       {/* Berita */}
-      <div className="positioncontent4">
+      <div data-aos="fade-up" className="positioncontent4">
         <div className="positioncontent4top">
           <div className="textberita">Artikel Terbaru</div>
-          <Link to={ARTIKEL} style={{ textDecoration:"none", color:"#0076BF" }}>
+          <Link
+            to={ARTIKEL}
+            style={{ textDecoration: "none", color: "#0076BF" }}
+          >
             <div className="textlihat">Lihat selengkapnya</div>
           </Link>
         </div>
 
         <img
-          data-aos="zoom-in"
           className="segitigakotak"
           src={segitigakotak}
           alt="segitigakotak"
         />
         <div className="positioncontent4mainberita">
           <div className="posisiimgartikel1">
-            <img
-              data-aos="zoom-in"
-              className="imgartikel1 transisi"
-              src={image12}
-              alt="image12"
-            />
+            <img className="imgartikel1 transisi" src={image12} alt="image12" />
           </div>
           <div className="positioncontent4detailmainberita">
             <div className="jatimberanda">
               <p className="lokasiartikelinhome">JATIM</p>
-              <p className="dateberanda">
-                3 hari yang lalu
-              </p>
+              <p className="dateberanda">3 hari yang lalu</p>
             </div>
             <p className="titlearticleinhome">
               Melalui 'Jaketku' Ribuan Anak Putus Sekolah di Gresik Bisa Dapat
@@ -236,108 +259,118 @@ const Main = () => {
           </div>
         </div>
         <div className="positioncontent4subberita">
-        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel"> 
-          <div className="subarticleinhome">
-            <div
-              style={{
-                borderRadius: "30px",
-                overflow: "hidden",
-              }}
-            >
-              <img
-                data-aos="zoom-in"
-                className="imgartikel2 transisi"
-                src={FotoArtikel1}
-                alt="image13"
-              />
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/DetailArtikel"
+          >
+            <div className="subarticleinhome">
+              <div
+                style={{
+                  borderRadius: "30px",
+                  overflow: "hidden",
+                }}
+              >
+                <img
+                  className="imgartikel2 transisi"
+                  src={FotoArtikel1}
+                  alt="image13"
+                />
+              </div>
+              <p className="textberi posisiteksartikel">
+                Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan
+                Sekolah untuk Anak Kurang Mampu
+                <br />
+                <span className="tambahanMain">13 November 2022</span>
+              </p>
             </div>
-            <p className="textberi posisiteksartikel">
-              Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang Peralatan Sekolah untuk Anak Kurang Mampu
-              <br />
-              <span className="tambahanMain">13 November 2022</span>
-            </p>
-          </div>
-        </Link>
-        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
-          <div className="subarticleinhome">
-            <div
-              style={{
-                borderRadius: "30px",
-                overflow: "hidden",
-              }}
-            >
-              <img
-                data-aos="zoom-in"
-                className="imgartikel2 transisi"
-                src={FotoArtikel3}
-                alt="image14"
-              />
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/DetailArtikel4"
+          >
+            <div className="subarticleinhome">
+              <div
+                style={{
+                  borderRadius: "30px",
+                  overflow: "hidden",
+                }}
+              >
+                <img
+                  className="imgartikel2 transisi"
+                  src={FotoArtikel3}
+                  alt="image14"
+                />
+              </div>
+              <p className="textberi posisiteksartikel">
+                Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan
+                Putus Sekolah
+                <br />
+                <span className="tambahanMain">12 November 2022</span>
+              </p>
             </div>
-            <p className="textberi posisiteksartikel">
-              Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus Sekolah
-              <br />
-              <span className="tambahanMain">12 November 2022</span>
-            </p>
-          </div>
-        </Link>
-        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
-          <div className="subarticleinhome">
-            <div
-              style={{
-                borderRadius: "30px",
-                overflow: "hidden",
-              }}
-            >
-              <img
-                data-aos="zoom-in"
-                className="imgartikel2 transisi"
-                src={FotoArtikel2}
-                alt="image15"
-              />
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/DetailArtikel3"
+          >
+            <div className="subarticleinhome">
+              <div
+                style={{
+                  borderRadius: "30px",
+                  overflow: "hidden",
+                }}
+              >
+                <img
+                  className="imgartikel2 transisi"
+                  src={FotoArtikel2}
+                  alt="image15"
+                />
+              </div>
+              <p className="textberi posisiteksartikel">
+                Mengapa Pendidikan di Indonesia Belum Merata?
+                <br />
+                <span className="tambahanMain">12 November 2022</span>
+              </p>
             </div>
-            <p className="textberi posisiteksartikel">
-              Mengapa Pendidikan di Indonesia Belum Merata?
-              <br />
-              <span className="tambahanMain">12 November 2022</span>
-            </p>
-          </div>
-        </Link>
-        <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel2">
-          <div className="subarticleinhome">
-            <div
-              style={{
-                borderRadius: "30px",
-                overflow: "hidden",
-              }}
-            >
-              <img
-                data-aos="zoom-in"
-                className="imgartikel2 transisi"
-                src={Foto1aDetar}
-                alt="image16"
-              />
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/DetailArtikel2"
+          >
+            <div className="subarticleinhome">
+              <div
+                style={{
+                  borderRadius: "30px",
+                  overflow: "hidden",
+                }}
+              >
+                <img
+                  className="imgartikel2 transisi"
+                  src={Foto1aDetar}
+                  alt="image16"
+                />
+              </div>
+              <p className="textberi posisiteksartikel">
+                Ada 150 Anak Putus Sekolah di Ternate
+                <br />
+                <span className="tambahanMain">13 November 2022</span>
+              </p>
             </div>
-            <p className="textberi posisiteksartikel">
-              Ada 150 Anak Putus Sekolah di Ternate
-              <br />
-              <span className="tambahanMain">13 November 2022</span>
-            </p>
-          </div>
-        </Link>
+          </Link>
         </div>
       </div>
       {/* Berita */}
       <div className="positioncontent5">
-        <h2 data-aos="zoom-in-down" className="textbagaimana">
+        <h2 data-aos="fade-up" className="textbagaimana">
           Bagaimana pendapat mereka
         </h2>
         <img
-          data-aos="fade-up-right"
+          data-aos="fade-up"
           className="imgpetaindonesia"
           src={image17}
           alt="image17"
         />
-        <div data-aos="fade-up-left" className="position-carousel">
+        <div data-aos="fade-up" className="position-carousel">
           <Swiper
             spaceBetween={30}
             pagination={{
@@ -357,29 +390,31 @@ const Main = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-            <div className="slidependapat">
+              <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Melalui website ini saya jadi bisa membantu anak-anak di Indonesia.
-                  Saya telah bergabung ke dalam komunitas volunteer melalui website ini.”
+                  “Melalui website ini saya jadi bisa membantu anak-anak di
+                  Indonesia. Saya telah bergabung ke dalam komunitas volunteer
+                  melalui website ini.”
                 </p>
                 <h2 className="position-text-2-slider-1">Vianica Sofia</h2>
                 <p className="position-text-3-slider-1">Mahasiswa Bekasi</p>
-            </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="slidependapat">
+              <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Tampilannya yang interaktif membuat website ini menjadi lebih menarik.
-                  Artikel yang disajikan juga selalu yang terbaru”
+                  “Tampilannya yang interaktif membuat website ini menjadi lebih
+                  menarik. Artikel yang disajikan juga selalu yang terbaru”
                 </p>
                 <h2 className="position-text-2-slider-1">Dinda Hauwala</h2>
                 <p className="position-text-3-slider-1">Mahasiswa Medan</p>
-            </div>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="slidependapat">
+              <div className="slidependapat">
                 <p className="position-text-1-slider-1 ">
-                  “Saya harap website ini dapat terus exist dan mendukung pendidikan anak di Indonesia”
+                  “Saya harap website ini dapat terus exist dan mendukung
+                  pendidikan anak di Indonesia”
                 </p>
                 <h2 className="position-text-2-slider-1">Mario Hasbuan</h2>
                 <p className="position-text-3-slider-1">Mahasiswa Sulawesi</p>

@@ -98,7 +98,7 @@
     gap: 5px;
 
     width: 200px;
-    height: auto;
+    height: 122px;
 
     background: #009EFF;
     border-radius: 20px;
@@ -273,4 +273,12 @@
 .efektransisi:hover {
     scale: 1.2;
 }
+
+/* .btn-contactus:hover{
+    transition: .1s;
+    transition-delay: .1s;
+    background-color: white;
+    color: #009EFF;
+    border-color: #009EFF;
+} */
 

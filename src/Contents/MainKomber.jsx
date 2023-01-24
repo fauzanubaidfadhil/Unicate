@@ -5,16 +5,17 @@ import image6 from "../Assets/fotokomentar.png";
 import image7 from "../Assets/fotokomentar1.png";
 import { DEKOM } from "../router";
 import { Link } from "react-router-dom";
-// import { MdOutlineLinkedCamera } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { HiOutlineShare } from "react-icons/hi";
 import "../CSS/Komber.css";
 import Footer from "../Components/Footer";
 import "../CSS/Mobile/KomberMobile.css";
 import { useState } from "react";
-// import { KOMBER } from "../router";
 import { FiSend } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const MainKomber = () => {
   const [comment, setComment] = useState("");
@@ -28,6 +29,13 @@ const MainKomber = () => {
     setComment(e.target.value);
   };
 
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 600,
+    });
+  }, []);
+
   return (
     <>
       <div className="posisikonten1">
@@ -38,37 +46,48 @@ const MainKomber = () => {
       </div>
       <div className="posisikonten2">
         <div className="konten2top">
-          <h1 className="textdeskripsi"> Deskripsi</h1>
+          <h1 data-aos="fade-down" className="textdeskripsi">
+            {" "}
+            Deskripsi
+          </h1>
           <Link to={DEKOM}>
-            <button type="button" className="buttongabung">
+            <button data-aos="fade-down" type="button" className="buttongabung">
               {" "}
               Gabung
             </button>
           </Link>
         </div>
-        <p className="textkomunitasini">
+        <p data-aos="fade-down" className="textkomunitasini">
+          {" "}
           Komunitas ini berdiri dengan kekuatan alam yang sangat mendasar dari
           kekuatan uchiha dari negeri konoha yang mendalami peran menjadi...
         </p>
         <Link style={{ textDecoration: "none", color: "#009EFF" }} to="/">
-          <p className="textlihatselengkapnya"> Lihat Selengkapnya</p>
+          <p data-aos="fade-down" className="textlihatselengkapnya">
+            {" "}
+            Lihat Selengkapnya
+          </p>
           {/* Swal.fire("username/password salah!", "", "error"); */}
         </Link>
         <div className="allmember">
           <div className="fotomemberpilihan">
-            <img src={image3} alt="gambarmember" />
+            <img data-aos="fade-down" src={image3} alt="gambarmember" />
             <img
+              data-aos="fade-up"
               src={image6}
               alt="gambarmember2"
               style={{ width: "55px", height: "55px" }}
             />
             <img
+              data-aos="fade-up"
               src={image7}
               alt="gambarmember3"
               style={{ width: "55px", height: "55px" }}
             />
           </div>
-          <p className="text100member"> 100 member</p>
+          <p data-aos="fade-up" className="text100member">
+            100 member
+          </p>
         </div>
       </div>
       <div className="posisikonten3">

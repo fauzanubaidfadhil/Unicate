@@ -19,7 +19,7 @@ import "aos/dist/aos.css";
 function MainDonasi() {
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       duration: 400,
     });
   }, []);

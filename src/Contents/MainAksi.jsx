@@ -26,7 +26,7 @@ import { useEffect } from "react";
 const MainAksi = () => {
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       duration: 400,
     });
   }, []);
@@ -37,22 +37,22 @@ const MainAksi = () => {
       <div className="pembungkus-content">
         <div className="blur">
           <div className="content">
-            <h1 data-aos="fade-up" className="text-ku">
+            <h1 className="text-ku">
               Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu
             </h1>
-            <p data-aos="fade-up" className="text2-ku">
+            <p className="text2-ku">
               Mari bersama-sama membantu anak-anak Indonesia yang sedang
               membutuhkan pendidikan. Satu rupiah dari anda sangat berharga
               untuk mereka
             </p>
-            <Link data-aos="fade-up" to={DONASI}>
+            <Link to={DONASI}>
               <button className="button-aksi-link">
                 Mulai berdonasi sekarang
               </button>
             </Link>
           </div>
           <div className="content2bottom">
-            <p data-aos="fade-up" className="text3">
+            <p className="text3">
               Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!
             </p>
             <div className="content2">
@@ -61,7 +61,7 @@ const MainAksi = () => {
                 <img className="gambar " src={ellipse2} alt="icon2" />
                 <img className="gambar" src={ellipse3} alt="icon3" />
               </div>
-              <div className="vol">1300+ Volunteers</div>
+              <p className="vol">1300+ Volunteers</p>
             </div>
           </div>
         </div>
