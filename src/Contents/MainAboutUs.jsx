@@ -11,7 +11,6 @@ import dimas from '../Assets/dimas.png'
 import kontak from '../Assets/contact.png'
 import gambar2 from '../Assets/gambar2aboutus.png'
 import gambar1 from '../Assets/gambar1aboutus.png'
-import "../CSS/Artikel.css";
 
 import { Link } from "react-router-dom";
 
