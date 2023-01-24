@@ -21,7 +21,7 @@ import { HOME } from "../router";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import img1c2 from "../Assets/img-carousel2-artikel.png";
+import img1c2 from "../Assets/image1c2.jpeg";
 import img2c2 from "../Assets/img2-carousel2-artikel.png";
 import img3c2 from "../Assets/img3-carousel2-artikel.png";
 
