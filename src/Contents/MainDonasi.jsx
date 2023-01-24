@@ -5,7 +5,8 @@ import image69 from "../Assets/smile.png";
 import "../CSS/Donasi.css";
 import "../CSS/Mobile/DonasiMobile.css";
 import iddonasi from "../Assets/iddonasiimg.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import { PEMBAYARAN } from "../router";
 // import MyButton from "../Components/Buttons";
 // import PaymentForm from "../Components/Payment";
 import { useState } from "react";
@@ -218,9 +219,12 @@ function MainDonasi() {
               style={{ textDecoration: "none", color: "white", width: "100%" }}
               to="/payment"
             > */}
+            <Link
+            to={PEMBAYARAN}
+            >
             <button type="submit" className="buttonproses">
               Proses
-            </button>
+            </button></Link>
             {/* </Link> */}
           </div>
         </form>

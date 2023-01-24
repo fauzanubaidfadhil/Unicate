@@ -17,6 +17,7 @@ import {
   KISAHINSPIRASI,
   DAFTAR,
   MASUK,
+  PEMBAYARAN,
   FAQ,
   CONTACTUS,
   
@@ -34,6 +35,7 @@ import TermsAndCondition from "./Pages/Terms_And_Condition";
 import Kisahinspirasi from "./Pages/Kisahinspirasi";
 import Daftar from "./Pages/Daftar";
 import Masuk from "./Pages/Masuk";
+import Pembayaran from "./Pages/Pembayaran";
 import Profile from "./Pages/Profile";
 import Faq from "./Pages/Faq";
 import ContactUs from "./Pages/ContactUs";
@@ -62,6 +64,7 @@ function App() {
         <Route path={KISAHINSPIRASI} element={<Kisahinspirasi />} />
         <Route path={DAFTAR} element={<Daftar />} />
         <Route path={MASUK} element={<Masuk />} />
+        <Route path={PEMBAYARAN} element={<Pembayaran />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/DetailArtikel" element={<DetailArtikel />} />
         <Route path="/DetailArtikel2" element={<DetailArtikel2 />} />

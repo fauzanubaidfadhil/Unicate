@@ -1,0 +1,66 @@
+.logopay{
+    height: 18%;
+    width: 18%;
+}
+
+.bordercenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.borderpay{
+    border-style: solid;
+    height: 480px;
+    width: 80%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ulpay{
+    justify-content: space-between;
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.lipay{
+    justify-content: space-between;
+}
+
+.ketpay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.bcatapibri{
+    margin-top: 4px;
+    width: 90px;
+    height: 30px;
+}
+
+.tombolpayatas{
+    border-color: #009EFF;
+    background: #009EFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 130;
+    border-radius: 5px;
+}
+
+.tombolbawah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tombolpaybawah{
+    border-color: #009EFF;
+    background: #009EFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 195;
+    border-radius: 5px;
+}
