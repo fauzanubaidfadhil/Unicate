@@ -11,6 +11,7 @@ import dimas from '../Assets/dimas.png'
 import kontak from '../Assets/contact.png'
 import gambar2 from '../Assets/gambar2aboutus.png'
 import gambar1 from '../Assets/gambar1aboutus.png'
+import "../CSS/Artikel.css";
 
 import { Link } from "react-router-dom";
 
@@ -321,7 +322,12 @@ const DoContact = styled.div`
 `;
 
 const Button = styled.button`
-    background: #009EFF;
+    &:hover
+    background-color: #009EFF;
+    color: #FFFFFF;
+    transition: .5s;
+    transition-delay: .1s;
+    text-decoration: none;
     border-radius: 20px;
     border: none;
     width: 225px;
