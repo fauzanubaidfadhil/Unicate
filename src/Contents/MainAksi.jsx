@@ -26,7 +26,7 @@ import { useEffect } from "react";
 const MainAksi = () => {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 400,
     });
   }, []);
@@ -34,22 +34,25 @@ const MainAksi = () => {
   return (
     <>
       {/* Content */}
-      <div data-aos="fade-up" className="pembungkus-content">
+      <div className="pembungkus-content">
         <div className="blur">
           <div className="content">
-            <h1 className="text-ku">
+            <h1 data-aos="fade-up" className="text-ku">
               Berbuat baik kapan saja. Mereka sangat membutuhkan bantuanmu
             </h1>
-            <p className="text2-ku">
-              Mari bersama-sama membantu anak-anak Indonesia yang sedang membutuhkan pendidikan.
-              Satu rupiah dari anda sangat berharga untuk mereka
+            <p data-aos="fade-up" className="text2-ku">
+              Mari bersama-sama membantu anak-anak Indonesia yang sedang
+              membutuhkan pendidikan. Satu rupiah dari anda sangat berharga
+              untuk mereka
             </p>
-            <Link to={DONASI}>
-              <button className="button-aksi-link">Mulai berdonasi sekarang</button>
+            <Link data-aos="fade-up" to={DONASI}>
+              <button className="button-aksi-link">
+                Mulai berdonasi sekarang
+              </button>
             </Link>
           </div>
           <div className="content2bottom">
-            <p className="text3">
+            <p data-aos="fade-up" className="text3">
               Usaha kecil membuat perubahan besar. <br></br>Ayo mulai sekarang!
             </p>
             <div className="content2">
@@ -82,15 +85,19 @@ const MainAksi = () => {
           padding: "20px 56px",
         }}
       >
-        <p className="aksi">Kisah Inspirasi</p>
+        <p data-aos="fade-up" className="aksi">
+          Kisah Inspirasi
+        </p>
         <div className="aksikishpir">
           <div className="aksikishpirdetail">
-            <p className="text1-aksi-size-text ">
-              Masih banyak anak-anak di indonesia yang belum mendapatkan pendidikan yang layak.
+            <p data-aos="fade-up" className="text1-aksi-size-text ">
+              Masih banyak anak-anak di indonesia yang belum mendapatkan
+              pendidikan yang layak.
             </p>
-            <p className="text2-aksi-size-text">
-              Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah dasar (7 - 12 tahun)
-              yang tidak memperoleh kesempatan menikmati pendidikan formal...
+            <p data-aos="fade-up" className="text2-aksi-size-text">
+              Rupanya anak miskin di Indonesia adalah anak-anak usia sekolah
+              dasar (7 - 12 tahun) yang tidak memperoleh kesempatan menikmati
+              pendidikan formal...
             </p>
           </div>
           <img src={Foto} alt="foto" className="fotokish" />
@@ -101,113 +108,113 @@ const MainAksi = () => {
       {/* card */}
       <div className="bagian-card">
         <Link style={{ textDecoration: "none" }} to={KISAHINSPIRASI}>
-            <div data-aos="flip-left" className="card-1 stylecardaksi">
-              <img className="unicate" src={Logo} alt="logo unicate" />
-              <div className="caption">
+          <div data-aos="flip-left" className="card-1 stylecardaksi">
+            <img className="unicate" src={Logo} alt="logo unicate" />
+            <div className="caption">
+              <h2
+                style={{
+                  color: "white",
+                  fontStyle: "normal",
+                  fontWeight: "700px",
+                  fontSize: "20px",
+                  lineHeight: "33px",
+                  marginLeft: "15px",
+                  textDecoration: "none",
+                }}
+              >
+                Banyak anak putus sekolah, kapolsek dirikan sekolah
+              </h2>
+              <div className="position-inspirasi">
                 <h2
                   style={{
-                    color: "white",
-                    fontStyle: "normal",
-                    fontWeight: "700px",
-                    fontSize: "20px",
-                    lineHeight: "33px",
-                    marginLeft: "15px",
-                    textDecoration: "none",
+                    fontWeight: "500px",
+                    fontSize: "15.2765px",
+                    lineWeight: "23px",
+                    display: "flex",
+                    textAlign: "center",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    marginTop: "5px",
                   }}
                 >
-                  Banyak anak putus sekolah, kapolsek dirikan sekolah
+                  Inspirasi
                 </h2>
-                <div className="position-inspirasi">
-                  <h2
-                    style={{
-                      fontWeight: "500px",
-                      fontSize: "15.2765px",
-                      lineWeight: "23px",
-                      display: "flex",
-                      textAlign: "center",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginTop: "5px",
-                    }}
-                  >
-                    Inspirasi
-                  </h2>
-                </div>
               </div>
-              <img className="efektransisi " src={Card1} alt="background" />
             </div>
+            <img className="efektransisi " src={Card1} alt="background" />
+          </div>
         </Link>
-          <Link to={AKSIDETAIL}>
-            <div data-aos="flip-up" className="card-2 stylecardaksi">
-              <img className="unicate" src={Logo} alt="logo unicate" />
-              <div className="caption">
+        <Link to={AKSIDETAIL}>
+          <div data-aos="flip-up" className="card-2 stylecardaksi">
+            <img className="unicate" src={Logo} alt="logo unicate" />
+            <div className="caption">
+              <h2
+                style={{
+                  color: "white",
+                  fontStyle: "normal",
+                  fontWeight: "700px",
+                  fontSize: "20px",
+                  lineHeight: "33px",
+                  marginLeft: "15px",
+                }}
+              >
+                Kekuatan impian anak-anak pelosok negeri
+              </h2>
+              <div className="position-inspirasi">
                 <h2
                   style={{
-                    color: "white",
-                    fontStyle: "normal",
-                    fontWeight: "700px",
-                    fontSize: "20px",
-                    lineHeight: "33px",
-                    marginLeft: "15px",
+                    fontWeight: "500px",
+                    fontSize: "15.2765px",
+                    lineWeight: "23px",
+                    display: "flex",
+                    textAlign: "center",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    marginTop: "5px",
                   }}
                 >
-                  Kekuatan impian anak-anak pelosok negeri
+                  Inspirasi
                 </h2>
-                <div className="position-inspirasi">
-                  <h2
-                    style={{
-                      fontWeight: "500px",
-                      fontSize: "15.2765px",
-                      lineWeight: "23px",
-                      display: "flex",
-                      textAlign: "center",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginTop: "5px",
-                    }}
-                  >
-                    Inspirasi
-                  </h2>
-                </div>
               </div>
-              <img className="efektransisi " src={Card2} alt="background" />
             </div>
-          </Link>
+            <img className="efektransisi " src={Card2} alt="background" />
+          </div>
+        </Link>
         <Link to={AKSIDETAIL2}>
-            <div data-aos="flip-right" className="card-3 stylecardaksi">
-              <img className="unicate" src={Logo} alt="logo unicate" />
-              <div className="caption">
+          <div data-aos="flip-right" className="card-3 stylecardaksi">
+            <img className="unicate" src={Logo} alt="logo unicate" />
+            <div className="caption">
+              <h2
+                style={{
+                  color: "white",
+                  fontStyle: "normal",
+                  fontWeight: "700px",
+                  fontSize: "20px",
+                  lineHeight: "33px",
+                  marginLeft: "15px",
+                }}
+              >
+                Sarjana mendidik di daerah tertinggal
+              </h2>
+              <div className="position-inspirasi">
                 <h2
                   style={{
-                    color: "white",
-                    fontStyle: "normal",
-                    fontWeight: "700px",
-                    fontSize: "20px",
-                    lineHeight: "33px",
-                    marginLeft: "15px",
+                    fontWeight: "500px",
+                    fontSize: "15.2765px",
+                    lineWeight: "23px",
+                    display: "flex",
+                    textAlign: "center",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    marginTop: "5px",
                   }}
                 >
-                  Sarjana mendidik di daerah tertinggal
+                  Inspirasi
                 </h2>
-                <div className="position-inspirasi">
-                  <h2
-                    style={{
-                      fontWeight: "500px",
-                      fontSize: "15.2765px",
-                      lineWeight: "23px",
-                      display: "flex",
-                      textAlign: "center",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginTop: "5px",
-                    }}
-                  >
-                    Inspirasi
-                  </h2>
-                </div>
               </div>
-              <img className="efektransisi " src={Card3} alt="background" />
             </div>
+            <img className="efektransisi " src={Card3} alt="background" />
+          </div>
         </Link>
       </div>
       {/* card */}

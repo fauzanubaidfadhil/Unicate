@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Carousel, Button} from 'react-bootstrap';
+import { Carousel, Button } from "react-bootstrap";
 import "../CSS/Artikel.css";
 import "../CSS/Mobile/ArtikelMobile.css";
 import Artikelpertama from "../Assets/Fotoartikelatas.png";
@@ -11,53 +11,26 @@ import Foto1aDetar from "../Assets/Foto1aDetar.png";
 import Iconfb from "../Assets/Iconfb.png";
 import Iconig from "../Assets/Iconig.png";
 import Icontwit from "../Assets/Icontwit.png";
-// import benefit from "../Assets/benefitanak.png"
-// import benefit2 from "../Assets/benefitanak2.png"
-// import benefit3 from "../Assets/benefitanak3.png"
 import { MdNavigateNext } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { HOME } from "../router";
-// import styled from 'styled-components'
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import img1c2 from "../Assets/image1c2.jpeg";
 import img2c2 from "../Assets/img2-carousel2-artikel.png";
 import img3c2 from "../Assets/img3-carousel2-artikel.png";
-
-// import required modules
-import { Pagination,  } from "swiper";
-
-
-// const Benefit = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   padding: 20px 114px;
-//   gap: 100px;
-//   background-image: url('../Assets/AC2.png');
-//   .imgbenefit{ alt="benefit"
-//     width: 120px;
-//     height: 120px;
-//   }
-//   p{
-//     font-family: 'Poppins';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 20px;
-//   }
-//   @media(max-width: 768px){
-//     p{
-//       font-size: 12px;
-//     }
-//     .imgbenefit{ alt="benefit"
-//       width: 80px;
-//       height: 80px;
-//     }
-//   }
-// `
+import { Pagination } from "swiper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const MainArtikel = () => {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration: 400,
+    });
+  }, []);
+
   return (
     <>
       <div>
@@ -71,7 +44,7 @@ const MainArtikel = () => {
               Home
             </Link>
           </li>
-          <MdNavigateNext/>
+          <MdNavigateNext />
           <li className="linknavartikel"> Artikel </li>
         </ul>
         <div className="artikeltitletop">
@@ -82,7 +55,7 @@ const MainArtikel = () => {
               src={Artikelpertama}
               alt="Fotoartikelatas"
             />
-            <div className="artikeltitlebottom">
+            <div data-aos="zoom-in" className="artikeltitlebottom">
               <ul className="locanddatearticle">
                 <li className="locate">JATIM</li>
                 <li className="date">3 hari yang lalu</li>
@@ -108,28 +81,32 @@ const MainArtikel = () => {
         </div>
       </div>
       {/* CAROUSEL ARTIKEL 1 */}
-      <div className="swiperartikel">
+      <div data-aos="fade-up" className="swiperartikel">
         <>
           <h2 className="Artikellainnya">Artikel Lainnya</h2>
           <Swiper
             spaceBetween={20}
             pagination={{
               clickable: true,
-              position: 'relative'
+              position: "relative",
             }}
             modules={[Pagination]}
-            className="Carouselsusah" >
+            className="Carouselsusah"
+          >
             <SwiperSlide>
               {" "}
               {/* Artikel 1 */}
               <div className="cardartikelbottom">
-                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
+                <Link
+                  style={{ textDecoration: "none", color: "black" }}
+                  to="/DetailArtikel"
+                >
                   <img
-                    style={{ width: "100%"}}
+                    style={{ width: "100%" }}
                     src={FotoArtikel1}
                     alt="FotoArtikel1"
                   />
-                  <h4 className='titleartikelbottom'>
+                  <h4 className="titleartikelbottom">
                     Aplikasi Eduly Ciptaan Mahasiswa ITS, Bisa Nyumbang
                     Peralatan Sekolah untuk Anak Kurang Mampu
                   </h4>
@@ -141,94 +118,100 @@ const MainArtikel = () => {
               {/* Artikel 1 */}
               {/* Artikel 2 */}
               <div className="cardartikelbottom">
-                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel3">
-                <img
-                  style={{ width: "100%"  }}
-                  src={FotoArtikel2}
-                  alt="FotoArtikel2"
-                />
-                <h4
-                  className='titleartikelbottom'
+                <Link
+                  style={{ textDecoration: "none", color: "black" }}
+                  to="/DetailArtikel3"
                 >
-                  Mengapa Pendidikan di Indonesia Belum Merata ?
-                </h4>
-                <p className="subtitleartikelbottom">
-                Pendidikan memiliki peranan yang sangat penting sebagai penunjang kehidupan manusia,...
-                </p>
+                  <img
+                    style={{ width: "100%" }}
+                    src={FotoArtikel2}
+                    alt="FotoArtikel2"
+                  />
+                  <h4 className="titleartikelbottom">
+                    Mengapa Pendidikan di Indonesia Belum Merata ?
+                  </h4>
+                  <p className="subtitleartikelbottom">
+                    Pendidikan memiliki peranan yang sangat penting sebagai
+                    penunjang kehidupan manusia,...
+                  </p>
                 </Link>
               </div>
               {/* Artikel 2 */}
               {/* Artikel 3 */}
               <div className="cardartikelbottom">
-                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel4">
+                <Link
+                  style={{ textDecoration: "none", color: "black" }}
+                  to="/DetailArtikel4"
+                >
                   <img
                     style={{ width: "100%" }}
                     src={FotoArtikel3}
                     alt="FotoArtikel3"
                   />
-                  <h4 className='titleartikelbottom'>
-                     Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan Putus Sekolah
-                    </h4>
-                    <p className="subtitleartikelbottom">
-                      Kondisi itu selaras dengan Angka Partisipasi...
-                    </p>
+                  <h4 className="titleartikelbottom">
+                    Miris, Hampir 6 Ribu Anak Keluarga Miskin di Pesisir Selatan
+                    Putus Sekolah
+                  </h4>
+                  <p className="subtitleartikelbottom">
+                    Kondisi itu selaras dengan Angka Partisipasi...
+                  </p>
                 </Link>
               </div>
               {/* Artikel 3 */}
             </SwiperSlide>
-            <SwiperSlide style={{ justifyContent:"left" }}>
+            <SwiperSlide style={{ justifyContent: "left" }}>
               <div className="cardartikelbottom">
-                <Link style={{textDecoration:"none", color:"black"}} to="/DetailArtikel">
-                    <img
-                      style={{ width: "100%"}}
-                      src={Foto1aDetar}
-                      alt="FotoArtikel1"
-                    />
-                    <h4 className='titleartikelbottom'>
+                <Link
+                  style={{ textDecoration: "none", color: "black" }}
+                  to="/DetailArtikel"
+                >
+                  <img
+                    style={{ width: "100%" }}
+                    src={Foto1aDetar}
+                    alt="FotoArtikel1"
+                  />
+                  <h4 className="titleartikelbottom">
                     Ada 150 Anak Putus Sekolah di Ternate
-                    </h4>
-                    <p className="subtitleartikelbottom">
-                    Anak putus sekolah di Kota Ternate, Maluku Utara (Malut), secara bertahap dikembalikan ke sekolah.
-                    </p>
-                  </Link>
-                </div>
+                  </h4>
+                  <p className="subtitleartikelbottom">
+                    Anak putus sekolah di Kota Ternate, Maluku Utara (Malut),
+                    secara bertahap dikembalikan ke sekolah.
+                  </p>
+                </Link>
+              </div>
             </SwiperSlide>
           </Swiper>
         </>
       </div>
-      <div style={{display:"flex", alignItems:"center", flexDirection:"column"}} className="dipnyacarousel2">
-      <Carousel className="sizecarouselartikel2" fade>
-      <Carousel.Item>
-        <img
-          className=""
-          src={img1c2 }
-          alt="First slide"
-        />
-        <Carousel.Caption>
-        <Button className="btn-btstrp">Donasi Sekarang</Button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className=""
-          src={img2c2 }
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-        <Button className="btn-btstrp">Donasi Sekarang</Button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className=""
-          src={img3c2 }
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-        <Button className="btn-btstrp">Donasi Sekarang</Button>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+      <div
+        data-aos="fade-up"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+        }}
+        className="dipnyacarousel2"
+      >
+        <Carousel className="sizecarouselartikel2" fade>
+          <Carousel.Item>
+            <img className="" src={img1c2} alt="First slide" />
+            <Carousel.Caption>
+              <Button className="btn-btstrp">Donasi Sekarang</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="" src={img2c2} alt="Second slide" />
+            <Carousel.Caption>
+              <Button className="btn-btstrp">Donasi Sekarang</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="" src={img3c2} alt="Third slide" />
+            <Carousel.Caption>
+              <Button className="btn-btstrp">Donasi Sekarang</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </div>
     </>
   );

@@ -9,12 +9,21 @@ import { useNavigate, Link } from "react-router-dom";
 import { PEMBAYARAN } from "../router";
 // import MyButton from "../Components/Buttons";
 // import PaymentForm from "../Components/Payment";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 // import DonasiHOC from "../Components/DonasiHOC";
 import axios from "axios";
 import { useForm } from "react-hook-form";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function MainDonasi() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration: 400,
+    });
+  }, []);
+
   const [inputs, setInputs] = useState({
     jumlah: 0,
   });
@@ -219,26 +228,29 @@ function MainDonasi() {
               style={{ textDecoration: "none", color: "white", width: "100%" }}
               to="/payment"
             > */}
-            <Link
-            to={PEMBAYARAN}
-            >
-            <button type="submit" className="buttonproses">
-              Proses
-            </button></Link>
+            <Link to={PEMBAYARAN}>
+              <button type="submit" className="buttonproses">
+                Proses
+              </button>
+            </Link>
             {/* </Link> */}
           </div>
         </form>
       </div>
       <div className="laporandet">
         <div className="laporantop">
-          <div className="textupdate">UPDATE PER NOVEMBER 2022</div>
+          <div ata-aos="fade-up" className="textupdate">
+            UPDATE PER NOVEMBER 2022
+          </div>
           <div className="sublaporantop">
             <div className="sublaporantopdetail">
-              <h1 className="laporan">LAPORAN</h1>
-              <h1 className="textlaporan1">
+              <h1 ata-aos="fade-up" className="laporan">
+                LAPORAN
+              </h1>
+              <h1 ata-aos="fade-up" className="textlaporan1">
                 PEMASUKAN DAN PENGELUARAN DONASI YANG TERKUMPUL SEKARANG
               </h1>
-              <h1 className="textlaporan2">
+              <h1 ata-aos="fade-up" className="textlaporan2">
                 Terimakasih kami ucapkan kepada seluruh para donatur yang telah
                 menitipkan sebagian hartanya untuk ikut berpartisipasi dalam
                 memajukan pendidikan indonesia
@@ -248,20 +260,20 @@ function MainDonasi() {
           </div>
         </div>
         <div className="laporankeuangan">
-          <div className="laporankeuangandetail">
+          <div ata-aos="fade-up" className="laporankeuangandetail">
             <div className="bordertextuang">Total Pemasukan</div>
             <div className="bordernominaluang">3.500.000</div>
           </div>
-          <div className="laporankeuangandetail">
+          <div ata-aos="fade-up" className="laporankeuangandetail">
             <div className="bordertextuang">Total Pengeluaran</div>
             <div className="bordernominaluang">2.300.000</div>
           </div>
-          <div className="laporankeuangandetail">
+          <div ata-aos="fade-up" className="laporankeuangandetail">
             <div className="bordertextuang1">Saldo Akhir</div>
             <div className="bordernominaluang">1.200.000</div>
           </div>
         </div>
-        <div className="laporanbottom">
+        <div ata-aos="fade-up" className="laporanbottom">
           <p className="textlaporan3">
             Dana yang kami terima, telah kami gunakan sebaik-baiknya untuk
             kegiatan yang sudah terlaksanakan seperti Rumah Pintar yang ada di
@@ -277,7 +289,7 @@ function MainDonasi() {
       <div className="donasibottom" style={{ width: "auto", height: "auto" }}>
         <img className="image67" src={image67} alt="image67" />
         <div className="donasibottomdetail">
-          <div className="donasibottomsubdetail">
+          <div ata-aos="fade-up" className="donasibottomsubdetail">
             <p className="textdonasi">Donasi</p>
             <p className="textdonasi1">
               Kami membuka kesempatan kepada seluruh orang untuk ikut

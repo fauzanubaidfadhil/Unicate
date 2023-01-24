@@ -30,7 +30,7 @@ const MainKomunitas = () => {
 
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 400,
     });
   }, []);
@@ -58,7 +58,6 @@ const MainKomunitas = () => {
         <div>
           <div
             className="konten1top"
-            data-aos="fade-up"
             style={{
               height: "413px",
               width: "100%",
@@ -70,11 +69,11 @@ const MainKomunitas = () => {
             }}
           >
             <div className="konten1title">
-              <h1 className="texttemukan">
+              <h1 data-aos="fade-up" className="texttemukan">
                 Temukan Komunitas & Bergabunglah Dalam Gerakan Memajukan
                 Pendidikan Indonesia
               </h1>
-              <p className="textkami">
+              <p data-aos="fade-up" className="textkami">
                 Kami menyediakan wadah para volunteer dan juga masyarakat yang
                 ingin bergabung bersatu dalam menggalang aksi untuk pendidikan
                 anak Indonesia
@@ -94,12 +93,12 @@ const MainKomunitas = () => {
           }}
         >
           <img
-            data-aos="fade-right"
+            data-aos="fade-up"
             className="imgkomunitas2"
             src={img2}
             alt="img_komunitas2"
           />
-          <div className="kontenkomunitasdetail" data-aos="fade-left">
+          <div className="kontenkomunitasdetail" data-aos="fade-up">
             <div className="kontenkomunitasdetailtitle">
               <p className="textsupport">Support Education</p>
               <h1 className="textfitur">Fitur Komunitas</h1>
