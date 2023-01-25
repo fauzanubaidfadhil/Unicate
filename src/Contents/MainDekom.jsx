@@ -1,6 +1,27 @@
 import IMygy from "../Assets/IMygy.png";
 import Avaownercuy from "../Assets/Avaownercuy.png";
+import Avamembercuy1 from "../Assets/Avamembercuy1.png";
+import Avamembercuy2 from "../Assets/Avamembercuy2.png";
+import Avamembercuy3 from "../Assets/avamembercuy3.png";
+import Avamembercuy4 from "../Assets/avamembercuy4.png";
+import Avamembercuy5 from "../Assets/avamembercuy5.png";
+import Avamembercuy6 from "../Assets/avamembercuy6.png";
+import Avamembercuy7 from "../Assets/avamembercuy7.png";
+import Avamembercuy8 from "../Assets/avamembercuy8.png";
+import Avamembercuy9 from "../Assets/avamembercuy9.png";
+import Avamembercuy10 from "../Assets/avamembercuy10.png";
+import Avamembercuy11 from "../Assets/avamembercuy11.png";
+import Avamembercuy12 from "../Assets/avamembercuy12.png";
+import Avamembercuy13 from "../Assets/Avamembercuy13.png";
+import Avamembercuy14 from "../Assets/avamembercuy14.png";
+import Avamembercuy15 from "../Assets/avamembercuy15.png";
+import Avamembercuy16 from "../Assets/avamembercuy16.png";
 import fotokegiatan from "../Assets/kegiatankomunitas.png";
+import fotokegiatan1 from "../Assets/fotokegiatan1.jpeg";
+import fotokegiatan2 from "../Assets/fotokegiatan2.jpeg";
+import fotokegiatan3 from "../Assets/fotokegiatan3.jpeg";
+import fotokegiatan4 from "../Assets/fotokegiatan4.jpeg";
+import fotokegiatan5 from "../Assets/fotokegiatan5.jpeg";
 import { FcCalendar } from "react-icons/fc";
 import { MdNavigateNext } from "react-icons/md";
 import "../CSS/Dekom.css";
@@ -61,97 +82,97 @@ const MainDekom = () => {
               <div className="jajaranmember">
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy1}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy2}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy3}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy4}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy5}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-              </div>
-              <div data-aos="fade-up" className="jajaranmember">
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
-                />
-                <img
-                  className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy6}
+                  alt="Avamembercuy"
                 />
               </div>
               <div data-aos="fade-up" className="jajaranmember">
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy7}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy8}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy9}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy10}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy11}
+                  alt="Avamembercuy"
                 />
                 <img
                   className="imageownerkomunitasid"
-                  src={Avaownercuy}
-                  alt="Avaownercuy"
+                  src={Avamembercuy12}
+                  alt="Avamembercuy"
+                />
+              </div>
+              <div data-aos="fade-up" className="jajaranmember">
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy13}
+                  alt="Avamembercuy"
+                />
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy14}
+                  alt="Avamembercuy"
+                />
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy15}
+                  alt="Avamembercuy"
+                />
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy16}
+                  alt="Avamembercuy"
+                />
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy4}
+                  alt="Avamembercuy"
+                />
+                <img
+                  className="imageownerkomunitasid"
+                  src={Avamembercuy8}
+                  alt="Avamembercuy"
                 />
               </div>
             </div>
@@ -229,13 +250,15 @@ const MainDekom = () => {
             <img
               data-aos="fade-up"
               className="fotokegiatandetailid"
-              src={fotokegiatan}
+              src={fotokegiatan3}
               alt="Fotosidekom"
+              // style={{ width: "220px",
+              //   height: "200px" }}
             />
             <img
               data-aos="fade-up"
               className="fotokegiatandetailid"
-              src={fotokegiatan}
+              src={fotokegiatan2}
               alt="Fotosidekom"
             />
           </div>
@@ -243,19 +266,19 @@ const MainDekom = () => {
             <img
               data-aos="fade-up"
               className="fotokegiatandetailid"
-              src={fotokegiatan}
+              src={fotokegiatan4}
               alt="Fotosidekom"
             />
             <img
               data-aos="fade-up"
               className="fotokegiatandetailid"
-              src={fotokegiatan}
+              src={fotokegiatan5}
               alt="Fotosidekom"
             />
             <img
               data-aos="fade-up"
               className="fotokegiatandetailid"
-              src={fotokegiatan}
+              src={fotokegiatan5}
               alt="Fotosidekom"
             />
           </div>
