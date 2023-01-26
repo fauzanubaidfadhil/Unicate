@@ -1,21 +1,21 @@
 //content
-import background from "../Assets/background.png";
-import ellipse1 from "../Assets/ellipse1.png";
-import ellipse2 from "../Assets/ellipse2.png";
-import ellipse3 from "../Assets/ellipse3.png";
-import smile from "../Assets/smileAksi.png";
-import panah from "../Assets/tanda_panah.png";
+import background from "../assets/background.png";
+import ellipse1 from "../assets/ellipse1.png";
+import ellipse2 from "../assets/ellipse2.png";
+import ellipse3 from "../assets/ellipse3.png";
+import smile from "../assets/smileAksi.png";
+import panah from "../assets/tanda_panah.png";
 import { Link } from "react-router-dom";
 import { KISAHINSPIRASI, DONASI, AKSIDETAIL, AKSIDETAIL2 } from "../router";
 
 //kisahinspirasi
-import Foto from "../Assets/foto.png";
+import Foto from "../assets/foto.png";
 
 // card
-import Logo from "../Assets/logo.png";
-import Card1 from "../Assets/card1.png";
-import Card2 from "../Assets/card2.png";
-import Card3 from "../Assets/card3.png";
+import Logo from "../assets/logo.png";
+import Card1 from "../assets/card1.png";
+import Card2 from "../assets/card2.png";
+import Card3 from "../assets/card3.png";
 import "../CSS/Aksi.css";
 import "../CSS/Mobile/AksiMobile.css";
 

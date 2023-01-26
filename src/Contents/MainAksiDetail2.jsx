@@ -1,5 +1,5 @@
 import React from 'react'
-import Fotodetailaksi3 from "../Assets/Fotodetailaksi3.png";
+import Fotodetailaksi3 from "../assets/Fotodetailaksi3.png";
 // import image1 from "../Assets/kisahin1.png";
 // import image2 from "../Assets/bulatoren.png";
 // import image4 from "../Assets/bulatbiru.png";

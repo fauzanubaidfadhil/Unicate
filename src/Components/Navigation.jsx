@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar, Dropdown } from "react-bootstrap";
 import jwtDecode from "jwt-decode";
-import logo from "../Assets/logo.png";
+import logo from "../assets/logo.png";
 // import Headroom from "react-headroom";
 import {
   MASUK,

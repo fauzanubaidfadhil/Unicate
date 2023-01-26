@@ -4,7 +4,7 @@ import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import Checkbox from "@mui/material/Checkbox";
 import { DAFTAR, HOME } from "../router";
-import Backgroundformmasuk from "../Assets/backgroundformmasuk.png";
+import Backgroundformmasuk from "../assets/backgroundformmasuk.png";
 import "../CSS/Masuk.css";
 import "aos/dist/aos.css";
 import "../CSS/Dekstop/Masuk.css";
@@ -119,7 +119,7 @@ const MainMasuk = () => {
           </p>
           <button className="buttongooglemasuk" type="button">
             <FcGoogle size={25} />
-            Masuk dengan google
+            Masuk dengan google 
           </button>
         </form>
       </div>

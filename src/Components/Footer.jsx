@@ -1,6 +1,6 @@
-import image18 from "../Assets/logo.png";
-import button_top from "../Assets/button-top.png";
-import lingkaran from "../Assets/lingkaran.png";
+import image18 from "../assets/logo.png";
+import button_top from "../assets/button-top.png";
+import lingkaran from "../assets/lingkaran.png";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { FiTwitter, FiFacebook } from "react-icons/fi";
 import { HiLocationMarker } from "react-icons/hi";

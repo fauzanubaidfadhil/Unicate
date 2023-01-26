@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import axios from "axios";
-import Background from "../Assets/backgroundform.png";
+import Background from "../assets/backgroundform.png";
 import { MASUK, HOME } from "../router";
 import { Link, useNavigate } from "react-router-dom";
 import "../CSS/Daftar.css";

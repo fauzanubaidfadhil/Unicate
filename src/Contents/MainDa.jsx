@@ -39,7 +39,7 @@ const MainDa = () => {
   return (
     <>
       <div className="posisi-mainda">
-        <h3 className="textdetailakun">Detail Akun</h3>
+        <h3 className="textdetailakun">Detail Akun </h3>
         <BsPersonCircle
           style={{ position: "absolute", marginLeft: "12px" }}
           size={120}

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 // import {FiSearch} from 'react-icons/fi'
-import gambar1 from '../Assets/Ellipse 171.png'
-import gambar2 from '../Assets/Ellipse 172.png'
-import gambar3 from '../Assets/Ellipse 173.png'
+import gambar1 from '../assets/Ellipse 171.png'
+import gambar2 from '../assets/Ellipse 172.png'
+import gambar3 from '../assets/Ellipse 173.png'
 import Faq from "react-faq-component";
 import { Link } from 'react-router-dom'
 // import { IoMdSearch } from 'react-icons/io';

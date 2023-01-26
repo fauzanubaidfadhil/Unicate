@@ -1,7 +1,7 @@
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import img1 from "../Assets/profil_komunitas.png";
+import img1 from "../assets/profil_komunitas.png";
 
 import "../CSS/CarouselKomunitas.css";
 import { Swiper, SwiperSlide } from "swiper/react";

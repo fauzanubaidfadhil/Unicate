@@ -1,9 +1,9 @@
-import image1 from "../Assets/kisahin1.png";
-import image2 from "../Assets/bulatoren.png";
-import image4 from "../Assets/bulatbiru.png";
-import image5 from "../Assets/bulathijau.png";
-import image6 from "../Assets/segitiga1.png";
-import image7 from "../Assets/segitiga2.png";
+import image1 from "../assets/kisahin1.png";
+import image2 from "../assets/bulatoren.png";
+import image4 from "../assets/bulatbiru.png";
+import image5 from "../assets/bulathijau.png";
+import image6 from "../assets/segitiga1.png";
+import image7 from "../assets/segitiga2.png";
 import "../CSS/Kisahinspirasi.css";
 import "../CSS/Mobile/KisahInspirasiMobile.css"
 import {MdNavigateNext} from "react-icons/md"

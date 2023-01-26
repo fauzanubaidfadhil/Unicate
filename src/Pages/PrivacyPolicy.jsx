@@ -1,4 +1,4 @@
-import Logo from "../Assets/logo.png";
+import Logo from "../assets/logo.png";
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
 import HOC from "../Components/HOC";

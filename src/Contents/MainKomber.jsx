@@ -1,8 +1,8 @@
-import image1 from "../Assets/fotosd1.png";
-import image2 from "../Assets/logoinmengajar.png";
-import image3 from "../Assets/gambarmember.png";
-import image6 from "../Assets/fotokomentar.png";
-import image7 from "../Assets/fotokomentar1.png";
+import image1 from "../assets/fotosd1.png";
+import image2 from "../assets/logoinmengajar.png";
+import image3 from "../assets/gambarmember.png";
+import image6 from "../assets/fotokomentar.png";
+import image7 from "../assets/fotokomentar1.png";
 import { DEKOM } from "../router";
 import { Link } from "react-router-dom";
 import { AiOutlineLike } from "react-icons/ai";

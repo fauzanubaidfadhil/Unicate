@@ -1,11 +1,11 @@
 import {MdNavigateNext} from "react-icons/md"
-import facebookDetar from "../Assets/facebookDetar.png";
-import twitterDetar from "../Assets/twitterDetar.png";
-import instagramDetar from "../Assets/instagramDetar.png";
-import Foto1Detar from "../Assets/Foto1Detar.png";
-import Foto1aDetar from "../Assets/Foto1aDetar.png";
-import Foto1bDetar from "../Assets/Foto1bDetar.png";
-import Foto1cDetar from "../Assets/Foto1cDetar.png";
+import facebookDetar from "../assets/facebookDetar.png";
+import twitterDetar from "../assets/twitterDetar.png";
+import instagramDetar from "../assets/instagramDetar.png";
+import Foto1Detar from "../assets/Foto1Detar.png";
+import Foto1aDetar from "../assets/Foto1aDetar.png";
+import Foto1bDetar from "../assets/Foto1bDetar.png";
+import Foto1cDetar from "../assets/Foto1cDetar.png";
 
 import { Link } from "react-router-dom";
 

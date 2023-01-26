@@ -1,10 +1,10 @@
 import React from "react";
-import image67 from "../Assets/orangdidonasi.png";
-import image68 from "../Assets/Orangdilaporan.png";
-import image69 from "../Assets/smile.png";
+import image67 from "../assets/orangdidonasi.png";
+import image68 from "../assets/Orangdilaporan.png";
+import image69 from "../assets/smile.png";
 import "../CSS/Donasi.css";
 import "../CSS/Mobile/DonasiMobile.css";
-import iddonasi from "../Assets/iddonasiimg.png";
+import iddonasi from "../assets/iddonasiimg.png";
 import { useNavigate, Link } from "react-router-dom";
 import { PEMBAYARAN } from "../router";
 // import MyButton from "../Components/Buttons";

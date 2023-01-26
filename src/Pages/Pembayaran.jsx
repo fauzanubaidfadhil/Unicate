@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/Pembayaran.css";
-import logo from "../Assets/logo.png";
-import bcapay from "../Assets/bcapay.png";
+import logo from "../assets/logo.png";
+import bcapay from "../assets/bcapay.png";
 import { VscCopy } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { DotLoader } from "react-spinners";
