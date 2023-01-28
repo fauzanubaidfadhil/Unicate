@@ -16,6 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+
 const Content = styled.section`
   display: flex;
   flex-direction: row;
@@ -414,7 +415,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={josua} />
                 <BioDetail>
-                  <Nama data-aos="fade-up">Josua Ronaldo Pandiangan</Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Josua Ronaldo Pandiangan</a></Nama>
                   <Job data-aos="fade-up">Designer UI/UX</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -430,7 +431,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={ida} />
                 <BioDetail>
-                  <Nama data-aos="fade-up">Ida Syafitri Nur Fatimah</Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Ida Syafitri Nur Fatimah</a></Nama>
                   <Job data-aos="fade-up">Project Manager</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -446,7 +447,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={adellia} />
                 <BioDetail>
-                  <Nama data-aos="fade-up">Adellia</Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Adellia</a></Nama>
                   <Job data-aos="fade-up">Designer UI/UX</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -464,7 +465,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={roby} />
                 <BioDetail>
-                  <Nama data-aos="fade-up">Robby Iqbal Dzulqifar</Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Robby Iqbal Dzulqifar</a></Nama>
                   <Job data-aos="fade-up">Fullstack-Developer</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -496,7 +497,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={dimas} />
                 <BioDetail>
-                  <Nama data-aos="fade-up">Dimas Pamungkas Mursidi</Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Dimas Pamungkas Mursidi</a></Nama>
                   <Job data-aos="fade-up">Fullstack-Developer</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
