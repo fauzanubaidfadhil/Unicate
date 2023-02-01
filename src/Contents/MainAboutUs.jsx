@@ -415,7 +415,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={josua} />
                 <BioDetail>
-                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Josua Ronaldo Pandiangan</a></Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://message-josua.fauzanubaid.repl.co">Josua Ronaldo Pandiangan</a></Nama>
                   <Job data-aos="fade-up">Designer UI/UX</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -431,7 +431,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={ida} />
                 <BioDetail>
-                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Ida Syafitri Nur Fatimah</a></Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://Message-Ida.fauzanubaid.repl.co">Ida Syafitri Nur Fatimah</a></Nama>
                   <Job data-aos="fade-up">Project Manager</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -447,7 +447,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={adellia} />
                 <BioDetail>
-                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Adellia</a></Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://message-adelia.fauzanubaid.repl.co">Adellia</a></Nama>
                   <Job data-aos="fade-up">Designer UI/UX</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -465,7 +465,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={roby} />
                 <BioDetail>
-                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Robby Iqbal Dzulqifar</a></Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://message-robby.fauzanubaid.repl.co">Robby Iqbal Dzulqifar</a></Nama>
                   <Job data-aos="fade-up">Fullstack-Developer</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
@@ -497,7 +497,7 @@ const MainAboutUs = () => {
               <Bio>
                 <ProfilePicture data-aos="fade-up" src={dimas} />
                 <BioDetail>
-                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://pesan.fauzan-ubaid-fa.repl.co/">Dimas Pamungkas Mursidi</a></Nama>
+                  <Nama data-aos="fade-up"><a style={{textDecoration:"none", color:"black"}} href="https://message-dimas.fauzanubaid.repl.co">Dimas Pamungkas Mursidi</a></Nama>
                   <Job data-aos="fade-up">Fullstack-Developer</Job>
                   <Socmed>
                     <AkunIG data-aos="fade-up" src={iconig} />
